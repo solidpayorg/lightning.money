@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1569861865685">
 <icon BUILTIN="password"/>
 <edge COLOR="#007c00"/>
@@ -84,8 +84,8 @@
 <node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1569865350013"/>
 </node>
 </node>
-<node TEXT="spec" POSITION="right" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1569861355067">
-<icon BUILTIN="idea"/>
+<node TEXT="spec" POSITION="right" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1569872268781">
+<icon BUILTIN="list"/>
 <edge COLOR="#ff0000"/>
 <node ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1569861461668" LINK="https://github.com/lightningnetwork/lightning-rfc"><richcontent TYPE="NODE">
 
@@ -128,7 +128,20 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="https://lightninghood.com/" ID="ID_601145558" CREATED="1569865623594" MODIFIED="1569865633379" LINK="https://lightninghood.com/"/>
+<node ID="ID_480885717" CREATED="1569872147330" MODIFIED="1569872147330" LINK="https://lightninghood.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightninghood.com/">https://lightninghood.com/</a> 
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="still alive?" ID="ID_12763750" CREATED="1569872175833" MODIFIED="1569872179379"/>
+</node>
 </node>
 </node>
 </node>

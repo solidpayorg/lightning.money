@@ -186,7 +186,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 2,
+                    "@_COUNTER": 3,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -293,9 +293,9 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1721082161",
                     "@_CREATED": 1569861329052,
-                    "@_MODIFIED": 1569861355067,
+                    "@_MODIFIED": 1569872268781,
                     "icon": {
-                        "@_BUILTIN": "idea"
+                        "@_BUILTIN": "list"
                     },
                     "edge": {
                         "@_COLOR": "#ff0000"
@@ -380,11 +380,30 @@
                                 }
                             },
                             {
-                                "@_TEXT": "https://lightninghood.com/",
-                                "@_ID": "ID_601145558",
-                                "@_CREATED": 1569865623594,
-                                "@_MODIFIED": 1569865633379,
-                                "@_LINK": "https://lightninghood.com/"
+                                "@_ID": "ID_480885717",
+                                "@_CREATED": 1569872147330,
+                                "@_MODIFIED": 1569872147330,
+                                "@_LINK": "https://lightninghood.com/",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://lightninghood.com/",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://lightninghood.com/"
+                                            }
+                                        }
+                                    }
+                                },
+                                "node": {
+                                    "@_TEXT": "still alive?",
+                                    "@_ID": "ID_12763750",
+                                    "@_CREATED": 1569872175833,
+                                    "@_MODIFIED": 1569872179379
+                                }
                             }
                         ]
                     }
