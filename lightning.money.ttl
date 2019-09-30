@@ -1,0 +1,3 @@
+<#ID_1721082161> <urn:string:@_TEXT> """spec""" .
+<#ID_403237537> <urn:string:@_TEXT> """wallets""" .
+<#ID_728396892> <urn:string:@_TEXT> """links""" .
