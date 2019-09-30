@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning.money" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1569861329046" LINK="index.mm" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1569871571707" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,7 +63,27 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1569861865685">
+<icon BUILTIN="password"/>
+<edge COLOR="#007c00"/>
+<node TEXT="custodial" ID="ID_713142011" CREATED="1569861478020" MODIFIED="1569861480116">
+<node TEXT="web" ID="ID_1071283894" CREATED="1569861594542" MODIFIED="1569861597550">
+<node TEXT="reddit" ID="ID_1462350239" CREATED="1569861584214" MODIFIED="1569861585450"/>
+<node TEXT="telegram" ID="ID_1137404448" CREATED="1569861581452" MODIFIED="1569861583359"/>
+<node TEXT="slack" ID="ID_1508247426" CREATED="1569861578488" MODIFIED="1569861580828"/>
+<node TEXT="bottle" ID="ID_432921303" CREATED="1569861575744" MODIFIED="1569861577553"/>
+<node TEXT="bluewallet" ID="ID_1624902230" CREATED="1569861613267" MODIFIED="1569861616969"/>
+<node TEXT="tippin.me" ID="ID_1286663915" CREATED="1569862106168" MODIFIED="1569862109195"/>
+<node TEXT="bitlum" ID="ID_1565869066" CREATED="1569865329797" MODIFIED="1569865332265"/>
+<node TEXT="wallet of satoshi" ID="ID_1242085439" CREATED="1569865332920" MODIFIED="1569865337429"/>
+</node>
+</node>
+<node TEXT="mobile" ID="ID_129906959" CREATED="1569865342316" MODIFIED="1569865344676">
+<node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1569865346958"/>
+<node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1569865350013"/>
+</node>
+</node>
 <node TEXT="spec" POSITION="right" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1569861355067">
 <icon BUILTIN="idea"/>
 <edge COLOR="#ff0000"/>
@@ -77,22 +97,7 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/lightningnetwork/lightning-rfc">https://github.com/lightningnetwork/lightning-rfc</a> 
   </body>
 </html>
-
 </richcontent>
-</node>
-</node>
-<node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1569861865685">
-<icon BUILTIN="password"/>
-<edge COLOR="#007c00"/>
-<node TEXT="custodial" ID="ID_713142011" CREATED="1569861478020" MODIFIED="1569861480116">
-<node TEXT="web" ID="ID_1071283894" CREATED="1569861594542" MODIFIED="1569861597550">
-<node TEXT="reddit" ID="ID_1462350239" CREATED="1569861584214" MODIFIED="1569861585450"/>
-<node TEXT="telegram" ID="ID_1137404448" CREATED="1569861581452" MODIFIED="1569861583359"/>
-<node TEXT="slack" ID="ID_1508247426" CREATED="1569861578488" MODIFIED="1569861580828"/>
-<node TEXT="bottle" ID="ID_432921303" CREATED="1569861575744" MODIFIED="1569861577553"/>
-<node TEXT="bluewallet" ID="ID_1624902230" CREATED="1569861613267" MODIFIED="1569861616969"/>
-<node TEXT="tippin.me" ID="ID_1286663915" CREATED="1569862106168" MODIFIED="1569862109195"/>
-</node>
 </node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1569861329093">
@@ -109,7 +114,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/bcongdon/awesome-lightning-network">https://github.com/bcongdon/awesome-lightning-network</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1318402765" CREATED="1569861399944" MODIFIED="1569861399944" LINK="https://www.lopp.net/bitcoin-information.html"><richcontent TYPE="NODE">
@@ -124,6 +128,7 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="https://lightninghood.com/" ID="ID_601145558" CREATED="1569865623594" MODIFIED="1569865633379" LINK="https://lightninghood.com/"/>
 </node>
 </node>
 </node>
