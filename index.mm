@@ -69,14 +69,128 @@
 <edge COLOR="#007c00"/>
 <node TEXT="custodial" ID="ID_713142011" CREATED="1569861478020" MODIFIED="1569861480116">
 <node TEXT="web" ID="ID_1071283894" CREATED="1569861594542" MODIFIED="1569861597550">
-<node TEXT="reddit" ID="ID_1462350239" CREATED="1569861584214" MODIFIED="1569861585450"/>
-<node TEXT="telegram" ID="ID_1137404448" CREATED="1569861581452" MODIFIED="1569861583359"/>
-<node TEXT="slack" ID="ID_1508247426" CREATED="1569861578488" MODIFIED="1569861580828"/>
-<node TEXT="bottle" ID="ID_432921303" CREATED="1569861575744" MODIFIED="1569861577553"/>
-<node TEXT="bluewallet" ID="ID_1624902230" CREATED="1569861613267" MODIFIED="1569861616969"/>
-<node TEXT="tippin.me" ID="ID_1286663915" CREATED="1569862106168" MODIFIED="1569862109195"/>
-<node TEXT="bitlum" ID="ID_1565869066" CREATED="1569865329797" MODIFIED="1569865332265"/>
-<node TEXT="wallet of satoshi" ID="ID_1242085439" CREATED="1569865332920" MODIFIED="1569865337429"/>
+<node TEXT="bottle" ID="ID_432921303" CREATED="1569861575744" MODIFIED="1569939940242">
+<icon BUILTIN="bookmark"/>
+<node ID="ID_1723379621" CREATED="1569940699896" MODIFIED="1569940699896" LINK="https://bottle.li/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bottle.li/">https://bottle.li/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="telegram" ID="ID_1137404448" CREATED="1569861581452" MODIFIED="1569940647904">
+<icon BUILTIN="bookmark"/>
+<node ID="ID_38516786" CREATED="1569940633761" MODIFIED="1569940633761" LINK="https://telegram.me/lntxbot"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://telegram.me/lntxbot">https://telegram.me/lntxbot</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="reddit" ID="ID_1462350239" CREATED="1569861584214" MODIFIED="1569861585450">
+<node ID="ID_167300185" CREATED="1569939855069" MODIFIED="1569939855069" LINK="https://www.reddit.com/r/lntipbot/wiki/index"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.reddit.com/r/lntipbot/wiki/index">https://www.reddit.com/r/lntipbot/wiki/index</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="slack" ID="ID_1508247426" CREATED="1569861578488" MODIFIED="1569861580828">
+<node ID="ID_257285561" CREATED="1569939908911" MODIFIED="1569939908911" LINK="https://github.com/CryptoFR/ln-tip-slack"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/CryptoFR/ln-tip-slack">https://github.com/CryptoFR/ln-tip-slack</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="bluewallet" ID="ID_1624902230" CREATED="1569861613267" MODIFIED="1569861616969">
+<node ID="ID_1055163816" CREATED="1569940196555" MODIFIED="1569940196555" LINK="https://bluewallet.io/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bluewallet.io/">https://bluewallet.io/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="tippin.me" ID="ID_1286663915" CREATED="1569862106168" MODIFIED="1569862109195">
+<node ID="ID_364851805" CREATED="1569940220613" MODIFIED="1569940220613" LINK="https://tippin.me/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://tippin.me/">https://tippin.me/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="bitlum" ID="ID_1565869066" CREATED="1569865329797" MODIFIED="1569865332265">
+<node ID="ID_897640905" CREATED="1569940238730" MODIFIED="1569940238730" LINK="https://bitlum.io/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bitlum.io/">https://bitlum.io/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="wallet of satoshi" ID="ID_1242085439" CREATED="1569865332920" MODIFIED="1569865337429">
+<node ID="ID_307350684" CREATED="1569940255658" MODIFIED="1569940255658" LINK="https://www.walletofsatoshi.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.walletofsatoshi.com/">https://www.walletofsatoshi.com/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="mobile" ID="ID_129906959" CREATED="1569865342316" MODIFIED="1569865344676">
@@ -138,7 +252,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightninghood.com/">https://lightninghood.com/</a> 
   </body>
 </html>
-
 </richcontent>
 <node TEXT="still alive?" ID="ID_12763750" CREATED="1569872175833" MODIFIED="1569872179379"/>
 </node>
