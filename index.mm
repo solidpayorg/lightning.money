@@ -218,7 +218,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightningnetworkstores.com/">https://lightningnetworkstores.com/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_759991484" CREATED="1569959331463" MODIFIED="1569959331463" LINK="https://kriptode.com/"><richcontent TYPE="NODE">
@@ -231,23 +230,12 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://kriptode.com/">https://kriptode.com/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="apps" ID="ID_1371138197" CREATED="1569959305721" MODIFIED="1569959307705">
-<node ID="ID_730547544" CREATED="1569959316226" MODIFIED="1569959316226" LINK="https://lightningnetworkstores.com/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightningnetworkstores.com/">https://lightningnetworkstores.com/</a> 
-  </body>
-</html>
-
-</richcontent>
+<node TEXT="poker" ID="ID_491528674" CREATED="1569961191850" MODIFIED="1569961222296" LINK="https://lightning-poker.com/">
+<icon BUILTIN="group"/>
 </node>
 </node>
 </node>

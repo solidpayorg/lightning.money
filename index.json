@@ -544,23 +544,13 @@
                             "@_CREATED": 1569959305721,
                             "@_MODIFIED": 1569959307705,
                             "node": {
-                                "@_ID": "ID_730547544",
-                                "@_CREATED": 1569959316226,
-                                "@_MODIFIED": 1569959316226,
-                                "@_LINK": "https://lightningnetworkstores.com/",
-                                "richcontent": {
-                                    "@_TYPE": "NODE",
-                                    "html": {
-                                        "head": "",
-                                        "body": {
-                                            "a": {
-                                                "#text": "https://lightningnetworkstores.com/",
-                                                "@_http-equiv": "content-type",
-                                                "@_content": "text/html; charset=utf-8",
-                                                "@_href": "https://lightningnetworkstores.com/"
-                                            }
-                                        }
-                                    }
+                                "@_TEXT": "poker",
+                                "@_ID": "ID_491528674",
+                                "@_CREATED": 1569961191850,
+                                "@_MODIFIED": 1569961222296,
+                                "@_LINK": "https://lightning-poker.com/",
+                                "icon": {
+                                    "@_BUILTIN": "group"
                                 }
                             }
                         }
