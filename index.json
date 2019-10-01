@@ -558,6 +558,26 @@
                             },
                             "node": [
                                 {
+                                    "@_ID": "ID_1897426799",
+                                    "@_CREATED": 1569941168323,
+                                    "@_MODIFIED": 1569941168323,
+                                    "@_LINK": "https://www.lopp.net/lightning-information.html",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://www.lopp.net/lightning-information.html",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://www.lopp.net/lightning-information.html"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
                                     "@_ID": "ID_1244510370",
                                     "@_CREATED": 1569861424912,
                                     "@_MODIFIED": 1569861424912,
@@ -572,26 +592,6 @@
                                                     "@_http-equiv": "content-type",
                                                     "@_content": "text/html; charset=utf-8",
                                                     "@_href": "https://github.com/bcongdon/awesome-lightning-network"
-                                                }
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "@_ID": "ID_1318402765",
-                                    "@_CREATED": 1569861399944,
-                                    "@_MODIFIED": 1569861399944,
-                                    "@_LINK": "https://www.lopp.net/bitcoin-information.html",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://www.lopp.net/bitcoin-information.html",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://www.lopp.net/bitcoin-information.html"
                                                 }
                                             }
                                         }

@@ -229,6 +229,19 @@
 </node>
 <node TEXT="lists" ID="ID_1744026554" CREATED="1569861388704" MODIFIED="1569940934396">
 <icon BUILTIN="list"/>
+<node ID="ID_1897426799" CREATED="1569941168323" MODIFIED="1569941168323" LINK="https://www.lopp.net/lightning-information.html"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.lopp.net/lightning-information.html">https://www.lopp.net/lightning-information.html</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node ID="ID_1244510370" CREATED="1569861424912" MODIFIED="1569861424912" LINK="https://github.com/bcongdon/awesome-lightning-network"><richcontent TYPE="NODE">
 
 <html>
@@ -237,18 +250,6 @@
   </head>
   <body>
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/bcongdon/awesome-lightning-network">https://github.com/bcongdon/awesome-lightning-network</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1318402765" CREATED="1569861399944" MODIFIED="1569861399944" LINK="https://www.lopp.net/bitcoin-information.html"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.lopp.net/bitcoin-information.html">https://www.lopp.net/bitcoin-information.html</a> 
   </body>
 </html>
 </richcontent>
