@@ -445,7 +445,27 @@
                                     "@_TEXT": "eclair",
                                     "@_ID": "ID_1897401807",
                                     "@_CREATED": 1569865345413,
-                                    "@_MODIFIED": 1569865346958
+                                    "@_MODIFIED": 1569865346958,
+                                    "node": {
+                                        "@_ID": "ID_507622942",
+                                        "@_CREATED": 1569942566095,
+                                        "@_MODIFIED": 1569942566095,
+                                        "@_LINK": "https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2",
+                                        "richcontent": {
+                                            "@_TYPE": "NODE",
+                                            "html": {
+                                                "head": "",
+                                                "body": {
+                                                    "a": {
+                                                        "#text": "https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2",
+                                                        "@_http-equiv": "content-type",
+                                                        "@_content": "text/html; charset=utf-8",
+                                                        "@_href": "https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
                                 },
                                 {
                                     "@_TEXT": "bluewallet",

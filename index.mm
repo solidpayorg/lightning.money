@@ -195,7 +195,21 @@
 </node>
 </node>
 <node TEXT="mobile" ID="ID_129906959" CREATED="1569865342316" MODIFIED="1569865344676">
-<node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1569865346958"/>
+<node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1569865346958">
+<node ID="ID_507622942" CREATED="1569942566095" MODIFIED="1569942566095" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2">https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1569865350013"/>
 </node>
 </node>
