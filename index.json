@@ -189,7 +189,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 3,
+                    "@_COUNTER": 4,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -474,6 +474,95 @@
                                     "@_MODIFIED": 1569865350013
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "lapps",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1438249466",
+                    "@_CREATED": 1569959255579,
+                    "@_MODIFIED": 1569959277863,
+                    "icon": {
+                        "@_BUILTIN": "launch"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "directories",
+                            "@_ID": "ID_1938254040",
+                            "@_CREATED": 1569959280494,
+                            "@_MODIFIED": 1569959286962,
+                            "node": [
+                                {
+                                    "@_ID": "ID_1622962411",
+                                    "@_CREATED": 1569959304401,
+                                    "@_MODIFIED": 1569959304401,
+                                    "@_LINK": "https://lightningnetworkstores.com/",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://lightningnetworkstores.com/",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://lightningnetworkstores.com/"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_ID": "ID_759991484",
+                                    "@_CREATED": 1569959331463,
+                                    "@_MODIFIED": 1569959331463,
+                                    "@_LINK": "https://kriptode.com/",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://kriptode.com/",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://kriptode.com/"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "apps",
+                            "@_ID": "ID_1371138197",
+                            "@_CREATED": 1569959305721,
+                            "@_MODIFIED": 1569959307705,
+                            "node": {
+                                "@_ID": "ID_730547544",
+                                "@_CREATED": 1569959316226,
+                                "@_MODIFIED": 1569959316226,
+                                "@_LINK": "https://lightningnetworkstores.com/",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://lightningnetworkstores.com/",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://lightningnetworkstores.com/"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     ]
                 },

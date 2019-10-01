@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1569861865685">
 <icon BUILTIN="password"/>
 <edge COLOR="#007c00"/>
@@ -82,7 +82,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bottle.li/">https://bottle.li/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -98,7 +97,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://telegram.me/lntxbot">https://telegram.me/lntxbot</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -113,7 +111,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.reddit.com/r/lntipbot/wiki/index">https://www.reddit.com/r/lntipbot/wiki/index</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -128,7 +125,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/CryptoFR/ln-tip-slack">https://github.com/CryptoFR/ln-tip-slack</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -143,7 +139,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bluewallet.io/">https://bluewallet.io/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -158,7 +153,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://tippin.me/">https://tippin.me/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -173,7 +167,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bitlum.io/">https://bitlum.io/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -188,7 +181,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.walletofsatoshi.com/">https://www.walletofsatoshi.com/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -206,11 +198,57 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2">https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1569865350013"/>
+</node>
+</node>
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1569959277863">
+<icon BUILTIN="launch"/>
+<edge COLOR="#ff00ff"/>
+<node TEXT="directories" ID="ID_1938254040" CREATED="1569959280494" MODIFIED="1569959286962">
+<node ID="ID_1622962411" CREATED="1569959304401" MODIFIED="1569959304401" LINK="https://lightningnetworkstores.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightningnetworkstores.com/">https://lightningnetworkstores.com/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_759991484" CREATED="1569959331463" MODIFIED="1569959331463" LINK="https://kriptode.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://kriptode.com/">https://kriptode.com/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="apps" ID="ID_1371138197" CREATED="1569959305721" MODIFIED="1569959307705">
+<node ID="ID_730547544" CREATED="1569959316226" MODIFIED="1569959316226" LINK="https://lightningnetworkstores.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightningnetworkstores.com/">https://lightningnetworkstores.com/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="spec" POSITION="right" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1569940961929">
@@ -253,7 +291,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.lopp.net/lightning-information.html">https://www.lopp.net/lightning-information.html</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1244510370" CREATED="1569861424912" MODIFIED="1569861424912" LINK="https://github.com/bcongdon/awesome-lightning-network"><richcontent TYPE="NODE">
