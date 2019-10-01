@@ -6,8 +6,11 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1569871571707,
+            "@_MODIFIED": 1569941029346,
             "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "go"
+            },
             "font": {
                 "@_SIZE": 18
             },
@@ -459,9 +462,9 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1721082161",
                     "@_CREATED": 1569861329052,
-                    "@_MODIFIED": 1569872268781,
+                    "@_MODIFIED": 1569940961929,
                     "icon": {
-                        "@_BUILTIN": "list"
+                        "@_BUILTIN": "wizard"
                     },
                     "edge": {
                         "@_COLOR": "#ff0000"
@@ -499,80 +502,104 @@
                     "edge": {
                         "@_COLOR": "#00007c"
                     },
-                    "node": {
-                        "@_TEXT": "lists",
-                        "@_ID": "ID_1744026554",
-                        "@_CREATED": 1569861388704,
-                        "@_MODIFIED": 1569861394405,
-                        "node": [
-                            {
-                                "@_ID": "ID_1244510370",
-                                "@_CREATED": 1569861424912,
-                                "@_MODIFIED": 1569861424912,
-                                "@_LINK": "https://github.com/bcongdon/awesome-lightning-network",
-                                "richcontent": {
-                                    "@_TYPE": "NODE",
-                                    "html": {
-                                        "head": "",
-                                        "body": {
-                                            "a": {
-                                                "#text": "https://github.com/bcongdon/awesome-lightning-network",
-                                                "@_http-equiv": "content-type",
-                                                "@_content": "text/html; charset=utf-8",
-                                                "@_href": "https://github.com/bcongdon/awesome-lightning-network"
-                                            }
-                                        }
-                                    }
-                                }
+                    "node": [
+                        {
+                            "@_TEXT": "this page",
+                            "@_ID": "ID_1704672214",
+                            "@_CREATED": 1569940752211,
+                            "@_MODIFIED": 1569940857695,
+                            "icon": {
+                                "@_BUILTIN": "broken-line"
                             },
-                            {
-                                "@_ID": "ID_1318402765",
-                                "@_CREATED": 1569861399944,
-                                "@_MODIFIED": 1569861399944,
-                                "@_LINK": "https://www.lopp.net/bitcoin-information.html",
-                                "richcontent": {
-                                    "@_TYPE": "NODE",
-                                    "html": {
-                                        "head": "",
-                                        "body": {
-                                            "a": {
-                                                "#text": "https://www.lopp.net/bitcoin-information.html",
-                                                "@_http-equiv": "content-type",
-                                                "@_content": "text/html; charset=utf-8",
-                                                "@_href": "https://www.lopp.net/bitcoin-information.html"
-                                            }
-                                        }
+                            "node": [
+                                {
+                                    "@_TEXT": "open source",
+                                    "@_ID": "ID_1211678675",
+                                    "@_CREATED": 1569940791266,
+                                    "@_MODIFIED": 1569940805605,
+                                    "@_LINK": "https://github.com/solidpayorg/lightning.money/"
+                                },
+                                {
+                                    "@_TEXT": "issues",
+                                    "@_ID": "ID_1677347904",
+                                    "@_CREATED": 1569940820101,
+                                    "@_MODIFIED": 1569940824129,
+                                    "@_LINK": "https://github.com/solidpayorg/lightning.money/issues",
+                                    "node": {
+                                        "@_TEXT": "improve me!",
+                                        "@_ID": "ID_824388782",
+                                        "@_CREATED": 1569940807703,
+                                        "@_MODIFIED": 1569940810176
                                     }
+                                },
+                                {
+                                    "@_TEXT": "JSON",
+                                    "@_ID": "ID_903253757",
+                                    "@_CREATED": 1569940872371,
+                                    "@_MODIFIED": 1569940882474,
+                                    "@_LINK": "index.json"
+                                },
+                                {
+                                    "@_TEXT": ".mm mindmap",
+                                    "@_ID": "ID_963935095",
+                                    "@_CREATED": 1569940890302,
+                                    "@_MODIFIED": 1569940906746,
+                                    "@_LINK": "index.mm"
                                 }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "lists",
+                            "@_ID": "ID_1744026554",
+                            "@_CREATED": 1569861388704,
+                            "@_MODIFIED": 1569940934396,
+                            "icon": {
+                                "@_BUILTIN": "list"
                             },
-                            {
-                                "@_ID": "ID_480885717",
-                                "@_CREATED": 1569872147330,
-                                "@_MODIFIED": 1569872147330,
-                                "@_LINK": "https://lightninghood.com/",
-                                "richcontent": {
-                                    "@_TYPE": "NODE",
-                                    "html": {
-                                        "head": "",
-                                        "body": {
-                                            "a": {
-                                                "#text": "https://lightninghood.com/",
-                                                "@_http-equiv": "content-type",
-                                                "@_content": "text/html; charset=utf-8",
-                                                "@_href": "https://lightninghood.com/"
+                            "node": [
+                                {
+                                    "@_ID": "ID_1244510370",
+                                    "@_CREATED": 1569861424912,
+                                    "@_MODIFIED": 1569861424912,
+                                    "@_LINK": "https://github.com/bcongdon/awesome-lightning-network",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://github.com/bcongdon/awesome-lightning-network",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://github.com/bcongdon/awesome-lightning-network"
+                                                }
                                             }
                                         }
                                     }
                                 },
-                                "node": {
-                                    "@_TEXT": "still alive?",
-                                    "@_ID": "ID_12763750",
-                                    "@_CREATED": 1569872175833,
-                                    "@_MODIFIED": 1569872179379
+                                {
+                                    "@_ID": "ID_1318402765",
+                                    "@_CREATED": 1569861399944,
+                                    "@_MODIFIED": 1569861399944,
+                                    "@_LINK": "https://www.lopp.net/bitcoin-information.html",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://www.lopp.net/bitcoin-information.html",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://www.lopp.net/bitcoin-information.html"
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
-                            }
-                        ]
-                    }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

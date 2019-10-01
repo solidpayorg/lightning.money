@@ -1,6 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1569871571707" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1569941029346" STYLE="oval">
+<icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -198,8 +199,8 @@
 <node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1569865350013"/>
 </node>
 </node>
-<node TEXT="spec" POSITION="right" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1569872268781">
-<icon BUILTIN="list"/>
+<node TEXT="spec" POSITION="right" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1569940961929">
+<icon BUILTIN="wizard"/>
 <edge COLOR="#ff0000"/>
 <node ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1569861461668" LINK="https://github.com/lightningnetwork/lightning-rfc"><richcontent TYPE="NODE">
 
@@ -217,7 +218,17 @@
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1569861329093">
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
-<node TEXT="lists" ID="ID_1744026554" CREATED="1569861388704" MODIFIED="1569861394405">
+<node TEXT="this page" ID="ID_1704672214" CREATED="1569940752211" MODIFIED="1569940857695">
+<icon BUILTIN="broken-line"/>
+<node TEXT="open source" ID="ID_1211678675" CREATED="1569940791266" MODIFIED="1569940805605" LINK="https://github.com/solidpayorg/lightning.money/"/>
+<node TEXT="issues" ID="ID_1677347904" CREATED="1569940820101" MODIFIED="1569940824129" LINK="https://github.com/solidpayorg/lightning.money/issues">
+<node TEXT="improve me!" ID="ID_824388782" CREATED="1569940807703" MODIFIED="1569940810176"/>
+</node>
+<node TEXT="JSON" ID="ID_903253757" CREATED="1569940872371" MODIFIED="1569940882474" LINK="index.json"/>
+<node TEXT=".mm mindmap" ID="ID_963935095" CREATED="1569940890302" MODIFIED="1569940906746" LINK="index.mm"/>
+</node>
+<node TEXT="lists" ID="ID_1744026554" CREATED="1569861388704" MODIFIED="1569940934396">
+<icon BUILTIN="list"/>
 <node ID="ID_1244510370" CREATED="1569861424912" MODIFIED="1569861424912" LINK="https://github.com/bcongdon/awesome-lightning-network"><richcontent TYPE="NODE">
 
 <html>
@@ -241,19 +252,6 @@
   </body>
 </html>
 </richcontent>
-</node>
-<node ID="ID_480885717" CREATED="1569872147330" MODIFIED="1569872147330" LINK="https://lightninghood.com/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightninghood.com/">https://lightninghood.com/</a> 
-  </body>
-</html>
-</richcontent>
-<node TEXT="still alive?" ID="ID_12763750" CREATED="1569872175833" MODIFIED="1569872179379"/>
 </node>
 </node>
 </node>
