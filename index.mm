@@ -201,7 +201,20 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1569865350013"/>
+<node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1569865350013">
+<node ID="ID_1017983509" CREATED="1569940196555" MODIFIED="1569940196555" LINK="https://bluewallet.io/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bluewallet.io/">https://bluewallet.io/</a> 
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1569959277863">
