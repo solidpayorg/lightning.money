@@ -189,7 +189,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 4,
+                    "@_COUNTER": 5,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -607,6 +607,16 @@
                                 }
                             }
                         }
+                    }
+                },
+                {
+                    "@_TEXT": "deploy",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1272870724",
+                    "@_CREATED": 1570182358202,
+                    "@_MODIFIED": 1570182360331,
+                    "edge": {
+                        "@_COLOR": "#00ffff"
                     }
                 },
                 {
