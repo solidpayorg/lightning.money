@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1569861865685">
 <icon BUILTIN="password"/>
 <edge COLOR="#007c00"/>
@@ -268,8 +268,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="deploy" POSITION="right" ID="ID_1272870724" CREATED="1570182358202" MODIFIED="1570182916529">
-<edge COLOR="#00ffff"/>
+<node TEXT="deploy" POSITION="right" ID="ID_615083298" CREATED="1570185945063" MODIFIED="1570185946895">
+<edge COLOR="#7c007c"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1569861329093">
 <icon BUILTIN="attach"/>
@@ -309,6 +309,7 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="lnroute" ID="ID_1451851808" CREATED="1570185749629" MODIFIED="1570185757230" LINK="https://lnroute.com/"/>
 </node>
 </node>
 </node>

@@ -189,7 +189,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 5,
+                    "@_COUNTER": 9,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -612,11 +612,11 @@
                 {
                     "@_TEXT": "deploy",
                     "@_POSITION": "right",
-                    "@_ID": "ID_1272870724",
-                    "@_CREATED": 1570182358202,
-                    "@_MODIFIED": 1570182916529,
+                    "@_ID": "ID_615083298",
+                    "@_CREATED": 1570185945063,
+                    "@_MODIFIED": 1570185946895,
                     "edge": {
-                        "@_COLOR": "#00ffff"
+                        "@_COLOR": "#7c007c"
                     }
                 },
                 {
@@ -725,6 +725,13 @@
                                             }
                                         }
                                     }
+                                },
+                                {
+                                    "@_TEXT": "lnroute",
+                                    "@_ID": "ID_1451851808",
+                                    "@_CREATED": 1570185749629,
+                                    "@_MODIFIED": 1570185757230,
+                                    "@_LINK": "https://lnroute.com/"
                                 }
                             ]
                         }
