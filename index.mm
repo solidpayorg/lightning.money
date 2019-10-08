@@ -268,9 +268,6 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="deploy" POSITION="right" ID="ID_615083298" CREATED="1570185945063" MODIFIED="1570185946895">
-<edge COLOR="#7c007c"/>
-</node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1569861329093">
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>

@@ -610,16 +610,6 @@
                     }
                 },
                 {
-                    "@_TEXT": "deploy",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_615083298",
-                    "@_CREATED": 1570185945063,
-                    "@_MODIFIED": 1570185946895,
-                    "edge": {
-                        "@_COLOR": "#7c007c"
-                    }
-                },
-                {
                     "@_TEXT": "links",
                     "@_POSITION": "left",
                     "@_ID": "ID_728396892",
