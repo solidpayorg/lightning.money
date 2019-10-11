@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1569861865685">
 <icon BUILTIN="password"/>
 <edge COLOR="#007c00"/>
@@ -250,6 +250,23 @@
 <node TEXT="poker" ID="ID_491528674" CREATED="1569961191850" MODIFIED="1569961222296" LINK="https://lightning-poker.com/">
 <icon BUILTIN="group"/>
 </node>
+</node>
+</node>
+<node TEXT="news" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1570785364319">
+<icon BUILTIN="16x16-free-application-icons/png/16x16/Text"/>
+<edge COLOR="#007c7c"/>
+<node ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1570785367171" LINK="https://www.bitcoinlightning.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.bitcoinlightning.com/">https://www.bitcoinlightning.com/</a> 
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="spec" POSITION="right" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1569940961929">
