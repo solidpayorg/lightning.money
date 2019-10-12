@@ -245,6 +245,19 @@
 </html>
 </richcontent>
 </node>
+<node ID="ID_739721844" CREATED="1570875217814" MODIFIED="1570875217814" LINK="https://www.lapps.co/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.lapps.co/">https://www.lapps.co/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="apps" ID="ID_1371138197" CREATED="1569959305721" MODIFIED="1569959307705">
 <node TEXT="poker" ID="ID_491528674" CREATED="1569961191850" MODIFIED="1569961222296" LINK="https://lightning-poker.com/">
