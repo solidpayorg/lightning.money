@@ -298,6 +298,19 @@
 <node TEXT="news" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1570785364319">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Text"/>
 <edge COLOR="#007c7c"/>
+<node ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1570875815581" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://twitter.com/search?q=lightning%20network&amp;src=tyah">https://twitter.com/search?q=lightning%20network&amp;src=tyah</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1570785367171" LINK="https://www.bitcoinlightning.com/"><richcontent TYPE="NODE">
 
 <html>
