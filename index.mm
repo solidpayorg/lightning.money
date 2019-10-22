@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1569861865685">
 <icon BUILTIN="password"/>
 <edge COLOR="#007c00"/>
@@ -195,7 +195,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://tallyco.in/">https://tallyco.in/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -210,7 +209,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.opennode.com/">https://www.opennode.com/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -285,7 +283,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.lapps.co/">https://www.lapps.co/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -308,7 +305,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://twitter.com/search?q=lightning%20network&amp;src=tyah">https://twitter.com/search?q=lightning%20network&amp;src=tyah</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1570785367171" LINK="https://www.bitcoinlightning.com/"><richcontent TYPE="NODE">
@@ -321,7 +317,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.bitcoinlightning.com/">https://www.bitcoinlightning.com/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -339,6 +334,14 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+<node TEXT="communities" POSITION="right" ID="ID_1699377289" CREATED="1571777237336" MODIFIED="1571777249779">
+<icon BUILTIN="licq"/>
+<edge COLOR="#7c7c00"/>
+<node TEXT="telegram" ID="ID_1812873111" CREATED="1571777297570" MODIFIED="1571777299345">
+<node TEXT="Lightning Makers" ID="ID_31009961" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
+<node TEXT="Lightning" ID="ID_95271556" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
 </node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1569861329093">

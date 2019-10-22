@@ -189,7 +189,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 9,
+                    "@_COUNTER": 11,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -431,6 +431,58 @@
                                                 }
                                             }
                                         }
+                                    },
+                                    {
+                                        "@_TEXT": "tallycoin",
+                                        "@_ID": "ID_995052358",
+                                        "@_CREATED": 1570875508771,
+                                        "@_MODIFIED": 1570875512630,
+                                        "node": {
+                                            "@_ID": "ID_454932096",
+                                            "@_CREATED": 1570875523342,
+                                            "@_MODIFIED": 1570875523342,
+                                            "@_LINK": "https://tallyco.in/",
+                                            "richcontent": {
+                                                "@_TYPE": "NODE",
+                                                "html": {
+                                                    "head": "",
+                                                    "body": {
+                                                        "a": {
+                                                            "#text": "https://tallyco.in/",
+                                                            "@_http-equiv": "content-type",
+                                                            "@_content": "text/html; charset=utf-8",
+                                                            "@_href": "https://tallyco.in/"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@_TEXT": "opennode",
+                                        "@_ID": "ID_519516723",
+                                        "@_CREATED": 1570875525004,
+                                        "@_MODIFIED": 1570875527523,
+                                        "node": {
+                                            "@_ID": "ID_847595710",
+                                            "@_CREATED": 1570875537695,
+                                            "@_MODIFIED": 1570875537695,
+                                            "@_LINK": "https://www.opennode.com/",
+                                            "richcontent": {
+                                                "@_TYPE": "NODE",
+                                                "html": {
+                                                    "head": "",
+                                                    "body": {
+                                                        "a": {
+                                                            "#text": "https://www.opennode.com/",
+                                                            "@_http-equiv": "content-type",
+                                                            "@_content": "text/html; charset=utf-8",
+                                                            "@_href": "https://www.opennode.com/"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 ]
                             }
@@ -555,6 +607,26 @@
                                             }
                                         }
                                     }
+                                },
+                                {
+                                    "@_ID": "ID_739721844",
+                                    "@_CREATED": 1570875217814,
+                                    "@_MODIFIED": 1570875217814,
+                                    "@_LINK": "https://www.lapps.co/",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://www.lapps.co/",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://www.lapps.co/"
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         },
@@ -571,6 +643,61 @@
                                 "@_LINK": "https://lightning-poker.com/",
                                 "icon": {
                                     "@_BUILTIN": "group"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "news",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1050804376",
+                    "@_CREATED": 1570785347577,
+                    "@_MODIFIED": 1570785364319,
+                    "icon": {
+                        "@_BUILTIN": "16x16-free-application-icons/png/16x16/Text"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c7c"
+                    },
+                    "node": [
+                        {
+                            "@_ID": "ID_1210018261",
+                            "@_CREATED": 1570875815581,
+                            "@_MODIFIED": 1570875815581,
+                            "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_1919527951",
+                            "@_CREATED": 1570785367171,
+                            "@_MODIFIED": 1570785367171,
+                            "@_LINK": "https://www.bitcoinlightning.com/",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://www.bitcoinlightning.com/",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://www.bitcoinlightning.com/"
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -607,6 +734,41 @@
                                 }
                             }
                         }
+                    }
+                },
+                {
+                    "@_TEXT": "communities",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1699377289",
+                    "@_CREATED": 1571777237336,
+                    "@_MODIFIED": 1571777249779,
+                    "icon": {
+                        "@_BUILTIN": "licq"
+                    },
+                    "edge": {
+                        "@_COLOR": "#7c7c00"
+                    },
+                    "node": {
+                        "@_TEXT": "telegram",
+                        "@_ID": "ID_1812873111",
+                        "@_CREATED": 1571777297570,
+                        "@_MODIFIED": 1571777299345,
+                        "node": [
+                            {
+                                "@_TEXT": "Lightning Makers",
+                                "@_ID": "ID_31009961",
+                                "@_CREATED": 1571777277694,
+                                "@_MODIFIED": 1571777285150,
+                                "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
+                            },
+                            {
+                                "@_TEXT": "Lightning",
+                                "@_ID": "ID_95271556",
+                                "@_CREATED": 1571777314980,
+                                "@_MODIFIED": 1571777321996,
+                                "@_LINK": "https://t.me/lightning_network"
+                            }
+                        ]
                     }
                 },
                 {
