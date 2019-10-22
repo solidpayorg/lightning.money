@@ -627,6 +627,26 @@
                                             }
                                         }
                                     }
+                                },
+                                {
+                                    "@_ID": "ID_356357336",
+                                    "@_CREATED": 1571777973426,
+                                    "@_MODIFIED": 1571777973426,
+                                    "@_LINK": "https://dev.lightning.community/lapps/index.html",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://dev.lightning.community/lapps/index.html",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://dev.lightning.community/lapps/index.html"
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         },
