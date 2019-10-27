@@ -402,7 +402,7 @@
 </node>
 <node TEXT="lnroute" ID="ID_1451851808" CREATED="1570185749629" MODIFIED="1570185757230" LINK="https://lnroute.com/"/>
 </node>
-<node TEXT="spec" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1572154863626">
+<node TEXT="spec" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1572171676343" LINK="spec/index.mm">
 <icon BUILTIN="wizard"/>
 <font BOLD="true"/>
 <node ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1569861461668" LINK="https://github.com/lightningnetwork/lightning-rfc"><richcontent TYPE="NODE">

@@ -972,7 +972,8 @@
                             "@_TEXT": "spec",
                             "@_ID": "ID_1721082161",
                             "@_CREATED": 1569861329052,
-                            "@_MODIFIED": 1572154863626,
+                            "@_MODIFIED": 1572171676343,
+                            "@_LINK": "spec/index.mm",
                             "icon": {
                                 "@_BUILTIN": "wizard"
                             },

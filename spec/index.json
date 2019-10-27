@@ -1,0 +1,327 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "spec",
+            "@_FOLDED": false,
+            "@_ID": "ID_1568754813",
+            "@_CREATED": 1569871551142,
+            "@_MODIFIED": 1572171205997,
+            "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "go"
+            },
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 12,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "Bolts",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1438249466",
+                    "@_CREATED": 1569959255579,
+                    "@_MODIFIED": 1572171650122,
+                    "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#bolt-0-introduction-and-index",
+                    "@_COLOR": "#009933",
+                    "@_HGAP_QUANTITY": "27.499999597668662 pt",
+                    "@_VSHIFT_QUANTITY": "-62.24999814480549 pt",
+                    "icon": {
+                        "@_BUILTIN": "launch"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    }
+                },
+                {
+                    "@_TEXT": "main spec",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_728396892",
+                    "@_CREATED": 1569861329090,
+                    "@_MODIFIED": 1572171284982,
+                    "@_COLOR": "#cc00cc",
+                    "@_HGAP_QUANTITY": "14.749999977648258 pt",
+                    "@_VSHIFT_QUANTITY": "-8.999999731779106 pt",
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "node": {
+                        "@_ID": "ID_1858353829",
+                        "@_CREATED": 1569861461668,
+                        "@_MODIFIED": 1569861461668,
+                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "a": {
+                                        "#text": "https://github.com/lightningnetwork/lightning-rfc",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://github.com/lightningnetwork/lightning-rfc"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "@_TEXT": "Other",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_928353311",
+                    "@_CREATED": 1572171327007,
+                    "@_MODIFIED": 1572171381957,
+                    "@_COLOR": "#cccc00",
+                    "icon": {
+                        "@_BUILTIN": "idea"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "lnurl",
+                            "@_ID": "ID_961943115",
+                            "@_CREATED": 1572171385940,
+                            "@_MODIFIED": 1572171417502,
+                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md"
+                        },
+                        {
+                            "@_TEXT": "lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.",
+                            "@_ID": "ID_440219822",
+                            "@_CREATED": 1572171436281,
+                            "@_MODIFIED": 1572171606701,
+                            "@_COLOR": "#000099"
+                        },
+                        {
+                            "@_TEXT": "example",
+                            "@_ID": "ID_1961156848",
+                            "@_CREATED": 1572171470824,
+                            "@_MODIFIED": 1572171472468,
+                            "node": [
+                                {
+                                    "@_TEXT": "https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df",
+                                    "@_ID": "ID_1177904626",
+                                    "@_CREATED": 1572171479316,
+                                    "@_MODIFIED": 1572171610181
+                                },
+                                {
+                                    "@_TEXT": "LNURL1DP68GURN8GHJ7UM9WF&#xa;MXJCM99E3K7MF0V9CXJ0M385E&#xa;KVCENXC6R2C35XVUKXEFCV5M&#xa;KVV34X5EKZD3EV56NYD3HXQU&#xa;RZEPEXEJXXEPNXSCRVWFNV9N&#xa;XZCN9XQ6XYEFHVGCXXCMYXY&#xa;MNSERXFQ5FNS",
+                                    "@_ID": "ID_452574641",
+                                    "@_CREATED": 1572171486401,
+                                    "@_MODIFIED": 1572171590844,
+                                    "@_COLOR": "#009900"
+                                },
+                                {
+                                    "@_TEXT": "png_15751375840253331061.png",
+                                    "@_ID": "ID_141047124",
+                                    "@_CREATED": 1572171568805,
+                                    "@_MODIFIED": 1572171568805,
+                                    "hook": {
+                                        "@_URI": "index_files/png_15751375840253331061.png",
+                                        "@_SIZE": 1,
+                                        "@_NAME": "ExternalObject"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
