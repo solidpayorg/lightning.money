@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1569941029346,
+            "@_MODIFIED": 1572154961083,
             "@_STYLE": "oval",
             "icon": {
                 "@_BUILTIN": "go"
@@ -199,12 +199,17 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_403237537",
                     "@_CREATED": 1569861472802,
-                    "@_MODIFIED": 1569861865685,
+                    "@_MODIFIED": 1572154948189,
+                    "@_HGAP_QUANTITY": "-152.49999503791346 pt",
+                    "@_VSHIFT_QUANTITY": "-25.499999240040797 pt",
                     "icon": {
                         "@_BUILTIN": "password"
                     },
                     "edge": {
                         "@_COLOR": "#007c00"
+                    },
+                    "font": {
+                        "@_BOLD": true
                     },
                     "node": [
                         {
@@ -554,19 +559,27 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1569959277863,
+                    "@_MODIFIED": 1572154961081,
+                    "@_HGAP_QUANTITY": "37.249999307096026 pt",
+                    "@_VSHIFT_QUANTITY": "-59.999998211860714 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
                     "edge": {
                         "@_COLOR": "#ff00ff"
                     },
+                    "font": {
+                        "@_BOLD": true
+                    },
                     "node": [
                         {
                             "@_TEXT": "directories",
                             "@_ID": "ID_1938254040",
                             "@_CREATED": 1569959280494,
-                            "@_MODIFIED": 1569959286962,
+                            "@_MODIFIED": 1572154901989,
+                            "icon": {
+                                "@_BUILTIN": "folder"
+                            },
                             "node": [
                                 {
                                     "@_ID": "ID_1622962411",
@@ -654,163 +667,160 @@
                             "@_TEXT": "apps",
                             "@_ID": "ID_1371138197",
                             "@_CREATED": 1569959305721,
-                            "@_MODIFIED": 1569959307705,
-                            "node": {
-                                "@_TEXT": "poker",
-                                "@_ID": "ID_491528674",
-                                "@_CREATED": 1569961191850,
-                                "@_MODIFIED": 1569961222296,
-                                "@_LINK": "https://lightning-poker.com/",
-                                "icon": {
-                                    "@_BUILTIN": "group"
+                            "@_MODIFIED": 1572154909782,
+                            "icon": {
+                                "@_BUILTIN": "launch"
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "poker",
+                                    "@_ID": "ID_491528674",
+                                    "@_CREATED": 1569961191850,
+                                    "@_MODIFIED": 1569961222296,
+                                    "@_LINK": "https://lightning-poker.com/",
+                                    "icon": {
+                                        "@_BUILTIN": "group"
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "paywall",
+                                    "@_ID": "ID_678426153",
+                                    "@_CREATED": 1572154709114,
+                                    "@_MODIFIED": 1572154731583,
+                                    "@_LINK": "https://paywall.link/",
+                                    "icon": {
+                                        "@_BUILTIN": "closed"
+                                    }
                                 }
-                            }
+                            ]
                         }
                     ]
-                },
-                {
-                    "@_TEXT": "news",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1050804376",
-                    "@_CREATED": 1570785347577,
-                    "@_MODIFIED": 1570785364319,
-                    "icon": {
-                        "@_BUILTIN": "16x16-free-application-icons/png/16x16/Text"
-                    },
-                    "edge": {
-                        "@_COLOR": "#007c7c"
-                    },
-                    "node": [
-                        {
-                            "@_ID": "ID_1210018261",
-                            "@_CREATED": 1570875815581,
-                            "@_MODIFIED": 1570875815581,
-                            "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "@_ID": "ID_1919527951",
-                            "@_CREATED": 1570785367171,
-                            "@_MODIFIED": 1570785367171,
-                            "@_LINK": "https://www.bitcoinlightning.com/",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://www.bitcoinlightning.com/",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://www.bitcoinlightning.com/"
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "@_TEXT": "spec",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1721082161",
-                    "@_CREATED": 1569861329052,
-                    "@_MODIFIED": 1569940961929,
-                    "icon": {
-                        "@_BUILTIN": "wizard"
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff0000"
-                    },
-                    "node": {
-                        "@_ID": "ID_1858353829",
-                        "@_CREATED": 1569861461668,
-                        "@_MODIFIED": 1569861461668,
-                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc",
-                        "richcontent": {
-                            "@_TYPE": "NODE",
-                            "html": {
-                                "head": "",
-                                "body": {
-                                    "a": {
-                                        "#text": "https://github.com/lightningnetwork/lightning-rfc",
-                                        "@_http-equiv": "content-type",
-                                        "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://github.com/lightningnetwork/lightning-rfc"
-                                    }
-                                }
-                            }
-                        }
-                    }
                 },
                 {
                     "@_TEXT": "communities",
                     "@_POSITION": "right",
                     "@_ID": "ID_1699377289",
                     "@_CREATED": 1571777237336,
-                    "@_MODIFIED": 1571777249779,
+                    "@_MODIFIED": 1572154938796,
+                    "@_HGAP_QUANTITY": "-171.24999447911995 pt",
+                    "@_VSHIFT_QUANTITY": "-13.499999597668662 pt",
                     "icon": {
                         "@_BUILTIN": "licq"
                     },
                     "edge": {
                         "@_COLOR": "#7c7c00"
                     },
-                    "node": {
-                        "@_TEXT": "telegram",
-                        "@_ID": "ID_1812873111",
-                        "@_CREATED": 1571777297570,
-                        "@_MODIFIED": 1571777299345,
-                        "node": [
-                            {
-                                "@_TEXT": "Lightning Makers",
-                                "@_ID": "ID_31009961",
-                                "@_CREATED": 1571777277694,
-                                "@_MODIFIED": 1571777285150,
-                                "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "telegram",
+                            "@_ID": "ID_1812873111",
+                            "@_CREATED": 1571777297570,
+                            "@_MODIFIED": 1572154884468,
+                            "icon": {
+                                "@_BUILTIN": "females"
                             },
-                            {
-                                "@_TEXT": "Lightning",
-                                "@_ID": "ID_95271556",
-                                "@_CREATED": 1571777314980,
-                                "@_MODIFIED": 1571777321996,
-                                "@_LINK": "https://t.me/lightning_network"
-                            }
-                        ]
-                    }
+                            "node": [
+                                {
+                                    "@_TEXT": "Lightning Makers",
+                                    "@_ID": "ID_31009961",
+                                    "@_CREATED": 1571777277694,
+                                    "@_MODIFIED": 1571777285150,
+                                    "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
+                                },
+                                {
+                                    "@_TEXT": "Lightning",
+                                    "@_ID": "ID_95271556",
+                                    "@_CREATED": 1571777314980,
+                                    "@_MODIFIED": 1571777321996,
+                                    "@_LINK": "https://t.me/lightning_network"
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "news",
+                            "@_ID": "ID_1050804376",
+                            "@_CREATED": 1570785347577,
+                            "@_MODIFIED": 1572154855802,
+                            "icon": {
+                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Text"
+                            },
+                            "font": {
+                                "@_BOLD": false
+                            },
+                            "node": [
+                                {
+                                    "@_ID": "ID_1210018261",
+                                    "@_CREATED": 1570875815581,
+                                    "@_MODIFIED": 1570875815581,
+                                    "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_ID": "ID_1919527951",
+                                    "@_CREATED": 1570785367171,
+                                    "@_MODIFIED": 1570785367171,
+                                    "@_LINK": "https://www.bitcoinlightning.com/",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://www.bitcoinlightning.com/",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://www.bitcoinlightning.com/"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "links",
                     "@_POSITION": "left",
                     "@_ID": "ID_728396892",
                     "@_CREATED": 1569861329090,
-                    "@_MODIFIED": 1569861329093,
+                    "@_MODIFIED": 1572154770939,
                     "icon": {
                         "@_BUILTIN": "attach"
                     },
                     "edge": {
                         "@_COLOR": "#00007c"
                     },
+                    "font": {
+                        "@_BOLD": true
+                    },
                     "node": [
                         {
                             "@_TEXT": "this page",
                             "@_ID": "ID_1704672214",
                             "@_CREATED": 1569940752211,
-                            "@_MODIFIED": 1569940857695,
+                            "@_MODIFIED": 1572154794859,
                             "icon": {
                                 "@_BUILTIN": "broken-line"
+                            },
+                            "font": {
+                                "@_BOLD": true
                             },
                             "node": [
                                 {
@@ -853,9 +863,12 @@
                             "@_TEXT": "lists",
                             "@_ID": "ID_1744026554",
                             "@_CREATED": 1569861388704,
-                            "@_MODIFIED": 1569940934396,
+                            "@_MODIFIED": 1572154793341,
                             "icon": {
                                 "@_BUILTIN": "list"
+                            },
+                            "font": {
+                                "@_BOLD": true
                             },
                             "node": [
                                 {
@@ -906,6 +919,38 @@
                                     "@_LINK": "https://lnroute.com/"
                                 }
                             ]
+                        },
+                        {
+                            "@_TEXT": "spec",
+                            "@_ID": "ID_1721082161",
+                            "@_CREATED": 1569861329052,
+                            "@_MODIFIED": 1572154863626,
+                            "icon": {
+                                "@_BUILTIN": "wizard"
+                            },
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_ID": "ID_1858353829",
+                                "@_CREATED": 1569861461668,
+                                "@_MODIFIED": 1569861461668,
+                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://github.com/lightningnetwork/lightning-rfc",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://github.com/lightningnetwork/lightning-rfc"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     ]
                 }
