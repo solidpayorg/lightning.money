@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572157800680" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572163481295" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -246,7 +246,7 @@
 </node>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572155697504" COLOR="#009933" HGAP_QUANTITY="37.249999307096026 pt" VSHIFT_QUANTITY="-62.999998122453746 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572163481293" COLOR="#009933" HGAP_QUANTITY="27.499999597668662 pt" VSHIFT_QUANTITY="-62.24999814480549 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -311,6 +311,9 @@
 </node>
 <node TEXT="zapread" ID="ID_1250146990" CREATED="1572157576036" MODIFIED="1572157683127" LINK="https://www.zapread.com/">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Text"/>
+</node>
+<node TEXT="lightning.gifts" ID="ID_458425639" CREATED="1572163425067" MODIFIED="1572163469182" LINK="https://lightning.gifts/">
+<icon BUILTIN="very_positive"/>
 </node>
 </node>
 </node>

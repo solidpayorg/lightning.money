@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572157800680,
+            "@_MODIFIED": 1572163481295,
             "@_STYLE": "oval",
             "icon": {
                 "@_BUILTIN": "go"
@@ -562,10 +562,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572155697504,
+                    "@_MODIFIED": 1572163481293,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "37.249999307096026 pt",
-                    "@_VSHIFT_QUANTITY": "-62.999998122453746 pt",
+                    "@_HGAP_QUANTITY": "27.499999597668662 pt",
+                    "@_VSHIFT_QUANTITY": "-62.24999814480549 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
@@ -705,6 +705,16 @@
                                     "@_LINK": "https://www.zapread.com/",
                                     "icon": {
                                         "@_BUILTIN": "16x16-free-application-icons/png/16x16/Text"
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "lightning.gifts",
+                                    "@_ID": "ID_458425639",
+                                    "@_CREATED": 1572163425067,
+                                    "@_MODIFIED": 1572163469182,
+                                    "@_LINK": "https://lightning.gifts/",
+                                    "icon": {
+                                        "@_BUILTIN": "very_positive"
                                     }
                                 }
                             ]
