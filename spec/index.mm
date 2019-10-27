@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="spec" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572171205997" STYLE="oval">
+<node TEXT="spec" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572171869792" ICON_SIZE="16.0 pt" LINK="../index.mm" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">

@@ -6,7 +6,8 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572163481295,
+            "@_MODIFIED": 1572171836916,
+            "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
                 "@_BUILTIN": "go"
@@ -562,10 +563,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572163481293,
+                    "@_MODIFIED": 1572171836916,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "27.499999597668662 pt",
-                    "@_VSHIFT_QUANTITY": "-62.24999814480549 pt",
+                    "@_HGAP_QUANTITY": "25.249999664723884 pt",
+                    "@_VSHIFT_QUANTITY": "-53.99999839067464 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
