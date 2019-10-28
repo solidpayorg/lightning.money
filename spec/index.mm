@@ -89,17 +89,19 @@
 </node>
 <node TEXT="Other" POSITION="right" ID="ID_928353311" CREATED="1572171327007" MODIFIED="1572171381957" COLOR="#cccc00">
 <icon BUILTIN="idea"/>
-<edge COLOR="#ff00ff"/>
 <font SIZE="12" BOLD="true"/>
-<node TEXT="lnurl" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572171417502" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md"/>
+<edge COLOR="#ff00ff"/>
+<node TEXT="lnurl" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572171417502" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md">
 <node TEXT="lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc." ID="ID_440219822" CREATED="1572171436281" MODIFIED="1572171606701" COLOR="#000099"/>
-<node TEXT="example" ID="ID_1961156848" CREATED="1572171470824" MODIFIED="1572171472468">
 <node TEXT="https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df" ID="ID_1177904626" CREATED="1572171479316" MODIFIED="1572171610181"/>
 <node TEXT="LNURL1DP68GURN8GHJ7UM9WF&#xa;MXJCM99E3K7MF0V9CXJ0M385E&#xa;KVCENXC6R2C35XVUKXEFCV5M&#xa;KVV34X5EKZD3EV56NYD3HXQU&#xa;RZEPEXEJXXEPNXSCRVWFNV9N&#xa;XZCN9XQ6XYEFHVGCXXCMYXY&#xa;MNSERXFQ5FNS" ID="ID_452574641" CREATED="1572171486401" MODIFIED="1572171590844" COLOR="#009900"/>
+<node TEXT="example" ID="ID_1961156848" CREATED="1572171470824" MODIFIED="1572171472468">
 <node TEXT="png_15751375840253331061.png" ID="ID_141047124" CREATED="1572171568805" MODIFIED="1572171568805">
 <hook URI="index_files/png_15751375840253331061.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
+</node>
+<node TEXT="lightning auth" ID="ID_705335058" CREATED="1572241475803" MODIFIED="1572241481606" LINK="https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"/>
 </node>
 </node>
 </map>

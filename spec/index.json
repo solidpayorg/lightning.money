@@ -267,12 +267,12 @@
                     "icon": {
                         "@_BUILTIN": "idea"
                     },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
                     },
                     "node": [
                         {
@@ -280,21 +280,15 @@
                             "@_ID": "ID_961943115",
                             "@_CREATED": 1572171385940,
                             "@_MODIFIED": 1572171417502,
-                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md"
-                        },
-                        {
-                            "@_TEXT": "lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.",
-                            "@_ID": "ID_440219822",
-                            "@_CREATED": 1572171436281,
-                            "@_MODIFIED": 1572171606701,
-                            "@_COLOR": "#000099"
-                        },
-                        {
-                            "@_TEXT": "example",
-                            "@_ID": "ID_1961156848",
-                            "@_CREATED": 1572171470824,
-                            "@_MODIFIED": 1572171472468,
+                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md",
                             "node": [
+                                {
+                                    "@_TEXT": "lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.",
+                                    "@_ID": "ID_440219822",
+                                    "@_CREATED": 1572171436281,
+                                    "@_MODIFIED": 1572171606701,
+                                    "@_COLOR": "#000099"
+                                },
                                 {
                                     "@_TEXT": "https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df",
                                     "@_ID": "ID_1177904626",
@@ -309,17 +303,30 @@
                                     "@_COLOR": "#009900"
                                 },
                                 {
-                                    "@_TEXT": "png_15751375840253331061.png",
-                                    "@_ID": "ID_141047124",
-                                    "@_CREATED": 1572171568805,
-                                    "@_MODIFIED": 1572171568805,
-                                    "hook": {
-                                        "@_URI": "index_files/png_15751375840253331061.png",
-                                        "@_SIZE": 1,
-                                        "@_NAME": "ExternalObject"
+                                    "@_TEXT": "example",
+                                    "@_ID": "ID_1961156848",
+                                    "@_CREATED": 1572171470824,
+                                    "@_MODIFIED": 1572171472468,
+                                    "node": {
+                                        "@_TEXT": "png_15751375840253331061.png",
+                                        "@_ID": "ID_141047124",
+                                        "@_CREATED": 1572171568805,
+                                        "@_MODIFIED": 1572171568805,
+                                        "hook": {
+                                            "@_URI": "index_files/png_15751375840253331061.png",
+                                            "@_SIZE": 1,
+                                            "@_NAME": "ExternalObject"
+                                        }
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "@_TEXT": "lightning auth",
+                            "@_ID": "ID_705335058",
+                            "@_CREATED": 1572241475803,
+                            "@_MODIFIED": 1572241481606,
+                            "@_LINK": "https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"
                         }
                     ]
                 }
