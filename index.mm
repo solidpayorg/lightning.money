@@ -157,20 +157,6 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="bitlum" ID="ID_1565869066" CREATED="1569865329797" MODIFIED="1569865332265">
-<node ID="ID_897640905" CREATED="1569940238730" MODIFIED="1569940238730" LINK="https://bitlum.io/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bitlum.io/">https://bitlum.io/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
 <node TEXT="wallet of satoshi" ID="ID_1242085439" CREATED="1569865332920" MODIFIED="1569865337429">
 <node ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572155280282" LINK="https://www.walletofsatoshi.com/" COLOR="#0000cc"><richcontent TYPE="NODE">
 
