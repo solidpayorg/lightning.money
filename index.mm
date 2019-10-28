@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572240962470" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572242803741" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -202,37 +202,12 @@
 </node>
 </node>
 <node TEXT="mobile" ID="ID_129906959" CREATED="1569865342316" MODIFIED="1569865344676">
-<node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1569865346958">
-<node ID="ID_507622942" CREATED="1569942566095" MODIFIED="1569942566095" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2">https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2</a> 
-  </body>
-</html>
-</richcontent>
+<node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
+<node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1572242771209" LINK="https://bluewallet.io/"/>
+<node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
 </node>
 </node>
-<node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1569865350013">
-<node ID="ID_1017983509" CREATED="1569940196555" MODIFIED="1569940196555" LINK="https://bluewallet.io/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://bluewallet.io/">https://bluewallet.io/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572240962469" COLOR="#009933" HGAP_QUANTITY="26.7499996200204 pt" VSHIFT_QUANTITY="-45.74999863654379 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572242803741" COLOR="#009933" HGAP_QUANTITY="22.249999754130847 pt" VSHIFT_QUANTITY="-35.24999894946817 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -250,7 +225,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.lapps.co/all-time">https://www.lapps.co/all-time</a> 
   </body>
 </html>
-
 </richcontent>
 <font BOLD="true"/>
 </node>
@@ -276,7 +250,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lngames.net/">https://lngames.net/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_759991484" CREATED="1569959331463" MODIFIED="1569959331463" LINK="https://kriptode.com/"><richcontent TYPE="NODE">
