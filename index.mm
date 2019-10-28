@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572171836916" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572240962470" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1572157797389" COLOR="#0000cc" HGAP_QUANTITY="-159.2499948367478 pt" VSHIFT_QUANTITY="-24.74999926239254 pt">
 <icon BUILTIN="password"/>
 <font SIZE="12" BOLD="true"/>
@@ -232,7 +232,7 @@
 </node>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572171836916" COLOR="#009933" HGAP_QUANTITY="25.249999664723884 pt" VSHIFT_QUANTITY="-53.99999839067464 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572240962469" COLOR="#009933" HGAP_QUANTITY="26.7499996200204 pt" VSHIFT_QUANTITY="-45.74999863654379 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -264,6 +264,19 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightningnetworkstores.com/">https://lightningnetworkstores.com/</a> 
   </body>
 </html>
+</richcontent>
+</node>
+<node ID="ID_888544098" CREATED="1572240947197" MODIFIED="1572240947197" LINK="https://lngames.net/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lngames.net/">https://lngames.net/</a> 
+  </body>
+</html>
+
 </richcontent>
 </node>
 <node ID="ID_759991484" CREATED="1569959331463" MODIFIED="1569959331463" LINK="https://kriptode.com/"><richcontent TYPE="NODE">

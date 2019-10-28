@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572171836916,
+            "@_MODIFIED": 1572240962470,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -190,7 +190,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 11,
+                    "@_COUNTER": 12,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -537,10 +537,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572171836916,
+                    "@_MODIFIED": 1572240962469,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "25.249999664723884 pt",
-                    "@_VSHIFT_QUANTITY": "-53.99999839067464 pt",
+                    "@_HGAP_QUANTITY": "26.7499996200204 pt",
+                    "@_VSHIFT_QUANTITY": "-45.74999863654379 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
@@ -602,6 +602,26 @@
                                                     "@_http-equiv": "content-type",
                                                     "@_content": "text/html; charset=utf-8",
                                                     "@_href": "https://lightningnetworkstores.com/"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_ID": "ID_888544098",
+                                    "@_CREATED": 1572240947197,
+                                    "@_MODIFIED": 1572240947197,
+                                    "@_LINK": "https://lngames.net/",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://lngames.net/",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://lngames.net/"
                                                 }
                                             }
                                         }
