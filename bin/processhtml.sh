@@ -7,7 +7,14 @@ export TMPFILE="/tmp/$$"
 
 shopt -s globstar
 
-for FILE in **/*.html 
+if [[ $1 == "" ]]
+then 
+  FILE_LIST="**/*.html"
+else
+  FILE_LIST="$1"
+fi
+
+for FILE in $FILE_LIST
 do
 
     2>&1 grep 'processhtml.sh' "$FILE" > /dev/null
