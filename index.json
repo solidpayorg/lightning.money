@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572242803741,
+            "@_MODIFIED": 1572329677283,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -334,10 +334,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572242803741,
+                    "@_MODIFIED": 1572329677282,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "22.249999754130847 pt",
-                    "@_VSHIFT_QUANTITY": "-35.24999894946817 pt",
+                    "@_HGAP_QUANTITY": "18.499999865889553 pt",
+                    "@_VSHIFT_QUANTITY": "-46.49999861419206 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
@@ -421,16 +421,6 @@
                                     }
                                 },
                                 {
-                                    "@_TEXT": "paywall",
-                                    "@_ID": "ID_678426153",
-                                    "@_CREATED": 1572154709114,
-                                    "@_MODIFIED": 1572154731583,
-                                    "@_LINK": "https://paywall.link/",
-                                    "icon": {
-                                        "@_BUILTIN": "closed"
-                                    }
-                                },
-                                {
                                     "@_TEXT": "zapread",
                                     "@_ID": "ID_1250146990",
                                     "@_CREATED": 1572157576036,
@@ -448,6 +438,26 @@
                                     "@_LINK": "https://pollofeed.com/",
                                     "icon": {
                                         "@_BUILTIN": "smiley-oh"
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "bitrefill",
+                                    "@_ID": "ID_1042289849",
+                                    "@_CREATED": 1572329859494,
+                                    "@_MODIFIED": 1572329917937,
+                                    "@_LINK": "https://www.bitrefill.com/",
+                                    "icon": {
+                                        "@_BUILTIN": "up"
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "paywall",
+                                    "@_ID": "ID_678426153",
+                                    "@_CREATED": 1572154709114,
+                                    "@_MODIFIED": 1572154731583,
+                                    "@_LINK": "https://paywall.link/",
+                                    "icon": {
+                                        "@_BUILTIN": "closed"
                                     }
                                 },
                                 {

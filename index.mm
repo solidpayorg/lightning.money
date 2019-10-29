@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572242803741" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572329677283" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -92,7 +92,7 @@
 <node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572242803741" COLOR="#009933" HGAP_QUANTITY="22.249999754130847 pt" VSHIFT_QUANTITY="-35.24999894946817 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572329677282" COLOR="#009933" HGAP_QUANTITY="18.499999865889553 pt" VSHIFT_QUANTITY="-46.49999861419206 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -112,14 +112,17 @@
 <node TEXT="poker" ID="ID_491528674" CREATED="1569961191850" MODIFIED="1569961222296" LINK="https://lightning-poker.com/">
 <icon BUILTIN="group"/>
 </node>
-<node TEXT="paywall" ID="ID_678426153" CREATED="1572154709114" MODIFIED="1572154731583" LINK="https://paywall.link/">
-<icon BUILTIN="closed"/>
-</node>
 <node TEXT="zapread" ID="ID_1250146990" CREATED="1572157576036" MODIFIED="1572157683127" LINK="https://www.zapread.com/">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Text"/>
 </node>
 <node TEXT="pollo feed" ID="ID_180166478" CREATED="1572241212596" MODIFIED="1572241255492" LINK="https://pollofeed.com/">
 <icon BUILTIN="smiley-oh"/>
+</node>
+<node TEXT="bitrefill" ID="ID_1042289849" CREATED="1572329859494" MODIFIED="1572329917937" LINK="https://www.bitrefill.com/">
+<icon BUILTIN="up"/>
+</node>
+<node TEXT="paywall" ID="ID_678426153" CREATED="1572154709114" MODIFIED="1572154731583" LINK="https://paywall.link/">
+<icon BUILTIN="closed"/>
 </node>
 <node TEXT="lightning.gifts" ID="ID_458425639" CREATED="1572163425067" MODIFIED="1572163469182" LINK="https://lightning.gifts/">
 <icon BUILTIN="very_positive"/>
