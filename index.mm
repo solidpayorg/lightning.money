@@ -81,7 +81,7 @@
 <node TEXT="slack" ID="ID_257285561" CREATED="1569939908911" MODIFIED="1572326997212" LINK="https://github.com/CryptoFR/ln-tip-slack"/>
 <node TEXT="bluewallet" ID="ID_1055163816" CREATED="1569940196555" MODIFIED="1572327002101" LINK="https://bluewallet.io/"/>
 <node TEXT="tippin.me" ID="ID_364851805" CREATED="1569940220613" MODIFIED="1572327007514" LINK="https://tippin.me/"/>
-<node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327011941" LINK="https://www.walletofsatoshi.com/" COLOR="#0000cc"/>
+<node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
 <node TEXT="tallycoin" ID="ID_454932096" CREATED="1570875523342" MODIFIED="1572327016361" LINK="https://tallyco.in/"/>
 <node TEXT="opennode" ID="ID_847595710" CREATED="1570875537695" MODIFIED="1572327019427" LINK="https://www.opennode.com/"/>
 </node>
