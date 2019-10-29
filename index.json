@@ -360,110 +360,45 @@
                             },
                             "node": [
                                 {
+                                    "@_TEXT": "lapps.co",
                                     "@_ID": "ID_1194356708",
                                     "@_CREATED": 1572239632923,
-                                    "@_MODIFIED": 1572239661040,
+                                    "@_MODIFIED": 1572327250178,
                                     "@_LINK": "https://www.lapps.co/all-time",
                                     "icon": {
                                         "@_BUILTIN": "bookmark"
-                                    },
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://www.lapps.co/all-time",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://www.lapps.co/all-time"
-                                                }
-                                            }
-                                        }
                                     },
                                     "font": {
                                         "@_BOLD": true
                                     }
                                 },
                                 {
+                                    "@_TEXT": "lightningnetworkstores",
                                     "@_ID": "ID_1622962411",
                                     "@_CREATED": 1569959304401,
-                                    "@_MODIFIED": 1569959304401,
-                                    "@_LINK": "https://lightningnetworkstores.com/",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://lightningnetworkstores.com/",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://lightningnetworkstores.com/"
-                                                }
-                                            }
-                                        }
-                                    }
+                                    "@_MODIFIED": 1572327256703,
+                                    "@_LINK": "https://lightningnetworkstores.com/"
                                 },
                                 {
+                                    "@_TEXT": "lngames",
                                     "@_ID": "ID_888544098",
                                     "@_CREATED": 1572240947197,
-                                    "@_MODIFIED": 1572240947197,
-                                    "@_LINK": "https://lngames.net/",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://lngames.net/",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://lngames.net/"
-                                                }
-                                            }
-                                        }
-                                    }
+                                    "@_MODIFIED": 1572327263548,
+                                    "@_LINK": "https://lngames.net/"
                                 },
                                 {
+                                    "@_TEXT": "kriptode",
                                     "@_ID": "ID_759991484",
                                     "@_CREATED": 1569959331463,
-                                    "@_MODIFIED": 1569959331463,
-                                    "@_LINK": "https://kriptode.com/",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://kriptode.com/",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://kriptode.com/"
-                                                }
-                                            }
-                                        }
-                                    }
+                                    "@_MODIFIED": 1572327269522,
+                                    "@_LINK": "https://kriptode.com/"
                                 },
                                 {
+                                    "@_TEXT": "lightning.community",
                                     "@_ID": "ID_356357336",
                                     "@_CREATED": 1571777973426,
-                                    "@_MODIFIED": 1571777973426,
-                                    "@_LINK": "https://dev.lightning.community/lapps/index.html",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://dev.lightning.community/lapps/index.html",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://dev.lightning.community/lapps/index.html"
-                                                }
-                                            }
-                                        }
-                                    }
+                                    "@_MODIFIED": 1572327279733,
+                                    "@_LINK": "https://dev.lightning.community/lapps/index.html"
                                 }
                             ]
                         },

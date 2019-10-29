@@ -98,69 +98,14 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="directories" ID="ID_1938254040" CREATED="1569959280494" MODIFIED="1572154901989">
 <icon BUILTIN="folder"/>
-<node ID="ID_1194356708" CREATED="1572239632923" MODIFIED="1572239661040" LINK="https://www.lapps.co/all-time">
+<node TEXT="lapps.co" ID="ID_1194356708" CREATED="1572239632923" MODIFIED="1572327250178" LINK="https://www.lapps.co/all-time">
 <icon BUILTIN="bookmark"/>
-<richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.lapps.co/all-time">https://www.lapps.co/all-time</a> 
-  </body>
-</html>
-</richcontent>
 <font BOLD="true"/>
 </node>
-<node ID="ID_1622962411" CREATED="1569959304401" MODIFIED="1569959304401" LINK="https://lightningnetworkstores.com/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightningnetworkstores.com/">https://lightningnetworkstores.com/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_888544098" CREATED="1572240947197" MODIFIED="1572240947197" LINK="https://lngames.net/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lngames.net/">https://lngames.net/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_759991484" CREATED="1569959331463" MODIFIED="1569959331463" LINK="https://kriptode.com/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://kriptode.com/">https://kriptode.com/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_356357336" CREATED="1571777973426" MODIFIED="1571777973426" LINK="https://dev.lightning.community/lapps/index.html"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://dev.lightning.community/lapps/index.html">https://dev.lightning.community/lapps/index.html</a> 
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="lightningnetworkstores" ID="ID_1622962411" CREATED="1569959304401" MODIFIED="1572327256703" LINK="https://lightningnetworkstores.com/"/>
+<node TEXT="lngames" ID="ID_888544098" CREATED="1572240947197" MODIFIED="1572327263548" LINK="https://lngames.net/"/>
+<node TEXT="kriptode" ID="ID_759991484" CREATED="1569959331463" MODIFIED="1572327269522" LINK="https://kriptode.com/"/>
+<node TEXT="lightning.community" ID="ID_356357336" CREATED="1571777973426" MODIFIED="1572327279733" LINK="https://dev.lightning.community/lapps/index.html"/>
 </node>
 <node TEXT="apps" ID="ID_1371138197" CREATED="1569959305721" MODIFIED="1572154909782">
 <icon BUILTIN="launch"/>
