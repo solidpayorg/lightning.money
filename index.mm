@@ -138,30 +138,8 @@
 <node TEXT="news" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572157784490">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
 <font BOLD="false"/>
-<node ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1570875815581" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://twitter.com/search?q=lightning%20network&amp;src=tyah">https://twitter.com/search?q=lightning%20network&amp;src=tyah</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1570785367171" LINK="https://www.bitcoinlightning.com/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.bitcoinlightning.com/">https://www.bitcoinlightning.com/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="twitter" ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1572329626272" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"/>
+<node TEXT="bitcoinlightning.com" ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1572329634388" LINK="https://www.bitcoinlightning.com/"/>
 <node TEXT="Lightning Junkies" ID="ID_35176243" CREATED="1572163778303" MODIFIED="1572163785621" LINK="https://anchor.fm/lightning-junkies/"/>
 </node>
 </node>
@@ -185,47 +163,14 @@
 <node TEXT="lists" ID="ID_1744026554" CREATED="1569861388704" MODIFIED="1572154793341">
 <icon BUILTIN="list"/>
 <font BOLD="true"/>
-<node ID="ID_1897426799" CREATED="1569941168323" MODIFIED="1569941168323" LINK="https://www.lopp.net/lightning-information.html"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.lopp.net/lightning-information.html">https://www.lopp.net/lightning-information.html</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1244510370" CREATED="1569861424912" MODIFIED="1569861424912" LINK="https://github.com/bcongdon/awesome-lightning-network"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/bcongdon/awesome-lightning-network">https://github.com/bcongdon/awesome-lightning-network</a> 
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="lopp list" ID="ID_1897426799" CREATED="1569941168323" MODIFIED="1572329436695" LINK="https://www.lopp.net/lightning-information.html"/>
+<node TEXT="awesome list" ID="ID_1244510370" CREATED="1569861424912" MODIFIED="1572329447313" LINK="https://github.com/bcongdon/awesome-lightning-network"/>
 <node TEXT="lnroute" ID="ID_1451851808" CREATED="1570185749629" MODIFIED="1570185757230" LINK="https://lnroute.com/"/>
 </node>
 <node TEXT="spec" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1572171676343" LINK="spec/index.mm">
 <icon BUILTIN="wizard"/>
 <font BOLD="true"/>
-<node ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1569861461668" LINK="https://github.com/lightningnetwork/lightning-rfc"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/lightningnetwork/lightning-rfc">https://github.com/lightningnetwork/lightning-rfc</a> 
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="lightning rfc" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572329613833" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
 </node>
 </node>
 </node>

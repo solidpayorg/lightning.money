@@ -522,44 +522,18 @@
                             },
                             "node": [
                                 {
+                                    "@_TEXT": "twitter",
                                     "@_ID": "ID_1210018261",
                                     "@_CREATED": 1570875815581,
-                                    "@_MODIFIED": 1570875815581,
-                                    "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
-                                                }
-                                            }
-                                        }
-                                    }
+                                    "@_MODIFIED": 1572329626272,
+                                    "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
                                 },
                                 {
+                                    "@_TEXT": "bitcoinlightning.com",
                                     "@_ID": "ID_1919527951",
                                     "@_CREATED": 1570785367171,
-                                    "@_MODIFIED": 1570785367171,
-                                    "@_LINK": "https://www.bitcoinlightning.com/",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://www.bitcoinlightning.com/",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://www.bitcoinlightning.com/"
-                                                }
-                                            }
-                                        }
-                                    }
+                                    "@_MODIFIED": 1572329634388,
+                                    "@_LINK": "https://www.bitcoinlightning.com/"
                                 },
                                 {
                                     "@_TEXT": "Lightning Junkies",
@@ -663,44 +637,18 @@
                             },
                             "node": [
                                 {
+                                    "@_TEXT": "lopp list",
                                     "@_ID": "ID_1897426799",
                                     "@_CREATED": 1569941168323,
-                                    "@_MODIFIED": 1569941168323,
-                                    "@_LINK": "https://www.lopp.net/lightning-information.html",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://www.lopp.net/lightning-information.html",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://www.lopp.net/lightning-information.html"
-                                                }
-                                            }
-                                        }
-                                    }
+                                    "@_MODIFIED": 1572329436695,
+                                    "@_LINK": "https://www.lopp.net/lightning-information.html"
                                 },
                                 {
+                                    "@_TEXT": "awesome list",
                                     "@_ID": "ID_1244510370",
                                     "@_CREATED": 1569861424912,
-                                    "@_MODIFIED": 1569861424912,
-                                    "@_LINK": "https://github.com/bcongdon/awesome-lightning-network",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://github.com/bcongdon/awesome-lightning-network",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://github.com/bcongdon/awesome-lightning-network"
-                                                }
-                                            }
-                                        }
-                                    }
+                                    "@_MODIFIED": 1572329447313,
+                                    "@_LINK": "https://github.com/bcongdon/awesome-lightning-network"
                                 },
                                 {
                                     "@_TEXT": "lnroute",
@@ -724,24 +672,11 @@
                                 "@_BOLD": true
                             },
                             "node": {
+                                "@_TEXT": "lightning rfc",
                                 "@_ID": "ID_1858353829",
                                 "@_CREATED": 1569861461668,
-                                "@_MODIFIED": 1569861461668,
-                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc",
-                                "richcontent": {
-                                    "@_TYPE": "NODE",
-                                    "html": {
-                                        "head": "",
-                                        "body": {
-                                            "a": {
-                                                "#text": "https://github.com/lightningnetwork/lightning-rfc",
-                                                "@_http-equiv": "content-type",
-                                                "@_content": "text/html; charset=utf-8",
-                                                "@_href": "https://github.com/lightningnetwork/lightning-rfc"
-                                            }
-                                        }
-                                    }
-                                }
+                                "@_MODIFIED": 1572329613833,
+                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
                             }
                         }
                     ]
