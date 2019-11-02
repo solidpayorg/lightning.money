@@ -551,6 +551,20 @@
                                     "@_CREATED": 1572163778303,
                                     "@_MODIFIED": 1572163785621,
                                     "@_LINK": "https://anchor.fm/lightning-junkies/"
+                                },
+                                {
+                                    "@_TEXT": "reddit lightning",
+                                    "@_ID": "ID_1326491802",
+                                    "@_CREATED": 1572678314251,
+                                    "@_MODIFIED": 1572678320426,
+                                    "@_LINK": "https://www.reddit.com/r/TheLightningNetwork/",
+                                    "node": {
+                                        "@_TEXT": "reddit bitcoin",
+                                        "@_ID": "ID_1113616580",
+                                        "@_CREATED": 1572678276269,
+                                        "@_MODIFIED": 1572678294193,
+                                        "@_LINK": "https://www.reddit.com/r/Bitcoin/"
+                                    }
                                 }
                             ]
                         }

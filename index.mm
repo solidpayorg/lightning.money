@@ -144,6 +144,9 @@
 <node TEXT="twitter" ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1572329626272" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"/>
 <node TEXT="bitcoinlightning.com" ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1572329634388" LINK="https://www.bitcoinlightning.com/"/>
 <node TEXT="Lightning Junkies" ID="ID_35176243" CREATED="1572163778303" MODIFIED="1572163785621" LINK="https://anchor.fm/lightning-junkies/"/>
+<node TEXT="reddit lightning" ID="ID_1326491802" CREATED="1572678314251" MODIFIED="1572678320426" LINK="https://www.reddit.com/r/TheLightningNetwork/">
+<node TEXT="reddit bitcoin" ID="ID_1113616580" CREATED="1572678276269" MODIFIED="1572678294193" LINK="https://www.reddit.com/r/Bitcoin/"/>
+</node>
 </node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1572155697504" COLOR="#cc00cc" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="-8.999999731779106 pt">
