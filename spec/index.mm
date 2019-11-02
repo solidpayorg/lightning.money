@@ -100,6 +100,19 @@
 <hook URI="index_files/png_15751375840253331061.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
+<node ID="ID_1585457459" CREATED="1572683695899" MODIFIED="1572683695899" LINK="https://lnurl.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lnurl.com/">https://lnurl.com/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="lightning auth" ID="ID_705335058" CREATED="1572241475803" MODIFIED="1572241481606" LINK="https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"/>
 </node>

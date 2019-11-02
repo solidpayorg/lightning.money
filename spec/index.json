@@ -318,6 +318,26 @@
                                             "@_NAME": "ExternalObject"
                                         }
                                     }
+                                },
+                                {
+                                    "@_ID": "ID_1585457459",
+                                    "@_CREATED": 1572683695899,
+                                    "@_MODIFIED": 1572683695899,
+                                    "@_LINK": "https://lnurl.com/",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://lnurl.com/",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://lnurl.com/"
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         },
