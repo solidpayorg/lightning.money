@@ -110,11 +110,11 @@
 </node>
 <node TEXT="apps" ID="ID_1371138197" CREATED="1569959305721" MODIFIED="1572154909782">
 <icon BUILTIN="launch"/>
-<node TEXT="poker" ID="ID_491528674" CREATED="1569961191850" MODIFIED="1569961222296" LINK="https://lightning-poker.com/">
-<icon BUILTIN="group"/>
-</node>
 <node TEXT="zapread" ID="ID_1250146990" CREATED="1572157576036" MODIFIED="1572157683127" LINK="https://www.zapread.com/">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Text"/>
+</node>
+<node TEXT="poker" ID="ID_491528674" CREATED="1569961191850" MODIFIED="1569961222296" LINK="https://lightning-poker.com/">
+<icon BUILTIN="group"/>
 </node>
 <node TEXT="pollo feed" ID="ID_180166478" CREATED="1572241212596" MODIFIED="1572241255492" LINK="https://pollofeed.com/">
 <icon BUILTIN="smiley-oh"/>
@@ -124,6 +124,9 @@
 </node>
 <node TEXT="paywall" ID="ID_678426153" CREATED="1572154709114" MODIFIED="1572154731583" LINK="https://paywall.link/">
 <icon BUILTIN="closed"/>
+</node>
+<node TEXT="galton board" ID="ID_1076487045" CREATED="1572683256063" MODIFIED="1572683308076" LINK="https://galtonboard.lngames.net/">
+<icon BUILTIN="neutral"/>
 </node>
 <node TEXT="lightning.gifts" ID="ID_458425639" CREATED="1572163425067" MODIFIED="1572163469182" LINK="https://lightning.gifts/">
 <icon BUILTIN="very_positive"/>
