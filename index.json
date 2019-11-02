@@ -478,6 +478,16 @@
                                     }
                                 },
                                 {
+                                    "@_TEXT": "faucet",
+                                    "@_ID": "ID_708153389",
+                                    "@_CREATED": 1572686476354,
+                                    "@_MODIFIED": 1572686541683,
+                                    "@_LINK": "https://lnurl.com/faucet/",
+                                    "icon": {
+                                        "@_BUILTIN": "wizard"
+                                    }
+                                },
+                                {
                                     "@_TEXT": "lightning.gifts",
                                     "@_ID": "ID_458425639",
                                     "@_CREATED": 1572163425067,

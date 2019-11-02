@@ -128,6 +128,9 @@
 <node TEXT="galton board" ID="ID_1076487045" CREATED="1572683256063" MODIFIED="1572683308076" LINK="https://galtonboard.lngames.net/">
 <icon BUILTIN="neutral"/>
 </node>
+<node TEXT="faucet" ID="ID_708153389" CREATED="1572686476354" MODIFIED="1572686541683" LINK="https://lnurl.com/faucet/">
+<icon BUILTIN="wizard"/>
+</node>
 <node TEXT="lightning.gifts" ID="ID_458425639" CREATED="1572163425067" MODIFIED="1572163469182" LINK="https://lightning.gifts/">
 <icon BUILTIN="very_positive"/>
 </node>
