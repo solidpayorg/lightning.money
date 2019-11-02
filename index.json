@@ -522,31 +522,6 @@
                     },
                     "node": [
                         {
-                            "@_TEXT": "telegram",
-                            "@_ID": "ID_1812873111",
-                            "@_CREATED": 1571777297570,
-                            "@_MODIFIED": 1572157764327,
-                            "icon": {
-                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
-                            },
-                            "node": [
-                                {
-                                    "@_TEXT": "Lightning Makers",
-                                    "@_ID": "ID_31009961",
-                                    "@_CREATED": 1571777277694,
-                                    "@_MODIFIED": 1571777285150,
-                                    "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
-                                },
-                                {
-                                    "@_TEXT": "Lightning",
-                                    "@_ID": "ID_95271556",
-                                    "@_CREATED": 1571777314980,
-                                    "@_MODIFIED": 1571777321996,
-                                    "@_LINK": "https://t.me/lightning_network"
-                                }
-                            ]
-                        },
-                        {
                             "@_TEXT": "news",
                             "@_ID": "ID_1050804376",
                             "@_CREATED": 1570785347577,
@@ -592,6 +567,31 @@
                                         "@_MODIFIED": 1572678294193,
                                         "@_LINK": "https://www.reddit.com/r/Bitcoin/"
                                     }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "telegram",
+                            "@_ID": "ID_1812873111",
+                            "@_CREATED": 1571777297570,
+                            "@_MODIFIED": 1572157764327,
+                            "icon": {
+                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "Lightning Makers",
+                                    "@_ID": "ID_31009961",
+                                    "@_CREATED": 1571777277694,
+                                    "@_MODIFIED": 1571777285150,
+                                    "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
+                                },
+                                {
+                                    "@_TEXT": "Lightning",
+                                    "@_ID": "ID_95271556",
+                                    "@_CREATED": 1571777314980,
+                                    "@_MODIFIED": 1571777321996,
+                                    "@_LINK": "https://t.me/lightning_network"
                                 }
                             ]
                         }

@@ -140,11 +140,6 @@
 <icon BUILTIN="licq"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="telegram" ID="ID_1812873111" CREATED="1571777297570" MODIFIED="1572157764327">
-<icon BUILTIN="16x16-free-application-icons/png/16x16/Comment"/>
-<node TEXT="Lightning Makers" ID="ID_31009961" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
-<node TEXT="Lightning" ID="ID_95271556" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
-</node>
 <node TEXT="news" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572157784490">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
 <font BOLD="false"/>
@@ -154,6 +149,11 @@
 <node TEXT="reddit lightning" ID="ID_1326491802" CREATED="1572678314251" MODIFIED="1572678320426" LINK="https://www.reddit.com/r/TheLightningNetwork/">
 <node TEXT="reddit bitcoin" ID="ID_1113616580" CREATED="1572678276269" MODIFIED="1572678294193" LINK="https://www.reddit.com/r/Bitcoin/"/>
 </node>
+</node>
+<node TEXT="telegram" ID="ID_1812873111" CREATED="1571777297570" MODIFIED="1572157764327">
+<icon BUILTIN="16x16-free-application-icons/png/16x16/Comment"/>
+<node TEXT="Lightning Makers" ID="ID_31009961" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
+<node TEXT="Lightning" ID="ID_95271556" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
 </node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1572155697504" COLOR="#cc00cc" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="-8.999999731779106 pt">
