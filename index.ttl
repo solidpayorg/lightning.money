@@ -20,6 +20,8 @@
 <#ID_888544098> <urn:string:child> <ID_888544098> .
 <#ID_759991484> <urn:string:@_TEXT> """kriptode""" .
 <#ID_759991484> <urn:string:child> <ID_759991484> .
+<#ID_476259117> <urn:string:@_TEXT> """ion app store""" .
+<#ID_476259117> <urn:string:child> <ID_476259117> .
 <#ID_356357336> <urn:string:@_TEXT> """lightning.community""" .
 <#ID_356357336> <urn:string:child> <ID_356357336> .
 <#ID_1371138197> <urn:string:@_TEXT> """apps""" .
