@@ -1,14 +1,20 @@
-<#ID_403237537> <urn:string:@_TEXT> """wallets""" .
-<#ID_713142011> <urn:string:@_TEXT> """custodial""" .
-<#ID_713142011> <urn:string:child> <ID_713142011> .
-<#ID_129906959> <urn:string:@_TEXT> """mobile""" .
-<#ID_129906959> <urn:string:child> <ID_129906959> .
-<#ID_1897401807> <urn:string:@_TEXT> """eclair""" .
-<#ID_1897401807> <urn:string:child> <ID_1897401807> .
-<#ID_822394219> <urn:string:@_TEXT> """bluewallet""" .
-<#ID_822394219> <urn:string:child> <ID_822394219> .
-<#ID_1306780446> <urn:string:@_TEXT> """breez""" .
-<#ID_1306780446> <urn:string:child> <ID_1306780446> .
+<#ID_1699377289> <urn:string:@_TEXT> """communities""" .
+<#ID_1050804376> <urn:string:@_TEXT> """news""" .
+<#ID_1050804376> <urn:string:child> <ID_1050804376> .
+<#ID_1210018261> <urn:string:@_TEXT> """twitter""" .
+<#ID_1210018261> <urn:string:child> <ID_1210018261> .
+<#ID_1919527951> <urn:string:@_TEXT> """bitcoinlightning.com""" .
+<#ID_1919527951> <urn:string:child> <ID_1919527951> .
+<#ID_35176243> <urn:string:@_TEXT> """Lightning Junkies""" .
+<#ID_35176243> <urn:string:child> <ID_35176243> .
+<#ID_1326491802> <urn:string:@_TEXT> """reddit lightning""" .
+<#ID_1326491802> <urn:string:child> <ID_1326491802> .
+<#ID_1812873111> <urn:string:@_TEXT> """telegram""" .
+<#ID_1812873111> <urn:string:child> <ID_1812873111> .
+<#ID_31009961> <urn:string:@_TEXT> """Lightning Makers""" .
+<#ID_31009961> <urn:string:child> <ID_31009961> .
+<#ID_95271556> <urn:string:@_TEXT> """Lightning""" .
+<#ID_95271556> <urn:string:child> <ID_95271556> .
 <#ID_1438249466> <urn:string:@_TEXT> """lapps""" .
 <#ID_1938254040> <urn:string:@_TEXT> """directories""" .
 <#ID_1938254040> <urn:string:child> <ID_1938254040> .
@@ -42,23 +48,6 @@
 <#ID_708153389> <urn:string:child> <ID_708153389> .
 <#ID_458425639> <urn:string:@_TEXT> """lightning.gifts""" .
 <#ID_458425639> <urn:string:child> <ID_458425639> .
-<#ID_1699377289> <urn:string:@_TEXT> """communities""" .
-<#ID_1050804376> <urn:string:@_TEXT> """news""" .
-<#ID_1050804376> <urn:string:child> <ID_1050804376> .
-<#ID_1210018261> <urn:string:@_TEXT> """twitter""" .
-<#ID_1210018261> <urn:string:child> <ID_1210018261> .
-<#ID_1919527951> <urn:string:@_TEXT> """bitcoinlightning.com""" .
-<#ID_1919527951> <urn:string:child> <ID_1919527951> .
-<#ID_35176243> <urn:string:@_TEXT> """Lightning Junkies""" .
-<#ID_35176243> <urn:string:child> <ID_35176243> .
-<#ID_1326491802> <urn:string:@_TEXT> """reddit lightning""" .
-<#ID_1326491802> <urn:string:child> <ID_1326491802> .
-<#ID_1812873111> <urn:string:@_TEXT> """telegram""" .
-<#ID_1812873111> <urn:string:child> <ID_1812873111> .
-<#ID_31009961> <urn:string:@_TEXT> """Lightning Makers""" .
-<#ID_31009961> <urn:string:child> <ID_31009961> .
-<#ID_95271556> <urn:string:@_TEXT> """Lightning""" .
-<#ID_95271556> <urn:string:child> <ID_95271556> .
 <#ID_728396892> <urn:string:@_TEXT> """links""" .
 <#ID_1704672214> <urn:string:@_TEXT> """this page""" .
 <#ID_1704672214> <urn:string:child> <ID_1704672214> .
@@ -82,3 +71,14 @@
 <#ID_1451851808> <urn:string:child> <ID_1451851808> .
 <#ID_1721082161> <urn:string:@_TEXT> """spec""" .
 <#ID_1721082161> <urn:string:child> <ID_1721082161> .
+<#ID_403237537> <urn:string:@_TEXT> """wallets""" .
+<#ID_713142011> <urn:string:@_TEXT> """custodial""" .
+<#ID_713142011> <urn:string:child> <ID_713142011> .
+<#ID_129906959> <urn:string:@_TEXT> """mobile""" .
+<#ID_129906959> <urn:string:child> <ID_129906959> .
+<#ID_1897401807> <urn:string:@_TEXT> """eclair""" .
+<#ID_1897401807> <urn:string:child> <ID_1897401807> .
+<#ID_822394219> <urn:string:@_TEXT> """bluewallet""" .
+<#ID_822394219> <urn:string:child> <ID_822394219> .
+<#ID_1306780446> <urn:string:@_TEXT> """breez""" .
+<#ID_1306780446> <urn:string:child> <ID_1306780446> .

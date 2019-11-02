@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572329677283,
+            "@_MODIFIED": 1572704129361,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -196,134 +196,96 @@
             ],
             "node": [
                 {
-                    "@_TEXT": "wallets",
+                    "@_TEXT": "communities",
                     "@_POSITION": "right",
-                    "@_ID": "ID_403237537",
-                    "@_CREATED": 1569861472802,
-                    "@_MODIFIED": 1572157797389,
-                    "@_COLOR": "#0000cc",
-                    "@_HGAP_QUANTITY": "-159.2499948367478 pt",
-                    "@_VSHIFT_QUANTITY": "-24.74999926239254 pt",
+                    "@_ID": "ID_1699377289",
+                    "@_CREATED": 1571777237336,
+                    "@_MODIFIED": 1572704129360,
+                    "@_HGAP_QUANTITY": "-178.74999425560253 pt",
+                    "@_VSHIFT_QUANTITY": "66.74999801069504 pt",
+                    "@_COLOR": "#cccc00",
                     "icon": {
-                        "@_BUILTIN": "password"
+                        "@_BUILTIN": "licq"
                     },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
                     },
                     "edge": {
-                        "@_COLOR": "#007c00"
+                        "@_COLOR": "#ff00ff"
                     },
                     "node": [
                         {
-                            "@_TEXT": "custodial",
-                            "@_ID": "ID_713142011",
-                            "@_CREATED": 1569861478020,
-                            "@_MODIFIED": 1569861480116,
-                            "node": {
-                                "@_TEXT": "web",
-                                "@_ID": "ID_1071283894",
-                                "@_CREATED": 1569861594542,
-                                "@_MODIFIED": 1569861597550,
-                                "node": [
-                                    {
-                                        "@_TEXT": "bottle pay",
-                                        "@_ID": "ID_1723379621",
-                                        "@_CREATED": 1569940699896,
-                                        "@_MODIFIED": 1572327080405,
-                                        "@_LINK": "https://bottle.li/",
-                                        "icon": {
-                                            "@_BUILTIN": "bookmark"
-                                        }
-                                    },
-                                    {
-                                        "@_TEXT": "telegram",
-                                        "@_ID": "ID_38516786",
-                                        "@_CREATED": 1569940633761,
-                                        "@_MODIFIED": 1572327087548,
-                                        "@_LINK": "https://telegram.me/lntxbot",
-                                        "icon": {
-                                            "@_BUILTIN": "bookmark"
-                                        }
-                                    },
-                                    {
-                                        "@_TEXT": "reddit",
-                                        "@_ID": "ID_1462350239",
-                                        "@_CREATED": 1569861584214,
-                                        "@_MODIFIED": 1572326975747,
-                                        "@_LINK": "https://www.reddit.com/r/lntipbot/wiki/index"
-                                    },
-                                    {
-                                        "@_TEXT": "slack",
-                                        "@_ID": "ID_257285561",
-                                        "@_CREATED": 1569939908911,
-                                        "@_MODIFIED": 1572326997212,
-                                        "@_LINK": "https://github.com/CryptoFR/ln-tip-slack"
-                                    },
-                                    {
-                                        "@_TEXT": "bluewallet",
-                                        "@_ID": "ID_1055163816",
-                                        "@_CREATED": 1569940196555,
-                                        "@_MODIFIED": 1572327002101,
-                                        "@_LINK": "https://bluewallet.io/"
-                                    },
-                                    {
-                                        "@_TEXT": "tippin.me",
-                                        "@_ID": "ID_364851805",
-                                        "@_CREATED": 1569940220613,
-                                        "@_MODIFIED": 1572327007514,
-                                        "@_LINK": "https://tippin.me/"
-                                    },
-                                    {
-                                        "@_TEXT": "wallet of satoshi",
-                                        "@_ID": "ID_307350684",
-                                        "@_CREATED": 1569940255658,
-                                        "@_MODIFIED": 1572327449653,
-                                        "@_LINK": "https://www.walletofsatoshi.com/"
-                                    },
-                                    {
-                                        "@_TEXT": "tallycoin",
-                                        "@_ID": "ID_454932096",
-                                        "@_CREATED": 1570875523342,
-                                        "@_MODIFIED": 1572327016361,
-                                        "@_LINK": "https://tallyco.in/"
-                                    },
-                                    {
-                                        "@_TEXT": "opennode",
-                                        "@_ID": "ID_847595710",
-                                        "@_CREATED": 1570875537695,
-                                        "@_MODIFIED": 1572327019427,
-                                        "@_LINK": "https://www.opennode.com/"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "@_TEXT": "mobile",
-                            "@_ID": "ID_129906959",
-                            "@_CREATED": 1569865342316,
-                            "@_MODIFIED": 1569865344676,
+                            "@_TEXT": "news",
+                            "@_ID": "ID_1050804376",
+                            "@_CREATED": 1570785347577,
+                            "@_MODIFIED": 1572157784490,
+                            "icon": {
+                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Blog"
+                            },
+                            "font": {
+                                "@_BOLD": false
+                            },
                             "node": [
                                 {
-                                    "@_TEXT": "eclair",
-                                    "@_ID": "ID_1897401807",
-                                    "@_CREATED": 1569865345413,
-                                    "@_MODIFIED": 1572242783622,
-                                    "@_LINK": "https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"
+                                    "@_TEXT": "twitter",
+                                    "@_ID": "ID_1210018261",
+                                    "@_CREATED": 1570875815581,
+                                    "@_MODIFIED": 1572329626272,
+                                    "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
                                 },
                                 {
-                                    "@_TEXT": "bluewallet",
-                                    "@_ID": "ID_822394219",
-                                    "@_CREATED": 1569865347180,
-                                    "@_MODIFIED": 1572242771209,
-                                    "@_LINK": "https://bluewallet.io/"
+                                    "@_TEXT": "bitcoinlightning.com",
+                                    "@_ID": "ID_1919527951",
+                                    "@_CREATED": 1570785367171,
+                                    "@_MODIFIED": 1572329634388,
+                                    "@_LINK": "https://www.bitcoinlightning.com/"
                                 },
                                 {
-                                    "@_TEXT": "breez",
-                                    "@_ID": "ID_1306780446",
-                                    "@_CREATED": 1572242750406,
-                                    "@_MODIFIED": 1572242757035,
-                                    "@_LINK": "https://breez.technology/"
+                                    "@_TEXT": "Lightning Junkies",
+                                    "@_ID": "ID_35176243",
+                                    "@_CREATED": 1572163778303,
+                                    "@_MODIFIED": 1572163785621,
+                                    "@_LINK": "https://anchor.fm/lightning-junkies/"
+                                },
+                                {
+                                    "@_TEXT": "reddit lightning",
+                                    "@_ID": "ID_1326491802",
+                                    "@_CREATED": 1572678314251,
+                                    "@_MODIFIED": 1572678320426,
+                                    "@_LINK": "https://www.reddit.com/r/TheLightningNetwork/",
+                                    "node": {
+                                        "@_TEXT": "reddit bitcoin",
+                                        "@_ID": "ID_1113616580",
+                                        "@_CREATED": 1572678276269,
+                                        "@_MODIFIED": 1572678294193,
+                                        "@_LINK": "https://www.reddit.com/r/Bitcoin/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "telegram",
+                            "@_ID": "ID_1812873111",
+                            "@_CREATED": 1571777297570,
+                            "@_MODIFIED": 1572157764327,
+                            "icon": {
+                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "Lightning Makers",
+                                    "@_ID": "ID_31009961",
+                                    "@_CREATED": 1571777277694,
+                                    "@_MODIFIED": 1571777285150,
+                                    "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
+                                },
+                                {
+                                    "@_TEXT": "Lightning",
+                                    "@_ID": "ID_95271556",
+                                    "@_CREATED": 1571777314980,
+                                    "@_MODIFIED": 1571777321996,
+                                    "@_LINK": "https://t.me/lightning_network"
                                 }
                             ]
                         }
@@ -334,10 +296,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572329677282,
+                    "@_MODIFIED": 1572704072048,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "18.499999865889553 pt",
-                    "@_VSHIFT_QUANTITY": "-46.49999861419206 pt",
+                    "@_HGAP_QUANTITY": "53.74999881535771 pt",
+                    "@_VSHIFT_QUANTITY": "11.249999664723873 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
@@ -502,102 +464,6 @@
                     ]
                 },
                 {
-                    "@_TEXT": "communities",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1699377289",
-                    "@_CREATED": 1571777237336,
-                    "@_MODIFIED": 1572157800680,
-                    "@_HGAP_QUANTITY": "-177.99999427795427 pt",
-                    "@_VSHIFT_QUANTITY": "-11.999999642372144 pt",
-                    "@_COLOR": "#cccc00",
-                    "icon": {
-                        "@_BUILTIN": "licq"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "news",
-                            "@_ID": "ID_1050804376",
-                            "@_CREATED": 1570785347577,
-                            "@_MODIFIED": 1572157784490,
-                            "icon": {
-                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Blog"
-                            },
-                            "font": {
-                                "@_BOLD": false
-                            },
-                            "node": [
-                                {
-                                    "@_TEXT": "twitter",
-                                    "@_ID": "ID_1210018261",
-                                    "@_CREATED": 1570875815581,
-                                    "@_MODIFIED": 1572329626272,
-                                    "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
-                                },
-                                {
-                                    "@_TEXT": "bitcoinlightning.com",
-                                    "@_ID": "ID_1919527951",
-                                    "@_CREATED": 1570785367171,
-                                    "@_MODIFIED": 1572329634388,
-                                    "@_LINK": "https://www.bitcoinlightning.com/"
-                                },
-                                {
-                                    "@_TEXT": "Lightning Junkies",
-                                    "@_ID": "ID_35176243",
-                                    "@_CREATED": 1572163778303,
-                                    "@_MODIFIED": 1572163785621,
-                                    "@_LINK": "https://anchor.fm/lightning-junkies/"
-                                },
-                                {
-                                    "@_TEXT": "reddit lightning",
-                                    "@_ID": "ID_1326491802",
-                                    "@_CREATED": 1572678314251,
-                                    "@_MODIFIED": 1572678320426,
-                                    "@_LINK": "https://www.reddit.com/r/TheLightningNetwork/",
-                                    "node": {
-                                        "@_TEXT": "reddit bitcoin",
-                                        "@_ID": "ID_1113616580",
-                                        "@_CREATED": 1572678276269,
-                                        "@_MODIFIED": 1572678294193,
-                                        "@_LINK": "https://www.reddit.com/r/Bitcoin/"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "@_TEXT": "telegram",
-                            "@_ID": "ID_1812873111",
-                            "@_CREATED": 1571777297570,
-                            "@_MODIFIED": 1572157764327,
-                            "icon": {
-                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
-                            },
-                            "node": [
-                                {
-                                    "@_TEXT": "Lightning Makers",
-                                    "@_ID": "ID_31009961",
-                                    "@_CREATED": 1571777277694,
-                                    "@_MODIFIED": 1571777285150,
-                                    "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
-                                },
-                                {
-                                    "@_TEXT": "Lightning",
-                                    "@_ID": "ID_95271556",
-                                    "@_CREATED": 1571777314980,
-                                    "@_MODIFIED": 1571777321996,
-                                    "@_LINK": "https://t.me/lightning_network"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "@_TEXT": "links",
                     "@_POSITION": "left",
                     "@_ID": "ID_728396892",
@@ -729,6 +595,140 @@
                                 "@_MODIFIED": 1572329613833,
                                 "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
                             }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "wallets",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_403237537",
+                    "@_CREATED": 1569861472802,
+                    "@_MODIFIED": 1572704119311,
+                    "@_COLOR": "#0000cc",
+                    "@_HGAP_QUANTITY": "-159.99999481439605 pt",
+                    "@_VSHIFT_QUANTITY": "-39.74999881535771 pt",
+                    "icon": {
+                        "@_BUILTIN": "password"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "custodial",
+                            "@_ID": "ID_713142011",
+                            "@_CREATED": 1569861478020,
+                            "@_MODIFIED": 1569861480116,
+                            "node": {
+                                "@_TEXT": "web",
+                                "@_ID": "ID_1071283894",
+                                "@_CREATED": 1569861594542,
+                                "@_MODIFIED": 1569861597550,
+                                "node": [
+                                    {
+                                        "@_TEXT": "bottle pay",
+                                        "@_ID": "ID_1723379621",
+                                        "@_CREATED": 1569940699896,
+                                        "@_MODIFIED": 1572327080405,
+                                        "@_LINK": "https://bottle.li/",
+                                        "icon": {
+                                            "@_BUILTIN": "bookmark"
+                                        }
+                                    },
+                                    {
+                                        "@_TEXT": "telegram",
+                                        "@_ID": "ID_38516786",
+                                        "@_CREATED": 1569940633761,
+                                        "@_MODIFIED": 1572327087548,
+                                        "@_LINK": "https://telegram.me/lntxbot",
+                                        "icon": {
+                                            "@_BUILTIN": "bookmark"
+                                        }
+                                    },
+                                    {
+                                        "@_TEXT": "reddit",
+                                        "@_ID": "ID_1462350239",
+                                        "@_CREATED": 1569861584214,
+                                        "@_MODIFIED": 1572326975747,
+                                        "@_LINK": "https://www.reddit.com/r/lntipbot/wiki/index"
+                                    },
+                                    {
+                                        "@_TEXT": "slack",
+                                        "@_ID": "ID_257285561",
+                                        "@_CREATED": 1569939908911,
+                                        "@_MODIFIED": 1572326997212,
+                                        "@_LINK": "https://github.com/CryptoFR/ln-tip-slack"
+                                    },
+                                    {
+                                        "@_TEXT": "bluewallet",
+                                        "@_ID": "ID_1055163816",
+                                        "@_CREATED": 1569940196555,
+                                        "@_MODIFIED": 1572327002101,
+                                        "@_LINK": "https://bluewallet.io/"
+                                    },
+                                    {
+                                        "@_TEXT": "tippin.me",
+                                        "@_ID": "ID_364851805",
+                                        "@_CREATED": 1569940220613,
+                                        "@_MODIFIED": 1572327007514,
+                                        "@_LINK": "https://tippin.me/"
+                                    },
+                                    {
+                                        "@_TEXT": "wallet of satoshi",
+                                        "@_ID": "ID_307350684",
+                                        "@_CREATED": 1569940255658,
+                                        "@_MODIFIED": 1572327449653,
+                                        "@_LINK": "https://www.walletofsatoshi.com/"
+                                    },
+                                    {
+                                        "@_TEXT": "tallycoin",
+                                        "@_ID": "ID_454932096",
+                                        "@_CREATED": 1570875523342,
+                                        "@_MODIFIED": 1572327016361,
+                                        "@_LINK": "https://tallyco.in/"
+                                    },
+                                    {
+                                        "@_TEXT": "opennode",
+                                        "@_ID": "ID_847595710",
+                                        "@_CREATED": 1570875537695,
+                                        "@_MODIFIED": 1572327019427,
+                                        "@_LINK": "https://www.opennode.com/"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@_TEXT": "mobile",
+                            "@_ID": "ID_129906959",
+                            "@_CREATED": 1569865342316,
+                            "@_MODIFIED": 1569865344676,
+                            "node": [
+                                {
+                                    "@_TEXT": "eclair",
+                                    "@_ID": "ID_1897401807",
+                                    "@_CREATED": 1569865345413,
+                                    "@_MODIFIED": 1572242783622,
+                                    "@_LINK": "https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"
+                                },
+                                {
+                                    "@_TEXT": "bluewallet",
+                                    "@_ID": "ID_822394219",
+                                    "@_CREATED": 1569865347180,
+                                    "@_MODIFIED": 1572242771209,
+                                    "@_LINK": "https://bluewallet.io/"
+                                },
+                                {
+                                    "@_TEXT": "breez",
+                                    "@_ID": "ID_1306780446",
+                                    "@_CREATED": 1572242750406,
+                                    "@_MODIFIED": 1572242757035,
+                                    "@_LINK": "https://breez.technology/"
+                                }
+                            ]
                         }
                     ]
                 }

@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572329677283" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572704129361" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -65,34 +65,27 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1572157797389" COLOR="#0000cc" HGAP_QUANTITY="-159.2499948367478 pt" VSHIFT_QUANTITY="-24.74999926239254 pt">
-<icon BUILTIN="password"/>
+<node TEXT="communities" POSITION="right" ID="ID_1699377289" CREATED="1571777237336" MODIFIED="1572704129360" HGAP_QUANTITY="-178.74999425560253 pt" VSHIFT_QUANTITY="66.74999801069504 pt" COLOR="#cccc00">
+<icon BUILTIN="licq"/>
 <font SIZE="12" BOLD="true"/>
-<edge COLOR="#007c00"/>
-<node TEXT="custodial" ID="ID_713142011" CREATED="1569861478020" MODIFIED="1569861480116">
-<node TEXT="web" ID="ID_1071283894" CREATED="1569861594542" MODIFIED="1569861597550">
-<node TEXT="bottle pay" ID="ID_1723379621" CREATED="1569940699896" MODIFIED="1572327080405" LINK="https://bottle.li/">
-<icon BUILTIN="bookmark"/>
-</node>
-<node TEXT="telegram" ID="ID_38516786" CREATED="1569940633761" MODIFIED="1572327087548" LINK="https://telegram.me/lntxbot">
-<icon BUILTIN="bookmark"/>
-</node>
-<node TEXT="reddit" ID="ID_1462350239" CREATED="1569861584214" MODIFIED="1572326975747" LINK="https://www.reddit.com/r/lntipbot/wiki/index"/>
-<node TEXT="slack" ID="ID_257285561" CREATED="1569939908911" MODIFIED="1572326997212" LINK="https://github.com/CryptoFR/ln-tip-slack"/>
-<node TEXT="bluewallet" ID="ID_1055163816" CREATED="1569940196555" MODIFIED="1572327002101" LINK="https://bluewallet.io/"/>
-<node TEXT="tippin.me" ID="ID_364851805" CREATED="1569940220613" MODIFIED="1572327007514" LINK="https://tippin.me/"/>
-<node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
-<node TEXT="tallycoin" ID="ID_454932096" CREATED="1570875523342" MODIFIED="1572327016361" LINK="https://tallyco.in/"/>
-<node TEXT="opennode" ID="ID_847595710" CREATED="1570875537695" MODIFIED="1572327019427" LINK="https://www.opennode.com/"/>
+<edge COLOR="#ff00ff"/>
+<node TEXT="news" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572157784490">
+<icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
+<font BOLD="false"/>
+<node TEXT="twitter" ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1572329626272" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"/>
+<node TEXT="bitcoinlightning.com" ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1572329634388" LINK="https://www.bitcoinlightning.com/"/>
+<node TEXT="Lightning Junkies" ID="ID_35176243" CREATED="1572163778303" MODIFIED="1572163785621" LINK="https://anchor.fm/lightning-junkies/"/>
+<node TEXT="reddit lightning" ID="ID_1326491802" CREATED="1572678314251" MODIFIED="1572678320426" LINK="https://www.reddit.com/r/TheLightningNetwork/">
+<node TEXT="reddit bitcoin" ID="ID_1113616580" CREATED="1572678276269" MODIFIED="1572678294193" LINK="https://www.reddit.com/r/Bitcoin/"/>
 </node>
 </node>
-<node TEXT="mobile" ID="ID_129906959" CREATED="1569865342316" MODIFIED="1569865344676">
-<node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
-<node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1572242771209" LINK="https://bluewallet.io/"/>
-<node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
+<node TEXT="telegram" ID="ID_1812873111" CREATED="1571777297570" MODIFIED="1572157764327">
+<icon BUILTIN="16x16-free-application-icons/png/16x16/Comment"/>
+<node TEXT="Lightning Makers" ID="ID_31009961" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
+<node TEXT="Lightning" ID="ID_95271556" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572329677282" COLOR="#009933" HGAP_QUANTITY="18.499999865889553 pt" VSHIFT_QUANTITY="-46.49999861419206 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572704072048" COLOR="#009933" HGAP_QUANTITY="53.74999881535771 pt" VSHIFT_QUANTITY="11.249999664723873 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -136,26 +129,6 @@
 </node>
 </node>
 </node>
-<node TEXT="communities" POSITION="right" ID="ID_1699377289" CREATED="1571777237336" MODIFIED="1572157800680" HGAP_QUANTITY="-177.99999427795427 pt" VSHIFT_QUANTITY="-11.999999642372144 pt" COLOR="#cccc00">
-<icon BUILTIN="licq"/>
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#ff00ff"/>
-<node TEXT="news" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572157784490">
-<icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
-<font BOLD="false"/>
-<node TEXT="twitter" ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1572329626272" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"/>
-<node TEXT="bitcoinlightning.com" ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1572329634388" LINK="https://www.bitcoinlightning.com/"/>
-<node TEXT="Lightning Junkies" ID="ID_35176243" CREATED="1572163778303" MODIFIED="1572163785621" LINK="https://anchor.fm/lightning-junkies/"/>
-<node TEXT="reddit lightning" ID="ID_1326491802" CREATED="1572678314251" MODIFIED="1572678320426" LINK="https://www.reddit.com/r/TheLightningNetwork/">
-<node TEXT="reddit bitcoin" ID="ID_1113616580" CREATED="1572678276269" MODIFIED="1572678294193" LINK="https://www.reddit.com/r/Bitcoin/"/>
-</node>
-</node>
-<node TEXT="telegram" ID="ID_1812873111" CREATED="1571777297570" MODIFIED="1572157764327">
-<icon BUILTIN="16x16-free-application-icons/png/16x16/Comment"/>
-<node TEXT="Lightning Makers" ID="ID_31009961" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
-<node TEXT="Lightning" ID="ID_95271556" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
-</node>
-</node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1572155697504" COLOR="#cc00cc" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="-8.999999731779106 pt">
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
@@ -184,6 +157,33 @@
 <icon BUILTIN="wizard"/>
 <font BOLD="true"/>
 <node TEXT="lightning rfc" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572329613833" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
+</node>
+</node>
+<node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1572704119311" COLOR="#0000cc" HGAP_QUANTITY="-159.99999481439605 pt" VSHIFT_QUANTITY="-39.74999881535771 pt">
+<icon BUILTIN="password"/>
+<font SIZE="12" BOLD="true"/>
+<edge COLOR="#007c00"/>
+<node TEXT="custodial" ID="ID_713142011" CREATED="1569861478020" MODIFIED="1569861480116">
+<node TEXT="web" ID="ID_1071283894" CREATED="1569861594542" MODIFIED="1569861597550">
+<node TEXT="bottle pay" ID="ID_1723379621" CREATED="1569940699896" MODIFIED="1572327080405" LINK="https://bottle.li/">
+<icon BUILTIN="bookmark"/>
+</node>
+<node TEXT="telegram" ID="ID_38516786" CREATED="1569940633761" MODIFIED="1572327087548" LINK="https://telegram.me/lntxbot">
+<icon BUILTIN="bookmark"/>
+</node>
+<node TEXT="reddit" ID="ID_1462350239" CREATED="1569861584214" MODIFIED="1572326975747" LINK="https://www.reddit.com/r/lntipbot/wiki/index"/>
+<node TEXT="slack" ID="ID_257285561" CREATED="1569939908911" MODIFIED="1572326997212" LINK="https://github.com/CryptoFR/ln-tip-slack"/>
+<node TEXT="bluewallet" ID="ID_1055163816" CREATED="1569940196555" MODIFIED="1572327002101" LINK="https://bluewallet.io/"/>
+<node TEXT="tippin.me" ID="ID_364851805" CREATED="1569940220613" MODIFIED="1572327007514" LINK="https://tippin.me/"/>
+<node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
+<node TEXT="tallycoin" ID="ID_454932096" CREATED="1570875523342" MODIFIED="1572327016361" LINK="https://tallyco.in/"/>
+<node TEXT="opennode" ID="ID_847595710" CREATED="1570875537695" MODIFIED="1572327019427" LINK="https://www.opennode.com/"/>
+</node>
+</node>
+<node TEXT="mobile" ID="ID_129906959" CREATED="1569865342316" MODIFIED="1569865344676">
+<node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
+<node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1572242771209" LINK="https://bluewallet.io/"/>
+<node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
 </node>
 </node>
 </node>
