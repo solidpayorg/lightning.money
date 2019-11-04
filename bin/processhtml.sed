@@ -70,6 +70,7 @@ s/\(korn\).png/\1.svg/g
 s/\(ksmiletris\).png/\1.svg/g
 s/\(launch\).png/\1.svg/g
 s/\(licq\).png/\1.svg/g
+s/\(lightning\).png/\1.svg/g
 s/\(list\).png/\1.svg/g
 s/\(Mail\).png/\1.svg/g
 s/\(male1\).png/\1.svg/g
