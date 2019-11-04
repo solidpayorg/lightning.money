@@ -82,7 +82,7 @@
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="flipboard" ID="ID_1455288855" CREATED="1572858003452" MODIFIED="1572858017995" LINK="https://flipboard.com/topic/lightningnetwork">
+<node TEXT="flipboard" ID="ID_1455288855" CREATED="1572858003452" MODIFIED="1572858149114" LINK="https://flipboard.com/topic/lightningnetwork">
 <font SIZE="12"/>
 </node>
 <node TEXT="bitcoinlightning.com" ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1572852766186" LINK="https://www.bitcoinlightning.com/">
