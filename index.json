@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572853987799,
+            "@_MODIFIED": 1572858023745,
             "@_ICON_SIZE": "24.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -260,6 +260,16 @@
                             }
                         },
                         {
+                            "@_TEXT": "flipboard",
+                            "@_ID": "ID_1455288855",
+                            "@_CREATED": 1572858003452,
+                            "@_MODIFIED": 1572858017995,
+                            "@_LINK": "https://flipboard.com/topic/lightningnetwork",
+                            "font": {
+                                "@_SIZE": 12
+                            }
+                        },
+                        {
                             "@_TEXT": "bitcoinlightning.com",
                             "@_ID": "ID_1919527951",
                             "@_CREATED": 1570785367171,
@@ -276,10 +286,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572852821458,
+                    "@_MODIFIED": 1572858023744,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "49.24999894946816 pt",
-                    "@_VSHIFT_QUANTITY": "41.24999877065423 pt",
+                    "@_HGAP_QUANTITY": "49.999998927116415 pt",
+                    "@_VSHIFT_QUANTITY": "32.99999901652338 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },

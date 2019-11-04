@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572853987799" ICON_SIZE="24.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572858023745" ICON_SIZE="24.0 pt" STYLE="oval">
 <icon BUILTIN="lightning"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -82,11 +82,14 @@
 <font SIZE="12"/>
 </node>
 </node>
+<node TEXT="flipboard" ID="ID_1455288855" CREATED="1572858003452" MODIFIED="1572858017995" LINK="https://flipboard.com/topic/lightningnetwork">
+<font SIZE="12"/>
+</node>
 <node TEXT="bitcoinlightning.com" ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1572852766186" LINK="https://www.bitcoinlightning.com/">
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572852821458" COLOR="#009933" HGAP_QUANTITY="49.24999894946816 pt" VSHIFT_QUANTITY="41.24999877065423 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572858023744" COLOR="#009933" HGAP_QUANTITY="49.999998927116415 pt" VSHIFT_QUANTITY="32.99999901652338 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
