@@ -42,18 +42,6 @@
 <#ID_458425639> <urn:string:@_TEXT> """lightning.gifts""" .
 <#ID_458425639> <urn:string:child> <ID_458425639> .
 <#ID_728396892> <urn:string:@_TEXT> """links""" .
-<#ID_1704672214> <urn:string:@_TEXT> """this page""" .
-<#ID_1704672214> <urn:string:child> <ID_1704672214> .
-<#ID_1211678675> <urn:string:@_TEXT> """open source""" .
-<#ID_1211678675> <urn:string:child> <ID_1211678675> .
-<#ID_1677347904> <urn:string:@_TEXT> """issues""" .
-<#ID_1677347904> <urn:string:child> <ID_1677347904> .
-<#ID_903253757> <urn:string:@_TEXT> """JSON""" .
-<#ID_903253757> <urn:string:child> <ID_903253757> .
-<#ID_963935095> <urn:string:@_TEXT> """.mm mindmap""" .
-<#ID_963935095> <urn:string:child> <ID_963935095> .
-<#ID_1528568892> <urn:string:@_TEXT> """made using webmaps.io""" .
-<#ID_1528568892> <urn:string:child> <ID_1528568892> .
 <#ID_1744026554> <urn:string:@_TEXT> """lists""" .
 <#ID_1744026554> <urn:string:child> <ID_1744026554> .
 <#ID_1897426799> <urn:string:@_TEXT> """lopp list""" .
@@ -75,3 +63,14 @@
 <#ID_1897401807> <urn:string:child> <ID_1897401807> .
 <#ID_1306780446> <urn:string:@_TEXT> """breez""" .
 <#ID_1306780446> <urn:string:child> <ID_1306780446> .
+<#ID_1317750066> <urn:string:@_TEXT> """About""" .
+<#ID_1282003855> <urn:string:@_TEXT> """open source""" .
+<#ID_1282003855> <urn:string:child> <ID_1282003855> .
+<#ID_626425432> <urn:string:@_TEXT> """issues""" .
+<#ID_626425432> <urn:string:child> <ID_626425432> .
+<#ID_1036943768> <urn:string:@_TEXT> """JSON""" .
+<#ID_1036943768> <urn:string:child> <ID_1036943768> .
+<#ID_650973396> <urn:string:@_TEXT> """.mm mindmap""" .
+<#ID_650973396> <urn:string:child> <ID_650973396> .
+<#ID_1523769386> <urn:string:@_TEXT> """made using webmaps.io""" .
+<#ID_1523769386> <urn:string:child> <ID_1523769386> .

@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572851392380" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572852194436" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -75,7 +75,7 @@
 <node TEXT="Lightning" ID="ID_95271556" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
 </node>
 </node>
-<node TEXT="News" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_747447826" CREATED="1572851174112" MODIFIED="1572851392379" HGAP_QUANTITY="-280.4999916404488 pt" VSHIFT_QUANTITY="-130.49999611079704 pt" COLOR="#000099">
+<node TEXT="News" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_747447826" CREATED="1572851174112" MODIFIED="1572852032923" HGAP_QUANTITY="-242.99999275803586 pt" VSHIFT_QUANTITY="-129.74999613314878 pt" COLOR="#000099">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
 <hook NAME="FreeNode"/>
 <font SIZE="12" BOLD="true"/>
@@ -134,19 +134,6 @@
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="this page" ID="ID_1704672214" CREATED="1569940752211" MODIFIED="1572154794859">
-<icon BUILTIN="broken-line"/>
-<font BOLD="true"/>
-<node TEXT="open source" ID="ID_1211678675" CREATED="1569940791266" MODIFIED="1572157792168" LINK="https://github.com/solidpayorg/lightning.money/">
-<icon BUILTIN="button_ok"/>
-</node>
-<node TEXT="issues" ID="ID_1677347904" CREATED="1569940820101" MODIFIED="1569940824129" LINK="https://github.com/solidpayorg/lightning.money/issues">
-<node TEXT="improve me!" ID="ID_824388782" CREATED="1569940807703" MODIFIED="1569940810176"/>
-</node>
-<node TEXT="JSON" ID="ID_903253757" CREATED="1569940872371" MODIFIED="1569940882474" LINK="index.json"/>
-<node TEXT=".mm mindmap" ID="ID_963935095" CREATED="1569940890302" MODIFIED="1569940906746" LINK="index.mm"/>
-<node TEXT="made using webmaps.io" ID="ID_1528568892" CREATED="1572168531186" MODIFIED="1572168557816" LINK="https://webmaps.io/"/>
-</node>
 <node TEXT="lists" ID="ID_1744026554" CREATED="1569861388704" MODIFIED="1572154793341">
 <icon BUILTIN="list"/>
 <font BOLD="true"/>
@@ -185,6 +172,20 @@
 <node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
 <node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
 </node>
+</node>
+<node TEXT="About" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1317750066" CREATED="1572851945824" MODIFIED="1572852194435" HGAP_QUANTITY="-243.74999273568415 pt" VSHIFT_QUANTITY="242.9999927580358 pt" COLOR="#990033">
+<icon BUILTIN="help"/>
+<hook NAME="FreeNode"/>
+<font SIZE="12" BOLD="true"/>
+<node TEXT="open source" ID="ID_1282003855" CREATED="1569940791266" MODIFIED="1572157792168" LINK="https://github.com/solidpayorg/lightning.money/">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="issues" ID="ID_626425432" CREATED="1569940820101" MODIFIED="1569940824129" LINK="https://github.com/solidpayorg/lightning.money/issues">
+<node TEXT="improve me!" ID="ID_1248374984" CREATED="1569940807703" MODIFIED="1569940810176"/>
+</node>
+<node TEXT="JSON" ID="ID_1036943768" CREATED="1569940872371" MODIFIED="1569940882474" LINK="index.json"/>
+<node TEXT=".mm mindmap" ID="ID_650973396" CREATED="1569940890302" MODIFIED="1569940906746" LINK="index.mm"/>
+<node TEXT="made using webmaps.io" ID="ID_1523769386" CREATED="1572168531186" MODIFIED="1572168557816" LINK="https://webmaps.io/"/>
 </node>
 </node>
 </map>
