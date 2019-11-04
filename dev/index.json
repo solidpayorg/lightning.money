@@ -254,8 +254,8 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1858353829",
                     "@_CREATED": 1569861461668,
-                    "@_MODIFIED": 1572863042047,
-                    "@_LINK": "spec/index.mm",
+                    "@_MODIFIED": 1572863179398,
+                    "@_LINK": "../spec/index.mm",
                     "edge": {
                         "@_COLOR": "#007c7c"
                     }
