@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572704129361" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572851392380" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -69,23 +69,24 @@
 <icon BUILTIN="licq"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="news" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572157784490">
-<icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
-<font BOLD="false"/>
-<node TEXT="twitter" ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1572329626272" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"/>
-<node TEXT="bitcoinlightning.com" ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1572329634388" LINK="https://www.bitcoinlightning.com/"/>
-<node TEXT="Lightning Junkies" ID="ID_35176243" CREATED="1572163778303" MODIFIED="1572163785621" LINK="https://anchor.fm/lightning-junkies/"/>
-<node TEXT="reddit lightning" ID="ID_1326491802" CREATED="1572678314251" MODIFIED="1572678320426" LINK="https://www.reddit.com/r/TheLightningNetwork/">
-<node TEXT="reddit bitcoin" ID="ID_1113616580" CREATED="1572678276269" MODIFIED="1572678294193" LINK="https://www.reddit.com/r/Bitcoin/"/>
-</node>
-</node>
 <node TEXT="telegram" ID="ID_1812873111" CREATED="1571777297570" MODIFIED="1572157764327">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Comment"/>
 <node TEXT="Lightning Makers" ID="ID_31009961" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
 <node TEXT="Lightning" ID="ID_95271556" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572704072048" COLOR="#009933" HGAP_QUANTITY="53.74999881535771 pt" VSHIFT_QUANTITY="11.249999664723873 pt">
+<node TEXT="News" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_747447826" CREATED="1572851174112" MODIFIED="1572851392379" HGAP_QUANTITY="-280.4999916404488 pt" VSHIFT_QUANTITY="-130.49999611079704 pt" COLOR="#000099">
+<icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
+<hook NAME="FreeNode"/>
+<font SIZE="12" BOLD="true"/>
+<node TEXT="twitter" ID="ID_1081944060" CREATED="1570875815581" MODIFIED="1572329626272" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"/>
+<node TEXT="bitcoinlightning.com" ID="ID_1561626543" CREATED="1570785367171" MODIFIED="1572329634388" LINK="https://www.bitcoinlightning.com/"/>
+<node TEXT="Lightning Junkies" ID="ID_332457378" CREATED="1572163778303" MODIFIED="1572163785621" LINK="https://anchor.fm/lightning-junkies/"/>
+<node TEXT="reddit lightning" ID="ID_1124050694" CREATED="1572678314251" MODIFIED="1572678320426" LINK="https://www.reddit.com/r/TheLightningNetwork/">
+<node TEXT="reddit bitcoin" ID="ID_388710604" CREATED="1572678276269" MODIFIED="1572678294193" LINK="https://www.reddit.com/r/Bitcoin/"/>
+</node>
+</node>
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572851311051" COLOR="#009933" HGAP_QUANTITY="52.999998837709455 pt" VSHIFT_QUANTITY="36.749998904764674 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>

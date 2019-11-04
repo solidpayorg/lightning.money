@@ -1,20 +1,13 @@
 <#ID_1699377289> <urn:string:@_TEXT> """communities""" .
-<#ID_1050804376> <urn:string:@_TEXT> """news""" .
-<#ID_1050804376> <urn:string:child> <ID_1050804376> .
-<#ID_1210018261> <urn:string:@_TEXT> """twitter""" .
-<#ID_1210018261> <urn:string:child> <ID_1210018261> .
-<#ID_1919527951> <urn:string:@_TEXT> """bitcoinlightning.com""" .
-<#ID_1919527951> <urn:string:child> <ID_1919527951> .
-<#ID_35176243> <urn:string:@_TEXT> """Lightning Junkies""" .
-<#ID_35176243> <urn:string:child> <ID_35176243> .
-<#ID_1326491802> <urn:string:@_TEXT> """reddit lightning""" .
-<#ID_1326491802> <urn:string:child> <ID_1326491802> .
-<#ID_1812873111> <urn:string:@_TEXT> """telegram""" .
-<#ID_1812873111> <urn:string:child> <ID_1812873111> .
-<#ID_31009961> <urn:string:@_TEXT> """Lightning Makers""" .
-<#ID_31009961> <urn:string:child> <ID_31009961> .
-<#ID_95271556> <urn:string:@_TEXT> """Lightning""" .
-<#ID_95271556> <urn:string:child> <ID_95271556> .
+<#ID_747447826> <urn:string:@_TEXT> """News""" .
+<#ID_1081944060> <urn:string:@_TEXT> """twitter""" .
+<#ID_1081944060> <urn:string:child> <ID_1081944060> .
+<#ID_1561626543> <urn:string:@_TEXT> """bitcoinlightning.com""" .
+<#ID_1561626543> <urn:string:child> <ID_1561626543> .
+<#ID_332457378> <urn:string:@_TEXT> """Lightning Junkies""" .
+<#ID_332457378> <urn:string:child> <ID_332457378> .
+<#ID_1124050694> <urn:string:@_TEXT> """reddit lightning""" .
+<#ID_1124050694> <urn:string:child> <ID_1124050694> .
 <#ID_1438249466> <urn:string:@_TEXT> """lapps""" .
 <#ID_1938254040> <urn:string:@_TEXT> """directories""" .
 <#ID_1938254040> <urn:string:child> <ID_1938254040> .

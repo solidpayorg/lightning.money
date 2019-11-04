@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572704129361,
+            "@_MODIFIED": 1572851392380,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -214,80 +214,87 @@
                     "edge": {
                         "@_COLOR": "#ff00ff"
                     },
+                    "node": {
+                        "@_TEXT": "telegram",
+                        "@_ID": "ID_1812873111",
+                        "@_CREATED": 1571777297570,
+                        "@_MODIFIED": 1572157764327,
+                        "icon": {
+                            "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
+                        },
+                        "node": [
+                            {
+                                "@_TEXT": "Lightning Makers",
+                                "@_ID": "ID_31009961",
+                                "@_CREATED": 1571777277694,
+                                "@_MODIFIED": 1571777285150,
+                                "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
+                            },
+                            {
+                                "@_TEXT": "Lightning",
+                                "@_ID": "ID_95271556",
+                                "@_CREATED": 1571777314980,
+                                "@_MODIFIED": 1571777321996,
+                                "@_LINK": "https://t.me/lightning_network"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@_TEXT": "News",
+                    "@_LOCALIZED_STYLE_REF": "defaultstyle.floating",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_747447826",
+                    "@_CREATED": 1572851174112,
+                    "@_MODIFIED": 1572851392379,
+                    "@_HGAP_QUANTITY": "-280.4999916404488 pt",
+                    "@_VSHIFT_QUANTITY": "-130.49999611079704 pt",
+                    "@_COLOR": "#000099",
+                    "icon": {
+                        "@_BUILTIN": "16x16-free-application-icons/png/16x16/Blog"
+                    },
+                    "hook": {
+                        "@_NAME": "FreeNode"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
                     "node": [
                         {
-                            "@_TEXT": "news",
-                            "@_ID": "ID_1050804376",
-                            "@_CREATED": 1570785347577,
-                            "@_MODIFIED": 1572157784490,
-                            "icon": {
-                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Blog"
-                            },
-                            "font": {
-                                "@_BOLD": false
-                            },
-                            "node": [
-                                {
-                                    "@_TEXT": "twitter",
-                                    "@_ID": "ID_1210018261",
-                                    "@_CREATED": 1570875815581,
-                                    "@_MODIFIED": 1572329626272,
-                                    "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
-                                },
-                                {
-                                    "@_TEXT": "bitcoinlightning.com",
-                                    "@_ID": "ID_1919527951",
-                                    "@_CREATED": 1570785367171,
-                                    "@_MODIFIED": 1572329634388,
-                                    "@_LINK": "https://www.bitcoinlightning.com/"
-                                },
-                                {
-                                    "@_TEXT": "Lightning Junkies",
-                                    "@_ID": "ID_35176243",
-                                    "@_CREATED": 1572163778303,
-                                    "@_MODIFIED": 1572163785621,
-                                    "@_LINK": "https://anchor.fm/lightning-junkies/"
-                                },
-                                {
-                                    "@_TEXT": "reddit lightning",
-                                    "@_ID": "ID_1326491802",
-                                    "@_CREATED": 1572678314251,
-                                    "@_MODIFIED": 1572678320426,
-                                    "@_LINK": "https://www.reddit.com/r/TheLightningNetwork/",
-                                    "node": {
-                                        "@_TEXT": "reddit bitcoin",
-                                        "@_ID": "ID_1113616580",
-                                        "@_CREATED": 1572678276269,
-                                        "@_MODIFIED": 1572678294193,
-                                        "@_LINK": "https://www.reddit.com/r/Bitcoin/"
-                                    }
-                                }
-                            ]
+                            "@_TEXT": "twitter",
+                            "@_ID": "ID_1081944060",
+                            "@_CREATED": 1570875815581,
+                            "@_MODIFIED": 1572329626272,
+                            "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
                         },
                         {
-                            "@_TEXT": "telegram",
-                            "@_ID": "ID_1812873111",
-                            "@_CREATED": 1571777297570,
-                            "@_MODIFIED": 1572157764327,
-                            "icon": {
-                                "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
-                            },
-                            "node": [
-                                {
-                                    "@_TEXT": "Lightning Makers",
-                                    "@_ID": "ID_31009961",
-                                    "@_CREATED": 1571777277694,
-                                    "@_MODIFIED": 1571777285150,
-                                    "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
-                                },
-                                {
-                                    "@_TEXT": "Lightning",
-                                    "@_ID": "ID_95271556",
-                                    "@_CREATED": 1571777314980,
-                                    "@_MODIFIED": 1571777321996,
-                                    "@_LINK": "https://t.me/lightning_network"
-                                }
-                            ]
+                            "@_TEXT": "bitcoinlightning.com",
+                            "@_ID": "ID_1561626543",
+                            "@_CREATED": 1570785367171,
+                            "@_MODIFIED": 1572329634388,
+                            "@_LINK": "https://www.bitcoinlightning.com/"
+                        },
+                        {
+                            "@_TEXT": "Lightning Junkies",
+                            "@_ID": "ID_332457378",
+                            "@_CREATED": 1572163778303,
+                            "@_MODIFIED": 1572163785621,
+                            "@_LINK": "https://anchor.fm/lightning-junkies/"
+                        },
+                        {
+                            "@_TEXT": "reddit lightning",
+                            "@_ID": "ID_1124050694",
+                            "@_CREATED": 1572678314251,
+                            "@_MODIFIED": 1572678320426,
+                            "@_LINK": "https://www.reddit.com/r/TheLightningNetwork/",
+                            "node": {
+                                "@_TEXT": "reddit bitcoin",
+                                "@_ID": "ID_388710604",
+                                "@_CREATED": 1572678276269,
+                                "@_MODIFIED": 1572678294193,
+                                "@_LINK": "https://www.reddit.com/r/Bitcoin/"
+                            }
                         }
                     ]
                 },
@@ -296,10 +303,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572704072048,
+                    "@_MODIFIED": 1572851311051,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "53.74999881535771 pt",
-                    "@_VSHIFT_QUANTITY": "11.249999664723873 pt",
+                    "@_HGAP_QUANTITY": "52.999998837709455 pt",
+                    "@_VSHIFT_QUANTITY": "36.749998904764674 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
