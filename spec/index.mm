@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Bolts" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572171650122" LINK="https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#bolt-0-introduction-and-index" COLOR="#009933" HGAP_QUANTITY="27.499999597668662 pt" VSHIFT_QUANTITY="-62.24999814480549 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
@@ -74,18 +74,10 @@
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
-<node ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1569861461668" LINK="https://github.com/lightningnetwork/lightning-rfc"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/lightningnetwork/lightning-rfc">https://github.com/lightningnetwork/lightning-rfc</a> 
-  </body>
-</html>
-</richcontent>
+<node TEXT="main spec" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572862888469" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
 </node>
+<node TEXT="dev" POSITION="left" ID="ID_79546038" CREATED="1572862882627" MODIFIED="1572862907562" LINK="../dev/index.mm">
+<edge COLOR="#0000ff"/>
 </node>
 <node TEXT="Other" POSITION="right" ID="ID_928353311" CREATED="1572171327007" MODIFIED="1572171381957" COLOR="#cccc00">
 <icon BUILTIN="idea"/>
@@ -110,7 +102,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lnurl.com/">https://lnurl.com/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

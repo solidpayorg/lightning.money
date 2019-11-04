@@ -155,10 +155,10 @@
 <node TEXT="discord" ID="ID_217327859" CREATED="1572859278314" MODIFIED="1572859284381" LINK="https://discordapp.com/invite/sm2rfS7"/>
 <node TEXT="IRC" ID="ID_782092450" CREATED="1572859043621" MODIFIED="1572859050207" LINK="https://webchat.freenode.net/#lightning-dev"/>
 </node>
-<node TEXT="dev" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1572861556038" LINK="spec/index.mm">
+<node TEXT="dev" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1572862839819" LINK="dev/index.mm">
 <icon BUILTIN="wizard"/>
 <font BOLD="true"/>
-<node TEXT="specs" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572861612844" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
+<node TEXT="specs" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572862864097" LINK="spec/index.mm"/>
 <node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572861594213" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 <node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572861726125" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
 </node>

@@ -565,8 +565,8 @@
                             "@_TEXT": "dev",
                             "@_ID": "ID_1721082161",
                             "@_CREATED": 1569861329052,
-                            "@_MODIFIED": 1572861556038,
-                            "@_LINK": "spec/index.mm",
+                            "@_MODIFIED": 1572862839819,
+                            "@_LINK": "dev/index.mm",
                             "icon": {
                                 "@_BUILTIN": "wizard"
                             },
@@ -578,8 +578,8 @@
                                     "@_TEXT": "specs",
                                     "@_ID": "ID_1858353829",
                                     "@_CREATED": 1569861461668,
-                                    "@_MODIFIED": 1572861612844,
-                                    "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
+                                    "@_MODIFIED": 1572862864097,
+                                    "@_LINK": "spec/index.mm"
                                 },
                                 {
                                     "@_TEXT": "mailing list",
