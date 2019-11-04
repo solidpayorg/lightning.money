@@ -558,21 +558,14 @@
                                     "@_CREATED": 1572859043621,
                                     "@_MODIFIED": 1572859050207,
                                     "@_LINK": "https://webchat.freenode.net/#lightning-dev"
-                                },
-                                {
-                                    "@_TEXT": "dev mailing list",
-                                    "@_ID": "ID_307649319",
-                                    "@_CREATED": 1572859082436,
-                                    "@_MODIFIED": 1572859120022,
-                                    "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
                                 }
                             ]
                         },
                         {
-                            "@_TEXT": "spec",
+                            "@_TEXT": "dev",
                             "@_ID": "ID_1721082161",
                             "@_CREATED": 1569861329052,
-                            "@_MODIFIED": 1572171676343,
+                            "@_MODIFIED": 1572861556038,
                             "@_LINK": "spec/index.mm",
                             "icon": {
                                 "@_BUILTIN": "wizard"
@@ -580,13 +573,29 @@
                             "font": {
                                 "@_BOLD": true
                             },
-                            "node": {
-                                "@_TEXT": "lightning rfc",
-                                "@_ID": "ID_1858353829",
-                                "@_CREATED": 1569861461668,
-                                "@_MODIFIED": 1572329613833,
-                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
-                            }
+                            "node": [
+                                {
+                                    "@_TEXT": "specs",
+                                    "@_ID": "ID_1858353829",
+                                    "@_CREATED": 1569861461668,
+                                    "@_MODIFIED": 1572861612844,
+                                    "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
+                                },
+                                {
+                                    "@_TEXT": "mailing list",
+                                    "@_ID": "ID_307649319",
+                                    "@_CREATED": 1572859082436,
+                                    "@_MODIFIED": 1572861594213,
+                                    "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
+                                },
+                                {
+                                    "@_TEXT": "resources",
+                                    "@_ID": "ID_1911540836",
+                                    "@_CREATED": 1572861720975,
+                                    "@_MODIFIED": 1572861726125,
+                                    "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources"
+                                }
+                            ]
                         },
                         {
                             "@_TEXT": "about",

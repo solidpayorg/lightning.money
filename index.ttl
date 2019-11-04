@@ -63,10 +63,14 @@
 <#ID_217327859> <urn:string:child> <ID_217327859> .
 <#ID_782092450> <urn:string:@_TEXT> """IRC""" .
 <#ID_782092450> <urn:string:child> <ID_782092450> .
-<#ID_307649319> <urn:string:@_TEXT> """dev mailing list""" .
-<#ID_307649319> <urn:string:child> <ID_307649319> .
-<#ID_1721082161> <urn:string:@_TEXT> """spec""" .
+<#ID_1721082161> <urn:string:@_TEXT> """dev""" .
 <#ID_1721082161> <urn:string:child> <ID_1721082161> .
+<#ID_1858353829> <urn:string:@_TEXT> """specs""" .
+<#ID_1858353829> <urn:string:child> <ID_1858353829> .
+<#ID_307649319> <urn:string:@_TEXT> """mailing list""" .
+<#ID_307649319> <urn:string:child> <ID_307649319> .
+<#ID_1911540836> <urn:string:@_TEXT> """resources""" .
+<#ID_1911540836> <urn:string:child> <ID_1911540836> .
 <#ID_1704672214> <urn:string:@_TEXT> """about""" .
 <#ID_1704672214> <urn:string:child> <ID_1704672214> .
 <#ID_1211678675> <urn:string:@_TEXT> """open source""" .
