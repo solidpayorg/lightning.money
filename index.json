@@ -664,13 +664,6 @@
                                         "@_LINK": "https://github.com/CryptoFR/ln-tip-slack"
                                     },
                                     {
-                                        "@_TEXT": "bluewallet",
-                                        "@_ID": "ID_1055163816",
-                                        "@_CREATED": 1569940196555,
-                                        "@_MODIFIED": 1572327002101,
-                                        "@_LINK": "https://bluewallet.io/"
-                                    },
-                                    {
                                         "@_TEXT": "tippin.me",
                                         "@_ID": "ID_364851805",
                                         "@_CREATED": 1569940220613,
@@ -708,18 +701,18 @@
                             "@_MODIFIED": 1569865344676,
                             "node": [
                                 {
-                                    "@_TEXT": "eclair",
-                                    "@_ID": "ID_1897401807",
-                                    "@_CREATED": 1569865345413,
-                                    "@_MODIFIED": 1572242783622,
-                                    "@_LINK": "https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"
-                                },
-                                {
                                     "@_TEXT": "bluewallet",
                                     "@_ID": "ID_822394219",
                                     "@_CREATED": 1569865347180,
                                     "@_MODIFIED": 1572242771209,
                                     "@_LINK": "https://bluewallet.io/"
+                                },
+                                {
+                                    "@_TEXT": "eclair",
+                                    "@_ID": "ID_1897401807",
+                                    "@_CREATED": 1569865345413,
+                                    "@_MODIFIED": 1572242783622,
+                                    "@_LINK": "https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"
                                 },
                                 {
                                     "@_TEXT": "breez",
