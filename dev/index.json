@@ -191,7 +191,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 12,
+                    "@_COUNTER": 13,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -280,6 +280,17 @@
                     "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources",
                     "edge": {
                         "@_COLOR": "#ff0000"
+                    }
+                },
+                {
+                    "@_TEXT": "vouchers",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1943871369",
+                    "@_CREATED": 1572863253615,
+                    "@_MODIFIED": 1572863268309,
+                    "@_LINK": "vouchers.mm",
+                    "edge": {
+                        "@_COLOR": "#0000ff"
                     }
                 }
             ]

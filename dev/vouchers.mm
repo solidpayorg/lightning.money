@@ -1,7 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="dev" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1572862823982" ICON_SIZE="20.0 pt" LINK="../index.mm" STYLE="oval">
-<icon BUILTIN="bookmark"/>
+<node TEXT="vouchers" FOLDED="false" ID="ID_44737290" CREATED="1572863270298" MODIFIED="1572863365648" LINK="index.mm" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,32 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
-<icon BUILTIN="folder"/>
-<edge COLOR="#ff00ff"/>
+<node TEXT="implementations" POSITION="right" ID="ID_1143974934" CREATED="1572863277958" MODIFIED="1572863386720">
+<icon BUILTIN="bookmark"/>
+<node TEXT="lightning gifts" ID="ID_1798463538" CREATED="1572863480862" MODIFIED="1572863487196" LINK="https://lightning.gifts/"/>
 </node>
-<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
+<node TEXT="links" POSITION="left" ID="ID_1091889470" CREATED="1572863277991" MODIFIED="1572863277998">
 <icon BUILTIN="attach"/>
-<edge COLOR="#00007c"/>
-</node>
-<node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
-<icon BUILTIN="hashtag"/>
-<edge COLOR="#007c00"/>
-<node TEXT="#javascript" ID="ID_1903100884" CREATED="1571980549151" MODIFIED="1571980553198"/>
-<node TEXT="#arrays" ID="ID_574380056" CREATED="1571980554162" MODIFIED="1571980558584"/>
-</node>
-<node TEXT="specs" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572863179398" LINK="../spec/index.mm">
-<edge COLOR="#007c7c"/>
-</node>
-<node TEXT="mailing list" POSITION="right" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572863042048" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/">
-<edge COLOR="#7c7c00"/>
-</node>
-<node TEXT="resources" POSITION="right" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572863042051" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources">
-<edge COLOR="#ff0000"/>
-</node>
-<node TEXT="vouchers" POSITION="right" ID="ID_1943871369" CREATED="1572863253615" MODIFIED="1572863268309" LINK="vouchers.mm">
-<edge COLOR="#0000ff"/>
 </node>
 </node>
 </map>

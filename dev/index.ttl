@@ -8,3 +8,4 @@
 <#ID_1858353829> <urn:string:@_TEXT> """specs""" .
 <#ID_307649319> <urn:string:@_TEXT> """mailing list""" .
 <#ID_1911540836> <urn:string:@_TEXT> """resources""" .
+<#ID_1943871369> <urn:string:@_TEXT> """vouchers""" .
