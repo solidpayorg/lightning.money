@@ -688,13 +688,6 @@
                                         "@_LINK": "https://tippin.me/"
                                     },
                                     {
-                                        "@_TEXT": "wallet of satoshi",
-                                        "@_ID": "ID_307350684",
-                                        "@_CREATED": 1569940255658,
-                                        "@_MODIFIED": 1572327449653,
-                                        "@_LINK": "https://www.walletofsatoshi.com/"
-                                    },
-                                    {
                                         "@_TEXT": "tallycoin",
                                         "@_ID": "ID_454932096",
                                         "@_CREATED": 1570875523342,
@@ -737,6 +730,13 @@
                                     "@_CREATED": 1572242750406,
                                     "@_MODIFIED": 1572242757035,
                                     "@_LINK": "https://breez.technology/"
+                                },
+                                {
+                                    "@_TEXT": "wallet of satoshi",
+                                    "@_ID": "ID_307350684",
+                                    "@_CREATED": 1569940255658,
+                                    "@_MODIFIED": 1572327449653,
+                                    "@_LINK": "https://www.walletofsatoshi.com/"
                                 }
                             ]
                         }

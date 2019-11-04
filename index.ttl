@@ -76,3 +76,5 @@
 <#ID_1897401807> <urn:string:child> <ID_1897401807> .
 <#ID_1306780446> <urn:string:@_TEXT> """breez""" .
 <#ID_1306780446> <urn:string:child> <ID_1306780446> .
+<#ID_307350684> <urn:string:@_TEXT> """wallet of satoshi""" .
+<#ID_307350684> <urn:string:child> <ID_307350684> .

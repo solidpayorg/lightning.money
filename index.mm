@@ -184,7 +184,6 @@
 <node TEXT="reddit" ID="ID_1462350239" CREATED="1569861584214" MODIFIED="1572326975747" LINK="https://www.reddit.com/r/lntipbot/wiki/index"/>
 <node TEXT="slack" ID="ID_257285561" CREATED="1569939908911" MODIFIED="1572326997212" LINK="https://github.com/CryptoFR/ln-tip-slack"/>
 <node TEXT="tippin.me" ID="ID_364851805" CREATED="1569940220613" MODIFIED="1572327007514" LINK="https://tippin.me/"/>
-<node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
 <node TEXT="tallycoin" ID="ID_454932096" CREATED="1570875523342" MODIFIED="1572327016361" LINK="https://tallyco.in/"/>
 <node TEXT="opennode" ID="ID_847595710" CREATED="1570875537695" MODIFIED="1572327019427" LINK="https://www.opennode.com/"/>
 </node>
@@ -193,6 +192,7 @@
 <node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1572242771209" LINK="https://bluewallet.io/"/>
 <node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
 <node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
+<node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
 </node>
 </node>
 </node>
