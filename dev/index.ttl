@@ -1,10 +1,6 @@
 <#ID_1100215200> <urn:string:@_TEXT> """docs""" .
 <#ID_808607355> <urn:string:@_TEXT> """links""" .
 <#ID_466759422> <urn:string:@_TEXT> """tags""" .
-<#ID_1903100884> <urn:string:@_TEXT> """#javascript""" .
-<#ID_1903100884> <urn:string:child> <ID_1903100884> .
-<#ID_574380056> <urn:string:@_TEXT> """#arrays""" .
-<#ID_574380056> <urn:string:child> <ID_574380056> .
 <#ID_1858353829> <urn:string:@_TEXT> """specs""" .
 <#ID_307649319> <urn:string:@_TEXT> """mailing list""" .
 <#ID_1911540836> <urn:string:@_TEXT> """resources""" .
