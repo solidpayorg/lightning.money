@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572852194436,
+            "@_MODIFIED": 1572852821459,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -190,110 +190,83 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 12,
+                    "@_COUNTER": 14,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
             "node": [
                 {
-                    "@_TEXT": "communities",
+                    "@_TEXT": "News",
                     "@_POSITION": "right",
-                    "@_ID": "ID_1699377289",
-                    "@_CREATED": 1571777237336,
-                    "@_MODIFIED": 1572704129360,
-                    "@_HGAP_QUANTITY": "-178.74999425560253 pt",
-                    "@_VSHIFT_QUANTITY": "66.74999801069504 pt",
-                    "@_COLOR": "#cccc00",
+                    "@_ID": "ID_1050804376",
+                    "@_CREATED": 1570785347577,
+                    "@_MODIFIED": 1572852845552,
+                    "@_COLOR": "#cc0033",
+                    "@_HGAP_QUANTITY": "-154.74999497085824 pt",
+                    "@_VSHIFT_QUANTITY": "32.99999901652339 pt",
                     "icon": {
-                        "@_BUILTIN": "licq"
+                        "@_BUILTIN": "16x16-free-application-icons/png/16x16/Blog"
                     },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
                     },
                     "edge": {
-                        "@_COLOR": "#ff00ff"
+                        "@_COLOR": "#0000ff"
                     },
-                    "node": {
-                        "@_TEXT": "telegram",
-                        "@_ID": "ID_1812873111",
-                        "@_CREATED": 1571777297570,
-                        "@_MODIFIED": 1572157764327,
-                        "icon": {
-                            "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
-                        },
-                        "node": [
-                            {
-                                "@_TEXT": "Lightning Makers",
-                                "@_ID": "ID_31009961",
-                                "@_CREATED": 1571777277694,
-                                "@_MODIFIED": 1571777285150,
-                                "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
-                            },
-                            {
-                                "@_TEXT": "Lightning",
-                                "@_ID": "ID_95271556",
-                                "@_CREATED": 1571777314980,
-                                "@_MODIFIED": 1571777321996,
-                                "@_LINK": "https://t.me/lightning_network"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "@_TEXT": "News",
-                    "@_LOCALIZED_STYLE_REF": "defaultstyle.floating",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_747447826",
-                    "@_CREATED": 1572851174112,
-                    "@_MODIFIED": 1572852032923,
-                    "@_HGAP_QUANTITY": "-242.99999275803586 pt",
-                    "@_VSHIFT_QUANTITY": "-129.74999613314878 pt",
-                    "@_COLOR": "#000099",
-                    "icon": {
-                        "@_BUILTIN": "16x16-free-application-icons/png/16x16/Blog"
-                    },
-                    "hook": {
-                        "@_NAME": "FreeNode"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
+                    "cloud": {
+                        "@_COLOR": "#ccffcc",
+                        "@_SHAPE": "ROUND_RECT"
                     },
                     "node": [
                         {
                             "@_TEXT": "twitter",
-                            "@_ID": "ID_1081944060",
+                            "@_ID": "ID_1210018261",
                             "@_CREATED": 1570875815581,
-                            "@_MODIFIED": 1572329626272,
-                            "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah"
+                            "@_MODIFIED": 1572852766186,
+                            "@_LINK": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
+                            "font": {
+                                "@_SIZE": 12
+                            }
                         },
                         {
-                            "@_TEXT": "bitcoinlightning.com",
-                            "@_ID": "ID_1561626543",
-                            "@_CREATED": 1570785367171,
-                            "@_MODIFIED": 1572329634388,
-                            "@_LINK": "https://www.bitcoinlightning.com/"
-                        },
-                        {
-                            "@_TEXT": "Lightning Junkies",
-                            "@_ID": "ID_332457378",
+                            "@_TEXT": "lightning Junkies",
+                            "@_ID": "ID_35176243",
                             "@_CREATED": 1572163778303,
-                            "@_MODIFIED": 1572163785621,
-                            "@_LINK": "https://anchor.fm/lightning-junkies/"
+                            "@_MODIFIED": 1572852866085,
+                            "@_LINK": "https://anchor.fm/lightning-junkies/",
+                            "font": {
+                                "@_SIZE": 12
+                            }
                         },
                         {
                             "@_TEXT": "reddit lightning",
-                            "@_ID": "ID_1124050694",
+                            "@_ID": "ID_1326491802",
                             "@_CREATED": 1572678314251,
-                            "@_MODIFIED": 1572678320426,
+                            "@_MODIFIED": 1572852766187,
                             "@_LINK": "https://www.reddit.com/r/TheLightningNetwork/",
+                            "font": {
+                                "@_SIZE": 12
+                            },
                             "node": {
                                 "@_TEXT": "reddit bitcoin",
-                                "@_ID": "ID_388710604",
+                                "@_ID": "ID_1113616580",
                                 "@_CREATED": 1572678276269,
-                                "@_MODIFIED": 1572678294193,
-                                "@_LINK": "https://www.reddit.com/r/Bitcoin/"
+                                "@_MODIFIED": 1572852766187,
+                                "@_LINK": "https://www.reddit.com/r/Bitcoin/",
+                                "font": {
+                                    "@_SIZE": 12
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "bitcoinlightning.com",
+                            "@_ID": "ID_1919527951",
+                            "@_CREATED": 1570785367171,
+                            "@_MODIFIED": 1572852766186,
+                            "@_LINK": "https://www.bitcoinlightning.com/",
+                            "font": {
+                                "@_SIZE": 12
                             }
                         }
                     ]
@@ -303,10 +276,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572851311051,
+                    "@_MODIFIED": 1572852821458,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "52.999998837709455 pt",
-                    "@_VSHIFT_QUANTITY": "36.749998904764674 pt",
+                    "@_HGAP_QUANTITY": "49.24999894946816 pt",
+                    "@_VSHIFT_QUANTITY": "41.24999877065423 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
@@ -491,6 +464,43 @@
                     },
                     "node": [
                         {
+                            "@_TEXT": "communities",
+                            "@_ID": "ID_1721453071",
+                            "@_CREATED": 1572852581179,
+                            "@_MODIFIED": 1572852785776,
+                            "icon": {
+                                "@_BUILTIN": "licq"
+                            },
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "telegram",
+                                "@_ID": "ID_196022448",
+                                "@_CREATED": 1571777297570,
+                                "@_MODIFIED": 1572157764327,
+                                "icon": {
+                                    "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
+                                },
+                                "node": [
+                                    {
+                                        "@_TEXT": "Lightning Makers",
+                                        "@_ID": "ID_1997850729",
+                                        "@_CREATED": 1571777277694,
+                                        "@_MODIFIED": 1571777285150,
+                                        "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
+                                    },
+                                    {
+                                        "@_TEXT": "Lightning",
+                                        "@_ID": "ID_373330618",
+                                        "@_CREATED": 1571777314980,
+                                        "@_MODIFIED": 1571777321996,
+                                        "@_LINK": "https://t.me/lightning_network"
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "@_TEXT": "lists",
                             "@_ID": "ID_1744026554",
                             "@_CREATED": 1569861388704,
@@ -544,6 +554,64 @@
                                 "@_MODIFIED": 1572329613833,
                                 "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
                             }
+                        },
+                        {
+                            "@_TEXT": "about",
+                            "@_ID": "ID_1704672214",
+                            "@_CREATED": 1569940752211,
+                            "@_MODIFIED": 1572852695898,
+                            "icon": {
+                                "@_BUILTIN": "broken-line"
+                            },
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "open source",
+                                    "@_ID": "ID_1211678675",
+                                    "@_CREATED": 1569940791266,
+                                    "@_MODIFIED": 1572157792168,
+                                    "@_LINK": "https://github.com/solidpayorg/lightning.money/",
+                                    "icon": {
+                                        "@_BUILTIN": "button_ok"
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "issues",
+                                    "@_ID": "ID_1677347904",
+                                    "@_CREATED": 1569940820101,
+                                    "@_MODIFIED": 1569940824129,
+                                    "@_LINK": "https://github.com/solidpayorg/lightning.money/issues",
+                                    "node": {
+                                        "@_TEXT": "improve me!",
+                                        "@_ID": "ID_824388782",
+                                        "@_CREATED": 1569940807703,
+                                        "@_MODIFIED": 1569940810176
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "JSON",
+                                    "@_ID": "ID_903253757",
+                                    "@_CREATED": 1569940872371,
+                                    "@_MODIFIED": 1569940882474,
+                                    "@_LINK": "index.json"
+                                },
+                                {
+                                    "@_TEXT": ".mm mindmap",
+                                    "@_ID": "ID_963935095",
+                                    "@_CREATED": 1569940890302,
+                                    "@_MODIFIED": 1569940906746,
+                                    "@_LINK": "index.mm"
+                                },
+                                {
+                                    "@_TEXT": "made using webmaps.io",
+                                    "@_ID": "ID_1528568892",
+                                    "@_CREATED": 1572168531186,
+                                    "@_MODIFIED": 1572168557816,
+                                    "@_LINK": "https://webmaps.io/"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -671,73 +739,6 @@
                                     "@_LINK": "https://breez.technology/"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "@_TEXT": "About",
-                    "@_LOCALIZED_STYLE_REF": "defaultstyle.floating",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1317750066",
-                    "@_CREATED": 1572851945824,
-                    "@_MODIFIED": 1572852194435,
-                    "@_HGAP_QUANTITY": "-243.74999273568415 pt",
-                    "@_VSHIFT_QUANTITY": "242.9999927580358 pt",
-                    "@_COLOR": "#990033",
-                    "icon": {
-                        "@_BUILTIN": "help"
-                    },
-                    "hook": {
-                        "@_NAME": "FreeNode"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "open source",
-                            "@_ID": "ID_1282003855",
-                            "@_CREATED": 1569940791266,
-                            "@_MODIFIED": 1572157792168,
-                            "@_LINK": "https://github.com/solidpayorg/lightning.money/",
-                            "icon": {
-                                "@_BUILTIN": "button_ok"
-                            }
-                        },
-                        {
-                            "@_TEXT": "issues",
-                            "@_ID": "ID_626425432",
-                            "@_CREATED": 1569940820101,
-                            "@_MODIFIED": 1569940824129,
-                            "@_LINK": "https://github.com/solidpayorg/lightning.money/issues",
-                            "node": {
-                                "@_TEXT": "improve me!",
-                                "@_ID": "ID_1248374984",
-                                "@_CREATED": 1569940807703,
-                                "@_MODIFIED": 1569940810176
-                            }
-                        },
-                        {
-                            "@_TEXT": "JSON",
-                            "@_ID": "ID_1036943768",
-                            "@_CREATED": 1569940872371,
-                            "@_MODIFIED": 1569940882474,
-                            "@_LINK": "index.json"
-                        },
-                        {
-                            "@_TEXT": ".mm mindmap",
-                            "@_ID": "ID_650973396",
-                            "@_CREATED": 1569940890302,
-                            "@_MODIFIED": 1569940906746,
-                            "@_LINK": "index.mm"
-                        },
-                        {
-                            "@_TEXT": "made using webmaps.io",
-                            "@_ID": "ID_1523769386",
-                            "@_CREATED": 1572168531186,
-                            "@_MODIFIED": 1572168557816,
-                            "@_LINK": "https://webmaps.io/"
                         }
                     ]
                 }

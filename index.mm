@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572852194436" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572852821459" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -64,29 +64,29 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="communities" POSITION="right" ID="ID_1699377289" CREATED="1571777237336" MODIFIED="1572704129360" HGAP_QUANTITY="-178.74999425560253 pt" VSHIFT_QUANTITY="66.74999801069504 pt" COLOR="#cccc00">
-<icon BUILTIN="licq"/>
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#ff00ff"/>
-<node TEXT="telegram" ID="ID_1812873111" CREATED="1571777297570" MODIFIED="1572157764327">
-<icon BUILTIN="16x16-free-application-icons/png/16x16/Comment"/>
-<node TEXT="Lightning Makers" ID="ID_31009961" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
-<node TEXT="Lightning" ID="ID_95271556" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
-</node>
-</node>
-<node TEXT="News" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_747447826" CREATED="1572851174112" MODIFIED="1572852032923" HGAP_QUANTITY="-242.99999275803586 pt" VSHIFT_QUANTITY="-129.74999613314878 pt" COLOR="#000099">
+<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="News" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572852845552" COLOR="#cc0033" HGAP_QUANTITY="-154.74999497085824 pt" VSHIFT_QUANTITY="32.99999901652339 pt">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
-<hook NAME="FreeNode"/>
 <font SIZE="12" BOLD="true"/>
-<node TEXT="twitter" ID="ID_1081944060" CREATED="1570875815581" MODIFIED="1572329626272" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah"/>
-<node TEXT="bitcoinlightning.com" ID="ID_1561626543" CREATED="1570785367171" MODIFIED="1572329634388" LINK="https://www.bitcoinlightning.com/"/>
-<node TEXT="Lightning Junkies" ID="ID_332457378" CREATED="1572163778303" MODIFIED="1572163785621" LINK="https://anchor.fm/lightning-junkies/"/>
-<node TEXT="reddit lightning" ID="ID_1124050694" CREATED="1572678314251" MODIFIED="1572678320426" LINK="https://www.reddit.com/r/TheLightningNetwork/">
-<node TEXT="reddit bitcoin" ID="ID_388710604" CREATED="1572678276269" MODIFIED="1572678294193" LINK="https://www.reddit.com/r/Bitcoin/"/>
+<edge COLOR="#0000ff"/>
+<cloud COLOR="#ccffcc" SHAPE="ROUND_RECT"/>
+<node TEXT="twitter" ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1572852766186" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah">
+<font SIZE="12"/>
+</node>
+<node TEXT="lightning Junkies" ID="ID_35176243" CREATED="1572163778303" MODIFIED="1572852866085" LINK="https://anchor.fm/lightning-junkies/">
+<font SIZE="12"/>
+</node>
+<node TEXT="reddit lightning" ID="ID_1326491802" CREATED="1572678314251" MODIFIED="1572852766187" LINK="https://www.reddit.com/r/TheLightningNetwork/">
+<font SIZE="12"/>
+<node TEXT="reddit bitcoin" ID="ID_1113616580" CREATED="1572678276269" MODIFIED="1572852766187" LINK="https://www.reddit.com/r/Bitcoin/">
+<font SIZE="12"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572851311051" COLOR="#009933" HGAP_QUANTITY="52.999998837709455 pt" VSHIFT_QUANTITY="36.749998904764674 pt">
+<node TEXT="bitcoinlightning.com" ID="ID_1919527951" CREATED="1570785367171" MODIFIED="1572852766186" LINK="https://www.bitcoinlightning.com/">
+<font SIZE="12"/>
+</node>
+</node>
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572852821458" COLOR="#009933" HGAP_QUANTITY="49.24999894946816 pt" VSHIFT_QUANTITY="41.24999877065423 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -134,6 +134,15 @@
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
+<node TEXT="communities" ID="ID_1721453071" CREATED="1572852581179" MODIFIED="1572852785776">
+<icon BUILTIN="licq"/>
+<font BOLD="true"/>
+<node TEXT="telegram" ID="ID_196022448" CREATED="1571777297570" MODIFIED="1572157764327">
+<icon BUILTIN="16x16-free-application-icons/png/16x16/Comment"/>
+<node TEXT="Lightning Makers" ID="ID_1997850729" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
+<node TEXT="Lightning" ID="ID_373330618" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
+</node>
+</node>
 <node TEXT="lists" ID="ID_1744026554" CREATED="1569861388704" MODIFIED="1572154793341">
 <icon BUILTIN="list"/>
 <font BOLD="true"/>
@@ -145,6 +154,19 @@
 <icon BUILTIN="wizard"/>
 <font BOLD="true"/>
 <node TEXT="lightning rfc" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572329613833" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
+</node>
+<node TEXT="about" ID="ID_1704672214" CREATED="1569940752211" MODIFIED="1572852695898">
+<icon BUILTIN="broken-line"/>
+<font BOLD="true"/>
+<node TEXT="open source" ID="ID_1211678675" CREATED="1569940791266" MODIFIED="1572157792168" LINK="https://github.com/solidpayorg/lightning.money/">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="issues" ID="ID_1677347904" CREATED="1569940820101" MODIFIED="1569940824129" LINK="https://github.com/solidpayorg/lightning.money/issues">
+<node TEXT="improve me!" ID="ID_824388782" CREATED="1569940807703" MODIFIED="1569940810176"/>
+</node>
+<node TEXT="JSON" ID="ID_903253757" CREATED="1569940872371" MODIFIED="1569940882474" LINK="index.json"/>
+<node TEXT=".mm mindmap" ID="ID_963935095" CREATED="1569940890302" MODIFIED="1569940906746" LINK="index.mm"/>
+<node TEXT="made using webmaps.io" ID="ID_1528568892" CREATED="1572168531186" MODIFIED="1572168557816" LINK="https://webmaps.io/"/>
 </node>
 </node>
 <node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1572704119311" COLOR="#0000cc" HGAP_QUANTITY="-159.99999481439605 pt" VSHIFT_QUANTITY="-39.74999881535771 pt">
@@ -172,20 +194,6 @@
 <node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
 <node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
 </node>
-</node>
-<node TEXT="About" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1317750066" CREATED="1572851945824" MODIFIED="1572852194435" HGAP_QUANTITY="-243.74999273568415 pt" VSHIFT_QUANTITY="242.9999927580358 pt" COLOR="#990033">
-<icon BUILTIN="help"/>
-<hook NAME="FreeNode"/>
-<font SIZE="12" BOLD="true"/>
-<node TEXT="open source" ID="ID_1282003855" CREATED="1569940791266" MODIFIED="1572157792168" LINK="https://github.com/solidpayorg/lightning.money/">
-<icon BUILTIN="button_ok"/>
-</node>
-<node TEXT="issues" ID="ID_626425432" CREATED="1569940820101" MODIFIED="1569940824129" LINK="https://github.com/solidpayorg/lightning.money/issues">
-<node TEXT="improve me!" ID="ID_1248374984" CREATED="1569940807703" MODIFIED="1569940810176"/>
-</node>
-<node TEXT="JSON" ID="ID_1036943768" CREATED="1569940872371" MODIFIED="1569940882474" LINK="index.json"/>
-<node TEXT=".mm mindmap" ID="ID_650973396" CREATED="1569940890302" MODIFIED="1569940906746" LINK="index.mm"/>
-<node TEXT="made using webmaps.io" ID="ID_1523769386" CREATED="1572168531186" MODIFIED="1572168557816" LINK="https://webmaps.io/"/>
 </node>
 </node>
 </map>
