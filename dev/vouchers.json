@@ -194,12 +194,35 @@
                     "icon": {
                         "@_BUILTIN": "bookmark"
                     },
+                    "node": [
+                        {
+                            "@_TEXT": "lightning gifts",
+                            "@_ID": "ID_1798463538",
+                            "@_CREATED": 1572863480862,
+                            "@_MODIFIED": 1572863487196,
+                            "@_LINK": "https://lightning.gifts/"
+                        },
+                        {
+                            "@_TEXT": "web vouchers source code",
+                            "@_ID": "ID_530694162",
+                            "@_CREATED": 1572864818535,
+                            "@_MODIFIED": 1572864824451,
+                            "@_LINK": "https://github.com/solidpayorg/webvouchers/blob/gh-pages/bin/lightning.js"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "coming soon",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1029049124",
+                    "@_CREATED": 1572864541700,
+                    "@_MODIFIED": 1572864543785,
                     "node": {
-                        "@_TEXT": "lightning gifts",
-                        "@_ID": "ID_1798463538",
-                        "@_CREATED": 1572863480862,
-                        "@_MODIFIED": 1572863487196,
-                        "@_LINK": "https://lightning.gifts/"
+                        "@_TEXT": "lngames",
+                        "@_ID": "ID_1651596806",
+                        "@_CREATED": 1572864580441,
+                        "@_MODIFIED": 1572864586019,
+                        "@_LINK": "https://twitter.com/lngames_net/status/1190393843881041920?s=17"
                     }
                 },
                 {
@@ -210,6 +233,13 @@
                     "@_MODIFIED": 1572863277998,
                     "icon": {
                         "@_BUILTIN": "attach"
+                    },
+                    "node": {
+                        "@_TEXT": "webvouchers.org",
+                        "@_ID": "ID_255085710",
+                        "@_CREATED": 1572864505314,
+                        "@_MODIFIED": 1572864515177,
+                        "@_LINK": "https://webvouchers.org/"
                     }
                 }
             ]

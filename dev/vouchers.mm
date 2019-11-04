@@ -66,9 +66,14 @@
 <node TEXT="implementations" POSITION="right" ID="ID_1143974934" CREATED="1572863277958" MODIFIED="1572863386720">
 <icon BUILTIN="bookmark"/>
 <node TEXT="lightning gifts" ID="ID_1798463538" CREATED="1572863480862" MODIFIED="1572863487196" LINK="https://lightning.gifts/"/>
+<node TEXT="web vouchers source code" ID="ID_530694162" CREATED="1572864818535" MODIFIED="1572864824451" LINK="https://github.com/solidpayorg/webvouchers/blob/gh-pages/bin/lightning.js"/>
+</node>
+<node TEXT="coming soon" POSITION="right" ID="ID_1029049124" CREATED="1572864541700" MODIFIED="1572864543785">
+<node TEXT="lngames" ID="ID_1651596806" CREATED="1572864580441" MODIFIED="1572864586019" LINK="https://twitter.com/lngames_net/status/1190393843881041920?s=17"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_1091889470" CREATED="1572863277991" MODIFIED="1572863277998">
 <icon BUILTIN="attach"/>
+<node TEXT="webvouchers.org" ID="ID_255085710" CREATED="1572864505314" MODIFIED="1572864515177" LINK="https://webvouchers.org/"/>
 </node>
 </node>
 </map>
