@@ -43,8 +43,6 @@
 <#ID_458425639> <urn:string:@_TEXT> """lightning.gifts""" .
 <#ID_458425639> <urn:string:child> <ID_458425639> .
 <#ID_728396892> <urn:string:@_TEXT> """links""" .
-<#ID_1721453071> <urn:string:@_TEXT> """communities""" .
-<#ID_1721453071> <urn:string:child> <ID_1721453071> .
 <#ID_1744026554> <urn:string:@_TEXT> """lists""" .
 <#ID_1744026554> <urn:string:child> <ID_1744026554> .
 <#ID_1897426799> <urn:string:@_TEXT> """lopp list""" .
@@ -53,6 +51,18 @@
 <#ID_1244510370> <urn:string:child> <ID_1244510370> .
 <#ID_1451851808> <urn:string:@_TEXT> """lnroute""" .
 <#ID_1451851808> <urn:string:child> <ID_1451851808> .
+<#ID_1721453071> <urn:string:@_TEXT> """communities""" .
+<#ID_1721453071> <urn:string:child> <ID_1721453071> .
+<#ID_196022448> <urn:string:@_TEXT> """telegram""" .
+<#ID_196022448> <urn:string:child> <ID_196022448> .
+<#ID_1997850729> <urn:string:@_TEXT> """Lightning Makers""" .
+<#ID_1997850729> <urn:string:child> <ID_1997850729> .
+<#ID_373330618> <urn:string:@_TEXT> """Lightning""" .
+<#ID_373330618> <urn:string:child> <ID_373330618> .
+<#ID_782092450> <urn:string:@_TEXT> """IRC""" .
+<#ID_782092450> <urn:string:child> <ID_782092450> .
+<#ID_307649319> <urn:string:@_TEXT> """dev mailing list""" .
+<#ID_307649319> <urn:string:child> <ID_307649319> .
 <#ID_1721082161> <urn:string:@_TEXT> """spec""" .
 <#ID_1721082161> <urn:string:child> <ID_1721082161> .
 <#ID_1704672214> <urn:string:@_TEXT> """about""" .

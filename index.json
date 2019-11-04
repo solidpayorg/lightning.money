@@ -474,43 +474,6 @@
                     },
                     "node": [
                         {
-                            "@_TEXT": "communities",
-                            "@_ID": "ID_1721453071",
-                            "@_CREATED": 1572852581179,
-                            "@_MODIFIED": 1572852785776,
-                            "icon": {
-                                "@_BUILTIN": "licq"
-                            },
-                            "font": {
-                                "@_BOLD": true
-                            },
-                            "node": {
-                                "@_TEXT": "telegram",
-                                "@_ID": "ID_196022448",
-                                "@_CREATED": 1571777297570,
-                                "@_MODIFIED": 1572157764327,
-                                "icon": {
-                                    "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
-                                },
-                                "node": [
-                                    {
-                                        "@_TEXT": "Lightning Makers",
-                                        "@_ID": "ID_1997850729",
-                                        "@_CREATED": 1571777277694,
-                                        "@_MODIFIED": 1571777285150,
-                                        "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
-                                    },
-                                    {
-                                        "@_TEXT": "Lightning",
-                                        "@_ID": "ID_373330618",
-                                        "@_CREATED": 1571777314980,
-                                        "@_MODIFIED": 1571777321996,
-                                        "@_LINK": "https://t.me/lightning_network"
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "@_TEXT": "lists",
                             "@_ID": "ID_1744026554",
                             "@_CREATED": 1569861388704,
@@ -542,6 +505,59 @@
                                     "@_CREATED": 1570185749629,
                                     "@_MODIFIED": 1570185757230,
                                     "@_LINK": "https://lnroute.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "communities",
+                            "@_ID": "ID_1721453071",
+                            "@_CREATED": 1572852581179,
+                            "@_MODIFIED": 1572852785776,
+                            "icon": {
+                                "@_BUILTIN": "licq"
+                            },
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "telegram",
+                                    "@_ID": "ID_196022448",
+                                    "@_CREATED": 1571777297570,
+                                    "@_MODIFIED": 1572157764327,
+                                    "icon": {
+                                        "@_BUILTIN": "16x16-free-application-icons/png/16x16/Comment"
+                                    },
+                                    "node": [
+                                        {
+                                            "@_TEXT": "Lightning Makers",
+                                            "@_ID": "ID_1997850729",
+                                            "@_CREATED": 1571777277694,
+                                            "@_MODIFIED": 1571777285150,
+                                            "@_LINK": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"
+                                        },
+                                        {
+                                            "@_TEXT": "Lightning",
+                                            "@_ID": "ID_373330618",
+                                            "@_CREATED": 1571777314980,
+                                            "@_MODIFIED": 1571777321996,
+                                            "@_LINK": "https://t.me/lightning_network"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_TEXT": "IRC",
+                                    "@_ID": "ID_782092450",
+                                    "@_CREATED": 1572859043621,
+                                    "@_MODIFIED": 1572859050207,
+                                    "@_LINK": "https://webchat.freenode.net/#lightning-dev"
+                                },
+                                {
+                                    "@_TEXT": "dev mailing list",
+                                    "@_ID": "ID_307649319",
+                                    "@_CREATED": 1572859082436,
+                                    "@_MODIFIED": 1572859120022,
+                                    "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
                                 }
                             ]
                         },

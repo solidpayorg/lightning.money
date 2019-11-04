@@ -137,6 +137,13 @@
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
+<node TEXT="lists" ID="ID_1744026554" CREATED="1569861388704" MODIFIED="1572154793341">
+<icon BUILTIN="list"/>
+<font BOLD="true"/>
+<node TEXT="lopp list" ID="ID_1897426799" CREATED="1569941168323" MODIFIED="1572329436695" LINK="https://www.lopp.net/lightning-information.html"/>
+<node TEXT="awesome list" ID="ID_1244510370" CREATED="1569861424912" MODIFIED="1572329447313" LINK="https://github.com/bcongdon/awesome-lightning-network"/>
+<node TEXT="lnroute" ID="ID_1451851808" CREATED="1570185749629" MODIFIED="1570185757230" LINK="https://lnroute.com/"/>
+</node>
 <node TEXT="communities" ID="ID_1721453071" CREATED="1572852581179" MODIFIED="1572852785776">
 <icon BUILTIN="licq"/>
 <font BOLD="true"/>
@@ -145,13 +152,8 @@
 <node TEXT="Lightning Makers" ID="ID_1997850729" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
 <node TEXT="Lightning" ID="ID_373330618" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
 </node>
-</node>
-<node TEXT="lists" ID="ID_1744026554" CREATED="1569861388704" MODIFIED="1572154793341">
-<icon BUILTIN="list"/>
-<font BOLD="true"/>
-<node TEXT="lopp list" ID="ID_1897426799" CREATED="1569941168323" MODIFIED="1572329436695" LINK="https://www.lopp.net/lightning-information.html"/>
-<node TEXT="awesome list" ID="ID_1244510370" CREATED="1569861424912" MODIFIED="1572329447313" LINK="https://github.com/bcongdon/awesome-lightning-network"/>
-<node TEXT="lnroute" ID="ID_1451851808" CREATED="1570185749629" MODIFIED="1570185757230" LINK="https://lnroute.com/"/>
+<node TEXT="IRC" ID="ID_782092450" CREATED="1572859043621" MODIFIED="1572859050207" LINK="https://webchat.freenode.net/#lightning-dev"/>
+<node TEXT="dev mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572859120022" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 </node>
 <node TEXT="spec" ID="ID_1721082161" CREATED="1569861329052" MODIFIED="1572171676343" LINK="spec/index.mm">
 <icon BUILTIN="wizard"/>
