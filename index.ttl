@@ -18,6 +18,8 @@
 <#ID_1622962411> <urn:string:child> <ID_1622962411> .
 <#ID_888544098> <urn:string:@_TEXT> """lngames""" .
 <#ID_888544098> <urn:string:child> <ID_888544098> .
+<#ID_40930400> <urn:string:@_TEXT> """satoshis games""" .
+<#ID_40930400> <urn:string:child> <ID_40930400> .
 <#ID_759991484> <urn:string:@_TEXT> """kriptode""" .
 <#ID_759991484> <urn:string:child> <ID_759991484> .
 <#ID_476259117> <urn:string:@_TEXT> """ion app store""" .
