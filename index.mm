@@ -1,7 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572853287778" ICON_SIZE="16.0 pt" STYLE="oval">
-<icon BUILTIN="go"/>
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572853987799" ICON_SIZE="24.0 pt" STYLE="oval">
+<icon BUILTIN="lightning"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -65,11 +65,11 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="news" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572853287775" COLOR="#cc0033" HGAP_QUANTITY="-152.49999503791346 pt" VSHIFT_QUANTITY="33.74999899417165 pt">
+<node TEXT="news" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572853982640" COLOR="#cc0033" HGAP_QUANTITY="-159.2499948367478 pt" VSHIFT_QUANTITY="35.99999892711642 pt">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#0000ff"/>
-<cloud COLOR="#ccffcc" SHAPE="ROUND_RECT"/>
+<cloud COLOR="#ffffcc" SHAPE="ROUND_RECT"/>
 <node TEXT="twitter" ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1572852766186" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah">
 <font SIZE="12"/>
 </node>
@@ -169,7 +169,7 @@
 <node TEXT="made using webmaps.io" ID="ID_1528568892" CREATED="1572168531186" MODIFIED="1572168557816" LINK="https://webmaps.io/"/>
 </node>
 </node>
-<node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1572704119311" COLOR="#0000cc" HGAP_QUANTITY="-159.99999481439605 pt" VSHIFT_QUANTITY="-39.74999881535771 pt">
+<node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1572853987797" COLOR="#0000cc" HGAP_QUANTITY="-166.74999461323037 pt" VSHIFT_QUANTITY="-42.749998725950746 pt">
 <icon BUILTIN="password"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#007c00"/>
