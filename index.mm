@@ -152,6 +152,7 @@
 <node TEXT="Lightning Makers" ID="ID_1997850729" CREATED="1571777277694" MODIFIED="1571777285150" LINK="https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw"/>
 <node TEXT="Lightning" ID="ID_373330618" CREATED="1571777314980" MODIFIED="1571777321996" LINK="https://t.me/lightning_network"/>
 </node>
+<node TEXT="discord" ID="ID_217327859" CREATED="1572859278314" MODIFIED="1572859284381" LINK="https://discordapp.com/invite/sm2rfS7"/>
 <node TEXT="IRC" ID="ID_782092450" CREATED="1572859043621" MODIFIED="1572859050207" LINK="https://webchat.freenode.net/#lightning-dev"/>
 <node TEXT="dev mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572859120022" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 </node>

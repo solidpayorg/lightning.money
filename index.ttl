@@ -59,6 +59,8 @@
 <#ID_1997850729> <urn:string:child> <ID_1997850729> .
 <#ID_373330618> <urn:string:@_TEXT> """Lightning""" .
 <#ID_373330618> <urn:string:child> <ID_373330618> .
+<#ID_217327859> <urn:string:@_TEXT> """discord""" .
+<#ID_217327859> <urn:string:child> <ID_217327859> .
 <#ID_782092450> <urn:string:@_TEXT> """IRC""" .
 <#ID_782092450> <urn:string:child> <ID_782092450> .
 <#ID_307649319> <urn:string:@_TEXT> """dev mailing list""" .
