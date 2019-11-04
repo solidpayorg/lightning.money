@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
 <icon BUILTIN="folder"/>
 <edge COLOR="#ff00ff"/>
@@ -79,8 +79,14 @@
 <node TEXT="#javascript" ID="ID_1903100884" CREATED="1571980549151" MODIFIED="1571980553198"/>
 <node TEXT="#arrays" ID="ID_574380056" CREATED="1571980554162" MODIFIED="1571980558584"/>
 </node>
-<node TEXT="Specs" POSITION="right" ID="ID_1625999647" CREATED="1572862787486" MODIFIED="1572862876394" LINK="../spec/index.mm">
-<edge COLOR="#7c007c"/>
+<node TEXT="specs" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572863042047" LINK="spec/index.mm">
+<edge COLOR="#007c7c"/>
+</node>
+<node TEXT="mailing list" POSITION="right" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572863042048" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/">
+<edge COLOR="#7c7c00"/>
+</node>
+<node TEXT="resources" POSITION="right" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572863042051" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources">
+<edge COLOR="#ff0000"/>
 </node>
 </node>
 </map>

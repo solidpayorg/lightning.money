@@ -191,7 +191,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 9,
+                    "@_COUNTER": 12,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -250,14 +250,36 @@
                     ]
                 },
                 {
-                    "@_TEXT": "Specs",
+                    "@_TEXT": "specs",
                     "@_POSITION": "right",
-                    "@_ID": "ID_1625999647",
-                    "@_CREATED": 1572862787486,
-                    "@_MODIFIED": 1572862876394,
-                    "@_LINK": "../spec/index.mm",
+                    "@_ID": "ID_1858353829",
+                    "@_CREATED": 1569861461668,
+                    "@_MODIFIED": 1572863042047,
+                    "@_LINK": "spec/index.mm",
                     "edge": {
-                        "@_COLOR": "#7c007c"
+                        "@_COLOR": "#007c7c"
+                    }
+                },
+                {
+                    "@_TEXT": "mailing list",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_307649319",
+                    "@_CREATED": 1572859082436,
+                    "@_MODIFIED": 1572863042048,
+                    "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/",
+                    "edge": {
+                        "@_COLOR": "#7c7c00"
+                    }
+                },
+                {
+                    "@_TEXT": "resources",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1911540836",
+                    "@_CREATED": 1572861720975,
+                    "@_MODIFIED": 1572863042051,
+                    "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources",
+                    "edge": {
+                        "@_COLOR": "#ff0000"
                     }
                 }
             ]
