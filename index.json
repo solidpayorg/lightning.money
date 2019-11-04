@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572852821459,
+            "@_MODIFIED": 1572853287778,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -196,14 +196,14 @@
             ],
             "node": [
                 {
-                    "@_TEXT": "News",
+                    "@_TEXT": "news",
                     "@_POSITION": "right",
                     "@_ID": "ID_1050804376",
                     "@_CREATED": 1570785347577,
-                    "@_MODIFIED": 1572852845552,
+                    "@_MODIFIED": 1572853287775,
                     "@_COLOR": "#cc0033",
-                    "@_HGAP_QUANTITY": "-154.74999497085824 pt",
-                    "@_VSHIFT_QUANTITY": "32.99999901652339 pt",
+                    "@_HGAP_QUANTITY": "-152.49999503791346 pt",
+                    "@_VSHIFT_QUANTITY": "33.74999899417165 pt",
                     "icon": {
                         "@_BUILTIN": "16x16-free-application-icons/png/16x16/Blog"
                     },

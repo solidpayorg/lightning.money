@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572852821459" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572853287778" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="go"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -65,7 +65,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="News" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572852845552" COLOR="#cc0033" HGAP_QUANTITY="-154.74999497085824 pt" VSHIFT_QUANTITY="32.99999901652339 pt">
+<node TEXT="news" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572853287775" COLOR="#cc0033" HGAP_QUANTITY="-152.49999503791346 pt" VSHIFT_QUANTITY="33.74999899417165 pt">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#0000ff"/>

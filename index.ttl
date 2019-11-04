@@ -1,4 +1,4 @@
-<#ID_1050804376> <urn:string:@_TEXT> """News""" .
+<#ID_1050804376> <urn:string:@_TEXT> """news""" .
 <#ID_1210018261> <urn:string:@_TEXT> """twitter""" .
 <#ID_1210018261> <urn:string:child> <ID_1210018261> .
 <#ID_35176243> <urn:string:@_TEXT> """lightning Junkies""" .
