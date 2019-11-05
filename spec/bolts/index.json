@@ -191,7 +191,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 13,
+                    "@_COUNTER": 16,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -278,6 +278,23 @@
                         "@_ID": "ID_1384191185",
                         "@_CREATED": 1572939403032,
                         "@_MODIFIED": 1572939403032
+                    }
+                },
+                {
+                    "@_TEXT": "proposals",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_446210926",
+                    "@_CREATED": 1572948858501,
+                    "@_MODIFIED": 1572948860326,
+                    "edge": {
+                        "@_COLOR": "#00ffff"
+                    },
+                    "node": {
+                        "@_TEXT": "BOLT 12",
+                        "@_ID": "ID_519532286",
+                        "@_CREATED": 1572948848533,
+                        "@_MODIFIED": 1572948863052,
+                        "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002276.html"
                     }
                 }
             ]

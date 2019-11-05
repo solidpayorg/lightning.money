@@ -6,3 +6,4 @@
 <#ID_775787707> <urn:string:child> <ID_775787707> .
 <#ID_466759422> <urn:string:@_TEXT> """tags""" .
 <#ID_1858353829> <urn:string:@_TEXT> """BOLT 11""" .
+<#ID_446210926> <urn:string:@_TEXT> """proposals""" .
