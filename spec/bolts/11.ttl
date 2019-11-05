@@ -32,8 +32,10 @@
 <#ID_1697168487> <urn:string:child> <ID_1697168487> .
 <#ID_1338597328> <urn:string:@_TEXT> """52""" .
 <#ID_1338597328> <urn:string:child> <ID_1338597328> .
-<#ID_410072620> <urn:string:@_TEXT> """preimage : sha256 payment_hash""" .
+<#ID_410072620> <urn:string:@_TEXT> """preimage""" .
 <#ID_410072620> <urn:string:child> <ID_410072620> .
+<#ID_348363054> <urn:string:@_TEXT> """sha256 payment_hash""" .
+<#ID_348363054> <urn:string:child> <ID_348363054> .
 <#ID_935431636> <urn:string:@_TEXT> """provides proof of payment""" .
 <#ID_935431636> <urn:string:child> <ID_935431636> .
 <#ID_974155593> <urn:string:@_TEXT> """d""" .
@@ -58,7 +60,7 @@
 <#ID_860457943> <urn:string:child> <ID_860457943> .
 <#ID_925181425> <urn:string:@_TEXT> """variable""" .
 <#ID_925181425> <urn:string:child> <ID_925181425> .
-<#ID_1885927274> <urn:string:@_TEXT> """expirty time in seconds""" .
+<#ID_1885927274> <urn:string:@_TEXT> """expiry time in seconds""" .
 <#ID_1885927274> <urn:string:child> <ID_1885927274> .
 <#ID_1159850787> <urn:string:@_TEXT> """default 3600""" .
 <#ID_1159850787> <urn:string:child> <ID_1159850787> .
@@ -66,7 +68,7 @@
 <#ID_1563862604> <urn:string:child> <ID_1563862604> .
 <#ID_584257642> <urn:string:@_TEXT> """variable""" .
 <#ID_584257642> <urn:string:child> <ID_584257642> .
-<#ID_1017479450> <urn:string:@_TEXT> """min_final_cltv_expiry to use for the last HTLC in the route""" .
+<#ID_1017479450> <urn:string:@_TEXT> """min_final_cltv_expiry""" .
 <#ID_1017479450> <urn:string:child> <ID_1017479450> .
 <#ID_141862678> <urn:string:@_TEXT> """default 9""" .
 <#ID_141862678> <urn:string:child> <ID_141862678> .
@@ -74,16 +76,16 @@
 <#ID_1571430878> <urn:string:child> <ID_1571430878> .
 <#ID_182485979> <urn:string:@_TEXT> """variable""" .
 <#ID_182485979> <urn:string:child> <ID_182485979> .
-<#ID_732184589> <urn:string:@_TEXT> """undefined""" .
-<#ID_732184589> <urn:string:child> <ID_732184589> .
+<#ID_462332869> <urn:string:@_TEXT> """fallback""" .
+<#ID_462332869> <urn:string:child> <ID_462332869> .
 <#ID_29378183> <urn:string:@_TEXT> """r""" .
 <#ID_29378183> <urn:string:child> <ID_29378183> .
 <#ID_893546805> <urn:string:@_TEXT> """variable""" .
 <#ID_893546805> <urn:string:child> <ID_893546805> .
 <#ID_553476152> <urn:string:@_TEXT> """multiple""" .
 <#ID_553476152> <urn:string:child> <ID_553476152> .
-<#ID_510214321> <urn:string:@_TEXT> """routing information for a private route""" .
-<#ID_510214321> <urn:string:child> <ID_510214321> .
+<#ID_1489942348> <urn:string:@_TEXT> """routes""" .
+<#ID_1489942348> <urn:string:child> <ID_1489942348> .
 <#ID_212873551> <urn:string:@_TEXT> """pubkey""" .
 <#ID_212873551> <urn:string:child> <ID_212873551> .
 <#ID_329499074> <urn:string:@_TEXT> """short_channel""" .

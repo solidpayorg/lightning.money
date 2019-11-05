@@ -491,11 +491,10 @@
                             "@_TEXT": "type (5 bits)",
                             "@_ID": "ID_771661366",
                             "@_CREATED": 1572940474122,
-                            "@_MODIFIED": 1572941116253,
-                            "@_COLOR": "#006600",
+                            "@_MODIFIED": 1572941300165,
                             "font": {
                                 "@_SIZE": 11,
-                                "@_BOLD": true
+                                "@_BOLD": false
                             },
                             "node": {
                                 "@_TEXT": "data_length (10 bits, big-endian)",
@@ -529,16 +528,28 @@
                                     "@_MODIFIED": 1572940582794
                                 },
                                 {
-                                    "@_TEXT": "preimage : sha256 payment_hash",
+                                    "@_TEXT": "preimage",
                                     "@_ID": "ID_410072620",
                                     "@_CREATED": 1572940591279,
-                                    "@_MODIFIED": 1572940606786
-                                },
-                                {
-                                    "@_TEXT": "provides proof of payment",
-                                    "@_ID": "ID_935431636",
-                                    "@_CREATED": 1572940615981,
-                                    "@_MODIFIED": 1572940620965
+                                    "@_MODIFIED": 1572941443499,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": [
+                                        {
+                                            "@_TEXT": "sha256 payment_hash",
+                                            "@_ID": "ID_348363054",
+                                            "@_CREATED": 1572941256345,
+                                            "@_MODIFIED": 1572941271077
+                                        },
+                                        {
+                                            "@_TEXT": "provides proof of payment",
+                                            "@_ID": "ID_935431636",
+                                            "@_CREATED": 1572940615981,
+                                            "@_MODIFIED": 1572940620965
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -563,7 +574,11 @@
                                     "@_TEXT": "description",
                                     "@_ID": "ID_658589457",
                                     "@_CREATED": 1572940649923,
-                                    "@_MODIFIED": 1572940652479
+                                    "@_MODIFIED": 1572941443499,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
                                 }
                             ]
                         },
@@ -589,7 +604,11 @@
                                     "@_TEXT": "public key of node",
                                     "@_ID": "ID_710386775",
                                     "@_CREATED": 1572940667963,
-                                    "@_MODIFIED": 1572940672348
+                                    "@_MODIFIED": 1572941443499,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
                                 }
                             ]
                         },
@@ -615,7 +634,11 @@
                                     "@_TEXT": "purpose of payment",
                                     "@_ID": "ID_1905709408",
                                     "@_CREATED": 1572940705157,
-                                    "@_MODIFIED": 1572940721366
+                                    "@_MODIFIED": 1572941443499,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
                                 }
                             ]
                         },
@@ -637,10 +660,14 @@
                                     "@_MODIFIED": 1572940733173
                                 },
                                 {
-                                    "@_TEXT": "expirty time in seconds",
+                                    "@_TEXT": "expiry time in seconds",
                                     "@_ID": "ID_1885927274",
                                     "@_CREATED": 1572940738479,
-                                    "@_MODIFIED": 1572940745281
+                                    "@_MODIFIED": 1572941457079,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
                                 },
                                 {
                                     "@_TEXT": "default 3600",
@@ -668,10 +695,20 @@
                                     "@_MODIFIED": 1572940770988
                                 },
                                 {
-                                    "@_TEXT": "min_final_cltv_expiry to use for the last HTLC in the route",
+                                    "@_TEXT": "min_final_cltv_expiry",
                                     "@_ID": "ID_1017479450",
                                     "@_CREATED": 1572940791498,
-                                    "@_MODIFIED": 1572940821937
+                                    "@_MODIFIED": 1572941443498,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_TEXT": "to use for the last HTLC in the route",
+                                        "@_ID": "ID_1525068867",
+                                        "@_CREATED": 1572941333713,
+                                        "@_MODIFIED": 1572941335797
+                                    }
                                 },
                                 {
                                     "@_TEXT": "default 9",
@@ -699,15 +736,25 @@
                                     "@_MODIFIED": 1572940843764
                                 },
                                 {
-                                    "@_ID": "ID_732184589",
-                                    "@_CREATED": 1572940862398,
-                                    "@_MODIFIED": 1572940862398,
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "p": "depending on version. Fallback on-chain address: for Bitcoin, this starts with a 5-bit version and contains a witness program or P2PKH or P2SH address"
+                                    "@_TEXT": "fallback",
+                                    "@_ID": "ID_462332869",
+                                    "@_CREATED": 1572941384676,
+                                    "@_MODIFIED": 1572941443498,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_ID": "ID_732184589",
+                                        "@_CREATED": 1572940862398,
+                                        "@_MODIFIED": 1572940862398,
+                                        "richcontent": {
+                                            "@_TYPE": "NODE",
+                                            "html": {
+                                                "head": "",
+                                                "body": {
+                                                    "p": "depending on version. Fallback on-chain address: for Bitcoin, this starts with a 5-bit version and contains a witness program or P2PKH or P2SH address"
+                                                }
                                             }
                                         }
                                     }
@@ -738,10 +785,20 @@
                                     "@_MODIFIED": 1572940895477
                                 },
                                 {
-                                    "@_TEXT": "routing information for a private route",
-                                    "@_ID": "ID_510214321",
-                                    "@_CREATED": 1572940897168,
-                                    "@_MODIFIED": 1572940908504
+                                    "@_TEXT": "routes",
+                                    "@_ID": "ID_1489942348",
+                                    "@_CREATED": 1572941400322,
+                                    "@_MODIFIED": 1572941443498,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_TEXT": "routing information for a private route",
+                                        "@_ID": "ID_510214321",
+                                        "@_CREATED": 1572940897168,
+                                        "@_MODIFIED": 1572940908504
+                                    }
                                 }
                             ]
                         },
@@ -749,8 +806,8 @@
                             "@_TEXT": "pubkey",
                             "@_ID": "ID_212873551",
                             "@_CREATED": 1572940934441,
-                            "@_MODIFIED": 1572941116263,
-                            "@_COLOR": "#006600",
+                            "@_MODIFIED": 1572941494791,
+                            "@_COLOR": "#0000cc",
                             "font": {
                                 "@_SIZE": 11,
                                 "@_BOLD": true
@@ -767,8 +824,8 @@
                             "@_TEXT": "short_channel",
                             "@_ID": "ID_329499074",
                             "@_CREATED": 1572940945487,
-                            "@_MODIFIED": 1572941116263,
-                            "@_COLOR": "#006600",
+                            "@_MODIFIED": 1572941494793,
+                            "@_COLOR": "#0000cc",
                             "font": {
                                 "@_SIZE": 11,
                                 "@_BOLD": true
@@ -785,8 +842,8 @@
                             "@_TEXT": "fee_base_msat",
                             "@_ID": "ID_489210767",
                             "@_CREATED": 1572940958152,
-                            "@_MODIFIED": 1572941116263,
-                            "@_COLOR": "#006600",
+                            "@_MODIFIED": 1572941494793,
+                            "@_COLOR": "#0000cc",
                             "font": {
                                 "@_SIZE": 11,
                                 "@_BOLD": true
@@ -803,8 +860,8 @@
                             "@_TEXT": "fee_base_proportional_millionths",
                             "@_ID": "ID_912976221",
                             "@_CREATED": 1572940971774,
-                            "@_MODIFIED": 1572941116263,
-                            "@_COLOR": "#006600",
+                            "@_MODIFIED": 1572941494794,
+                            "@_COLOR": "#0000cc",
                             "font": {
                                 "@_SIZE": 11,
                                 "@_BOLD": true
@@ -827,8 +884,8 @@
                             "@_TEXT": "cltv_expiry_delta",
                             "@_ID": "ID_994564441",
                             "@_CREATED": 1572941009160,
-                            "@_MODIFIED": 1572941116263,
-                            "@_COLOR": "#006600",
+                            "@_MODIFIED": 1572941494794,
+                            "@_COLOR": "#0000cc",
                             "font": {
                                 "@_SIZE": 11,
                                 "@_BOLD": true
@@ -875,7 +932,11 @@
                                     "@_TEXT": "feature bits",
                                     "@_ID": "ID_975761997",
                                     "@_CREATED": 1572941064681,
-                                    "@_MODIFIED": 1572941067684,
+                                    "@_MODIFIED": 1572941443494,
+                                    "@_COLOR": "#0000cc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
                                     "node": {
                                         "@_TEXT": "5 bits",
                                         "@_ID": "ID_1106949451",
