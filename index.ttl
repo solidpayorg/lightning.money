@@ -51,6 +51,8 @@
 <#ID_1897426799> <urn:string:child> <ID_1897426799> .
 <#ID_1244510370> <urn:string:@_TEXT> """awesome list""" .
 <#ID_1244510370> <urn:string:child> <ID_1244510370> .
+<#ID_806544715> <urn:string:@_TEXT> """lightning wiki""" .
+<#ID_806544715> <urn:string:child> <ID_806544715> .
 <#ID_1451851808> <urn:string:@_TEXT> """lnroute""" .
 <#ID_1451851808> <urn:string:child> <ID_1451851808> .
 <#ID_1721453071> <urn:string:@_TEXT> """communities""" .

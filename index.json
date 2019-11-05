@@ -507,6 +507,13 @@
                                     "@_LINK": "https://github.com/bcongdon/awesome-lightning-network"
                                 },
                                 {
+                                    "@_TEXT": "lightning wiki",
+                                    "@_ID": "ID_806544715",
+                                    "@_CREATED": 1572988881428,
+                                    "@_MODIFIED": 1572988891410,
+                                    "@_LINK": "https://lightningwiki.net/index.php/Main_Page"
+                                },
+                                {
                                     "@_TEXT": "lnroute",
                                     "@_ID": "ID_1451851808",
                                     "@_CREATED": 1570185749629,
