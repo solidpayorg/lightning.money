@@ -1,7 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="specs" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572947121684" ICON_SIZE="16.0 pt" LINK="../index.mm" STYLE="oval">
-<icon BUILTIN="go"/>
+<node TEXT="specs" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572947492855" ICON_SIZE="16.0 pt" LINK="../index.mm" STYLE="oval">
+<icon BUILTIN="lightning"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>

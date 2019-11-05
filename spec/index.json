@@ -6,12 +6,12 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572947121684,
+            "@_MODIFIED": 1572947492855,
             "@_ICON_SIZE": "16.0 pt",
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
             "icon": {
-                "@_BUILTIN": "go"
+                "@_BUILTIN": "lightning"
             },
             "font": {
                 "@_SIZE": 18
