@@ -4,11 +4,23 @@
 <#ID_307649319> <urn:string:child> <ID_307649319> .
 <#ID_775787707> <urn:string:@_TEXT> """github bolts""" .
 <#ID_775787707> <urn:string:child> <ID_775787707> .
+<#ID_1992464493> <urn:string:@_TEXT> """lndecode""" .
+<#ID_1992464493> <urn:string:child> <ID_1992464493> .
 <#ID_466759422> <urn:string:@_TEXT> """tags""" .
 <#ID_1858353829> <urn:string:@_TEXT> """BOLT 11""" .
 <#ID_1181468701> <urn:string:@_TEXT> """Encoding Overview""" .
+<#ID_320163320> <urn:string:@_TEXT> """bech32""" .
+<#ID_320163320> <urn:string:child> <ID_320163320> .
+<#ID_1589281708> <urn:string:@_TEXT> """uri""" .
+<#ID_1589281708> <urn:string:child> <ID_1589281708> .
 <#ID_1318565656> <urn:string:@_TEXT> """Human-Readable Part""" .
 <#ID_1914696149> <urn:string:@_TEXT> """Data Part""" .
+<#ID_304173955> <urn:string:@_TEXT> """timestamp: seconds-since-1970 (35 bits, big-endian)""" .
+<#ID_304173955> <urn:string:child> <ID_304173955> .
+<#ID_155824163> <urn:string:@_TEXT> """zero or more tagged parts""" .
+<#ID_155824163> <urn:string:child> <ID_155824163> .
+<#ID_801783234> <urn:string:@_TEXT> """signature: Bitcoin-style signature of above (520 bits)""" .
+<#ID_801783234> <urn:string:child> <ID_801783234> .
 <#ID_1934118347> <urn:string:@_TEXT> """Tagged Fields""" .
 <#ID_78547923> <urn:string:@_TEXT> """Feature Bits""" .
 <#ID_1916787234> <urn:string:@_TEXT> """Payer / Payee Interactions""" .

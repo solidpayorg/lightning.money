@@ -6,12 +6,12 @@
             "@_FOLDED": false,
             "@_ID": "ID_1831615648",
             "@_CREATED": 1569272472516,
-            "@_MODIFIED": 1572939490048,
+            "@_MODIFIED": 1572940303612,
             "@_ICON_SIZE": "20.0 pt",
             "@_LINK": "index.mm",
             "@_STYLE": "oval",
             "icon": {
-                "@_BUILTIN": "bookmark"
+                "@_BUILTIN": "lightning"
             },
             "font": {
                 "@_SIZE": 18
@@ -242,6 +242,13 @@
                             "@_CREATED": 1572939281386,
                             "@_MODIFIED": 1572939294218,
                             "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#bolt-0-introduction-and-index"
+                        },
+                        {
+                            "@_TEXT": "lndecode",
+                            "@_ID": "ID_1992464493",
+                            "@_CREATED": 1572939750813,
+                            "@_MODIFIED": 1572939758079,
+                            "@_LINK": "https://lndecode.com/"
                         }
                     ]
                 },
@@ -285,19 +292,133 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1181468701",
                     "@_CREATED": 1572939507040,
-                    "@_MODIFIED": 1572939507041,
+                    "@_MODIFIED": 1572940096926,
+                    "icon": {
+                        "@_BUILTIN": "pencil"
+                    },
                     "edge": {
                         "@_COLOR": "#007c7c"
-                    }
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "bech32",
+                            "@_ID": "ID_320163320",
+                            "@_CREATED": 1572939779009,
+                            "@_MODIFIED": 1572939781876,
+                            "node": {
+                                "@_TEXT": "used in segwit",
+                                "@_ID": "ID_1901393893",
+                                "@_CREATED": 1572939783630,
+                                "@_MODIFIED": 1572939786654
+                            }
+                        },
+                        {
+                            "@_TEXT": "uri",
+                            "@_ID": "ID_1589281708",
+                            "@_CREATED": 1572939830612,
+                            "@_MODIFIED": 1572939832083,
+                            "node": {
+                                "@_TEXT": "lightning:",
+                                "@_ID": "ID_667349327",
+                                "@_CREATED": 1572939833046,
+                                "@_MODIFIED": 1572939841370,
+                                "node": {
+                                    "@_TEXT": "fallback bitcoin:",
+                                    "@_ID": "ID_409610951",
+                                    "@_CREATED": 1572939842806,
+                                    "@_MODIFIED": 1572939849932
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "Human-Readable Part",
                     "@_POSITION": "right",
                     "@_ID": "ID_1318565656",
                     "@_CREATED": 1572939507040,
-                    "@_MODIFIED": 1572939507042,
+                    "@_MODIFIED": 1572940104578,
+                    "icon": {
+                        "@_BUILTIN": "male1"
+                    },
                     "edge": {
                         "@_COLOR": "#7c7c00"
+                    },
+                    "node": {
+                        "@_TEXT": "ln",
+                        "@_ID": "ID_1089012341",
+                        "@_CREATED": 1572939988754,
+                        "@_MODIFIED": 1572939990151,
+                        "node": [
+                            {
+                                "@_TEXT": "bc",
+                                "@_ID": "ID_450787202",
+                                "@_CREATED": 1572939998953,
+                                "@_MODIFIED": 1572940001668,
+                                "node": {
+                                    "@_TEXT": "amount",
+                                    "@_ID": "ID_1713601084",
+                                    "@_CREATED": 1572940035044,
+                                    "@_MODIFIED": 1572940037662,
+                                    "node": {
+                                        "@_TEXT": "multiplier",
+                                        "@_ID": "ID_881981142",
+                                        "@_CREATED": 1572940039740,
+                                        "@_MODIFIED": 1572940041753,
+                                        "node": [
+                                            {
+                                                "@_TEXT": "m (milli): multiply by 0.001",
+                                                "@_ID": "ID_974495660",
+                                                "@_CREATED": 1572940122557,
+                                                "@_MODIFIED": 1572940122557
+                                            },
+                                            {
+                                                "@_TEXT": "u (micro): multiply by 0.000001",
+                                                "@_ID": "ID_678079484",
+                                                "@_CREATED": 1572940122557,
+                                                "@_MODIFIED": 1572940122557
+                                            },
+                                            {
+                                                "@_TEXT": "n (nano): multiply by 0.000000001",
+                                                "@_ID": "ID_1855552018",
+                                                "@_CREATED": 1572940122558,
+                                                "@_MODIFIED": 1572940122558
+                                            },
+                                            {
+                                                "@_TEXT": "p (pico): multiply by 0.000000000001",
+                                                "@_ID": "ID_377001094",
+                                                "@_CREATED": 1572940122559,
+                                                "@_MODIFIED": 1572940122559
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "@_TEXT": "tb",
+                                "@_ID": "ID_1245853665",
+                                "@_CREATED": 1572940002092,
+                                "@_MODIFIED": 1572940002989,
+                                "node": {
+                                    "@_TEXT": "testnet",
+                                    "@_ID": "ID_1055781201",
+                                    "@_CREATED": 1572940046603,
+                                    "@_MODIFIED": 1572940047894
+                                }
+                            },
+                            {
+                                "@_TEXT": "bcrt",
+                                "@_ID": "ID_1157018127",
+                                "@_CREATED": 1572940014067,
+                                "@_MODIFIED": 1572940015989,
+                                "node": {
+                                    "@_TEXT": "regtest",
+                                    "@_ID": "ID_979905496",
+                                    "@_CREATED": 1572940068468,
+                                    "@_MODIFIED": 1572940071020
+                                }
+                            }
+                        ]
                     }
                 },
                 {
@@ -305,17 +426,49 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1914696149",
                     "@_CREATED": 1572939507042,
-                    "@_MODIFIED": 1572939507042,
+                    "@_MODIFIED": 1572940234098,
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
                     "edge": {
                         "@_COLOR": "#ff0000"
-                    }
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "timestamp: seconds-since-1970 (35 bits, big-endian)",
+                            "@_ID": "ID_304173955",
+                            "@_CREATED": 1572940208461,
+                            "@_MODIFIED": 1572940208461
+                        },
+                        {
+                            "@_TEXT": "zero or more tagged parts",
+                            "@_ID": "ID_155824163",
+                            "@_CREATED": 1572940208461,
+                            "@_MODIFIED": 1572940208461
+                        },
+                        {
+                            "@_TEXT": "signature: Bitcoin-style signature of above (520 bits)",
+                            "@_ID": "ID_801783234",
+                            "@_CREATED": 1572940208469,
+                            "@_MODIFIED": 1572940208469,
+                            "node": {
+                                "@_TEXT": "512-bit secp256k1 signature of the SHA2 256-bit hash of the human-readable part, represented as UTF-8 bytes, concatenated with the data part (excluding the signature) with 0 bits appended to pad the data to the next byte boundary, with a trailing byte containing the recovery ID (0, 1, 2, or 3).",
+                                "@_ID": "ID_1386946082",
+                                "@_CREATED": 1572940276072,
+                                "@_MODIFIED": 1572940276072
+                            }
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "Tagged Fields",
                     "@_POSITION": "right",
                     "@_ID": "ID_1934118347",
                     "@_CREATED": 1572939507042,
-                    "@_MODIFIED": 1572939507043,
+                    "@_MODIFIED": 1572940288846,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
                     "edge": {
                         "@_COLOR": "#0000ff"
                     }
