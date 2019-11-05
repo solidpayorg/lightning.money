@@ -2,16 +2,16 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "spec",
+            "@_TEXT": "bolts",
             "@_FOLDED": false,
-            "@_ID": "ID_1568754813",
-            "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572171869792,
-            "@_ICON_SIZE": "16.0 pt",
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1572939253033,
+            "@_ICON_SIZE": "20.0 pt",
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
             "icon": {
-                "@_BUILTIN": "go"
+                "@_BUILTIN": "bookmark"
             },
             "font": {
                 "@_SIZE": 18
@@ -197,156 +197,88 @@
             ],
             "node": [
                 {
-                    "@_TEXT": "Bolts",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1438249466",
-                    "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572939271555,
-                    "@_LINK": "bolts/index.mm",
-                    "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "27.499999597668662 pt",
-                    "@_VSHIFT_QUANTITY": "-62.24999814480549 pt",
-                    "icon": {
-                        "@_BUILTIN": "launch"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    }
-                },
-                {
-                    "@_TEXT": "main spec",
+                    "@_TEXT": "docs",
                     "@_POSITION": "left",
-                    "@_ID": "ID_728396892",
-                    "@_CREATED": 1569861329090,
-                    "@_MODIFIED": 1572171284982,
-                    "@_COLOR": "#cc00cc",
-                    "@_HGAP_QUANTITY": "14.749999977648258 pt",
-                    "@_VSHIFT_QUANTITY": "-8.999999731779106 pt",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1572938857095,
                     "icon": {
-                        "@_BUILTIN": "attach"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
+                        "@_BUILTIN": "info"
                     },
                     "edge": {
                         "@_COLOR": "#ff00ff"
                     },
                     "node": {
-                        "@_TEXT": "main spec",
-                        "@_ID": "ID_1858353829",
-                        "@_CREATED": 1569861461668,
-                        "@_MODIFIED": 1572862888469,
-                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
+                        "@_TEXT": "resources",
+                        "@_ID": "ID_1911540836",
+                        "@_CREATED": 1572861720975,
+                        "@_MODIFIED": 1572938870390,
+                        "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources"
                     }
                 },
                 {
-                    "@_TEXT": "dev",
+                    "@_TEXT": "links",
                     "@_POSITION": "left",
-                    "@_ID": "ID_79546038",
-                    "@_CREATED": 1572862882627,
-                    "@_MODIFIED": 1572862907562,
-                    "@_LINK": "../dev/index.mm",
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1570968728190,
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
                     "edge": {
-                        "@_COLOR": "#0000ff"
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "mailing list",
+                            "@_ID": "ID_307649319",
+                            "@_CREATED": 1572859082436,
+                            "@_MODIFIED": 1572938866460,
+                            "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
+                        },
+                        {
+                            "@_TEXT": "github bolts",
+                            "@_ID": "ID_775787707",
+                            "@_CREATED": 1572939281386,
+                            "@_MODIFIED": 1572939294218,
+                            "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#bolt-0-introduction-and-index"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "tags",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_466759422",
+                    "@_CREATED": 1570968754383,
+                    "@_MODIFIED": 1571340239144,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
                     }
                 },
                 {
-                    "@_TEXT": "Other",
+                    "@_TEXT": "BOLT 11",
                     "@_POSITION": "right",
-                    "@_ID": "ID_928353311",
-                    "@_CREATED": 1572171327007,
-                    "@_MODIFIED": 1572171381957,
-                    "@_COLOR": "#cccc00",
-                    "icon": {
-                        "@_BUILTIN": "idea"
-                    },
+                    "@_ID": "ID_1858353829",
+                    "@_CREATED": 1569861461668,
+                    "@_MODIFIED": 1572939459359,
+                    "@_LINK": "11.mm",
+                    "@_COLOR": "#000099",
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
                     },
                     "edge": {
-                        "@_COLOR": "#ff00ff"
+                        "@_COLOR": "#007c7c"
                     },
-                    "node": [
-                        {
-                            "@_TEXT": "lnurl",
-                            "@_ID": "ID_961943115",
-                            "@_CREATED": 1572171385940,
-                            "@_MODIFIED": 1572171417502,
-                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md",
-                            "node": [
-                                {
-                                    "@_TEXT": "lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.",
-                                    "@_ID": "ID_440219822",
-                                    "@_CREATED": 1572171436281,
-                                    "@_MODIFIED": 1572171606701,
-                                    "@_COLOR": "#000099"
-                                },
-                                {
-                                    "@_TEXT": "https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df",
-                                    "@_ID": "ID_1177904626",
-                                    "@_CREATED": 1572171479316,
-                                    "@_MODIFIED": 1572171610181
-                                },
-                                {
-                                    "@_TEXT": "LNURL1DP68GURN8GHJ7UM9WF&#xa;MXJCM99E3K7MF0V9CXJ0M385E&#xa;KVCENXC6R2C35XVUKXEFCV5M&#xa;KVV34X5EKZD3EV56NYD3HXQU&#xa;RZEPEXEJXXEPNXSCRVWFNV9N&#xa;XZCN9XQ6XYEFHVGCXXCMYXY&#xa;MNSERXFQ5FNS",
-                                    "@_ID": "ID_452574641",
-                                    "@_CREATED": 1572171486401,
-                                    "@_MODIFIED": 1572171590844,
-                                    "@_COLOR": "#009900"
-                                },
-                                {
-                                    "@_TEXT": "example",
-                                    "@_ID": "ID_1961156848",
-                                    "@_CREATED": 1572171470824,
-                                    "@_MODIFIED": 1572171472468,
-                                    "node": {
-                                        "@_TEXT": "png_15751375840253331061.png",
-                                        "@_ID": "ID_141047124",
-                                        "@_CREATED": 1572171568805,
-                                        "@_MODIFIED": 1572171568805,
-                                        "hook": {
-                                            "@_URI": "index_files/png_15751375840253331061.png",
-                                            "@_SIZE": 1,
-                                            "@_NAME": "ExternalObject"
-                                        }
-                                    }
-                                },
-                                {
-                                    "@_ID": "ID_1585457459",
-                                    "@_CREATED": 1572683695899,
-                                    "@_MODIFIED": 1572683695899,
-                                    "@_LINK": "https://lnurl.com/",
-                                    "richcontent": {
-                                        "@_TYPE": "NODE",
-                                        "html": {
-                                            "head": "",
-                                            "body": {
-                                                "a": {
-                                                    "#text": "https://lnurl.com/",
-                                                    "@_http-equiv": "content-type",
-                                                    "@_content": "text/html; charset=utf-8",
-                                                    "@_href": "https://lnurl.com/"
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "@_TEXT": "lightning auth",
-                            "@_ID": "ID_705335058",
-                            "@_CREATED": 1572241475803,
-                            "@_MODIFIED": 1572241481606,
-                            "@_LINK": "https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"
-                        }
-                    ]
+                    "node": {
+                        "@_TEXT": "Invoice Protocol for Lightning Payments",
+                        "@_ID": "ID_1384191185",
+                        "@_CREATED": 1572939403032,
+                        "@_MODIFIED": 1572939403032
+                    }
                 }
             ]
         }

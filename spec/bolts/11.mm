@@ -1,7 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="spec" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572171869792" ICON_SIZE="16.0 pt" LINK="../index.mm" STYLE="oval">
-<icon BUILTIN="go"/>
+<node TEXT="BOLT 11" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1572939490048" ICON_SIZE="20.0 pt" LINK="index.mm" STYLE="oval">
+<icon BUILTIN="bookmark"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,48 +64,56 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Bolts" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1572939271555" LINK="bolts/index.mm" COLOR="#009933" HGAP_QUANTITY="27.499999597668662 pt" VSHIFT_QUANTITY="-62.24999814480549 pt">
-<icon BUILTIN="launch"/>
-<font SIZE="12" BOLD="true"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="30" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572938857095">
+<icon BUILTIN="info"/>
 <edge COLOR="#ff00ff"/>
+<node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572938870390" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
 </node>
-<node TEXT="main spec" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1572171284982" COLOR="#cc00cc" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="-8.999999731779106 pt">
+<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#ff00ff"/>
-<node TEXT="main spec" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572862888469" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
+<edge COLOR="#00007c"/>
+<node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572938866460" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
+<node TEXT="github bolts" ID="ID_775787707" CREATED="1572939281386" MODIFIED="1572939294218" LINK="https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#bolt-0-introduction-and-index"/>
 </node>
-<node TEXT="dev" POSITION="left" ID="ID_79546038" CREATED="1572862882627" MODIFIED="1572862907562" LINK="../dev/index.mm">
+<node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
+<icon BUILTIN="hashtag"/>
+<edge COLOR="#007c00"/>
+</node>
+<node TEXT="BOLT 11" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572939328569" LINK="../spec/index.mm" COLOR="#000099">
+<edge COLOR="#007c7c"/>
+<font SIZE="12" BOLD="true"/>
+<node TEXT="Invoice Protocol for Lightning Payments" ID="ID_1384191185" CREATED="1572939403032" MODIFIED="1572939403032"/>
+</node>
+<node TEXT="Encoding Overview" POSITION="right" ID="ID_1181468701" CREATED="1572939507040" MODIFIED="1572939507041">
+<edge COLOR="#007c7c"/>
+</node>
+<node TEXT="Human-Readable Part" POSITION="right" ID="ID_1318565656" CREATED="1572939507040" MODIFIED="1572939507042">
+<edge COLOR="#7c7c00"/>
+</node>
+<node TEXT="Data Part" POSITION="right" ID="ID_1914696149" CREATED="1572939507042" MODIFIED="1572939507042">
+<edge COLOR="#ff0000"/>
+</node>
+<node TEXT="Tagged Fields" POSITION="right" ID="ID_1934118347" CREATED="1572939507042" MODIFIED="1572939507043">
 <edge COLOR="#0000ff"/>
 </node>
-<node TEXT="Other" POSITION="right" ID="ID_928353311" CREATED="1572171327007" MODIFIED="1572171381957" COLOR="#cccc00">
-<icon BUILTIN="idea"/>
-<font SIZE="12" BOLD="true"/>
+<node TEXT="Feature Bits" POSITION="right" ID="ID_78547923" CREATED="1572939507042" MODIFIED="1572939507043">
+<edge COLOR="#00ff00"/>
+</node>
+<node TEXT="Payer / Payee Interactions" POSITION="right" ID="ID_1916787234" CREATED="1572939507043" MODIFIED="1572939507049">
 <edge COLOR="#ff00ff"/>
-<node TEXT="lnurl" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572171417502" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md">
-<node TEXT="lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc." ID="ID_440219822" CREATED="1572171436281" MODIFIED="1572171606701" COLOR="#000099"/>
-<node TEXT="https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df" ID="ID_1177904626" CREATED="1572171479316" MODIFIED="1572171610181"/>
-<node TEXT="LNURL1DP68GURN8GHJ7UM9WF&#xa;MXJCM99E3K7MF0V9CXJ0M385E&#xa;KVCENXC6R2C35XVUKXEFCV5M&#xa;KVV34X5EKZD3EV56NYD3HXQU&#xa;RZEPEXEJXXEPNXSCRVWFNV9N&#xa;XZCN9XQ6XYEFHVGCXXCMYXY&#xa;MNSERXFQ5FNS" ID="ID_452574641" CREATED="1572171486401" MODIFIED="1572171590844" COLOR="#009900"/>
-<node TEXT="example" ID="ID_1961156848" CREATED="1572171470824" MODIFIED="1572171472468">
-<node TEXT="png_15751375840253331061.png" ID="ID_141047124" CREATED="1572171568805" MODIFIED="1572171568805">
-<hook URI="index_files/png_15751375840253331061.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
+<node TEXT="Payer / Payee Requirements" POSITION="right" ID="ID_697480629" CREATED="1572939507046" MODIFIED="1572939507052">
+<edge COLOR="#00ffff"/>
 </node>
-<node ID="ID_1585457459" CREATED="1572683695899" MODIFIED="1572683695899" LINK="https://lnurl.com/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lnurl.com/">https://lnurl.com/</a> 
-  </body>
-</html>
-</richcontent>
+<node TEXT="Implementation" POSITION="right" ID="ID_962287467" CREATED="1572939507050" MODIFIED="1572939507053">
+<edge COLOR="#7c0000"/>
 </node>
+<node TEXT="Examples" POSITION="right" ID="ID_1714383296" CREATED="1572939507053" MODIFIED="1572939507054">
+<edge COLOR="#00007c"/>
 </node>
-<node TEXT="lightning auth" ID="ID_705335058" CREATED="1572241475803" MODIFIED="1572241481606" LINK="https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"/>
+<node TEXT="Authors" POSITION="right" ID="ID_656982488" CREATED="1572939507053" MODIFIED="1572939507054">
+<edge COLOR="#007c00"/>
 </node>
 </node>
 </map>

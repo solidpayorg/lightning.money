@@ -1,0 +1,18 @@
+<#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_307649319> <urn:string:@_TEXT> """mailing list""" .
+<#ID_307649319> <urn:string:child> <ID_307649319> .
+<#ID_775787707> <urn:string:@_TEXT> """github bolts""" .
+<#ID_775787707> <urn:string:child> <ID_775787707> .
+<#ID_466759422> <urn:string:@_TEXT> """tags""" .
+<#ID_1858353829> <urn:string:@_TEXT> """BOLT 11""" .
+<#ID_1181468701> <urn:string:@_TEXT> """Encoding Overview""" .
+<#ID_1318565656> <urn:string:@_TEXT> """Human-Readable Part""" .
+<#ID_1914696149> <urn:string:@_TEXT> """Data Part""" .
+<#ID_1934118347> <urn:string:@_TEXT> """Tagged Fields""" .
+<#ID_78547923> <urn:string:@_TEXT> """Feature Bits""" .
+<#ID_1916787234> <urn:string:@_TEXT> """Payer / Payee Interactions""" .
+<#ID_697480629> <urn:string:@_TEXT> """Payer / Payee Requirements""" .
+<#ID_962287467> <urn:string:@_TEXT> """Implementation""" .
+<#ID_1714383296> <urn:string:@_TEXT> """Examples""" .
+<#ID_656982488> <urn:string:@_TEXT> """Authors""" .
