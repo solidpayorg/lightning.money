@@ -1,18 +1,8 @@
-<#ID_1438249466> <urn:string:@_TEXT> """Bolts""" .
 <#ID_728396892> <urn:string:@_TEXT> """main spec""" .
 <#ID_79546038> <urn:string:@_TEXT> """dev""" .
+<#ID_305209159> <urn:string:@_TEXT> """Bolts""" .
 <#ID_928353311> <urn:string:@_TEXT> """Other""" .
 <#ID_961943115> <urn:string:@_TEXT> """lnurl""" .
 <#ID_961943115> <urn:string:child> <ID_961943115> .
-<#ID_440219822> <urn:string:@_TEXT> """lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.""" .
-<#ID_440219822> <urn:string:child> <ID_440219822> .
-<#ID_1177904626> <urn:string:@_TEXT> """https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df""" .
-<#ID_1177904626> <urn:string:child> <ID_1177904626> .
-<#ID_452574641> <urn:string:@_TEXT> """LNURL1DP68GURN8GHJ7UM9WF&#xa;MXJCM99E3K7MF0V9CXJ0M385E&#xa;KVCENXC6R2C35XVUKXEFCV5M&#xa;KVV34X5EKZD3EV56NYD3HXQU&#xa;RZEPEXEJXXEPNXSCRVWFNV9N&#xa;XZCN9XQ6XYEFHVGCXXCMYXY&#xa;MNSERXFQ5FNS""" .
-<#ID_452574641> <urn:string:child> <ID_452574641> .
-<#ID_1961156848> <urn:string:@_TEXT> """example""" .
-<#ID_1961156848> <urn:string:child> <ID_1961156848> .
-<#ID_1585457459> <urn:string:@_TEXT> """undefined""" .
-<#ID_1585457459> <urn:string:child> <ID_1585457459> .
 <#ID_705335058> <urn:string:@_TEXT> """lightning auth""" .
 <#ID_705335058> <urn:string:child> <ID_705335058> .

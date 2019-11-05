@@ -2,16 +2,16 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "specs",
+            "@_TEXT": "lnurl",
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572947121684,
+            "@_MODIFIED": 1572947013823,
             "@_ICON_SIZE": "16.0 pt",
-            "@_LINK": "../index.mm",
+            "@_LINK": "index.mm",
             "@_STYLE": "oval",
             "icon": {
-                "@_BUILTIN": "go"
+                "@_BUILTIN": "lightning"
             },
             "font": {
                 "@_SIZE": 18
@@ -191,107 +191,84 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 13,
+                    "@_COUNTER": 14,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": [
-                {
-                    "@_TEXT": "main spec",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_728396892",
-                    "@_CREATED": 1569861329090,
-                    "@_MODIFIED": 1572171284982,
-                    "@_COLOR": "#cc00cc",
-                    "@_HGAP_QUANTITY": "14.749999977648258 pt",
-                    "@_VSHIFT_QUANTITY": "-8.999999731779106 pt",
-                    "icon": {
-                        "@_BUILTIN": "attach"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
-                    "node": {
-                        "@_TEXT": "main spec",
-                        "@_ID": "ID_1858353829",
-                        "@_CREATED": 1569861461668,
-                        "@_MODIFIED": 1572862888469,
-                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
-                    }
+            "node": {
+                "@_TEXT": "lnurl",
+                "@_POSITION": "right",
+                "@_ID": "ID_961943115",
+                "@_CREATED": 1572171385940,
+                "@_MODIFIED": 1572947042692,
+                "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md",
+                "edge": {
+                    "@_COLOR": "#00ff00"
                 },
-                {
-                    "@_TEXT": "dev",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_79546038",
-                    "@_CREATED": 1572862882627,
-                    "@_MODIFIED": 1572862907562,
-                    "@_LINK": "../dev/index.mm",
-                    "edge": {
-                        "@_COLOR": "#0000ff"
-                    }
+                "font": {
+                    "@_SIZE": 12,
+                    "@_BOLD": true
                 },
-                {
-                    "@_TEXT": "Bolts",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_305209159",
-                    "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572947121683,
-                    "@_LINK": "bolts/index.mm",
-                    "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "25.999999642372146 pt",
-                    "@_VSHIFT_QUANTITY": "-49.499998524785084 pt",
-                    "icon": {
-                        "@_BUILTIN": "lightning"
+                "node": [
+                    {
+                        "@_TEXT": "lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.",
+                        "@_ID": "ID_440219822",
+                        "@_CREATED": 1572171436281,
+                        "@_MODIFIED": 1572171606701,
+                        "@_COLOR": "#000099"
                     },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
+                    {
+                        "@_TEXT": "https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df",
+                        "@_ID": "ID_1177904626",
+                        "@_CREATED": 1572171479316,
+                        "@_MODIFIED": 1572171610181
                     },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    }
-                },
-                {
-                    "@_TEXT": "Other",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_928353311",
-                    "@_CREATED": 1572171327007,
-                    "@_MODIFIED": 1572947119428,
-                    "@_COLOR": "#cccc00",
-                    "@_HGAP_QUANTITY": "22.999999731779106 pt",
-                    "@_VSHIFT_QUANTITY": "60.74999818950897 pt",
-                    "icon": {
-                        "@_BUILTIN": "idea"
+                    {
+                        "@_TEXT": "LNURL1DP68GURN8GHJ7UM9WF&#xa;MXJCM99E3K7MF0V9CXJ0M385E&#xa;KVCENXC6R2C35XVUKXEFCV5M&#xa;KVV34X5EKZD3EV56NYD3HXQU&#xa;RZEPEXEJXXEPNXSCRVWFNV9N&#xa;XZCN9XQ6XYEFHVGCXXCMYXY&#xa;MNSERXFQ5FNS",
+                        "@_ID": "ID_452574641",
+                        "@_CREATED": 1572171486401,
+                        "@_MODIFIED": 1572171590844,
+                        "@_COLOR": "#009900"
                     },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "lnurl",
-                            "@_ID": "ID_961943115",
-                            "@_CREATED": 1572171385940,
-                            "@_MODIFIED": 1572947060459,
-                            "@_LINK": "lnurl.mm"
-                        },
-                        {
-                            "@_TEXT": "lightning auth",
-                            "@_ID": "ID_705335058",
-                            "@_CREATED": 1572241475803,
-                            "@_MODIFIED": 1572241481606,
-                            "@_LINK": "https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"
+                    {
+                        "@_TEXT": "example",
+                        "@_ID": "ID_1961156848",
+                        "@_CREATED": 1572171470824,
+                        "@_MODIFIED": 1572171472468,
+                        "node": {
+                            "@_TEXT": "png_15751375840253331061.png",
+                            "@_ID": "ID_141047124",
+                            "@_CREATED": 1572171568805,
+                            "@_MODIFIED": 1572171568805,
+                            "hook": {
+                                "@_URI": "index_files/png_15751375840253331061.png",
+                                "@_SIZE": 1,
+                                "@_NAME": "ExternalObject"
+                            }
                         }
-                    ]
-                }
-            ]
+                    },
+                    {
+                        "@_ID": "ID_1585457459",
+                        "@_CREATED": 1572683695899,
+                        "@_MODIFIED": 1572683695899,
+                        "@_LINK": "https://lnurl.com/",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "a": {
+                                        "#text": "https://lnurl.com/",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://lnurl.com/"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }
