@@ -298,7 +298,13 @@
                         "@_TEXT": "Invoice Protocol for Lightning Payments",
                         "@_ID": "ID_1384191185",
                         "@_CREATED": 1572939403032,
-                        "@_MODIFIED": 1572939403032
+                        "@_MODIFIED": 1572943282906,
+                        "@_COLOR": "#009900",
+                        "font": {
+                            "@_SIZE": 11,
+                            "@_BOLD": true,
+                            "@_ITALIC": false
+                        }
                     }
                 },
                 {

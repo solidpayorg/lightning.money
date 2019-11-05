@@ -87,7 +87,9 @@
 <node TEXT="BOLT 11" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572939328569" LINK="../spec/index.mm" COLOR="#000099">
 <edge COLOR="#007c7c"/>
 <font SIZE="12" BOLD="true"/>
-<node TEXT="Invoice Protocol for Lightning Payments" ID="ID_1384191185" CREATED="1572939403032" MODIFIED="1572939403032"/>
+<node TEXT="Invoice Protocol for Lightning Payments" ID="ID_1384191185" CREATED="1572939403032" MODIFIED="1572943282906" COLOR="#009900">
+<font SIZE="11" BOLD="true" ITALIC="false"/>
+</node>
 </node>
 <node TEXT="Encoding Overview" POSITION="right" ID="ID_1181468701" CREATED="1572939507040" MODIFIED="1572940096926">
 <icon BUILTIN="pencil"/>
