@@ -106,7 +106,47 @@
 <#ID_975761997> <urn:string:child> <ID_975761997> .
 <#ID_78547923> <urn:string:@_TEXT> """Feature Bits""" .
 <#ID_1916787234> <urn:string:@_TEXT> """Payer / Payee Interactions""" .
-<#ID_697480629> <urn:string:@_TEXT> """Payer / Payee Requirements""" .
 <#ID_962287467> <urn:string:@_TEXT> """Implementation""" .
 <#ID_1714383296> <urn:string:@_TEXT> """Examples""" .
-<#ID_656982488> <urn:string:@_TEXT> """Authors""" .
+<#ID_1069156270> <urn:string:@_TEXT> """Please send $3 for a cup of coffee to the same peer, within one minute""" .
+<#ID_1069156270> <urn:string:child> <ID_1069156270> .
+<#ID_335570114> <urn:string:@_TEXT> """lnbc2500u1pvjluezpp5qqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqypqdq5xysxxatsyp3k7enxv4jsxqzpuaztrnwngzn3kdzw5hydlzf03qdgm2hdq27cqv3agm2awhz5se903vruatfhq77w3ls4evs3ch9zw97j25emudupq63nyw24cg27h2rspfj9srp""" .
+<#ID_335570114> <urn:string:child> <ID_335570114> .
+<#ID_632355062> <urn:string:@_TEXT> """Breakdown:""" .
+<#ID_632355062> <urn:string:child> <ID_632355062> .
+<#ID_1437265552> <urn:string:@_TEXT> """lnbc: prefix, Lightning on Bitcoin mainnet""" .
+<#ID_1437265552> <urn:string:child> <ID_1437265552> .
+<#ID_1091105784> <urn:string:@_TEXT> """2500u: amount (2500 micro-bitcoin)""" .
+<#ID_1091105784> <urn:string:child> <ID_1091105784> .
+<#ID_1475021122> <urn:string:@_TEXT> """1: Bech32 separator""" .
+<#ID_1475021122> <urn:string:child> <ID_1475021122> .
+<#ID_533273554> <urn:string:@_TEXT> """pvjluez: timestamp (1496314658)""" .
+<#ID_533273554> <urn:string:child> <ID_533273554> .
+<#ID_1579839537> <urn:string:@_TEXT> """p: payment hash...""" .
+<#ID_1579839537> <urn:string:child> <ID_1579839537> .
+<#ID_1685489284> <urn:string:@_TEXT> """d: short description""" .
+<#ID_1685489284> <urn:string:child> <ID_1685489284> .
+<#ID_1388390306> <urn:string:@_TEXT> """q5: data_length (q = 0, 5 = 20; 0 * 32 + 20 == 20)""" .
+<#ID_1388390306> <urn:string:child> <ID_1388390306> .
+<#ID_1638507407> <urn:string:@_TEXT> """xysxxatsyp3k7enxv4js: &apos;1 cup coffee&apos;""" .
+<#ID_1638507407> <urn:string:child> <ID_1638507407> .
+<#ID_307697326> <urn:string:@_TEXT> """x: expiry time""" .
+<#ID_307697326> <urn:string:child> <ID_307697326> .
+<#ID_1248672695> <urn:string:@_TEXT> """qz: data_length (q = 0, z = 2; 0 * 32 + 2 == 2)""" .
+<#ID_1248672695> <urn:string:child> <ID_1248672695> .
+<#ID_911030955> <urn:string:@_TEXT> """pu: 60 seconds (p = 1, u = 28; 1 * 32 + 28 == 60)""" .
+<#ID_911030955> <urn:string:child> <ID_911030955> .
+<#ID_1043939212> <urn:string:@_TEXT> """aztrnwngzn3kdzw5hydlzf03qdgm2hdq27cqv3agm2awhz5se903vruatfhq77w3ls4evs3ch9zw97j25emudupq63nyw24cg27h2rsp: signature""" .
+<#ID_1043939212> <urn:string:child> <ID_1043939212> .
+<#ID_796120394> <urn:string:@_TEXT> """fj9srp: Bech32 checksum""" .
+<#ID_796120394> <urn:string:child> <ID_796120394> .
+<#ID_1415086014> <urn:string:@_TEXT> """Signature breakdown:""" .
+<#ID_1415086014> <urn:string:child> <ID_1415086014> .
+<#ID_1070496702> <urn:string:@_TEXT> """e89639ba6814e36689d4b91bf125f10351b55da057b00647a8dabaeb8a90c95f160f9d5a6e0f79d1fc2b964238b944e2fa4aa677c6f020d466472ab842bd750e hex of signature data (32-byte r, 32-byte s)""" .
+<#ID_1070496702> <urn:string:child> <ID_1070496702> .
+<#ID_1799018780> <urn:string:@_TEXT> """1 (int) recovery flag contained in signature""" .
+<#ID_1799018780> <urn:string:child> <ID_1799018780> .
+<#ID_1493419865> <urn:string:@_TEXT> """6c6e626332353030750b25fe64410d00004080c1014181c20240004080c1014181c20240004080c1014181c202404081a0a189031bab81031b7b33332b2818020f00 hex of data for signing (prefix + data after separator up to the start of the signature)""" .
+<#ID_1493419865> <urn:string:child> <ID_1493419865> .
+<#ID_1572273548> <urn:string:@_TEXT> """3cd6ef07744040556e01be64f68fd9e1565fb47d78c42308b1ee005aca5a0d86 hex of SHA256 of the preimage""" .
+<#ID_1572273548> <urn:string:child> <ID_1572273548> .

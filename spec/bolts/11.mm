@@ -69,7 +69,7 @@
 <icon BUILTIN="info"/>
 <edge COLOR="#ff00ff"/>
 <node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572938870390" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
-<node TEXT="BOLT 11" ID="ID_694415795" CREATED="1569861461668" MODIFIED="1572940437482" LINK="../spec/index.mm" COLOR="#000099">
+<node TEXT="BOLT 11" ID="ID_694415795" CREATED="1569861461668" MODIFIED="1572941659304" LINK="https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md#bolt-11-invoice-protocol-for-lightning-payments" COLOR="#000099">
 <font SIZE="10" BOLD="false"/>
 </node>
 </node>
@@ -123,8 +123,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Data Part" POSITION="right" ID="ID_1914696149" CREATED="1572939507042" MODIFIED="1572940234098">
-<icon BUILTIN="list"/>
+<node TEXT="Data Part" POSITION="right" ID="ID_1914696149" CREATED="1572939507042" MODIFIED="1572942012200">
+<icon BUILTIN="edit"/>
 <edge COLOR="#ff0000"/>
 <node TEXT="timestamp: seconds-since-1970 (35 bits, big-endian)" ID="ID_304173955" CREATED="1572940208461" MODIFIED="1572940208461"/>
 <node TEXT="zero or more tagged parts" ID="ID_155824163" CREATED="1572940208461" MODIFIED="1572940208461"/>
@@ -253,23 +253,53 @@
 </node>
 </node>
 </node>
-<node TEXT="Feature Bits" POSITION="right" ID="ID_78547923" CREATED="1572939507042" MODIFIED="1572939507043">
+<node TEXT="Feature Bits" POSITION="right" ID="ID_78547923" CREATED="1572939507042" MODIFIED="1572941807908">
+<icon BUILTIN="idea"/>
 <edge COLOR="#00ff00"/>
+<node TEXT="Feature bits allow forward and backward compatibility, and follow the it&apos;s ok to be odd rule." ID="ID_803400834" CREATED="1572941716597" MODIFIED="1572941716597">
+<node TEXT="bigendian" ID="ID_1111822446" CREATED="1572941743043" MODIFIED="1572941745863"/>
+<node TEXT="lsb 0" ID="ID_661969217" CREATED="1572941754973" MODIFIED="1572941760000">
+<node TEXT="even" ID="ID_69173682" CREATED="1572941766509" MODIFIED="1572941768106"/>
 </node>
-<node TEXT="Payer / Payee Interactions" POSITION="right" ID="ID_1916787234" CREATED="1572939507043" MODIFIED="1572939507049">
+<node TEXT="msb 1" ID="ID_1699828579" CREATED="1572941760814" MODIFIED="1572941763901">
+<node TEXT="odd" ID="ID_591676575" CREATED="1572941770011" MODIFIED="1572941771660"/>
+</node>
+</node>
+</node>
+<node TEXT="Payer / Payee Interactions" POSITION="right" ID="ID_1916787234" CREATED="1572939507043" MODIFIED="1572941817481">
+<icon BUILTIN="fema"/>
 <edge COLOR="#ff00ff"/>
+<node TEXT="These are generally defined by the rest of the Lightning BOLT series, but it&apos;s worth noting that BOLT #4 specifies that the payee SHOULD accept up to twice the expected amount, so the payer can make payments harder to track by adding small variations" ID="ID_1132597232" CREATED="1572941840358" MODIFIED="1572941840358"/>
 </node>
-<node TEXT="Payer / Payee Requirements" POSITION="right" ID="ID_697480629" CREATED="1572939507046" MODIFIED="1572939507052">
-<edge COLOR="#00ffff"/>
-</node>
-<node TEXT="Implementation" POSITION="right" ID="ID_962287467" CREATED="1572939507050" MODIFIED="1572939507053">
+<node TEXT="Implementation" POSITION="right" ID="ID_962287467" CREATED="1572939507050" MODIFIED="1572941953618">
+<icon BUILTIN="executable"/>
 <edge COLOR="#7c0000"/>
+<node TEXT="lightning payencode" ID="ID_759935395" CREATED="1572941934995" MODIFIED="1572941946217" LINK="https://github.com/rustyrussell/lightning-payencode"/>
 </node>
-<node TEXT="Examples" POSITION="right" ID="ID_1714383296" CREATED="1572939507053" MODIFIED="1572939507054">
+<node TEXT="Examples" FOLDED="true" POSITION="left" ID="ID_1714383296" CREATED="1572939507053" MODIFIED="1572941987124">
+<icon BUILTIN="list"/>
 <edge COLOR="#00007c"/>
-</node>
-<node TEXT="Authors" POSITION="right" ID="ID_656982488" CREATED="1572939507053" MODIFIED="1572939507054">
-<edge COLOR="#007c00"/>
+<node TEXT="Please send $3 for a cup of coffee to the same peer, within one minute" ID="ID_1069156270" CREATED="1572942074029" MODIFIED="1572942074029"/>
+<node TEXT="lnbc2500u1pvjluezpp5qqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqypqdq5xysxxatsyp3k7enxv4jsxqzpuaztrnwngzn3kdzw5hydlzf03qdgm2hdq27cqv3agm2awhz5se903vruatfhq77w3ls4evs3ch9zw97j25emudupq63nyw24cg27h2rspfj9srp" ID="ID_335570114" CREATED="1572942074029" MODIFIED="1572942074029"/>
+<node TEXT="Breakdown:" ID="ID_632355062" CREATED="1572942074042" MODIFIED="1572942074042"/>
+<node TEXT="lnbc: prefix, Lightning on Bitcoin mainnet" ID="ID_1437265552" CREATED="1572942074044" MODIFIED="1572942074044"/>
+<node TEXT="2500u: amount (2500 micro-bitcoin)" ID="ID_1091105784" CREATED="1572942074045" MODIFIED="1572942074045"/>
+<node TEXT="1: Bech32 separator" ID="ID_1475021122" CREATED="1572942074045" MODIFIED="1572942074045"/>
+<node TEXT="pvjluez: timestamp (1496314658)" ID="ID_533273554" CREATED="1572942074045" MODIFIED="1572942074045"/>
+<node TEXT="p: payment hash..." ID="ID_1579839537" CREATED="1572942074045" MODIFIED="1572942074045"/>
+<node TEXT="d: short description" ID="ID_1685489284" CREATED="1572942074046" MODIFIED="1572942074046"/>
+<node TEXT="q5: data_length (q = 0, 5 = 20; 0 * 32 + 20 == 20)" ID="ID_1388390306" CREATED="1572942074046" MODIFIED="1572942074046"/>
+<node TEXT="xysxxatsyp3k7enxv4js: &apos;1 cup coffee&apos;" ID="ID_1638507407" CREATED="1572942074046" MODIFIED="1572942074046"/>
+<node TEXT="x: expiry time" ID="ID_307697326" CREATED="1572942074047" MODIFIED="1572942074047"/>
+<node TEXT="qz: data_length (q = 0, z = 2; 0 * 32 + 2 == 2)" ID="ID_1248672695" CREATED="1572942074047" MODIFIED="1572942074047"/>
+<node TEXT="pu: 60 seconds (p = 1, u = 28; 1 * 32 + 28 == 60)" ID="ID_911030955" CREATED="1572942074048" MODIFIED="1572942074048"/>
+<node TEXT="aztrnwngzn3kdzw5hydlzf03qdgm2hdq27cqv3agm2awhz5se903vruatfhq77w3ls4evs3ch9zw97j25emudupq63nyw24cg27h2rsp: signature" ID="ID_1043939212" CREATED="1572942074048" MODIFIED="1572942074048"/>
+<node TEXT="fj9srp: Bech32 checksum" ID="ID_796120394" CREATED="1572942074048" MODIFIED="1572942074048"/>
+<node TEXT="Signature breakdown:" ID="ID_1415086014" CREATED="1572942074050" MODIFIED="1572942074050"/>
+<node TEXT="e89639ba6814e36689d4b91bf125f10351b55da057b00647a8dabaeb8a90c95f160f9d5a6e0f79d1fc2b964238b944e2fa4aa677c6f020d466472ab842bd750e hex of signature data (32-byte r, 32-byte s)" ID="ID_1070496702" CREATED="1572942074050" MODIFIED="1572942074050"/>
+<node TEXT="1 (int) recovery flag contained in signature" ID="ID_1799018780" CREATED="1572942074051" MODIFIED="1572942074051"/>
+<node TEXT="6c6e626332353030750b25fe64410d00004080c1014181c20240004080c1014181c20240004080c1014181c202404081a0a189031bab81031b7b33332b2818020f00 hex of data for signing (prefix + data after separator up to the start of the signature)" ID="ID_1493419865" CREATED="1572942074053" MODIFIED="1572942074053"/>
+<node TEXT="3cd6ef07744040556e01be64f68fd9e1565fb47d78c42308b1ee005aca5a0d86 hex of SHA256 of the preimage" ID="ID_1572273548" CREATED="1572942074053" MODIFIED="1572942074053"/>
 </node>
 </node>
 </map>
