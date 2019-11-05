@@ -65,15 +65,6 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="main spec" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1572171284982" COLOR="#cc00cc" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="-8.999999731779106 pt">
-<icon BUILTIN="attach"/>
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#ff00ff"/>
-<node TEXT="main spec" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572862888469" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
-</node>
-<node TEXT="dev" POSITION="left" ID="ID_79546038" CREATED="1572862882627" MODIFIED="1572862907562" LINK="../dev/index.mm">
-<edge COLOR="#0000ff"/>
-</node>
 <node TEXT="Bolts" POSITION="right" ID="ID_305209159" CREATED="1569959255579" MODIFIED="1572947121683" LINK="bolts/index.mm" COLOR="#009933" HGAP_QUANTITY="25.999999642372146 pt" VSHIFT_QUANTITY="-49.499998524785084 pt">
 <icon BUILTIN="lightning"/>
 <font SIZE="12" BOLD="true"/>
@@ -85,6 +76,20 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="lnurl" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572947060459" LINK="lnurl.mm"/>
 <node TEXT="lightning auth" ID="ID_705335058" CREATED="1572241475803" MODIFIED="1572241481606" LINK="https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"/>
+</node>
+<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572948017299" COLOR="#000099">
+<icon BUILTIN="info"/>
+<edge COLOR="#ff00ff"/>
+<font SIZE="12" BOLD="true"/>
+<node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572938870390" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
+<node TEXT="main spec" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572862888469" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
+</node>
+<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1572948023923" COLOR="#990033">
+<icon BUILTIN="attach"/>
+<edge COLOR="#00007c"/>
+<font SIZE="12" BOLD="true"/>
+<node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572938866460" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
+<node TEXT="dev" ID="ID_79546038" CREATED="1572862882627" MODIFIED="1572947988262" LINK="../dev/index.mm"/>
 </node>
 </node>
 </map>

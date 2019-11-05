@@ -1,8 +1,16 @@
-<#ID_728396892> <urn:string:@_TEXT> """main spec""" .
-<#ID_79546038> <urn:string:@_TEXT> """dev""" .
 <#ID_305209159> <urn:string:@_TEXT> """Bolts""" .
 <#ID_928353311> <urn:string:@_TEXT> """Other""" .
 <#ID_961943115> <urn:string:@_TEXT> """lnurl""" .
 <#ID_961943115> <urn:string:child> <ID_961943115> .
 <#ID_705335058> <urn:string:@_TEXT> """lightning auth""" .
 <#ID_705335058> <urn:string:child> <ID_705335058> .
+<#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_1911540836> <urn:string:@_TEXT> """resources""" .
+<#ID_1911540836> <urn:string:child> <ID_1911540836> .
+<#ID_1858353829> <urn:string:@_TEXT> """main spec""" .
+<#ID_1858353829> <urn:string:child> <ID_1858353829> .
+<#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_307649319> <urn:string:@_TEXT> """mailing list""" .
+<#ID_307649319> <urn:string:child> <ID_307649319> .
+<#ID_79546038> <urn:string:@_TEXT> """dev""" .
+<#ID_79546038> <urn:string:child> <ID_79546038> .

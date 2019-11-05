@@ -197,44 +197,6 @@
             ],
             "node": [
                 {
-                    "@_TEXT": "main spec",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_728396892",
-                    "@_CREATED": 1569861329090,
-                    "@_MODIFIED": 1572171284982,
-                    "@_COLOR": "#cc00cc",
-                    "@_HGAP_QUANTITY": "14.749999977648258 pt",
-                    "@_VSHIFT_QUANTITY": "-8.999999731779106 pt",
-                    "icon": {
-                        "@_BUILTIN": "attach"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
-                    "node": {
-                        "@_TEXT": "main spec",
-                        "@_ID": "ID_1858353829",
-                        "@_CREATED": 1569861461668,
-                        "@_MODIFIED": 1572862888469,
-                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
-                    }
-                },
-                {
-                    "@_TEXT": "dev",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_79546038",
-                    "@_CREATED": 1572862882627,
-                    "@_MODIFIED": 1572862907562,
-                    "@_LINK": "../dev/index.mm",
-                    "edge": {
-                        "@_COLOR": "#0000ff"
-                    }
-                },
-                {
                     "@_TEXT": "Bolts",
                     "@_POSITION": "right",
                     "@_ID": "ID_305209159",
@@ -288,6 +250,74 @@
                             "@_CREATED": 1572241475803,
                             "@_MODIFIED": 1572241481606,
                             "@_LINK": "https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1572948017299,
+                    "@_COLOR": "#000099",
+                    "icon": {
+                        "@_BUILTIN": "info"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "resources",
+                            "@_ID": "ID_1911540836",
+                            "@_CREATED": 1572861720975,
+                            "@_MODIFIED": 1572938870390,
+                            "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources"
+                        },
+                        {
+                            "@_TEXT": "main spec",
+                            "@_ID": "ID_1858353829",
+                            "@_CREATED": 1569861461668,
+                            "@_MODIFIED": 1572862888469,
+                            "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1572948023923,
+                    "@_COLOR": "#990033",
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "mailing list",
+                            "@_ID": "ID_307649319",
+                            "@_CREATED": 1572859082436,
+                            "@_MODIFIED": 1572938866460,
+                            "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
+                        },
+                        {
+                            "@_TEXT": "dev",
+                            "@_ID": "ID_79546038",
+                            "@_CREATED": 1572862882627,
+                            "@_MODIFIED": 1572947988262,
+                            "@_LINK": "../dev/index.mm"
                         }
                     ]
                 }
