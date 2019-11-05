@@ -1,4 +1,8 @@
 <#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_1911540836> <urn:string:@_TEXT> """resources""" .
+<#ID_1911540836> <urn:string:child> <ID_1911540836> .
+<#ID_694415795> <urn:string:@_TEXT> """BOLT 11""" .
+<#ID_694415795> <urn:string:child> <ID_694415795> .
 <#ID_808607355> <urn:string:@_TEXT> """links""" .
 <#ID_307649319> <urn:string:@_TEXT> """mailing list""" .
 <#ID_307649319> <urn:string:child> <ID_307649319> .
@@ -22,6 +26,82 @@
 <#ID_801783234> <urn:string:@_TEXT> """signature: Bitcoin-style signature of above (520 bits)""" .
 <#ID_801783234> <urn:string:child> <ID_801783234> .
 <#ID_1934118347> <urn:string:@_TEXT> """Tagged Fields""" .
+<#ID_771661366> <urn:string:@_TEXT> """type (5 bits)""" .
+<#ID_771661366> <urn:string:child> <ID_771661366> .
+<#ID_1697168487> <urn:string:@_TEXT> """p""" .
+<#ID_1697168487> <urn:string:child> <ID_1697168487> .
+<#ID_1338597328> <urn:string:@_TEXT> """52""" .
+<#ID_1338597328> <urn:string:child> <ID_1338597328> .
+<#ID_410072620> <urn:string:@_TEXT> """preimage : sha256 payment_hash""" .
+<#ID_410072620> <urn:string:child> <ID_410072620> .
+<#ID_935431636> <urn:string:@_TEXT> """provides proof of payment""" .
+<#ID_935431636> <urn:string:child> <ID_935431636> .
+<#ID_974155593> <urn:string:@_TEXT> """d""" .
+<#ID_974155593> <urn:string:child> <ID_974155593> .
+<#ID_354861673> <urn:string:@_TEXT> """varible""" .
+<#ID_354861673> <urn:string:child> <ID_354861673> .
+<#ID_658589457> <urn:string:@_TEXT> """description""" .
+<#ID_658589457> <urn:string:child> <ID_658589457> .
+<#ID_876029436> <urn:string:@_TEXT> """n""" .
+<#ID_876029436> <urn:string:child> <ID_876029436> .
+<#ID_1410202710> <urn:string:@_TEXT> """53""" .
+<#ID_1410202710> <urn:string:child> <ID_1410202710> .
+<#ID_710386775> <urn:string:@_TEXT> """public key of node""" .
+<#ID_710386775> <urn:string:child> <ID_710386775> .
+<#ID_935243795> <urn:string:@_TEXT> """h""" .
+<#ID_935243795> <urn:string:child> <ID_935243795> .
+<#ID_1144991490> <urn:string:@_TEXT> """52""" .
+<#ID_1144991490> <urn:string:child> <ID_1144991490> .
+<#ID_1905709408> <urn:string:@_TEXT> """purpose of payment""" .
+<#ID_1905709408> <urn:string:child> <ID_1905709408> .
+<#ID_860457943> <urn:string:@_TEXT> """x""" .
+<#ID_860457943> <urn:string:child> <ID_860457943> .
+<#ID_925181425> <urn:string:@_TEXT> """variable""" .
+<#ID_925181425> <urn:string:child> <ID_925181425> .
+<#ID_1885927274> <urn:string:@_TEXT> """expirty time in seconds""" .
+<#ID_1885927274> <urn:string:child> <ID_1885927274> .
+<#ID_1159850787> <urn:string:@_TEXT> """default 3600""" .
+<#ID_1159850787> <urn:string:child> <ID_1159850787> .
+<#ID_1563862604> <urn:string:@_TEXT> """c""" .
+<#ID_1563862604> <urn:string:child> <ID_1563862604> .
+<#ID_584257642> <urn:string:@_TEXT> """variable""" .
+<#ID_584257642> <urn:string:child> <ID_584257642> .
+<#ID_1017479450> <urn:string:@_TEXT> """min_final_cltv_expiry to use for the last HTLC in the route""" .
+<#ID_1017479450> <urn:string:child> <ID_1017479450> .
+<#ID_141862678> <urn:string:@_TEXT> """default 9""" .
+<#ID_141862678> <urn:string:child> <ID_141862678> .
+<#ID_1571430878> <urn:string:@_TEXT> """f""" .
+<#ID_1571430878> <urn:string:child> <ID_1571430878> .
+<#ID_182485979> <urn:string:@_TEXT> """variable""" .
+<#ID_182485979> <urn:string:child> <ID_182485979> .
+<#ID_732184589> <urn:string:@_TEXT> """undefined""" .
+<#ID_732184589> <urn:string:child> <ID_732184589> .
+<#ID_29378183> <urn:string:@_TEXT> """r""" .
+<#ID_29378183> <urn:string:child> <ID_29378183> .
+<#ID_893546805> <urn:string:@_TEXT> """variable""" .
+<#ID_893546805> <urn:string:child> <ID_893546805> .
+<#ID_553476152> <urn:string:@_TEXT> """multiple""" .
+<#ID_553476152> <urn:string:child> <ID_553476152> .
+<#ID_510214321> <urn:string:@_TEXT> """routing information for a private route""" .
+<#ID_510214321> <urn:string:child> <ID_510214321> .
+<#ID_212873551> <urn:string:@_TEXT> """pubkey""" .
+<#ID_212873551> <urn:string:child> <ID_212873551> .
+<#ID_329499074> <urn:string:@_TEXT> """short_channel""" .
+<#ID_329499074> <urn:string:child> <ID_329499074> .
+<#ID_489210767> <urn:string:@_TEXT> """fee_base_msat""" .
+<#ID_489210767> <urn:string:child> <ID_489210767> .
+<#ID_912976221> <urn:string:@_TEXT> """fee_base_proportional_millionths""" .
+<#ID_912976221> <urn:string:child> <ID_912976221> .
+<#ID_994564441> <urn:string:@_TEXT> """cltv_expiry_delta""" .
+<#ID_994564441> <urn:string:child> <ID_994564441> .
+<#ID_454719845> <urn:string:@_TEXT> """9""" .
+<#ID_454719845> <urn:string:child> <ID_454719845> .
+<#ID_744863592> <urn:string:@_TEXT> """variable""" .
+<#ID_744863592> <urn:string:child> <ID_744863592> .
+<#ID_362489771> <urn:string:@_TEXT> """multiple""" .
+<#ID_362489771> <urn:string:child> <ID_362489771> .
+<#ID_975761997> <urn:string:@_TEXT> """feature bits""" .
+<#ID_975761997> <urn:string:child> <ID_975761997> .
 <#ID_78547923> <urn:string:@_TEXT> """Feature Bits""" .
 <#ID_1916787234> <urn:string:@_TEXT> """Payer / Payee Interactions""" .
 <#ID_697480629> <urn:string:@_TEXT> """Payer / Payee Requirements""" .

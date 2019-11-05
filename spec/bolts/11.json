@@ -208,13 +208,27 @@
                     "edge": {
                         "@_COLOR": "#ff00ff"
                     },
-                    "node": {
-                        "@_TEXT": "resources",
-                        "@_ID": "ID_1911540836",
-                        "@_CREATED": 1572861720975,
-                        "@_MODIFIED": 1572938870390,
-                        "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "resources",
+                            "@_ID": "ID_1911540836",
+                            "@_CREATED": 1572861720975,
+                            "@_MODIFIED": 1572938870390,
+                            "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources"
+                        },
+                        {
+                            "@_TEXT": "BOLT 11",
+                            "@_ID": "ID_694415795",
+                            "@_CREATED": 1569861461668,
+                            "@_MODIFIED": 1572940437482,
+                            "@_LINK": "../spec/index.mm",
+                            "@_COLOR": "#000099",
+                            "font": {
+                                "@_SIZE": 10,
+                                "@_BOLD": false
+                            }
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "links",
@@ -471,7 +485,407 @@
                     },
                     "edge": {
                         "@_COLOR": "#0000ff"
-                    }
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "type (5 bits)",
+                            "@_ID": "ID_771661366",
+                            "@_CREATED": 1572940474122,
+                            "@_MODIFIED": 1572941116253,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "data_length (10 bits, big-endian)",
+                                "@_ID": "ID_106758747",
+                                "@_CREATED": 1572940474122,
+                                "@_MODIFIED": 1572940474122,
+                                "node": {
+                                    "@_TEXT": "data (data_length x 5 bits)",
+                                    "@_ID": "ID_95280471",
+                                    "@_CREATED": 1572940474127,
+                                    "@_MODIFIED": 1572940474127
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "p",
+                            "@_ID": "ID_1697168487",
+                            "@_CREATED": 1572940576032,
+                            "@_MODIFIED": 1572941116258,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": 52,
+                                    "@_OBJECT": "java.lang.Long|52",
+                                    "@_ID": "ID_1338597328",
+                                    "@_CREATED": 1572940580259,
+                                    "@_MODIFIED": 1572940582794
+                                },
+                                {
+                                    "@_TEXT": "preimage : sha256 payment_hash",
+                                    "@_ID": "ID_410072620",
+                                    "@_CREATED": 1572940591279,
+                                    "@_MODIFIED": 1572940606786
+                                },
+                                {
+                                    "@_TEXT": "provides proof of payment",
+                                    "@_ID": "ID_935431636",
+                                    "@_CREATED": 1572940615981,
+                                    "@_MODIFIED": 1572940620965
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "d",
+                            "@_ID": "ID_974155593",
+                            "@_CREATED": 1572940628475,
+                            "@_MODIFIED": 1572941116258,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "varible",
+                                    "@_ID": "ID_354861673",
+                                    "@_CREATED": 1572940639940,
+                                    "@_MODIFIED": 1572940642706
+                                },
+                                {
+                                    "@_TEXT": "description",
+                                    "@_ID": "ID_658589457",
+                                    "@_CREATED": 1572940649923,
+                                    "@_MODIFIED": 1572940652479
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "n",
+                            "@_ID": "ID_876029436",
+                            "@_CREATED": 1572940660831,
+                            "@_MODIFIED": 1572941116259,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": 53,
+                                    "@_OBJECT": "java.lang.Long|53",
+                                    "@_ID": "ID_1410202710",
+                                    "@_CREATED": 1572940665371,
+                                    "@_MODIFIED": 1572940667102
+                                },
+                                {
+                                    "@_TEXT": "public key of node",
+                                    "@_ID": "ID_710386775",
+                                    "@_CREATED": 1572940667963,
+                                    "@_MODIFIED": 1572940672348
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "h",
+                            "@_ID": "ID_935243795",
+                            "@_CREATED": 1572940682912,
+                            "@_MODIFIED": 1572941116261,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": 52,
+                                    "@_OBJECT": "java.lang.Long|52",
+                                    "@_ID": "ID_1144991490",
+                                    "@_CREATED": 1572940689684,
+                                    "@_MODIFIED": 1572940691571
+                                },
+                                {
+                                    "@_TEXT": "purpose of payment",
+                                    "@_ID": "ID_1905709408",
+                                    "@_CREATED": 1572940705157,
+                                    "@_MODIFIED": 1572940721366
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "x",
+                            "@_ID": "ID_860457943",
+                            "@_CREATED": 1572940728503,
+                            "@_MODIFIED": 1572941116262,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "variable",
+                                    "@_ID": "ID_925181425",
+                                    "@_CREATED": 1572940731075,
+                                    "@_MODIFIED": 1572940733173
+                                },
+                                {
+                                    "@_TEXT": "expirty time in seconds",
+                                    "@_ID": "ID_1885927274",
+                                    "@_CREATED": 1572940738479,
+                                    "@_MODIFIED": 1572940745281
+                                },
+                                {
+                                    "@_TEXT": "default 3600",
+                                    "@_ID": "ID_1159850787",
+                                    "@_CREATED": 1572940746365,
+                                    "@_MODIFIED": 1572940752918
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "c",
+                            "@_ID": "ID_1563862604",
+                            "@_CREATED": 1572940759485,
+                            "@_MODIFIED": 1572941116262,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "variable",
+                                    "@_ID": "ID_584257642",
+                                    "@_CREATED": 1572940768695,
+                                    "@_MODIFIED": 1572940770988
+                                },
+                                {
+                                    "@_TEXT": "min_final_cltv_expiry to use for the last HTLC in the route",
+                                    "@_ID": "ID_1017479450",
+                                    "@_CREATED": 1572940791498,
+                                    "@_MODIFIED": 1572940821937
+                                },
+                                {
+                                    "@_TEXT": "default 9",
+                                    "@_ID": "ID_141862678",
+                                    "@_CREATED": 1572940794238,
+                                    "@_MODIFIED": 1572940798775
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "f",
+                            "@_ID": "ID_1571430878",
+                            "@_CREATED": 1572940838697,
+                            "@_MODIFIED": 1572941116262,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "variable",
+                                    "@_ID": "ID_182485979",
+                                    "@_CREATED": 1572940841918,
+                                    "@_MODIFIED": 1572940843764
+                                },
+                                {
+                                    "@_ID": "ID_732184589",
+                                    "@_CREATED": 1572940862398,
+                                    "@_MODIFIED": 1572940862398,
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "p": "depending on version. Fallback on-chain address: for Bitcoin, this starts with a 5-bit version and contains a witness program or P2PKH or P2SH address"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "r",
+                            "@_ID": "ID_29378183",
+                            "@_CREATED": 1572940876394,
+                            "@_MODIFIED": 1572941116262,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "variable",
+                                    "@_ID": "ID_893546805",
+                                    "@_CREATED": 1572940881476,
+                                    "@_MODIFIED": 1572940883457
+                                },
+                                {
+                                    "@_TEXT": "multiple",
+                                    "@_ID": "ID_553476152",
+                                    "@_CREATED": 1572940892481,
+                                    "@_MODIFIED": 1572940895477
+                                },
+                                {
+                                    "@_TEXT": "routing information for a private route",
+                                    "@_ID": "ID_510214321",
+                                    "@_CREATED": 1572940897168,
+                                    "@_MODIFIED": 1572940908504
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "pubkey",
+                            "@_ID": "ID_212873551",
+                            "@_CREATED": 1572940934441,
+                            "@_MODIFIED": 1572941116263,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": 264,
+                                "@_OBJECT": "java.lang.Long|264",
+                                "@_ID": "ID_1473166615",
+                                "@_CREATED": 1572940938517,
+                                "@_MODIFIED": 1572940942766
+                            }
+                        },
+                        {
+                            "@_TEXT": "short_channel",
+                            "@_ID": "ID_329499074",
+                            "@_CREATED": 1572940945487,
+                            "@_MODIFIED": 1572941116263,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": 64,
+                                "@_OBJECT": "java.lang.Long|64",
+                                "@_ID": "ID_142322488",
+                                "@_CREATED": 1572940950429,
+                                "@_MODIFIED": 1572940952408
+                            }
+                        },
+                        {
+                            "@_TEXT": "fee_base_msat",
+                            "@_ID": "ID_489210767",
+                            "@_CREATED": 1572940958152,
+                            "@_MODIFIED": 1572941116263,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": 32,
+                                "@_OBJECT": "java.lang.Long|32",
+                                "@_ID": "ID_143734116",
+                                "@_CREATED": 1572940965158,
+                                "@_MODIFIED": 1572940966636
+                            }
+                        },
+                        {
+                            "@_TEXT": "fee_base_proportional_millionths",
+                            "@_ID": "ID_912976221",
+                            "@_CREATED": 1572940971774,
+                            "@_MODIFIED": 1572941116263,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": 32,
+                                "@_OBJECT": "java.lang.Long|32",
+                                "@_ID": "ID_686574613",
+                                "@_CREATED": 1572940986405,
+                                "@_MODIFIED": 1572940988042,
+                                "node": {
+                                    "@_TEXT": "bigendian",
+                                    "@_ID": "ID_1567499160",
+                                    "@_CREATED": 1572940989133,
+                                    "@_MODIFIED": 1572940992227
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "cltv_expiry_delta",
+                            "@_ID": "ID_994564441",
+                            "@_CREATED": 1572941009160,
+                            "@_MODIFIED": 1572941116263,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": 16,
+                                "@_OBJECT": "java.lang.Long|16",
+                                "@_ID": "ID_376598978",
+                                "@_CREATED": 1572941016933,
+                                "@_MODIFIED": 1572941018534,
+                                "node": {
+                                    "@_TEXT": "bigendian",
+                                    "@_ID": "ID_1064478443",
+                                    "@_CREATED": 1572941019821,
+                                    "@_MODIFIED": 1572941024380
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": 9,
+                            "@_OBJECT": "java.lang.Long|9",
+                            "@_ID": "ID_454719845",
+                            "@_CREATED": 1572941034553,
+                            "@_MODIFIED": 1572941116263,
+                            "@_COLOR": "#006600",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "variable",
+                                    "@_ID": "ID_744863592",
+                                    "@_CREATED": 1572941049110,
+                                    "@_MODIFIED": 1572941056357
+                                },
+                                {
+                                    "@_TEXT": "multiple",
+                                    "@_ID": "ID_362489771",
+                                    "@_CREATED": 1572941058688,
+                                    "@_MODIFIED": 1572941063152
+                                },
+                                {
+                                    "@_TEXT": "feature bits",
+                                    "@_ID": "ID_975761997",
+                                    "@_CREATED": 1572941064681,
+                                    "@_MODIFIED": 1572941067684,
+                                    "node": {
+                                        "@_TEXT": "5 bits",
+                                        "@_ID": "ID_1106949451",
+                                        "@_CREATED": 1572941071610,
+                                        "@_MODIFIED": 1572941074129
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "Feature Bits",
