@@ -134,7 +134,7 @@
 <node TEXT="512-bit secp256k1 signature of the SHA2 256-bit hash of the human-readable part, represented as UTF-8 bytes, concatenated with the data part (excluding the signature) with 0 bits appended to pad the data to the next byte boundary, with a trailing byte containing the recovery ID (0, 1, 2, or 3)." ID="ID_1386946082" CREATED="1572940276072" MODIFIED="1572940276072"/>
 </node>
 </node>
-<node TEXT="Tagged Fields" POSITION="right" ID="ID_1934118347" CREATED="1572939507042" MODIFIED="1572940288846">
+<node TEXT="Tagged Fields (14)" POSITION="right" ID="ID_1934118347" CREATED="1572939507042" MODIFIED="1572943606753">
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#0000ff"/>
 <node TEXT="type (5 bits)" ID="ID_771661366" CREATED="1572940474122" MODIFIED="1572941300165">

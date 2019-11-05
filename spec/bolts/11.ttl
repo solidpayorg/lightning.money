@@ -25,7 +25,7 @@
 <#ID_155824163> <urn:string:child> <ID_155824163> .
 <#ID_801783234> <urn:string:@_TEXT> """signature: Bitcoin-style signature of above (520 bits)""" .
 <#ID_801783234> <urn:string:child> <ID_801783234> .
-<#ID_1934118347> <urn:string:@_TEXT> """Tagged Fields""" .
+<#ID_1934118347> <urn:string:@_TEXT> """Tagged Fields (14)""" .
 <#ID_771661366> <urn:string:@_TEXT> """type (5 bits)""" .
 <#ID_771661366> <urn:string:child> <ID_771661366> .
 <#ID_1697168487> <urn:string:@_TEXT> """p""" .
