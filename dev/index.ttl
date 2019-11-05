@@ -3,3 +3,4 @@
 <#ID_466759422> <urn:string:@_TEXT> """tags""" .
 <#ID_1858353829> <urn:string:@_TEXT> """specs""" .
 <#ID_1943871369> <urn:string:@_TEXT> """vouchers""" .
+<#ID_595852838> <urn:string:@_TEXT> """faucets""" .

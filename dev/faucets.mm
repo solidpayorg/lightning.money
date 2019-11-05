@@ -1,7 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="dev" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1572862823982" ICON_SIZE="20.0 pt" LINK="../index.mm" STYLE="oval">
-<icon BUILTIN="bookmark"/>
+<node TEXT="faucets" FOLDED="false" ID="ID_44737290" CREATED="1572863270298" MODIFIED="1572952385467" LINK="index.mm" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,32 +63,13 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572938857095">
-<icon BUILTIN="info"/>
-<edge COLOR="#ff00ff"/>
-<node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572938870390" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
+<node TEXT="implementations" POSITION="right" ID="ID_1143974934" CREATED="1572863277958" MODIFIED="1572863386720">
+<icon BUILTIN="bookmark"/>
+<node TEXT="sinclair faucet" ID="ID_412531535" CREATED="1572952473715" MODIFIED="1572952480114" LINK="https://lnurl.com/faucet/"/>
 </node>
-<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
+<node TEXT="links" POSITION="left" ID="ID_1091889470" CREATED="1572863277991" MODIFIED="1572863277998">
 <icon BUILTIN="attach"/>
-<edge COLOR="#00007c"/>
-<node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572938866460" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
-</node>
-<node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
-<icon BUILTIN="hashtag"/>
-<edge COLOR="#007c00"/>
-</node>
-<node TEXT="specs" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572938916050" LINK="../spec/index.mm" COLOR="#000099">
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#007c7c"/>
-</node>
-<node TEXT="vouchers" POSITION="right" ID="ID_1943871369" CREATED="1572863253615" MODIFIED="1572938938704" LINK="vouchers.mm" COLOR="#cc0033">
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#0000ff"/>
-</node>
-<node TEXT="faucets" POSITION="right" ID="ID_595852838" CREATED="1569861461668" MODIFIED="1572952438513" LINK="faucets.mm" COLOR="#009933">
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#007c7c"/>
+<node TEXT="lightning-faucet.com" ID="ID_1367125136" CREATED="1572952409369" MODIFIED="1572952420288" LINK="https://lightning-faucet.com/"/>
 </node>
 </node>
 </map>
