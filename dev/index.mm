@@ -65,29 +65,27 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
-<icon BUILTIN="folder"/>
+<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572938857095">
+<icon BUILTIN="info"/>
 <edge COLOR="#ff00ff"/>
+<node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572938870390" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
+<node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572938866460" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 </node>
 <node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#007c00"/>
 </node>
-<node TEXT="specs" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572863959946" LINK="../spec/index.mm">
+<node TEXT="specs" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572938916050" LINK="../spec/index.mm" COLOR="#000099">
 <edge COLOR="#007c7c"/>
+<font SIZE="12" BOLD="true"/>
 </node>
-<node TEXT="mailing list" POSITION="right" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572863042048" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/">
-<edge COLOR="#7c7c00"/>
-</node>
-<node TEXT="resources" POSITION="right" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572863042051" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources">
-<edge COLOR="#ff0000"/>
-</node>
-<node TEXT="vouchers" POSITION="right" ID="ID_1943871369" CREATED="1572863253615" MODIFIED="1572863268309" LINK="vouchers.mm">
+<node TEXT="vouchers" POSITION="right" ID="ID_1943871369" CREATED="1572863253615" MODIFIED="1572938938704" LINK="vouchers.mm" COLOR="#cc0033">
 <edge COLOR="#0000ff"/>
+<font SIZE="12" BOLD="true"/>
 </node>
 </node>
 </map>
