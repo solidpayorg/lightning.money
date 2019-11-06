@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572858023745,
+            "@_MODIFIED": 1573022681781,
             "@_ICON_SIZE": "24.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -286,10 +286,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572858023744,
+                    "@_MODIFIED": 1573022681779,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "49.999998927116415 pt",
-                    "@_VSHIFT_QUANTITY": "32.99999901652338 pt",
+                    "@_HGAP_QUANTITY": "47.74999899417164 pt",
+                    "@_VSHIFT_QUANTITY": "41.24999877065423 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
