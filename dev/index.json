@@ -228,13 +228,22 @@
                     "edge": {
                         "@_COLOR": "#00007c"
                     },
-                    "node": {
-                        "@_TEXT": "mailing list",
-                        "@_ID": "ID_307649319",
-                        "@_CREATED": 1572859082436,
-                        "@_MODIFIED": 1572938866460,
-                        "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "mailing list",
+                            "@_ID": "ID_307649319",
+                            "@_CREATED": 1572859082436,
+                            "@_MODIFIED": 1572938866460,
+                            "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
+                        },
+                        {
+                            "@_TEXT": "lndhub",
+                            "@_ID": "ID_1314545006",
+                            "@_CREATED": 1572969714975,
+                            "@_MODIFIED": 1573023891849,
+                            "@_LINK": "http://lndhub.io"
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "tags",
