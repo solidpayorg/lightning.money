@@ -68,10 +68,13 @@
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572938857095">
 <icon BUILTIN="info"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572938870390" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
-<node TEXT="BOLT 11" ID="ID_694415795" CREATED="1569861461668" MODIFIED="1572941659304" LINK="https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md#bolt-11-invoice-protocol-for-lightning-payments" COLOR="#000099">
-<font SIZE="10" BOLD="false"/>
+<node TEXT="BOLT 11" ID="ID_694415795" CREATED="1569861461668" MODIFIED="1573020600467" LINK="https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md#bolt-11-invoice-protocol-for-lightning-payments" COLOR="#000099">
+<font SIZE="11" BOLD="true"/>
 </node>
+<node TEXT="Glossary" ID="ID_1926493234" CREATED="1573020583482" MODIFIED="1573020628024" LINK="https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#glossary-and-terminology-guide" COLOR="#006633">
+<font SIZE="11" BOLD="true"/>
+</node>
+<node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572938870390" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
@@ -135,9 +138,10 @@
 <node TEXT="512-bit secp256k1 signature of the SHA2 256-bit hash of the human-readable part, represented as UTF-8 bytes, concatenated with the data part (excluding the signature) with 0 bits appended to pad the data to the next byte boundary, with a trailing byte containing the recovery ID (0, 1, 2, or 3)." ID="ID_1386946082" CREATED="1572940276072" MODIFIED="1572940276072"/>
 </node>
 </node>
-<node TEXT="Tagged Fields (7)" POSITION="right" ID="ID_1934118347" CREATED="1572939507042" MODIFIED="1573019978240">
+<node TEXT="Tagged Fields (7)" POSITION="right" ID="ID_1934118347" CREATED="1572939507042" MODIFIED="1573020544797">
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#0000ff"/>
+<cloud COLOR="#ffffcc" SHAPE="ROUND_RECT"/>
 <node TEXT="type (5 bits)" ID="ID_771661366" CREATED="1572940474122" MODIFIED="1572941300165">
 <font SIZE="11" BOLD="false"/>
 <node TEXT="data_length (10 bits, big-endian)" ID="ID_106758747" CREATED="1572940474122" MODIFIED="1572940474122">
