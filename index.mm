@@ -202,6 +202,7 @@
 <node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
 <node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
 <node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
+<node TEXT="dropbit" ID="ID_73532375" CREATED="1573022635992" MODIFIED="1573022641181" LINK="https://dropbit.app/dropbit"/>
 </node>
 </node>
 </node>
