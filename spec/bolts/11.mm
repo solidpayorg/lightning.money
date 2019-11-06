@@ -79,14 +79,15 @@
 <node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572938866460" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 <node TEXT="github bolts" ID="ID_775787707" CREATED="1572939281386" MODIFIED="1572939294218" LINK="https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#bolt-0-introduction-and-index"/>
 <node TEXT="lndecode" ID="ID_1992464493" CREATED="1572939750813" MODIFIED="1572939758079" LINK="https://lndecode.com/"/>
+<node TEXT="min_final_cltv_expiry" ID="ID_1481043216" CREATED="1573020041692" MODIFIED="1573020055626" LINK="https://bitcoin.stackexchange.com/questions/81010/why-is-last-channels-expiry-different-in-lightning-network-routes"/>
 </node>
 <node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#007c00"/>
 </node>
 <node TEXT="BOLT 11" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572939328569" LINK="../spec/index.mm" COLOR="#000099">
-<edge COLOR="#007c7c"/>
 <font SIZE="12" BOLD="true"/>
+<edge COLOR="#007c7c"/>
 <node TEXT="Invoice Protocol for Lightning Payments" ID="ID_1384191185" CREATED="1572939403032" MODIFIED="1572943282906" COLOR="#009900">
 <font SIZE="11" BOLD="true" ITALIC="false"/>
 </node>
@@ -134,7 +135,7 @@
 <node TEXT="512-bit secp256k1 signature of the SHA2 256-bit hash of the human-readable part, represented as UTF-8 bytes, concatenated with the data part (excluding the signature) with 0 bits appended to pad the data to the next byte boundary, with a trailing byte containing the recovery ID (0, 1, 2, or 3)." ID="ID_1386946082" CREATED="1572940276072" MODIFIED="1572940276072"/>
 </node>
 </node>
-<node TEXT="Tagged Fields (14)" POSITION="right" ID="ID_1934118347" CREATED="1572939507042" MODIFIED="1572943606753">
+<node TEXT="Tagged Fields (7)" POSITION="right" ID="ID_1934118347" CREATED="1572939507042" MODIFIED="1573019978240">
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#0000ff"/>
 <node TEXT="type (5 bits)" ID="ID_771661366" CREATED="1572940474122" MODIFIED="1572941300165">
@@ -143,56 +144,82 @@
 <node TEXT="data (data_length x 5 bits)" ID="ID_95280471" CREATED="1572940474127" MODIFIED="1572940474127"/>
 </node>
 </node>
-<node TEXT="p" ID="ID_1697168487" CREATED="1572940576032" MODIFIED="1572941116258" COLOR="#006600">
-<font SIZE="11" BOLD="true"/>
-<node TEXT="52" OBJECT="java.lang.Long|52" ID="ID_1338597328" CREATED="1572940580259" MODIFIED="1572940582794"/>
-<node TEXT="preimage" ID="ID_410072620" CREATED="1572940591279" MODIFIED="1572941443499" COLOR="#0000cc">
-<font BOLD="true"/>
-<node TEXT="sha256 payment_hash" ID="ID_348363054" CREATED="1572941256345" MODIFIED="1572941271077"/>
-<node TEXT="provides proof of payment" ID="ID_935431636" CREATED="1572940615981" MODIFIED="1572940620965"/>
-</node>
-</node>
+<node TEXT="" ID="ID_507246715" CREATED="1573018832492" MODIFIED="1573018938559">
+<icon BUILTIN="16x16-free-application-icons/png/16x16/Left-right"/>
 <node TEXT="d" ID="ID_974155593" CREATED="1572940628475" MODIFIED="1572941116258" COLOR="#006600">
 <font SIZE="11" BOLD="true"/>
-<node TEXT="varible" ID="ID_354861673" CREATED="1572940639940" MODIFIED="1572940642706"/>
 <node TEXT="description" ID="ID_658589457" CREATED="1572940649923" MODIFIED="1572941443499" COLOR="#0000cc">
 <font BOLD="true"/>
 </node>
 </node>
-<node TEXT="n" ID="ID_876029436" CREATED="1572940660831" MODIFIED="1572941116259" COLOR="#006600">
+<node TEXT="h (52)" ID="ID_935243795" CREATED="1572940682912" MODIFIED="1573019322067" COLOR="#006600">
 <font SIZE="11" BOLD="true"/>
-<node TEXT="53" OBJECT="java.lang.Long|53" ID="ID_1410202710" CREATED="1572940665371" MODIFIED="1572940667102"/>
-<node TEXT="public key of node" ID="ID_710386775" CREATED="1572940667963" MODIFIED="1572941443499" COLOR="#0000cc">
-<font BOLD="true"/>
-</node>
-</node>
-<node TEXT="h" ID="ID_935243795" CREATED="1572940682912" MODIFIED="1572941116261" COLOR="#006600">
-<font SIZE="11" BOLD="true"/>
-<node TEXT="52" OBJECT="java.lang.Long|52" ID="ID_1144991490" CREATED="1572940689684" MODIFIED="1572940691571"/>
 <node TEXT="purpose of payment" ID="ID_1905709408" CREATED="1572940705157" MODIFIED="1572941443499" COLOR="#0000cc">
 <font BOLD="true"/>
 </node>
 </node>
-<node TEXT="x" ID="ID_860457943" CREATED="1572940728503" MODIFIED="1572941116262" COLOR="#006600">
+</node>
+<node TEXT="" ID="ID_1196659484" CREATED="1573018946436" MODIFIED="1573018991619">
+<icon BUILTIN="16x16-free-application-icons/png/16x16/Left-right"/>
+<node TEXT="n (53)" ID="ID_876029436" CREATED="1572940660831" MODIFIED="1573019362502" COLOR="#006600">
 <font SIZE="11" BOLD="true"/>
-<node TEXT="variable" ID="ID_925181425" CREATED="1572940731075" MODIFIED="1572940733173"/>
-<node TEXT="expiry time in seconds" ID="ID_1885927274" CREATED="1572940738479" MODIFIED="1572941457079" COLOR="#0000cc">
+<node TEXT="public key of node" ID="ID_710386775" CREATED="1572940667963" MODIFIED="1572941443499" COLOR="#0000cc">
 <font BOLD="true"/>
 </node>
+</node>
+<node TEXT="r" ID="ID_29378183" CREATED="1572940876394" MODIFIED="1573019505311" COLOR="#006600">
+<icon BUILTIN="list"/>
+<font SIZE="11" BOLD="true"/>
+<node TEXT="routes(5)" ID="ID_1489942348" CREATED="1572941400322" MODIFIED="1573019995643" COLOR="#0000cc">
+<font BOLD="true"/>
+<node TEXT="routing information for a private route" ID="ID_510214321" CREATED="1572940897168" MODIFIED="1572940908504"/>
+<node TEXT="pubkey (264)" ID="ID_212873551" CREATED="1572940934441" MODIFIED="1573020001317" COLOR="#0000cc">
+<font SIZE="10" BOLD="true"/>
+</node>
+<node TEXT="short_channel (64)" ID="ID_329499074" CREATED="1572940945487" MODIFIED="1573020001326" COLOR="#0000cc">
+<font SIZE="10" BOLD="true"/>
+</node>
+<node TEXT="fee_base_msat (32)" ID="ID_489210767" CREATED="1572940958152" MODIFIED="1573020001326" COLOR="#0000cc">
+<font SIZE="10" BOLD="true"/>
+</node>
+<node TEXT="fee_base_proportional_millionths (32)" ID="ID_912976221" CREATED="1572940971774" MODIFIED="1573020001329" COLOR="#0000cc">
+<font SIZE="10" BOLD="true"/>
+<node TEXT="bigendian" ID="ID_1567499160" CREATED="1572940989133" MODIFIED="1572940992227"/>
+</node>
+<node TEXT="cltv_expiry_delta (16)" ID="ID_994564441" CREATED="1572941009160" MODIFIED="1573019699093" COLOR="#0000cc">
+<font SIZE="10" BOLD="true"/>
+<node TEXT="bigendian" ID="ID_1064478443" CREATED="1572941019821" MODIFIED="1572941024380"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="x" ID="ID_860457943" CREATED="1572940728503" MODIFIED="1572941116262" COLOR="#006600">
+<font SIZE="11" BOLD="true"/>
+<node TEXT="expiry time in seconds" ID="ID_1885927274" CREATED="1572940738479" MODIFIED="1572941457079" COLOR="#0000cc">
+<font BOLD="true"/>
 <node TEXT="default 3600" ID="ID_1159850787" CREATED="1572940746365" MODIFIED="1572940752918"/>
+</node>
+</node>
+<node TEXT="p (52)" ID="ID_1697168487" CREATED="1572940576032" MODIFIED="1573019336331" COLOR="#006600">
+<font SIZE="11" BOLD="true"/>
+<node TEXT="preimage" ID="ID_410072620" CREATED="1572940591279" MODIFIED="1572941443499" COLOR="#0000cc">
+<font BOLD="true"/>
+<node TEXT="sha256 payment_hash" ID="ID_348363054" CREATED="1572941256345" MODIFIED="1572941271077">
+<node TEXT="provides proof of payment" ID="ID_935431636" CREATED="1572940615981" MODIFIED="1572940620965"/>
+</node>
+</node>
 </node>
 <node TEXT="c" ID="ID_1563862604" CREATED="1572940759485" MODIFIED="1572941116262" COLOR="#006600">
 <font SIZE="11" BOLD="true"/>
-<node TEXT="variable" ID="ID_584257642" CREATED="1572940768695" MODIFIED="1572940770988"/>
 <node TEXT="min_final_cltv_expiry" ID="ID_1017479450" CREATED="1572940791498" MODIFIED="1572941443498" COLOR="#0000cc">
 <font BOLD="true"/>
-<node TEXT=" to use for the last HTLC in the route" ID="ID_1525068867" CREATED="1572941333713" MODIFIED="1572941335797"/>
-</node>
+<node TEXT=" to use for the last HTLC in the route" ID="ID_1525068867" CREATED="1572941333713" MODIFIED="1572941335797">
 <node TEXT="default 9" ID="ID_141862678" CREATED="1572940794238" MODIFIED="1572940798775"/>
+</node>
+</node>
 </node>
 <node TEXT="f" ID="ID_1571430878" CREATED="1572940838697" MODIFIED="1572941116262" COLOR="#006600">
 <font SIZE="11" BOLD="true"/>
-<node TEXT="variable" ID="ID_182485979" CREATED="1572940841918" MODIFIED="1572940843764"/>
 <node TEXT="fallback" ID="ID_462332869" CREATED="1572941384676" MODIFIED="1572941443498" COLOR="#0000cc">
 <font BOLD="true"/>
 <node ID="ID_732184589" CREATED="1572940862398" MODIFIED="1572940862398"><richcontent TYPE="NODE">
@@ -207,51 +234,15 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="r" ID="ID_29378183" CREATED="1572940876394" MODIFIED="1572941116262" COLOR="#006600">
+<node TEXT="9" OBJECT="java.lang.Long|9" ID="ID_454719845" CREATED="1572941034553" MODIFIED="1573019522060" COLOR="#006600">
+<icon BUILTIN="list"/>
 <font SIZE="11" BOLD="true"/>
-<node TEXT="variable" ID="ID_893546805" CREATED="1572940881476" MODIFIED="1572940883457"/>
-<node TEXT="multiple" ID="ID_553476152" CREATED="1572940892481" MODIFIED="1572940895477"/>
-<node TEXT="routes" ID="ID_1489942348" CREATED="1572941400322" MODIFIED="1572941443498" COLOR="#0000cc">
+<node TEXT="feature bits (5)" ID="ID_975761997" CREATED="1572941064681" MODIFIED="1573019478001" COLOR="#0000cc">
 <font BOLD="true"/>
-<node TEXT="routing information for a private route" ID="ID_510214321" CREATED="1572940897168" MODIFIED="1572940908504"/>
-</node>
-</node>
-<node TEXT="pubkey" ID="ID_212873551" CREATED="1572940934441" MODIFIED="1572941494791" COLOR="#0000cc">
-<font SIZE="11" BOLD="true"/>
-<node TEXT="264" OBJECT="java.lang.Long|264" ID="ID_1473166615" CREATED="1572940938517" MODIFIED="1572940942766"/>
-</node>
-<node TEXT="short_channel" ID="ID_329499074" CREATED="1572940945487" MODIFIED="1572941494793" COLOR="#0000cc">
-<font SIZE="11" BOLD="true"/>
-<node TEXT="64" OBJECT="java.lang.Long|64" ID="ID_142322488" CREATED="1572940950429" MODIFIED="1572940952408"/>
-</node>
-<node TEXT="fee_base_msat" ID="ID_489210767" CREATED="1572940958152" MODIFIED="1572941494793" COLOR="#0000cc">
-<font SIZE="11" BOLD="true"/>
-<node TEXT="32" OBJECT="java.lang.Long|32" ID="ID_143734116" CREATED="1572940965158" MODIFIED="1572940966636"/>
-</node>
-<node TEXT="fee_base_proportional_millionths" ID="ID_912976221" CREATED="1572940971774" MODIFIED="1572941494794" COLOR="#0000cc">
-<font SIZE="11" BOLD="true"/>
-<node TEXT="32" OBJECT="java.lang.Long|32" ID="ID_686574613" CREATED="1572940986405" MODIFIED="1572940988042">
-<node TEXT="bigendian" ID="ID_1567499160" CREATED="1572940989133" MODIFIED="1572940992227"/>
-</node>
-</node>
-<node TEXT="cltv_expiry_delta" ID="ID_994564441" CREATED="1572941009160" MODIFIED="1572941494794" COLOR="#0000cc">
-<font SIZE="11" BOLD="true"/>
-<node TEXT="16" OBJECT="java.lang.Long|16" ID="ID_376598978" CREATED="1572941016933" MODIFIED="1572941018534">
-<node TEXT="bigendian" ID="ID_1064478443" CREATED="1572941019821" MODIFIED="1572941024380"/>
-</node>
-</node>
-<node TEXT="9" OBJECT="java.lang.Long|9" ID="ID_454719845" CREATED="1572941034553" MODIFIED="1572941116263" COLOR="#006600">
-<font SIZE="11" BOLD="true"/>
-<node TEXT="variable" ID="ID_744863592" CREATED="1572941049110" MODIFIED="1572941056357"/>
-<node TEXT="multiple" ID="ID_362489771" CREATED="1572941058688" MODIFIED="1572941063152"/>
-<node TEXT="feature bits" ID="ID_975761997" CREATED="1572941064681" MODIFIED="1572941443494" COLOR="#0000cc">
-<font BOLD="true"/>
-<node TEXT="5 bits" ID="ID_1106949451" CREATED="1572941071610" MODIFIED="1572941074129"/>
 </node>
 </node>
 </node>
@@ -282,7 +273,7 @@
 <icon BUILTIN="list"/>
 <edge COLOR="#00007c"/>
 <node TEXT="Please send $3 for a cup of coffee to the same peer, within one minute" ID="ID_1069156270" CREATED="1572942074029" MODIFIED="1572942074029"/>
-<node TEXT="lnbc2500u1pvjluezpp5qqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqypqdq5xysxxatsyp3k7enxv4jsxqzpuaztrnwngzn3kdzw5hydlzf03qdgm2hdq27cqv3agm2awhz5se903vruatfhq77w3ls4evs3ch9zw97j25emudupq63nyw24cg27h2rspfj9srp" ID="ID_335570114" CREATED="1572942074029" MODIFIED="1572942074029"/>
+<node TEXT="lnbc2500u1pvjluezpp5qqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqypqdq5xysxxatsyp3k7enxv4jsxqzpuaztrnwngzn3kdzw5hydlzf03qdgm2hdq27cqv3agm2awhz5se903vruatfhq77w3ls4evs3ch9zw97j25emudupq63nyw24cg27h2rspfj9srp" ID="ID_335570114" CREATED="1572942074029" MODIFIED="1573019091111" LINK="https://lndecode.com/?invoice=lnbc2500u1pvjluezpp5qqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqypqdq5xysxxatsyp3k7enxv4jsxqzpuaztrnwngzn3kdzw5hydlzf03qdgm2hdq27cqv3agm2awhz5se903vruatfhq77w3ls4evs3ch9zw97j25emudupq63nyw24cg27h2rspfj9srp"/>
 <node TEXT="Breakdown:" ID="ID_632355062" CREATED="1572942074042" MODIFIED="1572942074042"/>
 <node TEXT="lnbc: prefix, Lightning on Bitcoin mainnet" ID="ID_1437265552" CREATED="1572942074044" MODIFIED="1572942074044"/>
 <node TEXT="2500u: amount (2500 micro-bitcoin)" ID="ID_1091105784" CREATED="1572942074045" MODIFIED="1572942074045"/>
@@ -302,6 +293,510 @@
 <node TEXT="1 (int) recovery flag contained in signature" ID="ID_1799018780" CREATED="1572942074051" MODIFIED="1572942074051"/>
 <node TEXT="6c6e626332353030750b25fe64410d00004080c1014181c20240004080c1014181c20240004080c1014181c202404081a0a189031bab81031b7b33332b2818020f00 hex of data for signing (prefix + data after separator up to the start of the signature)" ID="ID_1493419865" CREATED="1572942074053" MODIFIED="1572942074053"/>
 <node TEXT="3cd6ef07744040556e01be64f68fd9e1565fb47d78c42308b1ee005aca5a0d86 hex of SHA256 of the preimage" ID="ID_1572273548" CREATED="1572942074053" MODIFIED="1572942074053"/>
+<node ID="ID_80654735" CREATED="1573019123347" MODIFIED="1573019123347"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h4 http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-bottom: 25px; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-weight: 500; line-height: 1.2; color: rgb(21, 87, 36); font-size: 1.5rem; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      Payment Info:
+    </h4>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_914702224" CREATED="1573019123349" MODIFIED="1573019123349"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Network
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1044543158" CREATED="1573019123350" MODIFIED="1573019123350"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          bitcoin mainnet
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_916106733" CREATED="1573019123352" MODIFIED="1573019123352"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Amount
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1741562700" CREATED="1573019123353" MODIFIED="1573019123353"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          0.0025 BTC
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_642109266" CREATED="1573019123359" MODIFIED="1573019123359"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Date
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1724992923" CREATED="1573019123361" MODIFIED="1573019123361"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          Thu, 01 Jun 2017 10:57:38 GMT
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_67775872" CREATED="1573019123365" MODIFIED="1573019123365"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Payment Hash
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_285078393" CREATED="1573019123366" MODIFIED="1573019123366"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          0001020304050607080900010203040506070809000102030405060708090102
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_752993632" CREATED="1573019123368" MODIFIED="1573019123368"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Description
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1822294214" CREATED="1573019123369" MODIFIED="1573019123369"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          1 cup coffee
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1495284092" CREATED="1573019123370" MODIFIED="1573019123370"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Expiration Time
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1419487254" CREATED="1573019123384" MODIFIED="1573019123384"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          60 seconds
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_794554845" CREATED="1573019123386" MODIFIED="1573019123386"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Min Final CLTV Expiry
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node FOLDED="true" ID="ID_1083977508" CREATED="1573019123393" MODIFIED="1573019123393"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          9
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_295673889" CREATED="1573019123395" MODIFIED="1573019123395"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div>
+        <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+          <div class="font-weight-bold col-sm-4 col-sm-8" style="width: 709.328px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+            Signature
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1221971142" CREATED="1573019123397" MODIFIED="1573019123397"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div>
+        <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+          <div class="font-italic col-sm-4 pl-4" style="width: 354.656px; padding-right: 15px; padding-left: 0; font-style: italic !important">
+            R value
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1420331404" CREATED="1573019123398" MODIFIED="1573019123398"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div>
+        <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+          <div class="break-all col-sm-8 pl-5 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+            e89639ba6814e36689d4b91bf125f10351b55da057b00647a8dabaeb8a90c95f
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1415466681" CREATED="1573019123399" MODIFIED="1573019123399"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div>
+        <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+          <div class="font-italic col-sm-4 pl-4" style="width: 354.656px; padding-right: 15px; padding-left: 0; font-style: italic !important">
+            S value
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_571817856" CREATED="1573019123400" MODIFIED="1573019123400"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div>
+        <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+          <div class="break-all col-sm-8 pl-5 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+            160f9d5a6e0f79d1fc2b964238b944e2fa4aa677c6f020d466472ab842bd750e
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_238878285" CREATED="1573019123401" MODIFIED="1573019123401"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div>
+        <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+          <div class="font-italic col-sm-4 pl-4" style="width: 354.656px; padding-right: 15px; padding-left: 0; font-style: italic !important">
+            Recovery Flag
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1384687966" CREATED="1573019123402" MODIFIED="1573019123402"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div>
+        <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+          <div class="break-all col-sm-8 pl-5 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1486964130" CREATED="1573019123403" MODIFIED="1573019123403"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Signing Data
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1511155471" CREATED="1573019123405" MODIFIED="1573019123405"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          6c6e626332353030750b25fe64410d00004080c1014181c20240004080c1014181c20240004080c1014181c202404081a0a189031bab81031b7b33332b2818020f00
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1078953901" CREATED="1573019123409" MODIFIED="1573019123409"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="font-weight-bold col-sm-4" style="width: 354.656px; padding-right: 15px; padding-left: 15px; font-weight: normal">
+          Checksum
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1949614665" CREATED="1573019123417" MODIFIED="1573019123417"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="mb-4" style="margin-bottom: 0; color: rgb(21, 87, 36); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(212, 237, 218)">
+      <div class="row border-bottom" style="display: flex; margin-right: -15px; margin-left: -15px">
+        <div class="break-all col-sm-8 pl-4 pl-sm-3" style="width: 709.328px; padding-right: 15px; padding-left: 0">
+          fj9srp
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
