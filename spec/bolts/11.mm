@@ -88,7 +88,8 @@
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#007c00"/>
 </node>
-<node TEXT="BOLT 11" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572939328569" LINK="../spec/index.mm" COLOR="#000099">
+<node TEXT="BOLT 11" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1573021171977" LINK="https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md#bolt-11-invoice-protocol-for-lightning-payments" COLOR="#000099">
+<icon BUILTIN="lightning"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#007c7c"/>
 <node TEXT="Invoice Protocol for Lightning Payments" ID="ID_1384191185" CREATED="1572939403032" MODIFIED="1572943282906" COLOR="#009900">
@@ -309,7 +310,6 @@
     </h4>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_914702224" CREATED="1573019123349" MODIFIED="1573019123349"><richcontent TYPE="NODE">
 
@@ -327,7 +327,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1044543158" CREATED="1573019123350" MODIFIED="1573019123350"><richcontent TYPE="NODE">
@@ -346,7 +345,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_916106733" CREATED="1573019123352" MODIFIED="1573019123352"><richcontent TYPE="NODE">
@@ -365,7 +363,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1741562700" CREATED="1573019123353" MODIFIED="1573019123353"><richcontent TYPE="NODE">
@@ -384,7 +381,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_642109266" CREATED="1573019123359" MODIFIED="1573019123359"><richcontent TYPE="NODE">
@@ -403,7 +399,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1724992923" CREATED="1573019123361" MODIFIED="1573019123361"><richcontent TYPE="NODE">
@@ -422,7 +417,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_67775872" CREATED="1573019123365" MODIFIED="1573019123365"><richcontent TYPE="NODE">
@@ -441,7 +435,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_285078393" CREATED="1573019123366" MODIFIED="1573019123366"><richcontent TYPE="NODE">
@@ -460,7 +453,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_752993632" CREATED="1573019123368" MODIFIED="1573019123368"><richcontent TYPE="NODE">
@@ -479,7 +471,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1822294214" CREATED="1573019123369" MODIFIED="1573019123369"><richcontent TYPE="NODE">
@@ -498,7 +489,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1495284092" CREATED="1573019123370" MODIFIED="1573019123370"><richcontent TYPE="NODE">
@@ -517,7 +507,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1419487254" CREATED="1573019123384" MODIFIED="1573019123384"><richcontent TYPE="NODE">
@@ -536,7 +525,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_794554845" CREATED="1573019123386" MODIFIED="1573019123386"><richcontent TYPE="NODE">
@@ -555,7 +543,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node FOLDED="true" ID="ID_1083977508" CREATED="1573019123393" MODIFIED="1573019123393"><richcontent TYPE="NODE">
@@ -574,7 +561,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_295673889" CREATED="1573019123395" MODIFIED="1573019123395"><richcontent TYPE="NODE">
 
@@ -594,7 +580,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1221971142" CREATED="1573019123397" MODIFIED="1573019123397"><richcontent TYPE="NODE">
@@ -615,7 +600,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1420331404" CREATED="1573019123398" MODIFIED="1573019123398"><richcontent TYPE="NODE">
@@ -636,7 +620,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1415466681" CREATED="1573019123399" MODIFIED="1573019123399"><richcontent TYPE="NODE">
@@ -657,7 +640,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_571817856" CREATED="1573019123400" MODIFIED="1573019123400"><richcontent TYPE="NODE">
@@ -678,7 +660,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_238878285" CREATED="1573019123401" MODIFIED="1573019123401"><richcontent TYPE="NODE">
@@ -699,7 +680,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1384687966" CREATED="1573019123402" MODIFIED="1573019123402"><richcontent TYPE="NODE">
@@ -720,7 +700,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -740,7 +719,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1511155471" CREATED="1573019123405" MODIFIED="1573019123405"><richcontent TYPE="NODE">
@@ -759,7 +737,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1078953901" CREATED="1573019123409" MODIFIED="1573019123409"><richcontent TYPE="NODE">
@@ -778,7 +755,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1949614665" CREATED="1573019123417" MODIFIED="1573019123417"><richcontent TYPE="NODE">
@@ -797,7 +773,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

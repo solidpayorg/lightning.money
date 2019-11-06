@@ -303,9 +303,12 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1858353829",
                     "@_CREATED": 1569861461668,
-                    "@_MODIFIED": 1572939328569,
-                    "@_LINK": "../spec/index.mm",
+                    "@_MODIFIED": 1573021171977,
+                    "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md#bolt-11-invoice-protocol-for-lightning-payments",
                     "@_COLOR": "#000099",
+                    "icon": {
+                        "@_BUILTIN": "lightning"
+                    },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
