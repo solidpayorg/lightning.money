@@ -236,7 +236,14 @@
                         "@_ID": "ID_1651596806",
                         "@_CREATED": 1572864580441,
                         "@_MODIFIED": 1572864586019,
-                        "@_LINK": "https://twitter.com/lngames_net/status/1190393843881041920?s=17"
+                        "@_LINK": "https://twitter.com/lngames_net/status/1190393843881041920?s=17",
+                        "node": {
+                            "@_TEXT": "voucher test",
+                            "@_ID": "ID_810655095",
+                            "@_CREATED": 1573199619889,
+                            "@_MODIFIED": 1573199628335,
+                            "@_LINK": "https://twitter.com/lngames_net/status/1192164048844083200?s=17"
+                        }
                     }
                 },
                 {
