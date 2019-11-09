@@ -204,6 +204,7 @@
 <node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
 <node TEXT="dropbit" ID="ID_73532375" CREATED="1573022635992" MODIFIED="1573022641181" LINK="https://dropbit.app/dropbit"/>
 </node>
+<node TEXT="lapps" ID="ID_688478875" CREATED="1573316864521" MODIFIED="1573316873973" LINK="https://www.lapps.co/wallets"/>
 </node>
 </node>
 </map>

@@ -802,6 +802,13 @@
                                     "@_LINK": "https://dropbit.app/dropbit"
                                 }
                             ]
+                        },
+                        {
+                            "@_TEXT": "lapps",
+                            "@_ID": "ID_688478875",
+                            "@_CREATED": 1573316864521,
+                            "@_MODIFIED": 1573316873973,
+                            "@_LINK": "https://www.lapps.co/wallets"
                         }
                     ]
                 }
