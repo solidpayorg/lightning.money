@@ -191,7 +191,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 16,
+                    "@_COUNTER": 17,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -278,6 +278,17 @@
                         "@_ID": "ID_1384191185",
                         "@_CREATED": 1572939403032,
                         "@_MODIFIED": 1572939403032
+                    }
+                },
+                {
+                    "@_TEXT": "introduction",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1465250280",
+                    "@_CREATED": 1573465449909,
+                    "@_MODIFIED": 1573465456494,
+                    "@_LINK": "introduction.mm",
+                    "edge": {
+                        "@_COLOR": "#7c0000"
                     }
                 },
                 {

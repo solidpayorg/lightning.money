@@ -1,0 +1,511 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "introduction",
+            "@_FOLDED": false,
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1573465182388,
+            "@_ICON_SIZE": "20.0 pt",
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "lightning"
+            },
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 16,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "Channels",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_827097705",
+                    "@_CREATED": 1571978822555,
+                    "@_MODIFIED": 1573465182386,
+                    "@_COLOR": "#0000ff",
+                    "@_HGAP_QUANTITY": "-160.7499947920443 pt",
+                    "@_VSHIFT_QUANTITY": "-86.24999742954977 pt",
+                    "icon": {
+                        "@_BUILTIN": "kaddressbook"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#7c0000"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Establishing Channels",
+                            "@_ID": "ID_112341474",
+                            "@_CREATED": 1573464414085,
+                            "@_MODIFIED": 1573464418088,
+                            "node": {
+                                "@_TEXT": "BOLT 2",
+                                "@_ID": "ID_1709473022",
+                                "@_CREATED": 1573464838950,
+                                "@_MODIFIED": 1573465231203,
+                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#bolt-2-peer-protocol-for-channel-management"
+                            }
+                        },
+                        {
+                            "@_TEXT": "Funding Transaction Output",
+                            "@_ID": "ID_1843198648",
+                            "@_CREATED": 1573464426507,
+                            "@_MODIFIED": 1573464434461,
+                            "node": {
+                                "@_TEXT": "BOLT 3",
+                                "@_ID": "ID_784568102",
+                                "@_CREATED": 1573464849864,
+                                "@_MODIFIED": 1573465303954,
+                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#bolt-3-bitcoin-transaction-and-script-formats"
+                            }
+                        },
+                        {
+                            "@_TEXT": "On Chain",
+                            "@_ID": "ID_1222024182",
+                            "@_CREATED": 1573464440886,
+                            "@_MODIFIED": 1573464443487,
+                            "node": {
+                                "@_TEXT": "BOLT 5",
+                                "@_ID": "ID_86394318",
+                                "@_CREATED": 1573464860694,
+                                "@_MODIFIED": 1573465332026,
+                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/05-onchain.md"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "Payments",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_422242255",
+                    "@_CREATED": 1571978826011,
+                    "@_MODIFIED": 1573465169081,
+                    "@_COLOR": "#006600",
+                    "@_HGAP_QUANTITY": "50.749998904764695 pt",
+                    "@_VSHIFT_QUANTITY": "3.7499998882412875 pt",
+                    "icon": {
+                        "@_BUILTIN": "wizard"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Conditional",
+                            "@_ID": "ID_1309002775",
+                            "@_CREATED": 1573464391855,
+                            "@_MODIFIED": 1573464395927,
+                            "node": [
+                                {
+                                    "@_TEXT": "BOLT 2",
+                                    "@_ID": "ID_1973652518",
+                                    "@_CREATED": 1573464938967,
+                                    "@_MODIFIED": 1573465234971,
+                                    "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#bolt-2-peer-protocol-for-channel-management"
+                                },
+                                {
+                                    "@_TEXT": "BOLT 3",
+                                    "@_ID": "ID_311470151",
+                                    "@_CREATED": 1573464942408,
+                                    "@_MODIFIED": 1573465309054,
+                                    "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#bolt-3-bitcoin-transaction-and-script-formats"
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "Invoices",
+                            "@_ID": "ID_1365524537",
+                            "@_CREATED": 1573464384700,
+                            "@_MODIFIED": 1573464388073,
+                            "node": {
+                                "@_TEXT": "BOLT 11",
+                                "@_ID": "ID_434201404",
+                                "@_CREATED": 1573464536296,
+                                "@_MODIFIED": 1573464562345,
+                                "@_LINK": "../../../../lightning.money/spec/bolts/11.mm"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "Network",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_721627699",
+                    "@_CREATED": 1571978829050,
+                    "@_MODIFIED": 1573465129524,
+                    "@_COLOR": "#990000",
+                    "@_HGAP_QUANTITY": "-155.49999494850653 pt",
+                    "@_VSHIFT_QUANTITY": "90.74999729543933 pt",
+                    "icon": {
+                        "@_BUILTIN": "internet"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Forwarding",
+                            "@_ID": "ID_475959418",
+                            "@_CREATED": 1573464468974,
+                            "@_MODIFIED": 1573464470895,
+                            "node": [
+                                {
+                                    "@_TEXT": "HTLCs",
+                                    "@_ID": "ID_1824837516",
+                                    "@_CREATED": 1573464471913,
+                                    "@_MODIFIED": 1573464474895,
+                                    "node": {
+                                        "@_TEXT": "BOLT 2",
+                                        "@_ID": "ID_102122389",
+                                        "@_CREATED": 1573464983416,
+                                        "@_MODIFIED": 1573465289451,
+                                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#bolt-2-peer-protocol-for-channel-management"
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "Packet Struture",
+                                    "@_ID": "ID_578380911",
+                                    "@_CREATED": 1573464478704,
+                                    "@_MODIFIED": 1573464485469,
+                                    "node": {
+                                        "@_TEXT": "BOLT 4",
+                                        "@_ID": "ID_977427535",
+                                        "@_CREATED": 1573464989390,
+                                        "@_MODIFIED": 1573465321258,
+                                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/04-onion-routing.md#bolt-4-onion-routing-protocol"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "Topology",
+                            "@_ID": "ID_1840684229",
+                            "@_CREATED": 1573464502651,
+                            "@_MODIFIED": 1573464505915,
+                            "node": [
+                                {
+                                    "@_TEXT": "Node and Channel Discovery",
+                                    "@_ID": "ID_1715653740",
+                                    "@_CREATED": 1573464512734,
+                                    "@_MODIFIED": 1573464518070,
+                                    "node": {
+                                        "@_TEXT": "BOLT 7",
+                                        "@_ID": "ID_450931195",
+                                        "@_CREATED": 1573465045790,
+                                        "@_MODIFIED": 1573465358818,
+                                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/07-routing-gossip.md#bolt-7-p2p-node-and-channel-discovery"
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "DNS Bootstrap",
+                                    "@_ID": "ID_1091647832",
+                                    "@_CREATED": 1573464525537,
+                                    "@_MODIFIED": 1573464528664,
+                                    "node": {
+                                        "@_TEXT": "BOLT 10",
+                                        "@_ID": "ID_265078504",
+                                        "@_CREATED": 1573465051383,
+                                        "@_MODIFIED": 1573465384786,
+                                        "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/10-dns-bootstrap.md#bolt-10-dns-bootstrap-and-assisted-node-location"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_338129735",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1573464602424,
+                    "icon": {
+                        "@_BUILTIN": "info"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ff00"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "A Short Introduction to Lightning",
+                            "@_ID": "ID_694415795",
+                            "@_CREATED": 1569861461668,
+                            "@_MODIFIED": 1573464732855,
+                            "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#the-spark-a-short-introduction-to-lightning",
+                            "@_COLOR": "#000099",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            }
+                        },
+                        {
+                            "@_TEXT": "Glossary",
+                            "@_ID": "ID_1926493234",
+                            "@_CREATED": 1573020583482,
+                            "@_MODIFIED": 1573020628024,
+                            "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#glossary-and-terminology-guide",
+                            "@_COLOR": "#006633",
+                            "font": {
+                                "@_SIZE": 11,
+                                "@_BOLD": true
+                            }
+                        },
+                        {
+                            "@_TEXT": "Base Protocol",
+                            "@_ID": "ID_269889522",
+                            "@_CREATED": 1573465407221,
+                            "@_MODIFIED": 1573465411293,
+                            "node": {
+                                "@_TEXT": "Bolt 1",
+                                "@_ID": "ID_1472231920",
+                                "@_CREATED": 1573465413218,
+                                "@_MODIFIED": 1573465417385,
+                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/01-messaging.md#bolt-1-base-protocol"
+                            }
+                        },
+                        {
+                            "@_TEXT": "resources",
+                            "@_ID": "ID_1911540836",
+                            "@_CREATED": 1572861720975,
+                            "@_MODIFIED": 1572938870390,
+                            "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1383569229",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1573464607768,
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "mailing list",
+                            "@_ID": "ID_307649319",
+                            "@_CREATED": 1572859082436,
+                            "@_MODIFIED": 1572938866460,
+                            "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
+                        },
+                        {
+                            "@_TEXT": "github bolts",
+                            "@_ID": "ID_775787707",
+                            "@_CREATED": 1572939281386,
+                            "@_MODIFIED": 1572939294218,
+                            "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md#bolt-0-introduction-and-index"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "tags",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1816914535",
+                    "@_CREATED": 1570968754383,
+                    "@_MODIFIED": 1573464616687,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ffff"
+                    }
+                }
+            ]
+        }
+    }
+}

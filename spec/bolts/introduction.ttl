@@ -1,0 +1,44 @@
+<#ID_827097705> <urn:string:@_TEXT> """Channels""" .
+<#ID_112341474> <urn:string:@_TEXT> """Establishing Channels""" .
+<#ID_112341474> <urn:string:child> <ID_112341474> .
+<#ID_1843198648> <urn:string:@_TEXT> """Funding Transaction Output""" .
+<#ID_1843198648> <urn:string:child> <ID_1843198648> .
+<#ID_1222024182> <urn:string:@_TEXT> """On Chain""" .
+<#ID_1222024182> <urn:string:child> <ID_1222024182> .
+<#ID_422242255> <urn:string:@_TEXT> """Payments""" .
+<#ID_1309002775> <urn:string:@_TEXT> """Conditional""" .
+<#ID_1309002775> <urn:string:child> <ID_1309002775> .
+<#ID_1973652518> <urn:string:@_TEXT> """BOLT 2""" .
+<#ID_1973652518> <urn:string:child> <ID_1973652518> .
+<#ID_311470151> <urn:string:@_TEXT> """BOLT 3""" .
+<#ID_311470151> <urn:string:child> <ID_311470151> .
+<#ID_1365524537> <urn:string:@_TEXT> """Invoices""" .
+<#ID_1365524537> <urn:string:child> <ID_1365524537> .
+<#ID_721627699> <urn:string:@_TEXT> """Network""" .
+<#ID_475959418> <urn:string:@_TEXT> """Forwarding""" .
+<#ID_475959418> <urn:string:child> <ID_475959418> .
+<#ID_1824837516> <urn:string:@_TEXT> """HTLCs""" .
+<#ID_1824837516> <urn:string:child> <ID_1824837516> .
+<#ID_578380911> <urn:string:@_TEXT> """Packet Struture""" .
+<#ID_578380911> <urn:string:child> <ID_578380911> .
+<#ID_1840684229> <urn:string:@_TEXT> """Topology""" .
+<#ID_1840684229> <urn:string:child> <ID_1840684229> .
+<#ID_1715653740> <urn:string:@_TEXT> """Node and Channel Discovery""" .
+<#ID_1715653740> <urn:string:child> <ID_1715653740> .
+<#ID_1091647832> <urn:string:@_TEXT> """DNS Bootstrap""" .
+<#ID_1091647832> <urn:string:child> <ID_1091647832> .
+<#ID_338129735> <urn:string:@_TEXT> """docs""" .
+<#ID_694415795> <urn:string:@_TEXT> """A Short Introduction to Lightning""" .
+<#ID_694415795> <urn:string:child> <ID_694415795> .
+<#ID_1926493234> <urn:string:@_TEXT> """Glossary""" .
+<#ID_1926493234> <urn:string:child> <ID_1926493234> .
+<#ID_269889522> <urn:string:@_TEXT> """Base Protocol""" .
+<#ID_269889522> <urn:string:child> <ID_269889522> .
+<#ID_1911540836> <urn:string:@_TEXT> """resources""" .
+<#ID_1911540836> <urn:string:child> <ID_1911540836> .
+<#ID_1383569229> <urn:string:@_TEXT> """links""" .
+<#ID_307649319> <urn:string:@_TEXT> """mailing list""" .
+<#ID_307649319> <urn:string:child> <ID_307649319> .
+<#ID_775787707> <urn:string:@_TEXT> """github bolts""" .
+<#ID_775787707> <urn:string:child> <ID_775787707> .
+<#ID_1816914535> <urn:string:@_TEXT> """tags""" .

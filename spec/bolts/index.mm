@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572938857095">
 <icon BUILTIN="info"/>
 <edge COLOR="#ff00ff"/>
@@ -84,6 +84,9 @@
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#007c7c"/>
 <node TEXT="Invoice Protocol for Lightning Payments" ID="ID_1384191185" CREATED="1572939403032" MODIFIED="1572939403032"/>
+</node>
+<node TEXT="introduction" POSITION="right" ID="ID_1465250280" CREATED="1573465449909" MODIFIED="1573465456494" LINK="introduction.mm">
+<edge COLOR="#7c0000"/>
 </node>
 <node TEXT="proposals" POSITION="right" ID="ID_446210926" CREATED="1572948858501" MODIFIED="1572948860326">
 <edge COLOR="#00ffff"/>
