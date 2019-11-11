@@ -69,13 +69,17 @@
 <node TEXT="fastbitcoins" ID="ID_1647714766" CREATED="1572866027952" MODIFIED="1572866039502" LINK="https://fastbitcoins.com/"/>
 <node TEXT="donnerlab" ID="ID_606800072" CREATED="1572866134646" MODIFIED="1572866141721" LINK="https://donnerlab.com/voucher"/>
 <node TEXT="webvouchers source code" ID="ID_530694162" CREATED="1572864818535" MODIFIED="1572866053160" LINK="https://github.com/solidpayorg/webvouchers/blob/gh-pages/bin/lightning.js"/>
+<node TEXT="flitz.cards" ID="ID_1126225682" CREATED="1573500114856" MODIFIED="1573500122797" LINK="https://flitz.cards/"/>
 </node>
 <node TEXT="coming soon" POSITION="right" ID="ID_1029049124" CREATED="1572864541700" MODIFIED="1572864543785">
 <node TEXT="lngames" ID="ID_1651596806" CREATED="1572864580441" MODIFIED="1572864586019" LINK="https://twitter.com/lngames_net/status/1190393843881041920?s=17">
 <node TEXT="voucher test" ID="ID_810655095" CREATED="1573199619889" MODIFIED="1573199628335" LINK="https://twitter.com/lngames_net/status/1192164048844083200?s=17"/>
 </node>
 </node>
-<node TEXT="previous" POSITION="right" ID="ID_980844235" CREATED="1572866089482" MODIFIED="1572866091410">
+<node TEXT="links" POSITION="left" ID="ID_1091889470" CREATED="1572863277991" MODIFIED="1572863277998">
+<icon BUILTIN="attach"/>
+<node TEXT="webvouchers.org" ID="ID_255085710" CREATED="1572864505314" MODIFIED="1572864515177" LINK="https://webvouchers.org/"/>
+<node TEXT="previous" ID="ID_980844235" CREATED="1572866089482" MODIFIED="1572866091410">
 <node ID="ID_247465001" CREATED="1572866109938" MODIFIED="1572866109938" LINK="https://kriptode.com/"><richcontent TYPE="NODE">
 
 <html>
@@ -89,9 +93,6 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="links" POSITION="left" ID="ID_1091889470" CREATED="1572863277991" MODIFIED="1572863277998">
-<icon BUILTIN="attach"/>
-<node TEXT="webvouchers.org" ID="ID_255085710" CREATED="1572864505314" MODIFIED="1572864515177" LINK="https://webvouchers.org/"/>
 </node>
 </node>
 </map>
