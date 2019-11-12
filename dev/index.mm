@@ -76,6 +76,7 @@
 <node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572938866460" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 <node TEXT="lndhub" ID="ID_1314545006" CREATED="1572969714975" MODIFIED="1573023891849" LINK="http://lndhub.io"/>
 <node TEXT="bitclouds" ID="ID_1426064831" CREATED="1573030424669" MODIFIED="1573030431283" LINK="https://bitclouds.sh/"/>
+<node TEXT="polar" ID="ID_1576540693" CREATED="1573586204661" MODIFIED="1573586210708" LINK="https://github.com/jamaljsr/polar#polar"/>
 </node>
 <node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
 <icon BUILTIN="hashtag"/>
