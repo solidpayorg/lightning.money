@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="lnurl" POSITION="right" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572947042692" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md">
 <edge COLOR="#00ff00"/>
 <font SIZE="12" BOLD="true"/>
@@ -88,6 +88,9 @@
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT="lnurl-node" POSITION="left" ID="ID_976824623" CREATED="1573582764419" MODIFIED="1573582774604" LINK="https://github.com/chill117/lnurl-node/blob/master/README.md">
+<edge COLOR="#ff00ff"/>
 </node>
 </node>
 </map>

@@ -191,84 +191,97 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 14,
+                    "@_COUNTER": 15,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": {
-                "@_TEXT": "lnurl",
-                "@_POSITION": "right",
-                "@_ID": "ID_961943115",
-                "@_CREATED": 1572171385940,
-                "@_MODIFIED": 1572947042692,
-                "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md",
-                "edge": {
-                    "@_COLOR": "#00ff00"
-                },
-                "font": {
-                    "@_SIZE": 12,
-                    "@_BOLD": true
-                },
-                "node": [
-                    {
-                        "@_TEXT": "lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.",
-                        "@_ID": "ID_440219822",
-                        "@_CREATED": 1572171436281,
-                        "@_MODIFIED": 1572171606701,
-                        "@_COLOR": "#000099"
+            "node": [
+                {
+                    "@_TEXT": "lnurl",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_961943115",
+                    "@_CREATED": 1572171385940,
+                    "@_MODIFIED": 1572947042692,
+                    "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md",
+                    "edge": {
+                        "@_COLOR": "#00ff00"
                     },
-                    {
-                        "@_TEXT": "https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df",
-                        "@_ID": "ID_1177904626",
-                        "@_CREATED": 1572171479316,
-                        "@_MODIFIED": 1572171610181
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
                     },
-                    {
-                        "@_TEXT": "LNURL1DP68GURN8GHJ7UM9WF&#xa;MXJCM99E3K7MF0V9CXJ0M385E&#xa;KVCENXC6R2C35XVUKXEFCV5M&#xa;KVV34X5EKZD3EV56NYD3HXQU&#xa;RZEPEXEJXXEPNXSCRVWFNV9N&#xa;XZCN9XQ6XYEFHVGCXXCMYXY&#xa;MNSERXFQ5FNS",
-                        "@_ID": "ID_452574641",
-                        "@_CREATED": 1572171486401,
-                        "@_MODIFIED": 1572171590844,
-                        "@_COLOR": "#009900"
-                    },
-                    {
-                        "@_TEXT": "example",
-                        "@_ID": "ID_1961156848",
-                        "@_CREATED": 1572171470824,
-                        "@_MODIFIED": 1572171472468,
-                        "node": {
-                            "@_TEXT": "png_15751375840253331061.png",
-                            "@_ID": "ID_141047124",
-                            "@_CREATED": 1572171568805,
-                            "@_MODIFIED": 1572171568805,
-                            "hook": {
-                                "@_URI": "index_files/png_15751375840253331061.png",
-                                "@_SIZE": 1,
-                                "@_NAME": "ExternalObject"
+                    "node": [
+                        {
+                            "@_TEXT": "lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.",
+                            "@_ID": "ID_440219822",
+                            "@_CREATED": 1572171436281,
+                            "@_MODIFIED": 1572171606701,
+                            "@_COLOR": "#000099"
+                        },
+                        {
+                            "@_TEXT": "https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df",
+                            "@_ID": "ID_1177904626",
+                            "@_CREATED": 1572171479316,
+                            "@_MODIFIED": 1572171610181
+                        },
+                        {
+                            "@_TEXT": "LNURL1DP68GURN8GHJ7UM9WF&#xa;MXJCM99E3K7MF0V9CXJ0M385E&#xa;KVCENXC6R2C35XVUKXEFCV5M&#xa;KVV34X5EKZD3EV56NYD3HXQU&#xa;RZEPEXEJXXEPNXSCRVWFNV9N&#xa;XZCN9XQ6XYEFHVGCXXCMYXY&#xa;MNSERXFQ5FNS",
+                            "@_ID": "ID_452574641",
+                            "@_CREATED": 1572171486401,
+                            "@_MODIFIED": 1572171590844,
+                            "@_COLOR": "#009900"
+                        },
+                        {
+                            "@_TEXT": "example",
+                            "@_ID": "ID_1961156848",
+                            "@_CREATED": 1572171470824,
+                            "@_MODIFIED": 1572171472468,
+                            "node": {
+                                "@_TEXT": "png_15751375840253331061.png",
+                                "@_ID": "ID_141047124",
+                                "@_CREATED": 1572171568805,
+                                "@_MODIFIED": 1572171568805,
+                                "hook": {
+                                    "@_URI": "index_files/png_15751375840253331061.png",
+                                    "@_SIZE": 1,
+                                    "@_NAME": "ExternalObject"
+                                }
                             }
-                        }
-                    },
-                    {
-                        "@_ID": "ID_1585457459",
-                        "@_CREATED": 1572683695899,
-                        "@_MODIFIED": 1572683695899,
-                        "@_LINK": "https://lnurl.com/",
-                        "richcontent": {
-                            "@_TYPE": "NODE",
-                            "html": {
-                                "head": "",
-                                "body": {
-                                    "a": {
-                                        "#text": "https://lnurl.com/",
-                                        "@_http-equiv": "content-type",
-                                        "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://lnurl.com/"
+                        },
+                        {
+                            "@_ID": "ID_1585457459",
+                            "@_CREATED": 1572683695899,
+                            "@_MODIFIED": 1572683695899,
+                            "@_LINK": "https://lnurl.com/",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://lnurl.com/",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://lnurl.com/"
+                                        }
                                     }
                                 }
                             }
                         }
+                    ]
+                },
+                {
+                    "@_TEXT": "lnurl-node",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_976824623",
+                    "@_CREATED": 1573582764419,
+                    "@_MODIFIED": 1573582774604,
+                    "@_LINK": "https://github.com/chill117/lnurl-node/blob/master/README.md",
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

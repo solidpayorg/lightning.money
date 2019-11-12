@@ -271,6 +271,12 @@
                             "@_LINK": "https://webvouchers.org/"
                         },
                         {
+                            "@_TEXT": "lnurl",
+                            "@_ID": "ID_273349597",
+                            "@_CREATED": 1573581889614,
+                            "@_MODIFIED": 1573581892308
+                        },
+                        {
                             "@_TEXT": "previous",
                             "@_ID": "ID_980844235",
                             "@_CREATED": 1572866089482,
