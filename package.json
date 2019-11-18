@@ -1,0 +1,25 @@
+{
+  "name": "lightning.money",
+  "version": "0.0.2",
+  "description": "lightning money information map",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidpayorg/lightning.money.git"
+  },
+  "keywords": [
+    "lightningnetwork"
+  ],
+  "funding": {
+    "type": "bottlepay",
+    "url": "https://pay.bottle.li/send/social/bottle/zGYgYEnZi1bNH1bbFDr2SxyaYuD6AphTVMKEhsbB1Es5?a=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F65864%3Fv%3D4&d=Melvin%20Carvalho"
+  },
+  "author": "Melvin Carvalho",
+  "bugs": {
+    "url": "https://github.com/solidpayorg/lightning.money/issues"
+  },
+  "homepage": "https://github.com/solidpayorg/lightning.money#readme"
+}
