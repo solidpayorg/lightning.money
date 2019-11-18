@@ -70,6 +70,7 @@
 <node TEXT="links" POSITION="left" ID="ID_1091889470" CREATED="1572863277991" MODIFIED="1572863277998">
 <icon BUILTIN="attach"/>
 <node TEXT="lightning-faucet.com" ID="ID_1367125136" CREATED="1572952409369" MODIFIED="1572952420288" LINK="https://lightning-faucet.com/"/>
+<node TEXT="lngames" ID="ID_1240292680" CREATED="1574091262331" MODIFIED="1574091266060" LINK="https://vouchers.lngames.net/"/>
 </node>
 </node>
 </map>

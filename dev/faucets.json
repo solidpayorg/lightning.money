@@ -211,13 +211,22 @@
                     "icon": {
                         "@_BUILTIN": "attach"
                     },
-                    "node": {
-                        "@_TEXT": "lightning-faucet.com",
-                        "@_ID": "ID_1367125136",
-                        "@_CREATED": 1572952409369,
-                        "@_MODIFIED": 1572952420288,
-                        "@_LINK": "https://lightning-faucet.com/"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "lightning-faucet.com",
+                            "@_ID": "ID_1367125136",
+                            "@_CREATED": 1572952409369,
+                            "@_MODIFIED": 1572952420288,
+                            "@_LINK": "https://lightning-faucet.com/"
+                        },
+                        {
+                            "@_TEXT": "lngames",
+                            "@_ID": "ID_1240292680",
+                            "@_CREATED": 1574091262331,
+                            "@_MODIFIED": 1574091266060,
+                            "@_LINK": "https://vouchers.lngames.net/"
+                        }
+                    ]
                 }
             ]
         }
