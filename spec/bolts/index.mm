@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="bolts" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1572939253033" ICON_SIZE="20.0 pt" LINK="../index.mm" STYLE="oval">
+<node TEXT="bolts" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1574872175064" ICON_SIZE="20.0 pt" LINK="../index.mm" STYLE="oval">
 <icon BUILTIN="bookmark"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -80,7 +80,7 @@
 <icon BUILTIN="hashtag"/>
 <edge COLOR="#007c00"/>
 </node>
-<node TEXT="BOLT 11" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572939459359" LINK="11.mm" COLOR="#000099">
+<node TEXT="BOLT 11" POSITION="right" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1574872175061" LINK="11.mm" COLOR="#000099">
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#007c7c"/>
 <node TEXT="Invoice Protocol for Lightning Payments" ID="ID_1384191185" CREATED="1572939403032" MODIFIED="1572939403032"/>
