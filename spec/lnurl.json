@@ -191,17 +191,220 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 15,
+                    "@_COUNTER": 22,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
             "node": [
                 {
-                    "@_TEXT": "lnurl",
+                    "@_TEXT": "lnurl-node",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_976824623",
+                    "@_CREATED": 1573582764419,
+                    "@_MODIFIED": 1573582774604,
+                    "@_LINK": "https://github.com/chill117/lnurl-node/blob/master/README.md",
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    }
+                },
+                {
+                    "@_TEXT": "github",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_583786529",
+                    "@_CREATED": 1575141095692,
+                    "@_MODIFIED": 1575141330801,
+                    "@_LINK": "https://github.com/btcontract/lnurl-rfc",
+                    "edge": {
+                        "@_COLOR": "#00ffff"
+                    },
+                    "node": {
+                        "@_TEXT": "issues",
+                        "@_ID": "ID_799430967",
+                        "@_CREATED": 1575141101041,
+                        "@_MODIFIED": 1575141320355,
+                        "@_LINK": "https://github.com/btcontract/lnurl-rfc/issues/",
+                        "node": {
+                            "@_TEXT": "GET vs POST",
+                            "@_ID": "ID_1318740803",
+                            "@_CREATED": 1575141105232,
+                            "@_MODIFIED": 1575141255025,
+                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/issues/4"
+                        }
+                    }
+                },
+                {
+                    "@_TEXT": "examples",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_712743929",
+                    "@_CREATED": 1575141423500,
+                    "@_MODIFIED": 1575141427657,
+                    "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/examples.md",
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    }
+                },
+                {
+                    "@_TEXT": "questions",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1354539483",
+                    "@_CREATED": 1575141958084,
+                    "@_MODIFIED": 1575141959935,
+                    "edge": {
+                        "@_COLOR": "#7c7c00"
+                    },
+                    "node": {
+                        "@_TEXT": "what is k1",
+                        "@_ID": "ID_1526837025",
+                        "@_CREATED": 1575141960535,
+                        "@_MODIFIED": 1575141963242
+                    }
+                },
+                {
+                    "@_TEXT": "sub protocols",
                     "@_POSITION": "right",
+                    "@_ID": "ID_445856962",
+                    "@_CREATED": 1575141698538,
+                    "@_MODIFIED": 1575142564858,
+                    "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#sub-protocols",
+                    "edge": {
+                        "@_COLOR": "#007c7c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "lnurl-channel",
+                            "@_ID": "ID_752216318",
+                            "@_CREATED": 1575141706336,
+                            "@_MODIFIED": 1575141813144,
+                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#1-lnurl-channel",
+                            "node": {
+                                "@_TEXT": "lnurl-hosted-channel",
+                                "@_ID": "ID_1413914468",
+                                "@_CREATED": 1575141821924,
+                                "@_MODIFIED": 1575141838637,
+                                "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#11-lnurl-hosted-channel"
+                            }
+                        },
+                        {
+                            "@_TEXT": "lnurl-auth",
+                            "@_ID": "ID_160336767",
+                            "@_CREATED": 1575141720922,
+                            "@_MODIFIED": 1575141801386,
+                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#2-lnurl-auth"
+                        },
+                        {
+                            "@_TEXT": "lnurl-withdraw",
+                            "@_ID": "ID_1467906227",
+                            "@_CREATED": 1575141728624,
+                            "@_MODIFIED": 1575141763343,
+                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#3-lnurl-withdraw",
+                            "node": [
+                                {
+                                    "@_TEXT": "Today users are asked to provide a withdrawal Lightning invoice to a service, this requires some effort and is especially painful when user tries to withdraw funds into mobile wallet while using a desktop website. Instead of asking for Lightning invoice a service could display a &quot;withdraw&quot; QR code which contains a specialized LNURL",
+                                    "@_ID": "ID_979052603",
+                                    "@_CREATED": 1575141882695,
+                                    "@_MODIFIED": 1575141882695
+                                },
+                                {
+                                    "@_TEXT": "flow",
+                                    "@_ID": "ID_1107748397",
+                                    "@_CREATED": 1575141941227,
+                                    "@_MODIFIED": 1575141942912,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "User scans a LNURL QR code or accesses an lightning:LNURL.. link with LN WALLET and LN WALLET decodes LNURL.",
+                                            "@_ID": "ID_348343330",
+                                            "@_CREATED": 1575141935736,
+                                            "@_MODIFIED": 1575141935736
+                                        },
+                                        {
+                                            "@_TEXT": "LN WALLET makes an HTTPS GET request to LN SERVICE using the decoded LNURL.",
+                                            "@_ID": "ID_978113525",
+                                            "@_CREATED": 1575141955126,
+                                            "@_MODIFIED": 1575141955126
+                                        },
+                                        {
+                                            "@_TEXT": "LN WALLET gets Json response from LN SERVICE of form:",
+                                            "@_ID": "ID_1754745311",
+                                            "@_CREATED": 1575141976103,
+                                            "@_MODIFIED": 1575141976103,
+                                            "node": [
+                                                {
+                                                    "@_TEXT": "{&#xa;callback: String, // the URL which LN SERVICE would accept a withdrawal Lightning invoice as query parameter&#xa;k1: String, // random or non-random string to identify the user&apos;s LN WALLET when using the callback URL&#xa;maxWithdrawable: MilliSatoshi, // max withdrawable amount for a given user on LN SERVICE&#xa;defaultDescription: String, // A default withdrawal invoice description&#xa;minWithdrawable: MilliSatoshi // An optional field, defaults to 1 MilliSatoshi if not present, can not be less than 1 or more than `maxWithdrawable`&#xa;tag: &quot;withdrawRequest&quot; // type of LNURL&#xa;}",
+                                                    "@_ID": "ID_539032565",
+                                                    "@_CREATED": 1575141984897,
+                                                    "@_MODIFIED": 1575141986830
+                                                },
+                                                {
+                                                    "@_TEXT": "{&quot;status&quot;:&quot;ERROR&quot;, &quot;reason&quot;:&quot;error details...&quot;}",
+                                                    "@_ID": "ID_1259863476",
+                                                    "@_CREATED": 1575141994219,
+                                                    "@_MODIFIED": 1575141995604
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@_TEXT": "LN WALLET Displays a withdraw dialog where user can specify an exact sum to be withdrawn which would be bounded by:",
+                                            "@_ID": "ID_1242307871",
+                                            "@_CREATED": 1575142028665,
+                                            "@_MODIFIED": 1575142028665,
+                                            "node": [
+                                                {
+                                                    "@_TEXT": "max can receive = min(maxWithdrawable, local estimation of how much can be routed into wallet)",
+                                                    "@_ID": "ID_1364583205",
+                                                    "@_CREATED": 1575142038315,
+                                                    "@_MODIFIED": 1575142038315
+                                                },
+                                                {
+                                                    "@_TEXT": "min can receive = max(minWithdrawable, local minimal value allowed by wallet)",
+                                                    "@_ID": "ID_109933147",
+                                                    "@_CREATED": 1575142038315,
+                                                    "@_MODIFIED": 1575142038315
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@_TEXT": "Once accepted by the user, LN WALLET sends an HTTPS GET to LN SERVICE in the form of",
+                                            "@_ID": "ID_197096277",
+                                            "@_CREATED": 1575142054933,
+                                            "@_MODIFIED": 1575142054933,
+                                            "node": {
+                                                "@_TEXT": "&lt;callback&gt;?k1=&lt;k1&gt;&amp;pr=&lt;lightning invoice, ...&gt;",
+                                                "@_ID": "ID_1308369071",
+                                                "@_CREATED": 1575142054933,
+                                                "@_MODIFIED": 1575142054933
+                                            }
+                                        },
+                                        {
+                                            "@_TEXT": "LN SERVICE sends a {&quot;status&quot;:&quot;OK&quot;} or {&quot;status&quot;:&quot;ERROR&quot;, &quot;reason&quot;:&quot;error details...&quot;} Json response",
+                                            "@_ID": "ID_1921921534",
+                                            "@_CREATED": 1575142084475,
+                                            "@_MODIFIED": 1575142084475
+                                        },
+                                        {
+                                            "@_TEXT": "LN WALLET awaits for incoming payment if response was successful.",
+                                            "@_ID": "ID_1649584723",
+                                            "@_CREATED": 1575142100409,
+                                            "@_MODIFIED": 1575142100409
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "lnurl-pay",
+                            "@_ID": "ID_1593369352",
+                            "@_CREATED": 1575141739564,
+                            "@_MODIFIED": 1575141852117,
+                            "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#4-lnurl-pay"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "spec",
+                    "@_POSITION": "left",
                     "@_ID": "ID_961943115",
                     "@_CREATED": 1572171385940,
-                    "@_MODIFIED": 1572947042692,
+                    "@_MODIFIED": 1575141777726,
                     "@_LINK": "https://github.com/btcontract/lnurl-rfc/blob/master/spec.md",
                     "edge": {
                         "@_COLOR": "#00ff00"
@@ -269,17 +472,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "@_TEXT": "lnurl-node",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_976824623",
-                    "@_CREATED": 1573582764419,
-                    "@_MODIFIED": 1573582774604,
-                    "@_LINK": "https://github.com/chill117/lnurl-node/blob/master/README.md",
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    }
                 }
             ]
         }

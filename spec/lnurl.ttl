@@ -1,4 +1,43 @@
-<#ID_961943115> <urn:string:@_TEXT> """lnurl""" .
+<#ID_976824623> <urn:string:@_TEXT> """lnurl-node""" .
+<#ID_583786529> <urn:string:@_TEXT> """github""" .
+<#ID_712743929> <urn:string:@_TEXT> """examples""" .
+<#ID_1354539483> <urn:string:@_TEXT> """questions""" .
+<#ID_445856962> <urn:string:@_TEXT> """sub protocols""" .
+<#ID_752216318> <urn:string:@_TEXT> """lnurl-channel""" .
+<#ID_752216318> <urn:string:child> <ID_752216318> .
+<#ID_160336767> <urn:string:@_TEXT> """lnurl-auth""" .
+<#ID_160336767> <urn:string:child> <ID_160336767> .
+<#ID_1467906227> <urn:string:@_TEXT> """lnurl-withdraw""" .
+<#ID_1467906227> <urn:string:child> <ID_1467906227> .
+<#ID_979052603> <urn:string:@_TEXT> """Today users are asked to provide a withdrawal Lightning invoice to a service, this requires some effort and is especially painful when user tries to withdraw funds into mobile wallet while using a desktop website. Instead of asking for Lightning invoice a service could display a &quot;withdraw&quot; QR code which contains a specialized LNURL""" .
+<#ID_979052603> <urn:string:child> <ID_979052603> .
+<#ID_1107748397> <urn:string:@_TEXT> """flow""" .
+<#ID_1107748397> <urn:string:child> <ID_1107748397> .
+<#ID_348343330> <urn:string:@_TEXT> """User scans a LNURL QR code or accesses an lightning:LNURL.. link with LN WALLET and LN WALLET decodes LNURL.""" .
+<#ID_348343330> <urn:string:child> <ID_348343330> .
+<#ID_978113525> <urn:string:@_TEXT> """LN WALLET makes an HTTPS GET request to LN SERVICE using the decoded LNURL.""" .
+<#ID_978113525> <urn:string:child> <ID_978113525> .
+<#ID_1754745311> <urn:string:@_TEXT> """LN WALLET gets Json response from LN SERVICE of form:""" .
+<#ID_1754745311> <urn:string:child> <ID_1754745311> .
+<#ID_539032565> <urn:string:@_TEXT> """{&#xa;callback: String, // the URL which LN SERVICE would accept a withdrawal Lightning invoice as query parameter&#xa;k1: String, // random or non-random string to identify the user&apos;s LN WALLET when using the callback URL&#xa;maxWithdrawable: MilliSatoshi, // max withdrawable amount for a given user on LN SERVICE&#xa;defaultDescription: String, // A default withdrawal invoice description&#xa;minWithdrawable: MilliSatoshi // An optional field, defaults to 1 MilliSatoshi if not present, can not be less than 1 or more than `maxWithdrawable`&#xa;tag: &quot;withdrawRequest&quot; // type of LNURL&#xa;}""" .
+<#ID_539032565> <urn:string:child> <ID_539032565> .
+<#ID_1259863476> <urn:string:@_TEXT> """{&quot;status&quot;:&quot;ERROR&quot;, &quot;reason&quot;:&quot;error details...&quot;}""" .
+<#ID_1259863476> <urn:string:child> <ID_1259863476> .
+<#ID_1242307871> <urn:string:@_TEXT> """LN WALLET Displays a withdraw dialog where user can specify an exact sum to be withdrawn which would be bounded by:""" .
+<#ID_1242307871> <urn:string:child> <ID_1242307871> .
+<#ID_1364583205> <urn:string:@_TEXT> """max can receive = min(maxWithdrawable, local estimation of how much can be routed into wallet)""" .
+<#ID_1364583205> <urn:string:child> <ID_1364583205> .
+<#ID_109933147> <urn:string:@_TEXT> """min can receive = max(minWithdrawable, local minimal value allowed by wallet)""" .
+<#ID_109933147> <urn:string:child> <ID_109933147> .
+<#ID_197096277> <urn:string:@_TEXT> """Once accepted by the user, LN WALLET sends an HTTPS GET to LN SERVICE in the form of""" .
+<#ID_197096277> <urn:string:child> <ID_197096277> .
+<#ID_1921921534> <urn:string:@_TEXT> """LN SERVICE sends a {&quot;status&quot;:&quot;OK&quot;} or {&quot;status&quot;:&quot;ERROR&quot;, &quot;reason&quot;:&quot;error details...&quot;} Json response""" .
+<#ID_1921921534> <urn:string:child> <ID_1921921534> .
+<#ID_1649584723> <urn:string:@_TEXT> """LN WALLET awaits for incoming payment if response was successful.""" .
+<#ID_1649584723> <urn:string:child> <ID_1649584723> .
+<#ID_1593369352> <urn:string:@_TEXT> """lnurl-pay""" .
+<#ID_1593369352> <urn:string:child> <ID_1593369352> .
+<#ID_961943115> <urn:string:@_TEXT> """spec""" .
 <#ID_440219822> <urn:string:@_TEXT> """lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc.""" .
 <#ID_440219822> <urn:string:child> <ID_440219822> .
 <#ID_1177904626> <urn:string:@_TEXT> """https://service.com/api?q=3fc3645b439ce8e7f2553a69e5267081d96dcd340693afabe04be7b0ccd178df""" .
@@ -9,4 +48,3 @@
 <#ID_1961156848> <urn:string:child> <ID_1961156848> .
 <#ID_1585457459> <urn:string:@_TEXT> """undefined""" .
 <#ID_1585457459> <urn:string:child> <ID_1585457459> .
-<#ID_976824623> <urn:string:@_TEXT> """lnurl-node""" .

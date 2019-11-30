@@ -64,8 +64,52 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="lnurl" POSITION="right" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572947042692" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md">
+<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="lnurl-node" POSITION="left" ID="ID_976824623" CREATED="1573582764419" MODIFIED="1573582774604" LINK="https://github.com/chill117/lnurl-node/blob/master/README.md">
+<edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="github" POSITION="left" ID="ID_583786529" CREATED="1575141095692" MODIFIED="1575141330801" LINK="https://github.com/btcontract/lnurl-rfc">
+<edge COLOR="#00ffff"/>
+<node TEXT="issues" ID="ID_799430967" CREATED="1575141101041" MODIFIED="1575141320355" LINK="https://github.com/btcontract/lnurl-rfc/issues/">
+<node TEXT="GET vs POST" ID="ID_1318740803" CREATED="1575141105232" MODIFIED="1575141255025" LINK="https://github.com/btcontract/lnurl-rfc/issues/4"/>
+</node>
+</node>
+<node TEXT="examples" POSITION="left" ID="ID_712743929" CREATED="1575141423500" MODIFIED="1575141427657" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/examples.md">
+<edge COLOR="#007c00"/>
+</node>
+<node TEXT="questions" POSITION="left" ID="ID_1354539483" CREATED="1575141958084" MODIFIED="1575141959935">
+<edge COLOR="#7c7c00"/>
+<node TEXT="what is k1" ID="ID_1526837025" CREATED="1575141960535" MODIFIED="1575141963242"/>
+</node>
+<node TEXT="sub protocols" POSITION="right" ID="ID_445856962" CREATED="1575141698538" MODIFIED="1575142564858" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#sub-protocols">
+<edge COLOR="#007c7c"/>
+<node TEXT="lnurl-channel" ID="ID_752216318" CREATED="1575141706336" MODIFIED="1575141813144" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#1-lnurl-channel">
+<node TEXT="lnurl-hosted-channel" ID="ID_1413914468" CREATED="1575141821924" MODIFIED="1575141838637" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#11-lnurl-hosted-channel"/>
+</node>
+<node TEXT="lnurl-auth" ID="ID_160336767" CREATED="1575141720922" MODIFIED="1575141801386" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#2-lnurl-auth"/>
+<node TEXT="lnurl-withdraw" ID="ID_1467906227" CREATED="1575141728624" MODIFIED="1575141763343" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#3-lnurl-withdraw">
+<node TEXT="Today users are asked to provide a withdrawal Lightning invoice to a service, this requires some effort and is especially painful when user tries to withdraw funds into mobile wallet while using a desktop website. Instead of asking for Lightning invoice a service could display a &quot;withdraw&quot; QR code which contains a specialized LNURL" ID="ID_979052603" CREATED="1575141882695" MODIFIED="1575141882695"/>
+<node TEXT="flow" ID="ID_1107748397" CREATED="1575141941227" MODIFIED="1575141942912">
+<node TEXT="User scans a LNURL QR code or accesses an lightning:LNURL.. link with LN WALLET and LN WALLET decodes LNURL." ID="ID_348343330" CREATED="1575141935736" MODIFIED="1575141935736"/>
+<node TEXT="LN WALLET makes an HTTPS GET request to LN SERVICE using the decoded LNURL." ID="ID_978113525" CREATED="1575141955126" MODIFIED="1575141955126"/>
+<node TEXT="LN WALLET gets Json response from LN SERVICE of form:" ID="ID_1754745311" CREATED="1575141976103" MODIFIED="1575141976103">
+<node TEXT="{&#xa;callback: String, // the URL which LN SERVICE would accept a withdrawal Lightning invoice as query parameter&#xa;k1: String, // random or non-random string to identify the user&apos;s LN WALLET when using the callback URL&#xa;maxWithdrawable: MilliSatoshi, // max withdrawable amount for a given user on LN SERVICE&#xa;defaultDescription: String, // A default withdrawal invoice description&#xa;minWithdrawable: MilliSatoshi // An optional field, defaults to 1 MilliSatoshi if not present, can not be less than 1 or more than `maxWithdrawable`&#xa;tag: &quot;withdrawRequest&quot; // type of LNURL&#xa;}" ID="ID_539032565" CREATED="1575141984897" MODIFIED="1575141986830"/>
+<node TEXT="{&quot;status&quot;:&quot;ERROR&quot;, &quot;reason&quot;:&quot;error details...&quot;}" ID="ID_1259863476" CREATED="1575141994219" MODIFIED="1575141995604"/>
+</node>
+<node TEXT="LN WALLET Displays a withdraw dialog where user can specify an exact sum to be withdrawn which would be bounded by:" ID="ID_1242307871" CREATED="1575142028665" MODIFIED="1575142028665">
+<node TEXT="max can receive = min(maxWithdrawable, local estimation of how much can be routed into wallet)" ID="ID_1364583205" CREATED="1575142038315" MODIFIED="1575142038315"/>
+<node TEXT="min can receive = max(minWithdrawable, local minimal value allowed by wallet)" ID="ID_109933147" CREATED="1575142038315" MODIFIED="1575142038315"/>
+</node>
+<node TEXT="Once accepted by the user, LN WALLET sends an HTTPS GET to LN SERVICE in the form of" ID="ID_197096277" CREATED="1575142054933" MODIFIED="1575142054933">
+<node TEXT="&lt;callback&gt;?k1=&lt;k1&gt;&amp;pr=&lt;lightning invoice, ...&gt;" ID="ID_1308369071" CREATED="1575142054933" MODIFIED="1575142054933"/>
+</node>
+<node TEXT="LN SERVICE sends a {&quot;status&quot;:&quot;OK&quot;} or {&quot;status&quot;:&quot;ERROR&quot;, &quot;reason&quot;:&quot;error details...&quot;} Json response" ID="ID_1921921534" CREATED="1575142084475" MODIFIED="1575142084475"/>
+<node TEXT="LN WALLET awaits for incoming payment if response was successful." ID="ID_1649584723" CREATED="1575142100409" MODIFIED="1575142100409"/>
+</node>
+</node>
+<node TEXT="lnurl-pay" ID="ID_1593369352" CREATED="1575141739564" MODIFIED="1575141852117" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md#4-lnurl-pay"/>
+</node>
+<node TEXT="spec" POSITION="left" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1575141777726" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/spec.md">
 <edge COLOR="#00ff00"/>
 <font SIZE="12" BOLD="true"/>
 <node TEXT="lnurl is a bech32-encoded HTTPS query string which is supposed to help payer interact with payee and thus simplify a number of standard scenarios such as requesting incoming channels, withdrawing funds, logging in etc." ID="ID_440219822" CREATED="1572171436281" MODIFIED="1572171606701" COLOR="#000099"/>
@@ -88,9 +132,6 @@
 </html>
 </richcontent>
 </node>
-</node>
-<node TEXT="lnurl-node" POSITION="left" ID="ID_976824623" CREATED="1573582764419" MODIFIED="1573582774604" LINK="https://github.com/chill117/lnurl-node/blob/master/README.md">
-<edge COLOR="#ff00ff"/>
 </node>
 </node>
 </map>
