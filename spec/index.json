@@ -263,12 +263,12 @@
                     "icon": {
                         "@_BUILTIN": "info"
                     },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
                     },
                     "node": [
                         {
@@ -283,7 +283,14 @@
                             "@_ID": "ID_1858353829",
                             "@_CREATED": 1569861461668,
                             "@_MODIFIED": 1572862888469,
-                            "@_LINK": "https://github.com/lightningnetwork/lightning-rfc"
+                            "@_LINK": "https://github.com/lightningnetwork/lightning-rfc",
+                            "node": {
+                                "@_TEXT": "1.1 accepted proposals",
+                                "@_ID": "ID_855978951",
+                                "@_CREATED": 1575893798763,
+                                "@_MODIFIED": 1575902809582,
+                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/wiki/Lightning-Specification-1.1-Proposal-States#index-of-accepted-proposals"
+                            }
                         }
                     ]
                 },
@@ -297,12 +304,12 @@
                     "icon": {
                         "@_BUILTIN": "attach"
                     },
-                    "edge": {
-                        "@_COLOR": "#00007c"
-                    },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
                     },
                     "node": [
                         {

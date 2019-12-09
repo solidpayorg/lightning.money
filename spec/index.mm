@@ -79,15 +79,17 @@
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572948017299" COLOR="#000099">
 <icon BUILTIN="info"/>
-<edge COLOR="#ff00ff"/>
 <font SIZE="12" BOLD="true"/>
+<edge COLOR="#ff00ff"/>
 <node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572938870390" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
-<node TEXT="main spec" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572862888469" LINK="https://github.com/lightningnetwork/lightning-rfc"/>
+<node TEXT="main spec" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572862888469" LINK="https://github.com/lightningnetwork/lightning-rfc">
+<node TEXT="1.1 accepted proposals" ID="ID_855978951" CREATED="1575893798763" MODIFIED="1575902809582" LINK="https://github.com/lightningnetwork/lightning-rfc/wiki/Lightning-Specification-1.1-Proposal-States#index-of-accepted-proposals"/>
+</node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1572948023923" COLOR="#990033">
 <icon BUILTIN="attach"/>
-<edge COLOR="#00007c"/>
 <font SIZE="12" BOLD="true"/>
+<edge COLOR="#00007c"/>
 <node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572938866460" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 <node TEXT="dev" ID="ID_79546038" CREATED="1572862882627" MODIFIED="1572947988262" LINK="../dev/index.mm"/>
 </node>
