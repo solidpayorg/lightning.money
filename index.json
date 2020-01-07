@@ -666,6 +666,13 @@
                                     "@_CREATED": 1572168531186,
                                     "@_MODIFIED": 1572168557816,
                                     "@_LINK": "https://webmaps.io/"
+                                },
+                                {
+                                    "@_TEXT": "mastering lightning",
+                                    "@_ID": "ID_669775968",
+                                    "@_CREATED": 1578327958854,
+                                    "@_MODIFIED": 1578327972471,
+                                    "@_LINK": "https://github.com/aantonop/lnbook"
                                 }
                             ]
                         }
@@ -692,6 +699,16 @@
                     },
                     "node": [
                         {
+                            "@_TEXT": "comparison",
+                            "@_ID": "ID_1723379621",
+                            "@_CREATED": 1569940699896,
+                            "@_MODIFIED": 1578024346200,
+                            "@_LINK": "https://docs.google.com/spreadsheets/d/1jzJ2Vut6q-cbr7bg3tshqJszJFLXpvi194os7GxQQ30/edit#gid=1531699029",
+                            "icon": {
+                                "@_BUILTIN": "bookmark"
+                            }
+                        },
+                        {
                             "@_TEXT": "custodial",
                             "@_ID": "ID_713142011",
                             "@_CREATED": 1569861478020,
@@ -702,16 +719,6 @@
                                 "@_CREATED": 1569861594542,
                                 "@_MODIFIED": 1569861597550,
                                 "node": [
-                                    {
-                                        "@_TEXT": "bottle pay",
-                                        "@_ID": "ID_1723379621",
-                                        "@_CREATED": 1569940699896,
-                                        "@_MODIFIED": 1572327080405,
-                                        "@_LINK": "https://bottle.li/",
-                                        "icon": {
-                                            "@_BUILTIN": "bookmark"
-                                        }
-                                    },
                                     {
                                         "@_TEXT": "telegram",
                                         "@_ID": "ID_38516786",

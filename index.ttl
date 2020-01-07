@@ -87,7 +87,11 @@
 <#ID_963935095> <urn:string:child> <ID_963935095> .
 <#ID_1528568892> <urn:string:@_TEXT> """made using webmaps.io""" .
 <#ID_1528568892> <urn:string:child> <ID_1528568892> .
+<#ID_669775968> <urn:string:@_TEXT> """mastering lightning""" .
+<#ID_669775968> <urn:string:child> <ID_669775968> .
 <#ID_403237537> <urn:string:@_TEXT> """wallets""" .
+<#ID_1723379621> <urn:string:@_TEXT> """comparison""" .
+<#ID_1723379621> <urn:string:child> <ID_1723379621> .
 <#ID_713142011> <urn:string:@_TEXT> """custodial""" .
 <#ID_713142011> <urn:string:child> <ID_713142011> .
 <#ID_129906959> <urn:string:@_TEXT> """mobile""" .
