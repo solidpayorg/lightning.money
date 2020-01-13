@@ -483,7 +483,7 @@
                         {
                             "@_ID": "ID_1974475433",
                             "@_CREATED": 1578928125418,
-                            "@_MODIFIED": 1578929969794,
+                            "@_MODIFIED": 1578930089682,
                             "@_LINK": "https://webmaps.io/",
                             "@_COLOR": "#000099",
                             "richcontent": {
@@ -491,7 +491,7 @@
                                 "html": {
                                     "head": "",
                                     "body": {
-                                        "#text": "Made with&#160;using webapps.io",
+                                        "#text": "Made with&#160;using webmaps.io",
                                         "img": {
                                             "@_class": "emoji",
                                             "@_alt": "heart",
