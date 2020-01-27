@@ -77,6 +77,8 @@
 <#ID_307649319> <urn:string:child> <ID_307649319> .
 <#ID_1911540836> <urn:string:@_TEXT> """resources""" .
 <#ID_1911540836> <urn:string:child> <ID_1911540836> .
+<#ID_270957648> <urn:string:@_TEXT> """LN Donations""" .
+<#ID_270957648> <urn:string:child> <ID_270957648> .
 <#ID_1704672214> <urn:string:@_TEXT> """about""" .
 <#ID_1704672214> <urn:string:child> <ID_1704672214> .
 <#ID_1211678675> <urn:string:@_TEXT> """open source""" .

@@ -148,7 +148,6 @@
     Made with <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none"/>&#160;using webmaps.io
   </body>
 </html>
-
 </richcontent>
 <font SIZE="10" BOLD="true"/>
 </node>
@@ -177,6 +176,7 @@
 <node TEXT="specs" ID="ID_1858353829" CREATED="1569861461668" MODIFIED="1572862864097" LINK="spec/index.mm"/>
 <node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572861594213" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 <node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572861726125" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
+<node TEXT="LN Donations" ID="ID_270957648" CREATED="1580148828526" MODIFIED="1580148868092" LINK="https://lightningnetworkstores.com/donations"/>
 </node>
 <node TEXT="about" ID="ID_1704672214" CREATED="1569940752211" MODIFIED="1572852695898">
 <icon BUILTIN="broken-line"/>
