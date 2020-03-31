@@ -4,6 +4,8 @@
 <#ID_961943115> <urn:string:child> <ID_961943115> .
 <#ID_705335058> <urn:string:@_TEXT> """lightning auth""" .
 <#ID_705335058> <urn:string:child> <ID_705335058> .
+<#ID_625257107> <urn:string:@_TEXT> """LSAT""" .
+<#ID_625257107> <urn:string:child> <ID_625257107> .
 <#ID_1100215200> <urn:string:@_TEXT> """docs""" .
 <#ID_1911540836> <urn:string:@_TEXT> """resources""" .
 <#ID_1911540836> <urn:string:child> <ID_1911540836> .

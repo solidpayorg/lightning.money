@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="specs" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1572947492855" ICON_SIZE="16.0 pt" LINK="../index.mm" STYLE="oval">
 <icon BUILTIN="lightning"/>
@@ -76,6 +76,7 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="lnurl" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572947060459" LINK="lnurl.mm"/>
 <node TEXT="lightning auth" ID="ID_705335058" CREATED="1572241475803" MODIFIED="1572241481606" LINK="https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"/>
+<node TEXT="LSAT" ID="ID_625257107" CREATED="1585687544316" MODIFIED="1585687559101" LINK="https://lsat.tech/protocol-specification"/>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572948017299" COLOR="#000099">
 <icon BUILTIN="info"/>

@@ -1,6 +1,6 @@
 {
     "map": {
-        "@_version": "freeplane 1.7.0",
+        "@_version": "freeplane 1.8.0",
         "node": {
             "@_TEXT": "specs",
             "@_FOLDED": false,
@@ -250,6 +250,13 @@
                             "@_CREATED": 1572241475803,
                             "@_MODIFIED": 1572241481606,
                             "@_LINK": "https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"
+                        },
+                        {
+                            "@_TEXT": "LSAT",
+                            "@_ID": "ID_625257107",
+                            "@_CREATED": 1585687544316,
+                            "@_MODIFIED": 1585687559101,
+                            "@_LINK": "https://lsat.tech/protocol-specification"
                         }
                     ]
                 },
