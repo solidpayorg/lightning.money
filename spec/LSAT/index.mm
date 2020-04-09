@@ -66,6 +66,9 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="spec" POSITION="right" ID="ID_1213220288" CREATED="1585727069246" MODIFIED="1586431215228" LINK="https://lsat.tech/protocol-specification">
 <edge COLOR="#ff0000"/>
+<node TEXT="HTTP/1.1 402 Payment Required" ID="ID_1164509856" CREATED="1586431582597" MODIFIED="1586431582597"/>
+<node TEXT="Date: Mon, 04 Feb 2014 16:50:53 GMT" ID="ID_822586450" CREATED="1586431582597" MODIFIED="1586431582597"/>
+<node TEXT="WWW-Authenticate: LSAT macaroon=&quot;AGIAJEemVQUTEyNCR0exk7ek90Cg==&quot;, invoice=&quot;lnbc1500n1pw5kjhmpp5fu6xhthlt2vucmzkx6c7wtlh2r625r30cyjsfqhu8rsx4xpz5lwqdpa2fjkzep6yptksct5yp5hxgrrv96hx6twvusycn3qv9jx7ur5d9hkugr5dusx6cqzpgxqr23s79ruapxc4j5uskt4htly2salw4drq979d7rcela9wz02elhypmdzmzlnxuknpgfyfm86pntt8vvkvffma5qc9n50h4mvqhngadqy3ngqjcym5a&quot;" ID="ID_502837254" CREATED="1586431582601" MODIFIED="1586431582601"/>
 </node>
 </node>
 </map>

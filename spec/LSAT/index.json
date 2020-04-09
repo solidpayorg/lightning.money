@@ -200,7 +200,27 @@
                 "@_LINK": "https://lsat.tech/protocol-specification",
                 "edge": {
                     "@_COLOR": "#ff0000"
-                }
+                },
+                "node": [
+                    {
+                        "@_TEXT": "HTTP/1.1 402 Payment Required",
+                        "@_ID": "ID_1164509856",
+                        "@_CREATED": 1586431582597,
+                        "@_MODIFIED": 1586431582597
+                    },
+                    {
+                        "@_TEXT": "Date: Mon, 04 Feb 2014 16:50:53 GMT",
+                        "@_ID": "ID_822586450",
+                        "@_CREATED": 1586431582597,
+                        "@_MODIFIED": 1586431582597
+                    },
+                    {
+                        "@_TEXT": "WWW-Authenticate: LSAT macaroon=&quot;AGIAJEemVQUTEyNCR0exk7ek90Cg==&quot;, invoice=&quot;lnbc1500n1pw5kjhmpp5fu6xhthlt2vucmzkx6c7wtlh2r625r30cyjsfqhu8rsx4xpz5lwqdpa2fjkzep6yptksct5yp5hxgrrv96hx6twvusycn3qv9jx7ur5d9hkugr5dusx6cqzpgxqr23s79ruapxc4j5uskt4htly2salw4drq979d7rcela9wz02elhypmdzmzlnxuknpgfyfm86pntt8vvkvffma5qc9n50h4mvqhngadqy3ngqjcym5a&quot;",
+                        "@_ID": "ID_502837254",
+                        "@_CREATED": 1586431582601,
+                        "@_MODIFIED": 1586431582601
+                    }
+                ]
             }
         }
     }
