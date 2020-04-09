@@ -64,7 +64,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="spec" POSITION="right" ID="ID_1213220288" CREATED="1585727069246" MODIFIED="1585727076026">
+<node TEXT="spec" POSITION="right" ID="ID_1213220288" CREATED="1585727069246" MODIFIED="1586431215228" LINK="https://lsat.tech/protocol-specification">
 <edge COLOR="#ff0000"/>
 </node>
 </node>

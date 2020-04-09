@@ -196,7 +196,8 @@
                 "@_POSITION": "right",
                 "@_ID": "ID_1213220288",
                 "@_CREATED": 1585727069246,
-                "@_MODIFIED": 1585727076026,
+                "@_MODIFIED": 1586431215228,
+                "@_LINK": "https://lsat.tech/protocol-specification",
                 "edge": {
                     "@_COLOR": "#ff0000"
                 }
