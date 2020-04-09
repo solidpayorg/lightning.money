@@ -2,17 +2,13 @@
     "map": {
         "@_version": "freeplane 1.8.0",
         "node": {
-            "@_TEXT": "specs",
+            "@_TEXT": "LSAT",
             "@_FOLDED": false,
-            "@_ID": "ID_1568754813",
-            "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1572947492855,
-            "@_ICON_SIZE": "16.0 pt",
+            "@_ID": "ID_1144869637",
+            "@_CREATED": 1585726989589,
+            "@_MODIFIED": 1585727087538,
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
-            "icon": {
-                "@_BUILTIN": "lightning"
-            },
             "font": {
                 "@_SIZE": 18
             },
@@ -21,7 +17,6 @@
                     "@_NAME": "MapStyle",
                     "properties": {
                         "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
-                        "@_show_note_icons": true,
                         "@_fit_to_viewport": false
                     },
                     "map_styles": {
@@ -192,151 +187,20 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 13,
+                    "@_COUNTER": 1,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": [
-                {
-                    "@_TEXT": "Bolts",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_305209159",
-                    "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1572947121683,
-                    "@_LINK": "bolts/index.mm",
-                    "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "25.999999642372146 pt",
-                    "@_VSHIFT_QUANTITY": "-49.499998524785084 pt",
-                    "icon": {
-                        "@_BUILTIN": "lightning"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    }
-                },
-                {
-                    "@_TEXT": "Other",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_928353311",
-                    "@_CREATED": 1572171327007,
-                    "@_MODIFIED": 1572947119428,
-                    "@_COLOR": "#cccc00",
-                    "@_HGAP_QUANTITY": "22.999999731779106 pt",
-                    "@_VSHIFT_QUANTITY": "60.74999818950897 pt",
-                    "icon": {
-                        "@_BUILTIN": "idea"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "lnurl",
-                            "@_ID": "ID_961943115",
-                            "@_CREATED": 1572171385940,
-                            "@_MODIFIED": 1572947060459,
-                            "@_LINK": "lnurl.mm"
-                        },
-                        {
-                            "@_TEXT": "lightning auth",
-                            "@_ID": "ID_705335058",
-                            "@_CREATED": 1572241475803,
-                            "@_MODIFIED": 1572241481606,
-                            "@_LINK": "https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"
-                        },
-                        {
-                            "@_TEXT": "LSAT",
-                            "@_ID": "ID_625257107",
-                            "@_CREATED": 1585687544316,
-                            "@_MODIFIED": 1586431137745,
-                            "@_LINK": "LSAT/index.mm"
-                        }
-                    ]
-                },
-                {
-                    "@_TEXT": "docs",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_1100215200",
-                    "@_CREATED": 1570969039178,
-                    "@_MODIFIED": 1572948017299,
-                    "@_COLOR": "#000099",
-                    "icon": {
-                        "@_BUILTIN": "info"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "resources",
-                            "@_ID": "ID_1911540836",
-                            "@_CREATED": 1572861720975,
-                            "@_MODIFIED": 1572938870390,
-                            "@_LINK": "https://github.com/bcongdon/awesome-lightning-network#developer-resources"
-                        },
-                        {
-                            "@_TEXT": "main spec",
-                            "@_ID": "ID_1858353829",
-                            "@_CREATED": 1569861461668,
-                            "@_MODIFIED": 1572862888469,
-                            "@_LINK": "https://github.com/lightningnetwork/lightning-rfc",
-                            "node": {
-                                "@_TEXT": "1.1 accepted proposals",
-                                "@_ID": "ID_855978951",
-                                "@_CREATED": 1575893798763,
-                                "@_MODIFIED": 1575902809582,
-                                "@_LINK": "https://github.com/lightningnetwork/lightning-rfc/wiki/Lightning-Specification-1.1-Proposal-States#index-of-accepted-proposals"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "@_TEXT": "links",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_808607355",
-                    "@_CREATED": 1570968728188,
-                    "@_MODIFIED": 1572948023923,
-                    "@_COLOR": "#990033",
-                    "icon": {
-                        "@_BUILTIN": "attach"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#00007c"
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "mailing list",
-                            "@_ID": "ID_307649319",
-                            "@_CREATED": 1572859082436,
-                            "@_MODIFIED": 1572938866460,
-                            "@_LINK": "https://lists.linuxfoundation.org/pipermail/lightning-dev/"
-                        },
-                        {
-                            "@_TEXT": "dev",
-                            "@_ID": "ID_79546038",
-                            "@_CREATED": 1572862882627,
-                            "@_MODIFIED": 1572947988262,
-                            "@_LINK": "../dev/index.mm"
-                        }
-                    ]
+            "node": {
+                "@_TEXT": "spec",
+                "@_POSITION": "right",
+                "@_ID": "ID_1213220288",
+                "@_CREATED": 1585727069246,
+                "@_MODIFIED": 1585727076026,
+                "edge": {
+                    "@_COLOR": "#ff0000"
                 }
-            ]
+            }
         }
     }
 }

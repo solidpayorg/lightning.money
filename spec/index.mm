@@ -4,7 +4,7 @@
 <icon BUILTIN="lightning"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -76,7 +76,7 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="lnurl" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572947060459" LINK="lnurl.mm"/>
 <node TEXT="lightning auth" ID="ID_705335058" CREATED="1572241475803" MODIFIED="1572241481606" LINK="https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"/>
-<node TEXT="LSAT" ID="ID_625257107" CREATED="1585687544316" MODIFIED="1585687559101" LINK="https://lsat.tech/protocol-specification"/>
+<node TEXT="LSAT" ID="ID_625257107" CREATED="1585687544316" MODIFIED="1586431137745" LINK="LSAT/index.mm"/>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572948017299" COLOR="#000099">
 <icon BUILTIN="info"/>
