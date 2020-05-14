@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1573586336087,
+            "@_MODIFIED": 1589433159494,
             "@_ICON_SIZE": "24.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -286,10 +286,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1573586336085,
+                    "@_MODIFIED": 1589433159467,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "47.74999899417164 pt",
-                    "@_VSHIFT_QUANTITY": "49.49999852478508 pt",
+                    "@_HGAP_QUANTITY": "49.24999894946816 pt",
+                    "@_VSHIFT_QUANTITY": "59.9999982118607 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
@@ -754,6 +754,17 @@
                                 "@_CREATED": 1569861594542,
                                 "@_MODIFIED": 1569861597550,
                                 "node": [
+                                    {
+                                        "@_TEXT": "lnbits",
+                                        "@_LOCALIZED_STYLE_REF": "AutomaticLayout.level,1",
+                                        "@_ID": "ID_236831280",
+                                        "@_CREATED": 1589433099933,
+                                        "@_MODIFIED": 1589433130659,
+                                        "@_LINK": "https://lnbits.com/",
+                                        "icon": {
+                                            "@_BUILTIN": "bookmark"
+                                        }
+                                    },
                                     {
                                         "@_TEXT": "telegram",
                                         "@_ID": "ID_38516786",

@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1573586336087" ICON_SIZE="24.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1589433159494" ICON_SIZE="24.0 pt" STYLE="oval">
 <icon BUILTIN="lightning"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -89,7 +89,7 @@
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1573586336085" COLOR="#009933" HGAP_QUANTITY="47.74999899417164 pt" VSHIFT_QUANTITY="49.49999852478508 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1589433159467" COLOR="#009933" HGAP_QUANTITY="49.24999894946816 pt" VSHIFT_QUANTITY="59.9999982118607 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -202,6 +202,9 @@
 </node>
 <node TEXT="custodial" ID="ID_713142011" CREATED="1569861478020" MODIFIED="1569861480116">
 <node TEXT="web" ID="ID_1071283894" CREATED="1569861594542" MODIFIED="1569861597550">
+<node TEXT="lnbits" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" ID="ID_236831280" CREATED="1589433099933" MODIFIED="1589433130659" LINK="https://lnbits.com/">
+<icon BUILTIN="bookmark"/>
+</node>
 <node TEXT="telegram" ID="ID_38516786" CREATED="1569940633761" MODIFIED="1572327087548" LINK="https://telegram.me/lntxbot">
 <icon BUILTIN="bookmark"/>
 </node>
