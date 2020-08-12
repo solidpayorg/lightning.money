@@ -132,6 +132,9 @@
 <node TEXT="lightning.gifts" ID="ID_458425639" CREATED="1572163425067" MODIFIED="1572163469182" LINK="https://lightning.gifts/">
 <icon BUILTIN="very_positive"/>
 </node>
+<node TEXT="satotious" ID="ID_1761392670" CREATED="1597236898749" MODIFIED="1597236935300" LINK="https://satotious.com/">
+<icon BUILTIN="bookmark"/>
+</node>
 </node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1572155697504" COLOR="#cc00cc" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="-8.999999731779106 pt">
