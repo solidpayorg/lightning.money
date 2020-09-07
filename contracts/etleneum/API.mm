@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="etleneum" FOLDED="false" ID="ID_1388300726" CREATED="1599501858049" MODIFIED="1599501916390" LINK="../../index.mm" STYLE="oval">
+<node TEXT="API" FOLDED="false" ID="ID_1940681808" CREATED="1599514129935" MODIFIED="1599514142030" LINK="index.mm" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,53 +63,26 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="apps" POSITION="right" ID="ID_155456580" CREATED="1599502609475" MODIFIED="1599502940454">
-<icon BUILTIN="bookmark"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="docs" POSITION="left" ID="ID_1428654413" CREATED="1599514206211" MODIFIED="1599514236891" LINK="https://etleneum.com/#/docs">
 <edge COLOR="#ff0000"/>
-<node TEXT="Predictions" ID="ID_230763179" CREATED="1599502647098" MODIFIED="1599502916964" LINK="https://predictions.etleneum.com/">
-<icon BUILTIN="checked"/>
 </node>
-<node TEXT="Chess" ID="ID_623666999" CREATED="1599502819185" MODIFIED="1599503083431" LINK="http://lichess.etleneum.com/">
-<icon BUILTIN="emoji-265F"/>
-</node>
-<node TEXT="Chain Market" ID="ID_97132608" CREATED="1599502840947" MODIFIED="1599502860224" LINK="https://chainmarket.etleneum.com/">
-<icon BUILTIN="list"/>
-</node>
-<node TEXT="Banner Ads" ID="ID_1128227880" CREATED="1599502681218" MODIFIED="1599502699207" LINK="https://banners.etleneum.com/">
-<icon BUILTIN="info"/>
-</node>
-<node TEXT="Keybase" ID="ID_775382578" CREATED="1599502870162" MODIFIED="1599502882120" LINK="https://kad.etleneum.com/">
-<icon BUILTIN="password"/>
-</node>
-<node TEXT="Answers" ID="ID_102962202" CREATED="1599502710906" MODIFIED="1599502722177" LINK="https://s4a.etleneum.com/">
-<icon BUILTIN="help"/>
-</node>
-</node>
-<node TEXT="Links" POSITION="left" ID="ID_1589865073" CREATED="1599502907554" MODIFIED="1599502912014">
+<node TEXT="endpoints" POSITION="right" ID="ID_1073374190" CREATED="1599514258261" MODIFIED="1599514260388">
 <edge COLOR="#0000ff"/>
-<node TEXT="Site" ID="ID_1240101594" CREATED="1599502923073" MODIFIED="1599504237755" LINK="https://etleneum.com/">
-<icon BUILTIN="wizard"/>
-</node>
-<node TEXT="Docs" ID="ID_1094040580" CREATED="1599502943361" MODIFIED="1599503126191" LINK="https://etleneum.com/#/docs">
-<icon BUILTIN="emoji-1F4D4"/>
-</node>
-<node TEXT="Test" ID="ID_1572353532" CREATED="1599503136213" MODIFIED="1599503182590" LINK="https://test.etleneum.com/">
-<icon BUILTIN="emoji-1F528"/>
-</node>
-<node TEXT="Social" ID="ID_741069104" CREATED="1599503208326" MODIFIED="1599503226492">
-<icon BUILTIN="fema"/>
-<node TEXT="Telegram" ID="ID_1447316975" CREATED="1599503227885" MODIFIED="1599503485837" LINK="https://t.me/etleneum"/>
-<node TEXT="Twitter" ID="ID_1489373962" CREATED="1599503478840" MODIFIED="1599503548728" LINK="https://twitter.com/etleneum2"/>
+<node TEXT="contracts" ID="ID_95939727" CREATED="1599514278117" MODIFIED="1599514282012" LINK="https://etleneum.com/~/contracts"/>
+<node TEXT="contract" ID="ID_920607568" CREATED="1599514347348" MODIFIED="1599514349644">
+<node TEXT="id" ID="ID_819408260" CREATED="1599514425075" MODIFIED="1599514742355" LINK="https://etleneum.com/~/contract/co04ob1edje">
+<node TEXT="state" ID="ID_1039933301" CREATED="1599514338276" MODIFIED="1599514758978" LINK="https://etleneum.com/~/contract/co04ob1edje/state"/>
+<node TEXT="funds" ID="ID_1733023142" CREATED="1599514339998" MODIFIED="1599514772479" LINK="https://etleneum.com/~/contract/co04ob1edje/funds"/>
+<node TEXT="calls" ID="ID_1849190171" CREATED="1599514341862" MODIFIED="1599514782574" LINK="https://etleneum.com/~/contract/co04ob1edje/calls"/>
 </node>
 </node>
-<node TEXT="Contracts" POSITION="right" ID="ID_1943988554" CREATED="1599502980024" MODIFIED="1599503002917" LINK="https://etleneum.com/#/contracts">
-<icon BUILTIN="edit"/>
-<edge COLOR="#00ff00"/>
+<node TEXT="call" ID="ID_697787576" CREATED="1599514418211" MODIFIED="1599514419961">
+<node TEXT="id" ID="ID_1409054168" CREATED="1599514421075" MODIFIED="1599514819544" LINK="https://etleneum.com/~/call/rjcflb1eke9"/>
 </node>
-<node TEXT="API" POSITION="right" ID="ID_827355597" CREATED="1599514097246" MODIFIED="1599514149156" LINK="API.mm">
-<icon BUILTIN="licq"/>
-<edge COLOR="#ff00ff"/>
+<node TEXT="auth" ID="ID_891952139" CREATED="1599514473948" MODIFIED="1599514482613" LINK="https://etleneum.com/lnurl/auth">
+<node TEXT="lnurl-auth" ID="ID_1415993510" CREATED="1599514601323" MODIFIED="1599514717920" LINK="https://github.com/btcontract/lnurl-rfc/blob/master/lnurl-auth.md"/>
+</node>
 </node>
 </node>
 </map>
