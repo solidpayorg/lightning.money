@@ -101,6 +101,7 @@
 <icon BUILTIN="fema"/>
 <node TEXT="Telegram" ID="ID_1447316975" CREATED="1599503227885" MODIFIED="1599503485837" LINK="https://t.me/etleneum"/>
 <node TEXT="Twitter" ID="ID_1489373962" CREATED="1599503478840" MODIFIED="1599503548728" LINK="https://twitter.com/etleneum2"/>
+<node TEXT="Reddit" ID="ID_519519546" CREATED="1599925288504" MODIFIED="1599925292638" LINK="https://www.reddit.com/r/etleneum/"/>
 </node>
 </node>
 <node TEXT="Contracts" POSITION="right" ID="ID_1943988554" CREATED="1599502980024" MODIFIED="1599503002917" LINK="https://etleneum.com/#/contracts">
