@@ -1,0 +1,929 @@
+{
+    "html": {
+        "@_lang": "en",
+        "head": {
+            "META": {
+                "@_http-equiv": "Content-Type",
+                "@_content": "text/html; charset=ISO-8859-1",
+                "title": "lightning money",
+                "meta": {
+                    "@_name": "description",
+                    "@_content": "Freeplane mindmap HTML presentation",
+                    "meta": {
+                        "@_name": "author",
+                        "@_content": "Yours Respectfully",
+                        "meta": {
+                            "@_name": "generator",
+                            "@_content": "Mindslide at http://berteh.github.io/mindslide/",
+                            "meta": {
+                                "@_name": "apple-mobile-web-app-capable",
+                                "@_content": "yes",
+                                "meta": {
+                                    "@_name": "apple-mobile-web-app-status-bar-style",
+                                    "@_content": "black-translucent",
+                                    "meta": {
+                                        "@_name": "viewport",
+                                        "@_content": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+                                        "link": {
+                                            "@_rel": "stylesheet",
+                                            "@_href": "reveal.js/css/reveal.css",
+                                            "link": {
+                                                "@_rel": "stylesheet",
+                                                "@_id": "theme",
+                                                "@_href": "reveal.js/css/theme/moon.css",
+                                                "link": {
+                                                    "@_rel": "stylesheet",
+                                                    "@_href": "reveal.js/lib/css/zenburn.css",
+                                                    "style": {
+                                                        "#text": "a.connector, a.subsection {margin-left: 1ex; font-size: smaller}\n            .illustrations a {float:left; margin: 1ex 5px; max-width:100%}\n            .illustrations img {max-height:8em;}\n            .illustrations.w1 a {max-width:98%} \n            .illustrations.w2 a {max-width:47%} \n            .illustrations.w3 a, .illustrations.w6 a  {max-width:31%} \n            .illustrations.w4 a, .illustrations.w7 a, .illustrations.w8 a {max-width:23%} \n            .illustrations.w5 a, .illustrations.w9 a, .illustrations.w10 a {max-width:18%} \n\n            /* bullet lists layout */\n\t\t\t#mindslide li p {margin: 0 0;}\n            #mindslide section.content>ul li {font-size: 90%;}\n            #mindslide section.content>ul>li:first-of-type, #mindslide section.title>ul li {list-style:none; display:block; font-size: 120%; margin-bottom:1ex}   \n\n            /* zenburn hack for inline code highlight */\n            pre.inline, .inline code {display:inline; width:auto;}\n\t\t\t\n\t\t\t/* icons */\n\t\t\t#mindslide.awesome section.content li.icon {list-style:none; margin-left: -1em}\n\t\t\t#mindslide.awesome .fa {font-family: FontAwesome; margin-right: 1ex;}",
+                                                        "@_type": "text/css"
+                                                    },
+                                                    "script": {
+                                                        "#text": "document.write( '' );",
+                                                        "@_type": "text/javascript",
+                                                        "link": {
+                                                            "@_rel": "stylesheet",
+                                                            "@_href": "reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css",
+                                                            "@_type": "text/css",
+                                                            "@_media": "print"
+                                                        }
+                                                    }
+                                                },
+                                                "body": {
+                                                    "div": {
+                                                        "@_class": "reveal",
+                                                        "div": {
+                                                            "@_id": "mindslide",
+                                                            "@_class": "slides",
+                                                            "section": [
+                                                                {
+                                                                    "@_class": "title",
+                                                                    "@_id": "ID_1568754813",
+                                                                    "h1": "lightning money",
+                                                                    "ul": ""
+                                                                },
+                                                                {
+                                                                    "@_class": "toc",
+                                                                    "h2": "Table of Content",
+                                                                    "ul": {
+                                                                        "li": [
+                                                                            {
+                                                                                "#text": "news",
+                                                                                "@_class": "icon",
+                                                                                "span": {
+                                                                                    "@_aria-hidden": true,
+                                                                                    "@_class": "fa"
+                                                                                },
+                                                                                "a": {
+                                                                                    "#text": "&#8628;",
+                                                                                    "@_href": "#/ID_1050804376",
+                                                                                    "@_class": "link subsection"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "#text": "lapps",
+                                                                                "@_class": "icon",
+                                                                                "span": {
+                                                                                    "@_aria-hidden": true,
+                                                                                    "@_class": "fa fa-rocket"
+                                                                                },
+                                                                                "a": {
+                                                                                    "#text": "&#8628;",
+                                                                                    "@_href": "#/ID_1438249466",
+                                                                                    "@_class": "link subsection"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "#text": "links",
+                                                                                "@_class": "icon",
+                                                                                "span": {
+                                                                                    "@_aria-hidden": true,
+                                                                                    "@_class": "fa fa-paperclip"
+                                                                                },
+                                                                                "a": {
+                                                                                    "#text": "&#8628;",
+                                                                                    "@_href": "#/ID_728396892",
+                                                                                    "@_class": "link subsection"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "#text": "wallets",
+                                                                                "@_class": "icon",
+                                                                                "span": {
+                                                                                    "@_aria-hidden": true,
+                                                                                    "@_class": "fa fa-key"
+                                                                                },
+                                                                                "a": {
+                                                                                    "#text": "&#8628;",
+                                                                                    "@_href": "#/ID_403237537",
+                                                                                    "@_class": "link subsection"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "section": [
+                                                                        {
+                                                                            "@_class": "content",
+                                                                            "@_id": "ID_1050804376",
+                                                                            "h2": "news",
+                                                                            "ul": {
+                                                                                "li": [
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "twitter",
+                                                                                            "@_href": "https://twitter.com/search?q=lightning%20network&amp;src=tyah",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "lightning Junkies",
+                                                                                            "@_href": "https://anchor.fm/lightning-junkies/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "#text": "reddit lightning",
+                                                                                        "a": {
+                                                                                            "#text": "&#8628;",
+                                                                                            "@_href": "#/ID_1326491802",
+                                                                                            "@_class": "link subsection"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "flipboard",
+                                                                                            "@_href": "https://flipboard.com/topic/lightningnetwork",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "bitcoinlightning.com",
+                                                                                            "@_href": "https://www.bitcoinlightning.com/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "@_class": "content",
+                                                                            "@_id": "ID_1326491802",
+                                                                            "h3": "reddit lightning",
+                                                                            "ul": {
+                                                                                "li": {
+                                                                                    "a": {
+                                                                                        "#text": "reddit bitcoin",
+                                                                                        "@_href": "https://www.reddit.com/r/Bitcoin/",
+                                                                                        "@_class": "link external"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "section": [
+                                                                        {
+                                                                            "@_class": "content",
+                                                                            "@_id": "ID_1438249466",
+                                                                            "h2": "lapps",
+                                                                            "ul": {
+                                                                                "li": [
+                                                                                    {
+                                                                                        "#text": "directories",
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-folder"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "&#8628;",
+                                                                                            "@_href": "#/ID_1938254040",
+                                                                                            "@_class": "link subsection"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "#text": "apps",
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-rocket"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "&#8628;",
+                                                                                            "@_href": "#/ID_1371138197",
+                                                                                            "@_class": "link subsection"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "@_class": "content",
+                                                                            "@_id": "ID_1938254040",
+                                                                            "h3": "directories",
+                                                                            "ul": {
+                                                                                "li": [
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-bookmark"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "lapps.co",
+                                                                                            "@_href": "https://www.lapps.co/all-time",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "lightningnetworkstores",
+                                                                                            "@_href": "https://lightningnetworkstores.com/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "lngames",
+                                                                                            "@_href": "https://lngames.net/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "satoshis games",
+                                                                                            "@_href": "https://satoshis.games/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "kriptode",
+                                                                                            "@_href": "https://kriptode.com/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "ion app store",
+                                                                                            "@_href": "https://ion.radar.tech/apps/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "a": {
+                                                                                            "#text": "lightning.community",
+                                                                                            "@_href": "https://dev.lightning.community/lapps/index.html",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "@_class": "content",
+                                                                            "@_id": "ID_1371138197",
+                                                                            "h3": "apps",
+                                                                            "ul": {
+                                                                                "li": [
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "zapread",
+                                                                                            "@_href": "https://www.zapread.com/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-group"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "poker",
+                                                                                            "@_href": "https://lightning-poker.com/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-eye"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "pollo feed",
+                                                                                            "@_href": "https://pollofeed.com/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-long-arrow-up"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "bitrefill",
+                                                                                            "@_href": "https://www.bitrefill.com/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-minus-circle"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "paywall",
+                                                                                            "@_href": "https://paywall.link/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-balance-scale"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "galton board",
+                                                                                            "@_href": "https://galtonboard.lngames.net/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-magic"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "faucet",
+                                                                                            "@_href": "https://lnurl.com/faucet/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "@_class": "icon",
+                                                                                        "span": {
+                                                                                            "@_aria-hidden": true,
+                                                                                            "@_class": "fa fa-thumbs-up"
+                                                                                        },
+                                                                                        "a": {
+                                                                                            "#text": "lightning.gifts",
+                                                                                            "@_href": "https://lightning.gifts/",
+                                                                                            "@_class": "link external"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "section": [
+                                                                        {
+                                                                            "@_class": "content",
+                                                                            "@_id": "ID_728396892",
+                                                                            "h2": "links",
+                                                                            "ul": {
+                                                                                "li": {
+                                                                                    "a": {
+                                                                                        "#text": "Made with",
+                                                                                        "@_href": "https://webmaps.io/",
+                                                                                        "@_class": "link external",
+                                                                                        "img": {
+                                                                                            "#text": "&nbsp;using webmaps.io",
+                                                                                            "@_class": "emoji",
+                                                                                            "@_alt": "heart",
+                                                                                            "@_height": 20,
+                                                                                            "@_width": 20,
+                                                                                            "@_src": "https://github.githubassets.com/images/icons/emoji/unicode/2764.png",
+                                                                                            "@_style": "border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none"
+                                                                                        }
+                                                                                    },
+                                                                                    "li": [
+                                                                                        {
+                                                                                            "#text": "lists",
+                                                                                            "@_class": "icon",
+                                                                                            "span": {
+                                                                                                "@_aria-hidden": true,
+                                                                                                "@_class": "fa fa-list"
+                                                                                            },
+                                                                                            "a": {
+                                                                                                "#text": "&#8628;",
+                                                                                                "@_href": "#/ID_1744026554",
+                                                                                                "@_class": "link subsection"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "#text": "communities",
+                                                                                            "@_class": "icon",
+                                                                                            "span": {
+                                                                                                "@_aria-hidden": true,
+                                                                                                "@_class": "fa fa-wechat"
+                                                                                            },
+                                                                                            "a": {
+                                                                                                "#text": "&#8628;",
+                                                                                                "@_href": "#/ID_1721453071",
+                                                                                                "@_class": "link subsection"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "#text": "dev",
+                                                                                            "@_class": "icon",
+                                                                                            "span": {
+                                                                                                "@_aria-hidden": true,
+                                                                                                "@_class": "fa fa-magic"
+                                                                                            },
+                                                                                            "a": {
+                                                                                                "#text": "&#8628;",
+                                                                                                "@_href": "#/ID_1721082161",
+                                                                                                "@_class": "link subsection"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "#text": "about",
+                                                                                            "@_class": "icon",
+                                                                                            "span": {
+                                                                                                "@_aria-hidden": true,
+                                                                                                "@_class": "fa fa-flash"
+                                                                                            },
+                                                                                            "a": {
+                                                                                                "#text": "&#8628;",
+                                                                                                "@_href": "#/ID_1704672214",
+                                                                                                "@_class": "link subsection"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "section": [
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_1744026554",
+                                                                                    "h3": "lists",
+                                                                                    "ul": {
+                                                                                        "li": [
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "lopp list",
+                                                                                                    "@_href": "https://www.lopp.net/lightning-information.html",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "awesome list",
+                                                                                                    "@_href": "https://github.com/bcongdon/awesome-lightning-network",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "lightning wiki",
+                                                                                                    "@_href": "https://lightningwiki.net/index.php/Main_Page",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "lnroute",
+                                                                                                    "@_href": "https://lnroute.com/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_1721453071",
+                                                                                    "h3": "communities",
+                                                                                    "ul": {
+                                                                                        "li": [
+                                                                                            {
+                                                                                                "#text": "telegram",
+                                                                                                "@_class": "icon",
+                                                                                                "span": {
+                                                                                                    "@_aria-hidden": true,
+                                                                                                    "@_class": "fa"
+                                                                                                },
+                                                                                                "a": {
+                                                                                                    "#text": "&#8628;",
+                                                                                                    "@_href": "#/ID_196022448",
+                                                                                                    "@_class": "link subsection"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "discord",
+                                                                                                    "@_href": "https://discordapp.com/invite/sm2rfS7",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "IRC",
+                                                                                                    "@_href": "https://webchat.freenode.net/#lightning-dev",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_196022448",
+                                                                                    "h4": "telegram",
+                                                                                    "ul": {
+                                                                                        "li": [
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "Lightning Makers",
+                                                                                                    "@_href": "https://t.me/joinchat/EFJwOxEZmjqjTBEx2883Hw",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "Lightning",
+                                                                                                    "@_href": "https://t.me/lightning_network",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_1721082161",
+                                                                                    "h3": "dev",
+                                                                                    "ul": {
+                                                                                        "li": [
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "specs",
+                                                                                                    "@_href": "spec/index.html",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "mailing list",
+                                                                                                    "@_href": "https://lists.linuxfoundation.org/pipermail/lightning-dev/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "resources",
+                                                                                                    "@_href": "https://github.com/bcongdon/awesome-lightning-network#developer-resources",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "LN Donations",
+                                                                                                    "@_href": "https://lightningnetworkstores.com/donations",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_1704672214",
+                                                                                    "h3": "about",
+                                                                                    "ul": {
+                                                                                        "li": [
+                                                                                            {
+                                                                                                "@_class": "icon",
+                                                                                                "span": {
+                                                                                                    "@_aria-hidden": true,
+                                                                                                    "@_class": "fa fa-check"
+                                                                                                },
+                                                                                                "a": {
+                                                                                                    "#text": "open source",
+                                                                                                    "@_href": "https://github.com/solidpayorg/lightning.money/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "#text": "issues",
+                                                                                                "a": {
+                                                                                                    "#text": "&#8628;",
+                                                                                                    "@_href": "#/ID_1677347904",
+                                                                                                    "@_class": "link subsection"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "JSON",
+                                                                                                    "@_href": "index.json",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": ".mm mindmap",
+                                                                                                    "@_href": "index.html",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "made using webmaps.io",
+                                                                                                    "@_href": "https://webmaps.io/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "mastering lightning",
+                                                                                                    "@_href": "https://github.com/aantonop/lnbook",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_1677347904",
+                                                                                    "h4": "issues",
+                                                                                    "ul": {
+                                                                                        "li": "improve me!"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "section": [
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_403237537",
+                                                                                    "h2": "wallets",
+                                                                                    "ul": {
+                                                                                        "li": [
+                                                                                            {
+                                                                                                "@_class": "icon",
+                                                                                                "span": {
+                                                                                                    "@_aria-hidden": true,
+                                                                                                    "@_class": "fa fa-bookmark"
+                                                                                                },
+                                                                                                "a": {
+                                                                                                    "#text": "comparison",
+                                                                                                    "@_href": "https://docs.google.com/spreadsheets/d/1jzJ2Vut6q-cbr7bg3tshqJszJFLXpvi194os7GxQQ30/edit#gid=1531699029",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "#text": "custodial",
+                                                                                                "a": {
+                                                                                                    "#text": "&#8628;",
+                                                                                                    "@_href": "#/ID_713142011",
+                                                                                                    "@_class": "link subsection"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "#text": "mobile",
+                                                                                                "a": {
+                                                                                                    "#text": "&#8628;",
+                                                                                                    "@_href": "#/ID_129906959",
+                                                                                                    "@_class": "link subsection"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "lapps",
+                                                                                                    "@_href": "https://www.lapps.co/wallets",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_713142011",
+                                                                                    "h3": "custodial",
+                                                                                    "ul": {
+                                                                                        "li": {
+                                                                                            "#text": "web",
+                                                                                            "a": {
+                                                                                                "#text": "&#8628;",
+                                                                                                "@_href": "#/ID_1071283894",
+                                                                                                "@_class": "link subsection"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_1071283894",
+                                                                                    "h4": "web",
+                                                                                    "ul": {
+                                                                                        "li": [
+                                                                                            {
+                                                                                                "@_class": "icon",
+                                                                                                "span": {
+                                                                                                    "@_aria-hidden": true,
+                                                                                                    "@_class": "fa fa-bookmark"
+                                                                                                },
+                                                                                                "a": {
+                                                                                                    "#text": "lnbits",
+                                                                                                    "@_href": "https://lnbits.com/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "@_class": "icon",
+                                                                                                "span": {
+                                                                                                    "@_aria-hidden": true,
+                                                                                                    "@_class": "fa fa-bookmark"
+                                                                                                },
+                                                                                                "a": {
+                                                                                                    "#text": "telegram",
+                                                                                                    "@_href": "https://telegram.me/lntxbot",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "reddit",
+                                                                                                    "@_href": "https://www.reddit.com/r/lntipbot/wiki/index",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "slack",
+                                                                                                    "@_href": "https://github.com/CryptoFR/ln-tip-slack",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "tippin.me",
+                                                                                                    "@_href": "https://tippin.me/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "tallycoin",
+                                                                                                    "@_href": "https://tallyco.in/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "opennode",
+                                                                                                    "@_href": "https://www.opennode.com/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "@_class": "content",
+                                                                                    "@_id": "ID_129906959",
+                                                                                    "h3": "mobile",
+                                                                                    "ul": {
+                                                                                        "li": [
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "bluewallet",
+                                                                                                    "@_href": "https://bluewallet.io/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "eclair",
+                                                                                                    "@_href": "https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "breez",
+                                                                                                    "@_href": "https://breez.technology/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "wallet of satoshi",
+                                                                                                    "@_href": "https://www.walletofsatoshi.com/",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "a": {
+                                                                                                    "#text": "dropbit",
+                                                                                                    "@_href": "https://dropbit.app/dropbit",
+                                                                                                    "@_class": "link external"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "@_id": "end",
+                                                                            "h1": "The End",
+                                                                            "h3": {
+                                                                                "#text": "Thank You!",
+                                                                                "@_class": "thanks"
+                                                                            },
+                                                                            "p": [
+                                                                                {
+                                                                                    "#text": "Yours Respectfully",
+                                                                                    "@_id": "author"
+                                                                                },
+                                                                                {
+                                                                                    "@_id": "credits",
+                                                                                    "small": {
+                                                                                        "#text": "Powered byfor, using",
+                                                                                        "a": [
+                                                                                            {
+                                                                                                "#text": "Mindslide",
+                                                                                                "@_href": "http://berteh.github.io/mindslide/"
+                                                                                            },
+                                                                                            {
+                                                                                                "#text": "Freeplane",
+                                                                                                "@_href": "http://freeplane.sourceforge.net/"
+                                                                                            },
+                                                                                            {
+                                                                                                "#text": "Reveal.js",
+                                                                                                "@_href": "http://lab.hakim.se/reveal-js/#/"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        "footer": {
+                                                            "#text": "lightning money |v 0.5 |map vfreeplane 1.8.0",
+                                                            "@_class": "info",
+                                                            "a": [
+                                                                {
+                                                                    "#text": "Mindslide",
+                                                                    "@_href": "http://berteh.github.io/mindslide/"
+                                                                },
+                                                                {
+                                                                    "#text": "Freeplane",
+                                                                    "@_href": "http://freeplane.sourceforge.net/"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "script": [
+                                                            {
+                                                                "@_src": "reveal.js/lib/js/head.min.js"
+                                                            },
+                                                            {
+                                                                "@_src": "reveal.js/js/reveal.js"
+                                                            },
+                                                            "//run reveal.js\n\t// Full list of configuration options available here:\n\t// https://github.com/hakimel/reveal.js#configuration\n\tReveal.initialize({\n\t\tcontrols: true,\n\t\tprogress: true,\n\t\tslideNumber: false,\n\t\thistory: true,\n\t\tkeyboard: true,\n\t\toverview: true,\n\t\tcenter: true,\n\t\ttouch: true,\n\t\tloop: false,\n\t\trtl: false,\n\t\tshuffle: false,\n\t\tfragments: true,\n\t\tembedded: false,\n\t\thelp: true,\n\t\tshowNotes: false,\n\t\tautoSlide: 0,\n\t\tautoSlideStoppable: true,\n\t\tautoSlideMethod: Reveal.navigateNext,\n\t\tmouseWheel: true,\n\t\thideAddressBar: true,\n\t\tpreviewLinks: false,\n\t\ttransition: 'slide',\n\t\ttransitionSpeed: 'default',\n\t\tbackgroundTransition: 'slide',\n\t\tviewDistance: 3,\n\t\tparallaxBackgroundImage: '',\n\t\tparallaxBackgroundSize: '',\n\t\tparallaxBackgroundHorizontal: null,\n\t\tparallaxBackgroundVertical: null,\n\n\t\ttheme: Reveal.getQueryHash().theme || 'moon',\n\t\ttransition: Reveal.getQueryHash().transition || 'slide',\n\n\t\t\n        // Optional libraries used to extend on reveal.js - see https://github.com/hakimel/reveal.js#dependencies\n        dependencies: [\n          { src:'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },\n          { src:'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },\n          { src:'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },\n          { src:'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }\n          //{ src:'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },\n          //{ src:'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },\n\t\t  //{ src:'reveal.js/plugin/math/math.js', async: true }\n\t\t]\n    \t\n    });"
+                                                        ],
+                                                        "link": {
+                                                            "@_rel": "stylesheet",
+                                                            "@_crossorigin": "anonymous",
+                                                            "@_href": "Font-Awesome/css/font-awesome.min.css",
+                                                            "script": "// add \"awesome\" class to #mindslide (only) if FontAwesome is loaded (for icons layout)\n\t\n\t\tfunction css(element, property) {\n\t\t\treturn window.getComputedStyle(element, null).getPropertyValue(property);\n\t\t}\n\t\t\n\t\twindow.onload = function () {\n\t\t\tvar span = document.createElement('span');\n\t\t\tspan.className = 'fa';\n\t\t\tspan.style.display = 'none';\n\t\t\tdocument.body.insertBefore(span, document.body.firstChild);\n\t\t\tif ((css(span, 'font-family')) == 'FontAwesome') {\n\t\t\t\tvar ms = document.getElementById(\"mindslide\");\n\t\t\t\tms.className += \" awesome\";\n\t\t\t}\n\t\t\tdocument.body.removeChild(span);\n\t\t};"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,259 @@
+{
+    "html": {
+        "@_lang": "en",
+        "head": {
+            "META": {
+                "@_http-equiv": "Content-Type",
+                "@_content": "text/html; charset=ISO-8859-1",
+                "title": "dev",
+                "meta": {
+                    "@_name": "description",
+                    "@_content": "Freeplane mindmap HTML presentation",
+                    "meta": {
+                        "@_name": "author",
+                        "@_content": "Yours Respectfully",
+                        "meta": {
+                            "@_name": "generator",
+                            "@_content": "Mindslide at http://berteh.github.io/mindslide/",
+                            "meta": {
+                                "@_name": "apple-mobile-web-app-capable",
+                                "@_content": "yes",
+                                "meta": {
+                                    "@_name": "apple-mobile-web-app-status-bar-style",
+                                    "@_content": "black-translucent",
+                                    "meta": {
+                                        "@_name": "viewport",
+                                        "@_content": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+                                        "link": {
+                                            "@_rel": "stylesheet",
+                                            "@_href": "https://solidpayorg.github.io/reveal.js/css/reveal.css",
+                                            "link": {
+                                                "@_rel": "stylesheet",
+                                                "@_id": "theme",
+                                                "@_href": "https://solidpayorg.github.io/reveal.js/css/theme/solid.css",
+                                                "link": {
+                                                    "@_rel": "stylesheet",
+                                                    "@_href": "https://solidpayorg.github.io/reveal.js/lib/css/zenburn.css",
+                                                    "style": {
+                                                        "#text": "a.connector, a.subsection {margin-left: 1ex; font-size: smaller}\n            .illustrations a {float:left; margin: 1ex 5px; max-width:100%}\n            .illustrations img {max-height:8em;}\n            .illustrations.w1 a {max-width:98%} \n            .illustrations.w2 a {max-width:47%} \n            .illustrations.w3 a, .illustrations.w6 a  {max-width:31%} \n            .illustrations.w4 a, .illustrations.w7 a, .illustrations.w8 a {max-width:23%} \n            .illustrations.w5 a, .illustrations.w9 a, .illustrations.w10 a {max-width:18%} \n\n            /* bullet lists layout */\n\t\t\t#mindslide li p {margin: 0 0;}\n            #mindslide section.content>ul li {font-size: 90%;}\n            #mindslide section.content>ul>li:first-of-type, #mindslide section.title>ul li {list-style:none; display:block; font-size: 120%; margin-bottom:1ex}   \n\n            /* zenburn hack for inline code highlight */\n            pre.inline, .inline code {display:inline; width:auto;}\n\t\t\t\n\t\t\t/* icons */\n\t\t\t#mindslide.awesome section.content li.icon {list-style:none; margin-left: -1em}\n\t\t\t#mindslide.awesome .fa {font-family: FontAwesome; margin-right: 1ex;}",
+                                                        "@_type": "text/css"
+                                                    },
+                                                    "script": {
+                                                        "#text": "document.write( '' );",
+                                                        "@_type": "text/javascript",
+                                                        "link": {
+                                                            "@_rel": "stylesheet",
+                                                            "@_href": "https://solidpayorg.github.io/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css",
+                                                            "@_type": "text/css",
+                                                            "@_media": "print"
+                                                        }
+                                                    }
+                                                },
+                                                "body": {
+                                                    "div": {
+                                                        "@_class": "reveal",
+                                                        "div": {
+                                                            "@_id": "mindslide",
+                                                            "@_class": "slides",
+                                                            "section": [
+                                                                {
+                                                                    "@_class": "content",
+                                                                    "@_id": "ID_1831615648",
+                                                                    "h2": "dev",
+                                                                    "ul": {
+                                                                        "li": [
+                                                                            {
+                                                                                "#text": "docs",
+                                                                                "@_class": "icon",
+                                                                                "span": {
+                                                                                    "@_aria-hidden": true,
+                                                                                    "@_class": "fa fa-info-circle"
+                                                                                },
+                                                                                "a": {
+                                                                                    "#text": "&#8628;",
+                                                                                    "@_href": "#/ID_1100215200",
+                                                                                    "@_class": "link subsection"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "#text": "links",
+                                                                                "@_class": "icon",
+                                                                                "span": {
+                                                                                    "@_aria-hidden": true,
+                                                                                    "@_class": "fa fa-paperclip"
+                                                                                },
+                                                                                "a": {
+                                                                                    "#text": "&#8628;",
+                                                                                    "@_href": "#/ID_808607355",
+                                                                                    "@_class": "link subsection"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "#text": "tags",
+                                                                                "@_class": "icon",
+                                                                                "span": {
+                                                                                    "@_aria-hidden": true,
+                                                                                    "@_class": "fa"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "a": {
+                                                                                    "#text": "specs",
+                                                                                    "@_href": "../spec/index.html",
+                                                                                    "@_class": "link external"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "a": {
+                                                                                    "#text": "vouchers",
+                                                                                    "@_href": "vouchers.html",
+                                                                                    "@_class": "link external"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "a": {
+                                                                                    "#text": "faucets",
+                                                                                    "@_href": "faucets.html",
+                                                                                    "@_class": "link external"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "a": {
+                                                                                    "#text": "paywalls",
+                                                                                    "@_href": "paywalls.html",
+                                                                                    "@_class": "link external"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "@_class": "content",
+                                                                    "@_id": "ID_1100215200",
+                                                                    "h3": "docs",
+                                                                    "ul": {
+                                                                        "li": {
+                                                                            "a": {
+                                                                                "#text": "resources",
+                                                                                "@_href": "https://github.com/bcongdon/awesome-lightning-network#developer-resources",
+                                                                                "@_class": "link external"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "@_class": "content",
+                                                                    "@_id": "ID_808607355",
+                                                                    "h3": "links",
+                                                                    "ul": {
+                                                                        "li": [
+                                                                            {
+                                                                                "a": {
+                                                                                    "#text": "mailing list",
+                                                                                    "@_href": "https://lists.linuxfoundation.org/pipermail/lightning-dev/",
+                                                                                    "@_class": "link external"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "a": {
+                                                                                    "#text": "lndhub",
+                                                                                    "@_href": "http://lndhub.io",
+                                                                                    "@_class": "link external"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "a": {
+                                                                                    "#text": "bitclouds",
+                                                                                    "@_href": "https://bitclouds.sh/",
+                                                                                    "@_class": "link external"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "a": {
+                                                                                    "#text": "polar",
+                                                                                    "@_href": "https://github.com/jamaljsr/polar#polar",
+                                                                                    "@_class": "link external"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "@_id": "end",
+                                                                    "h1": "The End",
+                                                                    "h3": {
+                                                                        "#text": "Thank You!",
+                                                                        "@_class": "thanks"
+                                                                    },
+                                                                    "p": [
+                                                                        {
+                                                                            "#text": "Yours Respectfully",
+                                                                            "@_id": "author"
+                                                                        },
+                                                                        {
+                                                                            "@_id": "credits",
+                                                                            "small": {
+                                                                                "#text": "Powered byfor, using",
+                                                                                "a": [
+                                                                                    {
+                                                                                        "#text": "Mindslide",
+                                                                                        "@_href": "http://berteh.github.io/mindslide/"
+                                                                                    },
+                                                                                    {
+                                                                                        "#text": "Freeplane",
+                                                                                        "@_href": "http://freeplane.sourceforge.net/"
+                                                                                    },
+                                                                                    {
+                                                                                        "#text": "Reveal.js",
+                                                                                        "@_href": "http://lab.hakim.se/reveal-js/#/"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "footer": {
+                                                        "#text": "dev |v 0.5 |map vfreeplane 1.7.0",
+                                                        "@_class": "info",
+                                                        "a": [
+                                                            {
+                                                                "#text": "Mindslide",
+                                                                "@_href": "http://berteh.github.io/mindslide/"
+                                                            },
+                                                            {
+                                                                "#text": "Freeplane",
+                                                                "@_href": "http://freeplane.sourceforge.net/"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "script": [
+                                                        {
+                                                            "@_src": "https://solidpayorg.github.io/reveal.js/lib/js/head.min.js"
+                                                        },
+                                                        {
+                                                            "@_src": "https://solidpayorg.github.io/reveal.js/js/reveal.js"
+                                                        },
+                                                        "//run reveal.js\n\t// Full list of configuration options available here:\n\t// https://github.com/hakimel/reveal.js#configuration\n\tReveal.initialize({\n\t\tcontrols: true,\n\t\tprogress: true,\n\t\tslideNumber: false,\n\t\thistory: true,\n\t\tkeyboard: true,\n\t\toverview: true,\n\t\tcenter: true,\n\t\ttouch: true,\n\t\tloop: false,\n\t\trtl: false,\n\t\tshuffle: false,\n\t\tfragments: true,\n\t\tembedded: false,\n\t\thelp: true,\n\t\tshowNotes: false,\n\t\tautoSlide: 0,\n\t\tautoSlideStoppable: true,\n\t\tautoSlideMethod: Reveal.navigateNext,\n\t\tmouseWheel: true,\n\t\thideAddressBar: true,\n\t\tpreviewLinks: false,\n\t\ttransition: 'cube',\n\t\ttransitionSpeed: 'default',\n\t\tbackgroundTransition: 'slide',\n\t\tviewDistance: 3,\n\t\tparallaxBackgroundImage: '',\n\t\tparallaxBackgroundSize: '',\n\t\tparallaxBackgroundHorizontal: null,\n\t\tparallaxBackgroundVertical: null,\n\n\t\ttheme: Reveal.getQueryHash().theme || 'solid',\n\t\ttransition: Reveal.getQueryHash().transition || 'cube',\n\n\t\t\n        // Optional libraries used to extend on reveal.js - see https://github.com/hakimel/reveal.js#dependencies\n        dependencies: [\n          { src:'https://solidpayorg.github.io/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },\n          { src:'https://solidpayorg.github.io/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },\n          { src:'https://solidpayorg.github.io/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },\n          { src:'https://solidpayorg.github.io/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }\n          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },\n          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },\n\t\t  //{ src:'https://solidpayorg.github.io/reveal.js/plugin/math/math.js', async: true }\n\t\t]\n    \t\n    });"
+                                                    ],
+                                                    "link": {
+                                                        "@_rel": "stylesheet",
+                                                        "@_crossorigin": "anonymous",
+                                                        "@_href": "Font-Awesome/css/font-awesome.min.css",
+                                                        "script": "// add \"awesome\" class to #mindslide (only) if FontAwesome is loaded (for icons layout)\n\t\n\t\tfunction css(element, property) {\n\t\t\treturn window.getComputedStyle(element, null).getPropertyValue(property);\n\t\t}\n\t\t\n\t\twindow.onload = function () {\n\t\t\tvar span = document.createElement('span');\n\t\t\tspan.className = 'fa';\n\t\t\tspan.style.display = 'none';\n\t\t\tdocument.body.insertBefore(span, document.body.firstChild);\n\t\t\tif ((css(span, 'font-family')) == 'FontAwesome') {\n\t\t\t\tvar ms = document.getElementById(\"mindslide\");\n\t\t\t\tms.className += \" awesome\";\n\t\t\t}\n\t\t\tdocument.body.removeChild(span);\n\t\t};"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
