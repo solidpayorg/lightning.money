@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1597236956132,
+            "@_MODIFIED": 1603756612775,
             "@_ICON_SIZE": "24.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -286,10 +286,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1597236956131,
+                    "@_MODIFIED": 1603756612774,
                     "@_COLOR": "#009933",
-                    "@_HGAP_QUANTITY": "49.999998927116415 pt",
-                    "@_VSHIFT_QUANTITY": "56.99999830126767 pt",
+                    "@_HGAP_QUANTITY": "49.24999894946816 pt",
+                    "@_VSHIFT_QUANTITY": "63.749998100102 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
@@ -852,6 +852,13 @@
                                     "@_CREATED": 1569865347180,
                                     "@_MODIFIED": 1572242771209,
                                     "@_LINK": "https://bluewallet.io/"
+                                },
+                                {
+                                    "@_TEXT": "zebedee",
+                                    "@_ID": "ID_346776335",
+                                    "@_CREATED": 1603756597074,
+                                    "@_MODIFIED": 1603756603485,
+                                    "@_LINK": "https://zbd.gg/"
                                 },
                                 {
                                     "@_TEXT": "eclair",

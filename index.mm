@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1597236956132" ICON_SIZE="24.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1603756612775" ICON_SIZE="24.0 pt" STYLE="oval">
 <icon BUILTIN="lightning"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -89,7 +89,7 @@
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1597236956131" COLOR="#009933" HGAP_QUANTITY="49.999998927116415 pt" VSHIFT_QUANTITY="56.99999830126767 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1603756612774" COLOR="#009933" HGAP_QUANTITY="49.24999894946816 pt" VSHIFT_QUANTITY="63.749998100102 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -224,6 +224,7 @@
 </node>
 <node TEXT="mobile" ID="ID_129906959" CREATED="1569865342316" MODIFIED="1569865344676">
 <node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1572242771209" LINK="https://bluewallet.io/"/>
+<node TEXT="zebedee" ID="ID_346776335" CREATED="1603756597074" MODIFIED="1603756603485" LINK="https://zbd.gg/"/>
 <node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
 <node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
 <node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
