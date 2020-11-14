@@ -165,7 +165,7 @@
 <node TEXT="lightning wiki" ID="ID_806544715" CREATED="1572988881428" MODIFIED="1572988891410" LINK="https://lightningwiki.net/index.php/Main_Page"/>
 <node TEXT="lnroute" ID="ID_1451851808" CREATED="1570185749629" MODIFIED="1570185757230" LINK="https://lnroute.com/"/>
 <node TEXT="lapps codepen" ID="ID_1738874586" CREATED="1603709177706" MODIFIED="1603709187165" LINK="https://codepen.io/realcrypto/full/JjXyvyq"/>
-<node TEXT="fulgar ventures" ID="ID_1560555105" CREATED="1605338561696" MODIFIED="1605338569006" LINK="https://fulgur.ventures/about.html"/>
+<node TEXT="fulgur ventures" ID="ID_1560555105" CREATED="1605338561696" MODIFIED="1605338696728" LINK="https://fulgur.ventures/about.html"/>
 </node>
 <node TEXT="communities" ID="ID_1721453071" CREATED="1572852581179" MODIFIED="1572852785776">
 <icon BUILTIN="licq"/>
