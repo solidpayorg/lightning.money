@@ -1,10 +1,22 @@
 {
     "script": [
         {
+            "@_src": "https://spux.net/gun"
+        },
+        {
+            "@_src": "https://spux.net/sea"
+        },
+        {
+            "@_src": "https://spux.net/webrtc"
+        },
+        {
+            "@_src": "https://spux.net/open"
+        },
+        {
             "#text": "\"\"",
             "@_type": "application/ld+json",
             "@_id": "data",
-            "@_view": "https://cdn.skypack.dev/spux-rocks/freeplaneg.js"
+            "@_view": "https://spux.net/freeplaneg.js"
         },
         {
             "@_type": "module",
