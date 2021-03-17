@@ -135,6 +135,9 @@
 <node TEXT="satotious" ID="ID_1761392670" CREATED="1597236898749" MODIFIED="1597236935300" LINK="https://satotious.com/">
 <icon BUILTIN="bookmark"/>
 </node>
+<node TEXT="light tube" ID="ID_963121167" CREATED="1606476489512" MODIFIED="1606476642732" LINK="https://light-tube.eu/">
+<icon BUILTIN="emoji-1F39E"/>
+</node>
 </node>
 <node TEXT="etleneum" ID="ID_639692376" CREATED="1599501828276" MODIFIED="1599501987884" LINK="contracts/etleneum/index.mm">
 <icon BUILTIN="idea"/>
@@ -185,6 +188,7 @@
 <node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572861594213" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 <node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572861726125" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
 <node TEXT="LN Donations" ID="ID_270957648" CREATED="1580148828526" MODIFIED="1580148868092" LINK="https://lightningnetworkstores.com/donations"/>
+<node TEXT="running a node" ID="ID_965857607" CREATED="1615964990023" MODIFIED="1615965002178" LINK="https://medium.com/@fulgur.ventures/an-overview-of-lightning-network-implementations-d670255a6cfa"/>
 </node>
 <node TEXT="about" ID="ID_1704672214" CREATED="1569940752211" MODIFIED="1572852695898">
 <icon BUILTIN="broken-line"/>

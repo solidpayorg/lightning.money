@@ -465,6 +465,16 @@
                                     "icon": {
                                         "@_BUILTIN": "bookmark"
                                     }
+                                },
+                                {
+                                    "@_TEXT": "light tube",
+                                    "@_ID": "ID_963121167",
+                                    "@_CREATED": 1606476489512,
+                                    "@_MODIFIED": 1606476642732,
+                                    "@_LINK": "https://light-tube.eu/",
+                                    "icon": {
+                                        "@_BUILTIN": "emoji-1F39E"
+                                    }
                                 }
                             ]
                         },
@@ -677,6 +687,13 @@
                                     "@_CREATED": 1580148828526,
                                     "@_MODIFIED": 1580148868092,
                                     "@_LINK": "https://lightningnetworkstores.com/donations"
+                                },
+                                {
+                                    "@_TEXT": "running a node",
+                                    "@_ID": "ID_965857607",
+                                    "@_CREATED": 1615964990023,
+                                    "@_MODIFIED": 1615965002178,
+                                    "@_LINK": "https://medium.com/@fulgur.ventures/an-overview-of-lightning-network-implementations-d670255a6cfa"
                                 }
                             ]
                         },

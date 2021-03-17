@@ -1,0 +1,533 @@
+{
+    "map": {
+        "@_version": "freeplane 1.8.0",
+        "node": {
+            "@_TEXT": "rgb",
+            "@_FOLDED": false,
+            "@_ID": "ID_385243179",
+            "@_CREATED": 1614534022728,
+            "@_MODIFIED": 1614534025158,
+            "@_STYLE": "oval",
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 5,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "for developers",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1439451657",
+                    "@_CREATED": 1614534032135,
+                    "@_MODIFIED": 1614534154447,
+                    "edge": {
+                        "@_COLOR": "#ff0000"
+                    },
+                    "node": {
+                        "@_TEXT": "repositories",
+                        "@_ID": "ID_650271447",
+                        "@_CREATED": 1614534177386,
+                        "@_MODIFIED": 1614534180502
+                    }
+                },
+                {
+                    "@_TEXT": "slides",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_810876297",
+                    "@_CREATED": 1614534267902,
+                    "@_MODIFIED": 1614534271044,
+                    "edge": {
+                        "@_COLOR": "#00ffff"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "what rgb is",
+                            "@_ID": "ID_959123046",
+                            "@_CREATED": 1614534271914,
+                            "@_MODIFIED": 1614534274109,
+                            "node": [
+                                {
+                                    "@_TEXT": "smart contracts over bitcoin and lightning",
+                                    "@_ID": "ID_1618191059",
+                                    "@_CREATED": 1614534281034,
+                                    "@_MODIFIED": 1614534289180
+                                },
+                                {
+                                    "@_TEXT": "emphasis on privacy and scalability",
+                                    "@_ID": "ID_280298469",
+                                    "@_CREATED": 1614534296801,
+                                    "@_MODIFIED": 1614534303329
+                                },
+                                {
+                                    "@_TEXT": "distributed system of partially-replicated machines without globally-known state, having nearly-synchronous state consistency property enforced by consensus protocol of underlying layer",
+                                    "@_ID": "ID_306363710",
+                                    "@_CREATED": 1614534359193,
+                                    "@_MODIFIED": 1614534434734,
+                                    "node": {
+                                        "@_TEXT": "single use seal medium",
+                                        "@_ID": "ID_1935255403",
+                                        "@_CREATED": 1614534436841,
+                                        "@_MODIFIED": 1614534447341
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "digital rights ownership system",
+                                    "@_ID": "ID_1051790667",
+                                    "@_CREATED": 1614534626936,
+                                    "@_MODIFIED": 1614534632045
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "how it works",
+                            "@_ID": "ID_1475591710",
+                            "@_CREATED": 1614534673831,
+                            "@_MODIFIED": 1614534676210,
+                            "node": [
+                                {
+                                    "@_TEXT": "rights are assigned to bitcoin transaction outputs",
+                                    "@_ID": "ID_424733564",
+                                    "@_CREATED": 1614534677624,
+                                    "@_MODIFIED": 1614534686501,
+                                    "node": {
+                                        "@_TEXT": "owner",
+                                        "@_ID": "ID_391974111",
+                                        "@_CREATED": 1614534701420,
+                                        "@_MODIFIED": 1614534702706
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "reuses bitcoin ownership rules",
+                                    "@_ID": "ID_1646559301",
+                                    "@_CREATED": 1614534835552,
+                                    "@_MODIFIED": 1614534842106
+                                },
+                                {
+                                    "@_TEXT": "imposes additional rgb rules",
+                                    "@_ID": "ID_255085979",
+                                    "@_CREATED": 1614534842879,
+                                    "@_MODIFIED": 1614534849897
+                                },
+                                {
+                                    "@_TEXT": "1 there almost must be an owner",
+                                    "@_ID": "ID_1379597679",
+                                    "@_CREATED": 1614534866047,
+                                    "@_MODIFIED": 1614534871813
+                                },
+                                {
+                                    "@_TEXT": "single use seals",
+                                    "@_ID": "ID_238078641",
+                                    "@_CREATED": 1614534900432,
+                                    "@_MODIFIED": 1614534903428,
+                                    "node": {
+                                        "@_TEXT": "whoever controls the output controls the associated state",
+                                        "@_ID": "ID_994128167",
+                                        "@_CREATED": 1614534908347,
+                                        "@_MODIFIED": 1614534917612
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "state ownership",
+                                    "@_ID": "ID_1095325754",
+                                    "@_CREATED": 1614534958399,
+                                    "@_MODIFIED": 1614534962078,
+                                    "node": {
+                                        "@_TEXT": "not state validation",
+                                        "@_ID": "ID_714647768",
+                                        "@_CREATED": 1614534962796,
+                                        "@_MODIFIED": 1614534968554
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "validation controlled by rgb schema",
+                                    "@_ID": "ID_1143453949",
+                                    "@_CREATED": 1614534991241,
+                                    "@_MODIFIED": 1614534998572
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "single use seals",
+                            "@_ID": "ID_1095754877",
+                            "@_CREATED": 1614536322999,
+                            "@_MODIFIED": 1614536326165,
+                            "node": [
+                                {
+                                    "@_TEXT": "links client-validated data to bitcoin transactions",
+                                    "@_ID": "ID_1742025162",
+                                    "@_CREATED": 1614536331501,
+                                    "@_MODIFIED": 1614536352899
+                                },
+                                {
+                                    "@_TEXT": "more than timestamps: ensures unique history",
+                                    "@_ID": "ID_1810855468",
+                                    "@_CREATED": 1614536358679,
+                                    "@_MODIFIED": 1614536372620
+                                },
+                                {
+                                    "@_TEXT": "many to many linking",
+                                    "@_ID": "ID_1220084715",
+                                    "@_CREATED": 1614536383544,
+                                    "@_MODIFIED": 1614536387238,
+                                    "node": {
+                                        "@_TEXT": "expanded",
+                                        "@_ID": "ID_674291849",
+                                        "@_CREATED": 1614536439509,
+                                        "@_MODIFIED": 1614536443124
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "peter todd",
+                                    "@_ID": "ID_876300422",
+                                    "@_CREATED": 1614536435122,
+                                    "@_MODIFIED": 1614536438259
+                                },
+                                {
+                                    "@_TEXT": "agreement of some future commitment",
+                                    "@_ID": "ID_1710997929",
+                                    "@_CREATED": 1614536449563,
+                                    "@_MODIFIED": 1614536463073,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "where it will happen",
+                                            "@_ID": "ID_1508908308",
+                                            "@_CREATED": 1614536470582,
+                                            "@_MODIFIED": 1614536473751
+                                        },
+                                        {
+                                            "@_TEXT": "what form it will take",
+                                            "@_ID": "ID_1700863401",
+                                            "@_CREATED": 1614536474215,
+                                            "@_MODIFIED": 1614536477239
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_TEXT": "a promise by alice to bob",
+                                    "@_ID": "ID_1880733152",
+                                    "@_CREATED": 1614536496159,
+                                    "@_MODIFIED": 1614536501037,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "public or private",
+                                            "@_ID": "ID_1055531481",
+                                            "@_CREATED": 1614536501858,
+                                            "@_MODIFIED": 1614536505294
+                                        },
+                                        {
+                                            "@_TEXT": "to create a commitment to some message",
+                                            "@_ID": "ID_1487370132",
+                                            "@_CREATED": 1614536513690,
+                                            "@_MODIFIED": 1614536520516
+                                        },
+                                        {
+                                            "@_TEXT": "well defined point in time or space",
+                                            "@_ID": "ID_1349767028",
+                                            "@_CREATED": 1614536575838,
+                                            "@_MODIFIED": 1614536582927
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_TEXT": "close the seal",
+                                    "@_ID": "ID_1979571826",
+                                    "@_CREATED": 1614536611379,
+                                    "@_MODIFIED": 1614536613948,
+                                    "node": {
+                                        "@_TEXT": "by amending to the ouptut",
+                                        "@_ID": "ID_931802923",
+                                        "@_CREATED": 1614536615713,
+                                        "@_MODIFIED": 1614536622424
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "deterministic bitcoin commitment",
+                            "@_ID": "ID_1454678398",
+                            "@_CREATED": 1614536776145,
+                            "@_MODIFIED": 1614536790943
+                        },
+                        {
+                            "@_TEXT": "sharded dag on top of bitcoin blockchain",
+                            "@_ID": "ID_1280807073",
+                            "@_CREATED": 1614536847473,
+                            "@_MODIFIED": 1614536854724
+                        },
+                        {
+                            "@_TEXT": "multi message commitments and anchors",
+                            "@_ID": "ID_1162057169",
+                            "@_CREATED": 1614536937529,
+                            "@_MODIFIED": 1614536948902
+                        },
+                        {
+                            "@_TEXT": "txoseals",
+                            "@_ID": "ID_1255564882",
+                            "@_CREATED": 1614537202924,
+                            "@_MODIFIED": 1614537205498
+                        },
+                        {
+                            "@_TEXT": "rgb schema",
+                            "@_ID": "ID_885117941",
+                            "@_CREATED": 1614537459311,
+                            "@_MODIFIED": 1614537462296,
+                            "node": {
+                                "@_TEXT": "bluprints ERC of RGB",
+                                "@_ID": "ID_336865363",
+                                "@_CREATED": 1614537469199,
+                                "@_MODIFIED": 1614537475242
+                            }
+                        },
+                        {
+                            "@_TEXT": "scripts",
+                            "@_ID": "ID_1567677984",
+                            "@_CREATED": 1614537529430,
+                            "@_MODIFIED": 1614537531689,
+                            "node": {
+                                "@_TEXT": "simplicity",
+                                "@_ID": "ID_450872035",
+                                "@_CREATED": 1614537532910,
+                                "@_MODIFIED": 1614537535248
+                            }
+                        },
+                        {
+                            "@_TEXT": "scriptless script",
+                            "@_ID": "ID_910533393",
+                            "@_CREATED": 1614538142161,
+                            "@_MODIFIED": 1614538147257
+                        },
+                        {
+                            "@_TEXT": "DLC",
+                            "@_ID": "ID_1773086036",
+                            "@_CREATED": 1614538154993,
+                            "@_MODIFIED": 1614538156082
+                        },
+                        {
+                            "@_TEXT": "new state means new committment",
+                            "@_ID": "ID_628428121",
+                            "@_CREATED": 1614538393726,
+                            "@_MODIFIED": 1614538398848,
+                            "node": {
+                                "@_TEXT": "better to do on lightning",
+                                "@_ID": "ID_546982205",
+                                "@_CREATED": 1614538399930,
+                                "@_MODIFIED": 1614538403831
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "technical internals part 1",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_460175708",
+                    "@_CREATED": 1614534044710,
+                    "@_MODIFIED": 1614534119057,
+                    "@_LINK": "https://www.youtube.com/watch?v=OoTx6dIj4i4",
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    }
+                },
+                {
+                    "@_TEXT": "Aug 1, 2020",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_483839473",
+                    "@_CREATED": 1614534110971,
+                    "@_MODIFIED": 1614534115071,
+                    "edge": {
+                        "@_COLOR": "#00ff00"
+                    }
+                },
+                {
+                    "@_TEXT": "Maxim Orovsky",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_205848690",
+                    "@_CREATED": 1614534258250,
+                    "@_MODIFIED": 1614534261618,
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    }
+                }
+            ]
+        }
+    }
+}
