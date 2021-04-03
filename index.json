@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_1568754813",
             "@_CREATED": 1569871551142,
-            "@_MODIFIED": 1589433159494,
+            "@_MODIFIED": 1603756612775,
             "@_ICON_SIZE": "24.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -200,10 +200,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1050804376",
                     "@_CREATED": 1570785347577,
-                    "@_MODIFIED": 1572854155254,
+                    "@_MODIFIED": 1597236950237,
                     "@_COLOR": "#0000cc",
-                    "@_HGAP_QUANTITY": "-159.2499948367478 pt",
-                    "@_VSHIFT_QUANTITY": "35.99999892711642 pt",
+                    "@_HGAP_QUANTITY": "-159.99999481439605 pt",
+                    "@_VSHIFT_QUANTITY": "37.49999888241294 pt",
                     "icon": {
                         "@_BUILTIN": "16x16-free-application-icons/png/16x16/Blog"
                     },
@@ -286,10 +286,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1438249466",
                     "@_CREATED": 1569959255579,
-                    "@_MODIFIED": 1589433159467,
+                    "@_MODIFIED": 1603756612774,
                     "@_COLOR": "#009933",
                     "@_HGAP_QUANTITY": "49.24999894946816 pt",
-                    "@_VSHIFT_QUANTITY": "59.9999982118607 pt",
+                    "@_VSHIFT_QUANTITY": "63.749998100102 pt",
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
@@ -455,8 +455,38 @@
                                     "icon": {
                                         "@_BUILTIN": "very_positive"
                                     }
+                                },
+                                {
+                                    "@_TEXT": "satotious",
+                                    "@_ID": "ID_1761392670",
+                                    "@_CREATED": 1597236898749,
+                                    "@_MODIFIED": 1597236935300,
+                                    "@_LINK": "https://satotious.com/",
+                                    "icon": {
+                                        "@_BUILTIN": "bookmark"
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "light tube",
+                                    "@_ID": "ID_963121167",
+                                    "@_CREATED": 1606476489512,
+                                    "@_MODIFIED": 1606476642732,
+                                    "@_LINK": "https://light-tube.eu/",
+                                    "icon": {
+                                        "@_BUILTIN": "emoji-1F39E"
+                                    }
                                 }
                             ]
+                        },
+                        {
+                            "@_TEXT": "etleneum",
+                            "@_ID": "ID_639692376",
+                            "@_CREATED": 1599501828276,
+                            "@_MODIFIED": 1599501987884,
+                            "@_LINK": "contracts/etleneum/index.mm",
+                            "icon": {
+                                "@_BUILTIN": "idea"
+                            }
                         }
                     ]
                 },
@@ -547,6 +577,20 @@
                                     "@_CREATED": 1570185749629,
                                     "@_MODIFIED": 1570185757230,
                                     "@_LINK": "https://lnroute.com/"
+                                },
+                                {
+                                    "@_TEXT": "lapps codepen",
+                                    "@_ID": "ID_1738874586",
+                                    "@_CREATED": 1603709177706,
+                                    "@_MODIFIED": 1603709187165,
+                                    "@_LINK": "https://codepen.io/realcrypto/full/JjXyvyq"
+                                },
+                                {
+                                    "@_TEXT": "fulgur ventures",
+                                    "@_ID": "ID_1560555105",
+                                    "@_CREATED": 1605338561696,
+                                    "@_MODIFIED": 1605338696728,
+                                    "@_LINK": "https://fulgur.ventures/about.html"
                                 }
                             ]
                         },
@@ -643,6 +687,13 @@
                                     "@_CREATED": 1580148828526,
                                     "@_MODIFIED": 1580148868092,
                                     "@_LINK": "https://lightningnetworkstores.com/donations"
+                                },
+                                {
+                                    "@_TEXT": "running a node",
+                                    "@_ID": "ID_965857607",
+                                    "@_CREATED": 1615964990023,
+                                    "@_MODIFIED": 1615965002178,
+                                    "@_LINK": "https://medium.com/@fulgur.ventures/an-overview-of-lightning-network-implementations-d670255a6cfa"
                                 }
                             ]
                         },
@@ -718,10 +769,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_403237537",
                     "@_CREATED": 1569861472802,
-                    "@_MODIFIED": 1572854170250,
+                    "@_MODIFIED": 1597236944952,
                     "@_COLOR": "#cc0000",
-                    "@_HGAP_QUANTITY": "-166.74999461323037 pt",
-                    "@_VSHIFT_QUANTITY": "-42.749998725950746 pt",
+                    "@_HGAP_QUANTITY": "-162.99999472498908 pt",
+                    "@_VSHIFT_QUANTITY": "-41.24999877065423 pt",
                     "icon": {
                         "@_BUILTIN": "password"
                     },
@@ -825,6 +876,13 @@
                                     "@_CREATED": 1569865347180,
                                     "@_MODIFIED": 1572242771209,
                                     "@_LINK": "https://bluewallet.io/"
+                                },
+                                {
+                                    "@_TEXT": "zebedee",
+                                    "@_ID": "ID_346776335",
+                                    "@_CREATED": 1603756597074,
+                                    "@_MODIFIED": 1603756603485,
+                                    "@_LINK": "https://zbd.gg/"
                                 },
                                 {
                                     "@_TEXT": "eclair",

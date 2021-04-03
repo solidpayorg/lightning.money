@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1589433159494" ICON_SIZE="24.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1603756612775" ICON_SIZE="24.0 pt" STYLE="oval">
 <icon BUILTIN="lightning"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -65,7 +65,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="news" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1572854155254" COLOR="#0000cc" HGAP_QUANTITY="-159.2499948367478 pt" VSHIFT_QUANTITY="35.99999892711642 pt">
+<node TEXT="news" POSITION="right" ID="ID_1050804376" CREATED="1570785347577" MODIFIED="1597236950237" COLOR="#0000cc" HGAP_QUANTITY="-159.99999481439605 pt" VSHIFT_QUANTITY="37.49999888241294 pt">
 <icon BUILTIN="16x16-free-application-icons/png/16x16/Blog"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#0000ff"/>
@@ -89,7 +89,7 @@
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1589433159467" COLOR="#009933" HGAP_QUANTITY="49.24999894946816 pt" VSHIFT_QUANTITY="59.9999982118607 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1603756612774" COLOR="#009933" HGAP_QUANTITY="49.24999894946816 pt" VSHIFT_QUANTITY="63.749998100102 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -132,6 +132,15 @@
 <node TEXT="lightning.gifts" ID="ID_458425639" CREATED="1572163425067" MODIFIED="1572163469182" LINK="https://lightning.gifts/">
 <icon BUILTIN="very_positive"/>
 </node>
+<node TEXT="satotious" ID="ID_1761392670" CREATED="1597236898749" MODIFIED="1597236935300" LINK="https://satotious.com/">
+<icon BUILTIN="bookmark"/>
+</node>
+<node TEXT="light tube" ID="ID_963121167" CREATED="1606476489512" MODIFIED="1606476642732" LINK="https://light-tube.eu/">
+<icon BUILTIN="emoji-1F39E"/>
+</node>
+</node>
+<node TEXT="etleneum" ID="ID_639692376" CREATED="1599501828276" MODIFIED="1599501987884" LINK="contracts/etleneum/index.mm">
+<icon BUILTIN="idea"/>
 </node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_728396892" CREATED="1569861329090" MODIFIED="1572155697504" COLOR="#cc00cc" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="-8.999999731779106 pt">
@@ -158,6 +167,8 @@
 <node TEXT="awesome list" ID="ID_1244510370" CREATED="1569861424912" MODIFIED="1572329447313" LINK="https://github.com/bcongdon/awesome-lightning-network"/>
 <node TEXT="lightning wiki" ID="ID_806544715" CREATED="1572988881428" MODIFIED="1572988891410" LINK="https://lightningwiki.net/index.php/Main_Page"/>
 <node TEXT="lnroute" ID="ID_1451851808" CREATED="1570185749629" MODIFIED="1570185757230" LINK="https://lnroute.com/"/>
+<node TEXT="lapps codepen" ID="ID_1738874586" CREATED="1603709177706" MODIFIED="1603709187165" LINK="https://codepen.io/realcrypto/full/JjXyvyq"/>
+<node TEXT="fulgur ventures" ID="ID_1560555105" CREATED="1605338561696" MODIFIED="1605338696728" LINK="https://fulgur.ventures/about.html"/>
 </node>
 <node TEXT="communities" ID="ID_1721453071" CREATED="1572852581179" MODIFIED="1572852785776">
 <icon BUILTIN="licq"/>
@@ -177,6 +188,7 @@
 <node TEXT="mailing list" ID="ID_307649319" CREATED="1572859082436" MODIFIED="1572861594213" LINK="https://lists.linuxfoundation.org/pipermail/lightning-dev/"/>
 <node TEXT="resources" ID="ID_1911540836" CREATED="1572861720975" MODIFIED="1572861726125" LINK="https://github.com/bcongdon/awesome-lightning-network#developer-resources"/>
 <node TEXT="LN Donations" ID="ID_270957648" CREATED="1580148828526" MODIFIED="1580148868092" LINK="https://lightningnetworkstores.com/donations"/>
+<node TEXT="running a node" ID="ID_965857607" CREATED="1615964990023" MODIFIED="1615965002178" LINK="https://medium.com/@fulgur.ventures/an-overview-of-lightning-network-implementations-d670255a6cfa"/>
 </node>
 <node TEXT="about" ID="ID_1704672214" CREATED="1569940752211" MODIFIED="1572852695898">
 <icon BUILTIN="broken-line"/>
@@ -193,7 +205,7 @@
 <node TEXT="mastering lightning" ID="ID_669775968" CREATED="1578327958854" MODIFIED="1578327972471" LINK="https://github.com/aantonop/lnbook"/>
 </node>
 </node>
-<node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1572854170250" COLOR="#cc0000" HGAP_QUANTITY="-166.74999461323037 pt" VSHIFT_QUANTITY="-42.749998725950746 pt">
+<node TEXT="wallets" POSITION="right" ID="ID_403237537" CREATED="1569861472802" MODIFIED="1597236944952" COLOR="#cc0000" HGAP_QUANTITY="-162.99999472498908 pt" VSHIFT_QUANTITY="-41.24999877065423 pt">
 <icon BUILTIN="password"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#007c00"/>
@@ -217,6 +229,7 @@
 </node>
 <node TEXT="mobile" ID="ID_129906959" CREATED="1569865342316" MODIFIED="1569865344676">
 <node TEXT="bluewallet" ID="ID_822394219" CREATED="1569865347180" MODIFIED="1572242771209" LINK="https://bluewallet.io/"/>
+<node TEXT="zebedee" ID="ID_346776335" CREATED="1603756597074" MODIFIED="1603756603485" LINK="https://zbd.gg/"/>
 <node TEXT="eclair" ID="ID_1897401807" CREATED="1569865345413" MODIFIED="1572242783622" LINK="https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2"/>
 <node TEXT="breez" ID="ID_1306780446" CREATED="1572242750406" MODIFIED="1572242757035" LINK="https://breez.technology/"/>
 <node TEXT="wallet of satoshi" ID="ID_307350684" CREATED="1569940255658" MODIFIED="1572327449653" LINK="https://www.walletofsatoshi.com/"/>
