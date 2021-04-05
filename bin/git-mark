@@ -1,0 +1,85 @@
+#!/usr/bin/env node
+
+// USAGE: git-mark $(git rev-parse HEAD) [privkeyhex]
+
+// IMPORTS
+var bitcoin = require('bitcoinjs-lib')
+var tiny = require('tiny-secp256k1')
+var argv = require('minimist')(process.argv.slice(2))
+
+// MODEL
+// default privkey = brain for urn:json:bitmark
+globalThis.data = {
+  hash: 'b3e8f5735849af7f18a13ead08532043a7f82153',
+  privkey: '132e7465a63e30a74c5b0deae3573033319e9de18a84878613eaa21878b2b56b'
+}
+
+console.log('data', data)
+
+// FUNCTIONS
+const BITMARK = {
+  messagePrefix: '\x19BITMARK Signed Message:\n',
+  bech32: 'btm',
+  bip32: {
+    public: 0x019da462,
+    private: 0x019d9cfe,
+  },
+  pubKeyHash: 85,
+  scriptHash: 0x32,
+  wif: 0xb0,
+};
+
+
+// INIT
+data.hash = argv._[0] || data.hash
+data.privkey = argv._[1] || data.privkey
+
+const POINT = Buffer.from(
+  data.privkey,
+  'hex',
+);
+
+const OFFSET = Buffer.from(
+  '000000000000000000000000' + data.hash,
+  'hex',
+);
+
+// MAIN
+// priv keys
+const b1 = BigInt("0x" + data.privkey)
+const b2 = BigInt("0x" + data.hash)
+const b3 = BigInt.asIntN(256, b1+b2)
+
+// pub keys
+var keyPair1 = bitcoin.ECPair.fromPrivateKey(POINT);
+var keyPair2 = bitcoin.ECPair.fromPrivateKey(OFFSET);
+var keyPair3 = bitcoin.ECPair.fromPrivateKey(Buffer.from(b3.toString(16), 'hex'))
+
+// add pub keys together
+const SUM = tiny.pointAdd(keyPair1.publicKey, keyPair2.publicKey)
+
+// print pub keys
+console.log('public keys hex buffer')
+console.log(keyPair1.publicKey)
+console.log(keyPair2.publicKey)
+console.log(SUM)
+
+// print priv keys
+console.log('private keys hex')
+console.log(b1.toString(16))
+console.log(b2.toString(16))
+console.log(b3.toString(16))
+
+// address from priv key addition
+var { address } = bitcoin.payments.p2pkh({
+  pubkey: keyPair3.publicKey,
+  network: BITMARK,
+});
+console.log('address computed from private', address)
+
+// address from pub key addition
+var { address } = bitcoin.payments.p2pkh({
+  pubkey: SUM,
+  network: BITMARK,
+});
+console.log('address computed from public', address)

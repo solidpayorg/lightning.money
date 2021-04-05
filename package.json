@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/solidpayorg/lightning.money/issues"
   },
-  "homepage": "https://github.com/solidpayorg/lightning.money#readme"
+  "homepage": "https://github.com/solidpayorg/lightning.money#readme",
+  "dependencies": {
+    "bitcoinjs-lib": "^5.2.0",
+    "minimist": "^1.2.5",
+    "tiny-secp256k1": "^1.1.6"
+  }
 }
