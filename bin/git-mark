@@ -6,10 +6,9 @@
 var bitcoin = require('bitcoinjs-lib')
 var tiny = require('tiny-secp256k1')
 var argv = require('minimist')(process.argv.slice(2))
-const gitlog = require("gitlog").default;
+const gitlog = require('gitlog').default
 const fs = require('fs')
-const homedir = require('os').homedir();
-
+const homedir = require('os').homedir()
 
 // MODEL
 // default privkey = brain for urn:json:bitmark
@@ -18,51 +17,52 @@ globalThis.data = {
   hash: 'b3e8f5735849af7f18a13ead08532043a7f82153'
 }
 
-
 // FUNCTIONS
 const BITMARK = {
   messagePrefix: '\x19BITMARK Signed Message:\n',
   bech32: 'btm',
   bip32: {
     public: 0x019da462,
-    private: 0x019d9cfe,
+    private: 0x019d9cfe
   },
   pubKeyHash: 85,
   scriptHash: 0x32,
-  wif: 0xb0,
-};
+  wif: 0xb0
+}
 
 const options = {
   repo: __dirname,
-  fields: ["subject", "authorName", "authorDate"],  
+  fields: ['subject', 'authorName', 'authorDate'],
   execOptions: { maxBuffer: 1000 * 1024 },
   number: 1000,
   fields: ['hash', 'subject']
-};
+}
 
-function getPrivKey() {
-
+function getPrivKey () {
   try {
     const fetchHeadDir = './.git/'
     var fetchHeadFile = fetchHeadDir + 'FETCH_HEAD'
-  
+
     var fetchHead = fs.readFileSync(fetchHeadFile).toString()
-  
-    var repo = fetchHead.split(' ').pop().replace(':', '/').replace('\n', '')
-  
+
+    var repo = fetchHead
+      .split(' ')
+      .pop()
+      .replace(':', '/')
+      .replace('\n', '')
+
     const gitmarkRepoBase = homedir + '/.gitmark/repo'
-  
+
     const gitmarkFile = gitmarkRepoBase + '/' + repo + '/gitmark.json'
-  
-    return require(gitmarkFile).privkey  
+
+    return require(gitmarkFile).privkey
   } catch {
     return undefined
   }
-
 }
 
 // INIT
-const commits = gitlog(options);
+const commits = gitlog(options)
 var head = commits[0].hash
 
 data.privkey = argv._[0] || getPrivKey() || data.privkey
@@ -70,28 +70,23 @@ data.hash = argv._[1] || head || data.hash
 
 console.log('data', data)
 
+const POINT = Buffer.from(data.privkey, 'hex')
 
-const POINT = Buffer.from(
-  data.privkey,
-  'hex',
-);
-
-const OFFSET = Buffer.from(
-  '000000000000000000000000' + data.hash,
-  'hex',
-);
+const OFFSET = Buffer.from('000000000000000000000000' + data.hash, 'hex')
 
 // MAIN
 
 // priv keys
-const b1 = BigInt("0x" + data.privkey)
-const b2 = BigInt("0x" + data.hash)
-const b3 = BigInt.asIntN(256, b1+b2)
+const b1 = BigInt('0x' + data.privkey)
+const b2 = BigInt('0x' + data.hash)
+const b3 = BigInt.asIntN(256, b1 + b2)
 
 // pub keys
-var keyPair1 = bitcoin.ECPair.fromPrivateKey(POINT);
-var keyPair2 = bitcoin.ECPair.fromPrivateKey(OFFSET);
-var keyPair3 = bitcoin.ECPair.fromPrivateKey(Buffer.from(b3.toString(16), 'hex'))
+var keyPair1 = bitcoin.ECPair.fromPrivateKey(POINT)
+var keyPair2 = bitcoin.ECPair.fromPrivateKey(OFFSET)
+var keyPair3 = bitcoin.ECPair.fromPrivateKey(
+  Buffer.from(b3.toString(16), 'hex')
+)
 
 // add pub keys together
 const SUM = tiny.pointAdd(keyPair1.publicKey, keyPair2.publicKey)
@@ -111,13 +106,13 @@ console.log(b3.toString(16))
 // address from priv key addition
 var { address } = bitcoin.payments.p2pkh({
   pubkey: keyPair3.publicKey,
-  network: BITMARK,
-});
+  network: BITMARK
+})
 console.log('address computed from private', address)
 
 // address from pub key addition
 var { address } = bitcoin.payments.p2pkh({
   pubkey: SUM,
-  network: BITMARK,
-});
+  network: BITMARK
+})
 console.log('address computed from public', address)
