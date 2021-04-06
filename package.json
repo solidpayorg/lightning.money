@@ -24,8 +24,11 @@
   "homepage": "https://github.com/solidpayorg/lightning.money#readme",
   "dependencies": {
     "bitcoinjs-lib": "^5.2.0",
+    "fs": "^0.0.1-security",
     "gitlog": "^4.0.4",
     "minimist": "^1.2.5",
+    "os": "^0.1.1",
+    "simple-git": "^2.37.0",
     "tiny-secp256k1": "^1.1.6"
   }
 }

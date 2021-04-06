@@ -6,6 +6,8 @@
 const gitlog = require("gitlog").default;
 var bitcoin = require('bitcoinjs-lib')
 var argv = require('minimist')(process.argv.slice(2))
+const fs = require('fs')
+const homedir = require('os').homedir();
 
 // MODEL
 // default privkey = brain for urn:json:bitmark
@@ -36,8 +38,29 @@ const options = {
   fields: ['hash', 'subject']
 };
 
+function getPrivKey() {
+
+  try {
+    const fetchHeadDir = './.git/'
+    var fetchHeadFile = fetchHeadDir + 'FETCH_HEAD'
+  
+    var fetchHead = fs.readFileSync(fetchHeadFile).toString()
+  
+    var repo = fetchHead.split(' ').pop().replace(':', '/').replace('\n', '')
+  
+    const gitmarkRepoBase = homedir + '/.gitmark/repo'
+  
+    const gitmarkFile = gitmarkRepoBase + '/' + repo + '/gitmark.json'
+  
+    return require(gitmarkFile).privkey  
+  } catch {
+    return undefined
+  }
+
+}
+
 // INIT
-data.privkey = argv._[0] || data.privkey
+data.privkey = argv._[0] || getPrivKey() || data.privkey
 
 var POINT = Buffer.from(
   data.privkey,
@@ -57,6 +80,7 @@ var b3
 
 // commits
 const commits = gitlog(options);
+
 for (var i=0; i<commits.length; i++) {
   var subject = commits[i].subject
   if (subject.match(/gitmark/)) {
