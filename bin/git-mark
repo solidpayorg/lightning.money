@@ -64,7 +64,9 @@ function getPrivKey () {
 // INIT
 const commits = gitlog(options)
 var head = commits[0].hash
-var lastCommit = commits.filter((i) => { return i.subject.match(/^gitmark/) })[0].subject
+var lastCommit = commits.filter(i => {
+  return i.subject.match(/^gitmark/)
+})[0].subject
 lastCommit = lastCommit.split(' ').pop()
 lastCommit = lastCommit.split(':')
 console.log('lastCommit', lastCommit)
@@ -79,16 +81,15 @@ const POINT = Buffer.from(data.privkey, 'hex')
 const OFFSET = Buffer.from('000000000000000000000000' + data.hash, 'hex')
 
 // MAIN
-function findLastCommitHash() {
-  var i 
-  for (i=0; i<commits.length; i++) {
+function findLastCommitHash () {
+  var i
+  for (i = 0; i < commits.length; i++) {
     if (commits[i].subject.match(/^gitmark/)) break
   }
-  return commits[i+1].hash
+  return commits[i + 1].hash
 }
 var lastCommitHash = findLastCommitHash()
 console.log('lastCommitHash', lastCommitHash)
-
 
 // priv keys
 const b1 = BigInt('0x' + data.privkey)
@@ -136,7 +137,7 @@ var { address } = bitcoin.payments.p2pkh({
 console.log('address computed from public', address)
 
 var fee = 1000
-var tx 
+var tx
 const gitmarkTxBase = homedir + '/.gitmark/tx'
 tx = require(gitmarkTxBase + '/' + lastCommit[0] + '.json')
 var nextfee = tx.total_output - tx.fees
@@ -152,7 +153,17 @@ console.log('last commit hash', lastCommit.hash)
 
 console.log(nextfee)
 console.log('console commands')
-console.log('createrawtransaction', lastCommit[0], lastCommit[1], address, nextfee)
-console.log('signrawtransaction', keyPair1.toWIF())
+// console.log(
+//   'createrawtransaction',
+//   lastCommit[0],
+//   lastCommit[1],
+//   address,
+//   nextfee
+// )
+console.log(
+  `createrawtransaction '[{"txid": "${lastCommit[0]}", "vout": ${lastCommit[1]}}]' '{"${address}": ${nextfee}}'`
+)
+var hex = `1234`
+// console.log('signrawtransaction', keyPair1.toWIF())
+console.log(`signrawtransaction ${hex} null '["${keyPair1.toWIF()}"]'`)
 console.log('sendrawtransaction')
-
