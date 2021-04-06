@@ -167,3 +167,6 @@ var hex = `1234`
 // console.log('signrawtransaction', keyPair1.toWIF())
 console.log(`signrawtransaction ${hex} null '["${keyPair1.toWIF()}"]'`)
 console.log('sendrawtransaction')
+console.log(
+  `bin/tx.sh ${lastCommit[0]} ${address} ${nextfee} ${keyPair1.toWIF()}`
+)
