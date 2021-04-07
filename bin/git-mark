@@ -125,7 +125,7 @@ function findLastCommitHash () {
   if (i === commits.length) {
     return head
   } else {
-    return commits[i].hash
+    return commits[i+1].hash
   }
 }
 var lastCommitHash = findLastCommitHash()
