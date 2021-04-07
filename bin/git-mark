@@ -14,7 +14,8 @@ const homedir = require('os').homedir()
 // default privkey = brain for urn:json:bitmark
 globalThis.data = {
   privkey: '132e7465a63e30a74c5b0deae3573033319e9de18a84878613eaa21878b2b56b',
-  hash: 'b3e8f5735849af7f18a13ead08532043a7f82153'
+  hash: 'b3e8f5735849af7f18a13ead08532043a7f82153',
+  genesis: null
 }
 
 // FUNCTIONS
@@ -56,21 +57,38 @@ function getPrivKey () {
     const gitmarkFile = gitmarkRepoBase + '/' + repo + '/gitmark.json'
 
     return require(gitmarkFile).privkey
-  } catch {
+  } catch (e) {
+    const fetchHeadDir = './.git/'
+    var fetchHeadFile = fetchHeadDir + 'FETCH_HEAD'
+
+    var fetchHead = fs.readFileSync(fetchHeadFile).toString()
+
+    var repo = fetchHead
+      .split(' ')
+      .pop()
+      .replace(':', '/')
+      .replace('\n', '')
+
+    const gitmarkRepoBase = homedir + '/.gitmark/repo'
+
+    const gitmarkFile = gitmarkRepoBase + '/' + repo + '/gitmark.json'
+
+    console.log('no priv key found in', gitmarkFile)
     return undefined
   }
 }
 
 // INIT
-
-data.privkey = argv._[0] || getPrivKey() || data.privkey
-data.hash = argv._[1] || head || data.hash
-
-console.log('data', data)
-
 const commits = gitlog(options)
 var head = commits[0].hash
 console.log('current head', head)
+
+data.privkey = argv._[0] || getPrivKey() || data.privkey
+data.hash = argv._[1] || head || data.hash
+data.genesis = argv.genesis || data.genesis
+
+console.log('data', data)
+
 
 var lastCommit = commits.filter(i => {
   return i.subject.match(/^gitmark/)
@@ -84,8 +102,12 @@ if (lastCommit && lastCommit[0] && lastCommit[0].subject) {
   console.log('New repo, set up first gitmark')
   console.log('Add private key')
   console.log('Fund genesis tx with genesis hash')
-  console.log('Add commit gitmark message')
-  process.exit(1)
+  console.log('Add --gensis and run')
+  lastCommit = data.genesis.split(':')
+  console.log('data.genesis', data.genesis)  
+  if (!data.genesis) {
+    process.exit(-1)
+  }
 }
 
 
@@ -100,7 +122,11 @@ function findLastCommitHash () {
   for (i = 0; i < commits.length; i++) {
     if (commits[i].subject.match(/^gitmark/)) break
   }
-  return commits[i + 1].hash
+  if (i === commits.length) {
+    return head
+  } else {
+    return commits[i].hash
+  }
 }
 var lastCommitHash = findLastCommitHash()
 console.log('lastCommitHash', lastCommitHash)
@@ -108,9 +134,9 @@ console.log('lastCommitHash', lastCommitHash)
 // priv keys
 const b1 = BigInt('0x' + data.privkey)
 const b2 = BigInt('0x' + data.hash)
-const b3 = BigInt.asIntN(256, b1 + b2)
+const b3 = BigInt.asUintN(256, b1 + b2)
 const b4 = BigInt('0x' + lastCommitHash)
-const b5 = BigInt.asIntN(256, b1 + b4)
+const b5 = BigInt.asUintN(256, b1 + b4)
 
 // pub keys
 var keyPair1 = bitcoin.ECPair.fromPrivateKey(POINT)
@@ -155,7 +181,11 @@ var tx
 const gitmarkTxBase = homedir + '/.gitmark/tx'
 
 try {
-  tx = require(gitmarkTxBase + '/' + lastCommit[0] + '.json')
+  if (data.genesis) {
+    tx = { total_output: "1", fees: "0.00001" }
+  } else {
+    tx = require(gitmarkTxBase + '/' + lastCommit[0] + '.json')
+  }
 } catch (e) {
   console.error(e)
   console.error('error: need tx: ' + lastCommit[0] + 'in ' + gitmarkTxBase + '/' + lastCommit[0] + '.json')
@@ -185,6 +215,7 @@ console.log('console commands')
 //   address,
 //   nextfee
 // )
+lastCommit[1] = lastCommit[1] || 0
 console.log(
   `createrawtransaction '[{"txid": "${lastCommit[0]}", "vout": ${lastCommit[1]}}]' '{"${address}": ${nextfee}}'`
 )
@@ -193,5 +224,5 @@ var hex = `1234`
 console.log(`signrawtransaction ${hex} null '["${keyPair1.toWIF()}"]'`)
 console.log('sendrawtransaction')
 console.log(
-  `bin/tx.sh ${lastCommit[0]} ${address} ${nextfee} ${keyPair1.toWIF()}`
+  `bin/tx.sh ${lastCommit[0]} ${lastCommit[1]} ${address} ${nextfee} ${keyPair1.toWIF()}`
 )
