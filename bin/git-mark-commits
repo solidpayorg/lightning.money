@@ -84,13 +84,13 @@ if (commits.length === 1) {
 console.log('Genesis tx need not be verified\n')
 for (var i = commits.length-1; i >= 0; i--) {
   var subject = commits[i].subject
-  if (subject.match(/^gitmark/)) {
-    var hash = commits[i + 1].hash
+  if (subject.match(/^gitmark/)  || 1) {
+    var hash = commits[i].hash
     console.log()
     console.log(subject)
     console.log('hash:', hash)
     b2 = BigInt('0x' + hash)
-    b3 = BigInt.asUintN(256, b1 + b2)
+    b3 = BigInt.asIntN(256, b1 + b2)
     console.log(b3.toString(16))
     var keyPair1 = bitcoin.ECPair.fromPrivateKey(
       Buffer.from(b3.toString(16), 'hex'),
@@ -104,11 +104,11 @@ for (var i = commits.length-1; i >= 0; i--) {
     })
     console.log('verify address computed from private key:', address)
 
-    console.log(
-      'https://chainz.cryptoid.info/marks/tx.dws?' +
-        subject.split(' ')[1].split(':')[0] +
-        '.htm'
-    )
+    // console.log(
+    //   'https://chainz.cryptoid.info/marks/tx.dws?' +
+    //     subject.split(' ')[1].split(':')[0] +
+    //     '.htm'
+    // )
   }
 }
 
