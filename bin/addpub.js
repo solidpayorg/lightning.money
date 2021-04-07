@@ -85,9 +85,9 @@ data.privkey = argv._[1] || getPrivKey() || data.privkey
 console.log('data', data)
 
 
-const POINT = Buffer.from(data.privkey, 'hex')
+const POINT = Buffer.from(data.privkey.padStart(64, 0), 'hex')
 
-const OFFSET = Buffer.from(data.hash, 'hex')
+const OFFSET = Buffer.from(data.hash.padStart(64, 0), 'hex')
 
 // MAIN
 // priv keys
@@ -95,11 +95,18 @@ const b1 = BigInt('0x' + data.privkey)
 const b2 = BigInt('0x' + data.hash)
 const b3 = BigInt.asUintN(256, b1 + b2)
 
+// print priv keys
+console.log('private keys hex')
+console.log(b1.toString(16))
+console.log(b2.toString(16))
+console.log(b3.toString(16))
+
+
 // pub keys
 var keyPair1 = bitcoin.ECPair.fromPrivateKey(POINT)
 var keyPair2 = bitcoin.ECPair.fromPrivateKey(OFFSET)
 var keyPair3 = bitcoin.ECPair.fromPrivateKey(
-  Buffer.from(b3.toString(16), 'hex')
+  Buffer.from(b3.toString(16).padStart(64, 0), 'hex')
 )
 
 // add pub keys together
@@ -110,12 +117,6 @@ console.log('public keys hex buffer')
 console.log(keyPair1.publicKey)
 console.log(keyPair2.publicKey)
 console.log(SUM)
-
-// print priv keys
-console.log('private keys hex')
-console.log(b1.toString(16))
-console.log(b2.toString(16))
-console.log(b3.toString(16))
 
 // address from priv key addition
 var { address } = bitcoin.payments.p2pkh({
