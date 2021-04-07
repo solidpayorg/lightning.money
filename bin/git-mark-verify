@@ -31,7 +31,7 @@ const BITMARK = {
 }
 
 const options = {
-  repo: __dirname,
+  repo: './',
   fields: ['subject', 'authorName', 'authorDate'],
   execOptions: { maxBuffer: 1000 * 1024 },
   number: 1000,
@@ -76,6 +76,10 @@ var b3
 
 // commits
 const commits = gitlog(options)
+if (commits.length === 1) {
+  console.log('Set up new repository with a gitmark')
+  process.exit()
+}
 
 for (var i = 0; i < commits.length; i++) {
   var subject = commits[i].subject

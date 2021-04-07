@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-// USAGE: git-mark $(git rev-parse HEAD) [privkeyhex]
+// USAGE: git-mark [privkeyhex] [$(git rev-parse HEAD)]
 
 // IMPORTS
 var bitcoin = require('bitcoinjs-lib')
@@ -31,7 +31,7 @@ const BITMARK = {
 }
 
 const options = {
-  repo: __dirname,
+  repo: './',
   fields: ['subject', 'authorName', 'authorDate'],
   execOptions: { maxBuffer: 1000 * 1024 },
   number: 1000,
@@ -62,19 +62,33 @@ function getPrivKey () {
 }
 
 // INIT
-const commits = gitlog(options)
-var head = commits[0].hash
-var lastCommit = commits.filter(i => {
-  return i.subject.match(/^gitmark/)
-})[0].subject
-lastCommit = lastCommit.split(' ').pop()
-lastCommit = lastCommit.split(':')
-console.log('lastCommit', lastCommit)
 
 data.privkey = argv._[0] || getPrivKey() || data.privkey
 data.hash = argv._[1] || head || data.hash
 
 console.log('data', data)
+
+const commits = gitlog(options)
+var head = commits[0].hash
+console.log('current head', head)
+
+var lastCommit = commits.filter(i => {
+  return i.subject.match(/^gitmark/)
+})
+if (lastCommit && lastCommit[0] && lastCommit[0].subject) {
+  lastCommit = lastCommit[0].subject
+  lastCommit = lastCommit.split(' ').pop()
+  lastCommit = lastCommit.split(':')
+  console.log('lastCommit', lastCommit)  
+} else {
+  console.log('New repo, set up first gitmark')
+  console.log('Add private key')
+  console.log('Fund genesis tx with genesis hash')
+  console.log('Add commit gitmark message')
+  process.exit(1)
+}
+
+
 
 const POINT = Buffer.from(data.privkey, 'hex')
 
