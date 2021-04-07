@@ -198,8 +198,9 @@ try {
 var nextfee = tx.total_output - tx.fees
 nextfee = Math.round((nextfee + Number.EPSILON) * 100000000) / 100000000
 
+var priv = data.genesis? b1 : b5
 var keyPair1 = bitcoin.ECPair.fromPrivateKey(
-  Buffer.from(b5.toString(16), 'hex'),
+  Buffer.from(priv.toString(16), 'hex'),
   { network: BITMARK }
 )
 console.log('private key WIF:', keyPair1.toWIF())
