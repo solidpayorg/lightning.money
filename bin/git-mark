@@ -139,7 +139,18 @@ console.log('address computed from public', address)
 var fee = 1000
 var tx
 const gitmarkTxBase = homedir + '/.gitmark/tx'
-tx = require(gitmarkTxBase + '/' + lastCommit[0] + '.json')
+
+try {
+  tx = require(gitmarkTxBase + '/' + lastCommit[0] + '.json')
+} catch (e) {
+  console.error(e)
+  console.error('error: need tx: ' + lastCommit[0] + 'in ' + gitmarkTxBase + '/' + lastCommit[0] + '.json')
+  console.log('try:')
+  console.log(`curl "https://chainz.cryptoid.info/marks/api.dws?q=txinfo&t=${lastCommit[0]}" > ${gitmarkTxBase}/${lastCommit[0]}.json`)
+  console.log('do not run more than once per 10s')
+  process.exit(-1)
+}
+
 var nextfee = tx.total_output - tx.fees
 nextfee = Math.round((nextfee + Number.EPSILON) * 100000000) / 100000000
 
