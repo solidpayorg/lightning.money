@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RAWTX=$(bitmark-cli createrawtransaction '[{"txid": "'$1'", "vout": $2}]' '{"'$3'": '$4'}')
+RAWTX=$(bitmark-cli createrawtransaction '[{"txid": "'$1'", "vout": '$2'}]' '{"'$3'": '$4'}')
 
 SENDTX=$(bitmark-cli signrawtransaction $RAWTX null '["'$5'"]' | grep ffff | sed 's/.*: "\(.*\)".*/\1/')
 
