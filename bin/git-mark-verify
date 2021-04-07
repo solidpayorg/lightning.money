@@ -81,9 +81,10 @@ if (commits.length === 1) {
   process.exit()
 }
 
-for (var i = 0; i < commits.length; i++) {
+console.log('Genesis tx need not be verified\n')
+for (var i = commits.length-1; i >= 0; i--) {
   var subject = commits[i].subject
-  if (subject.match(/gitmark/)) {
+  if (subject.match(/^gitmark/)) {
     var hash = commits[i + 1].hash
     console.log()
     console.log(subject)
@@ -111,4 +112,3 @@ for (var i = 0; i < commits.length; i++) {
   }
 }
 
-console.log('Genesis tx need not be verified\n')
