@@ -77,6 +77,9 @@
 <node TEXT="lnurl" ID="ID_961943115" CREATED="1572171385940" MODIFIED="1572947060459" LINK="lnurl.mm"/>
 <node TEXT="lightning auth" ID="ID_705335058" CREATED="1572241475803" MODIFIED="1572241481606" LINK="https://www.bitcoinlightning.com/lightning-authenticator-tool-is-now-active-lapps-co/"/>
 <node TEXT="LSAT" ID="ID_625257107" CREATED="1585687544316" MODIFIED="1586431137745" LINK="LSAT/index.mm"/>
+<node TEXT="WebLN" ID="ID_1353200501" CREATED="1636132079602" MODIFIED="1636132085137" LINK="https://webln.dev/#/"/>
+<node TEXT="Wallet Interface" ID="ID_1850518795" CREATED="1636132678668" MODIFIED="1636132685041" LINK="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2020-December/018318.html"/>
+<node TEXT="Money as a Content Type" ID="ID_1652028619" CREATED="1636132968388" MODIFIED="1636132976065" LINK="https://bitcoindev.network/money-as-a-content-type/"/>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1572948017299" COLOR="#000099">
 <icon BUILTIN="info"/>
