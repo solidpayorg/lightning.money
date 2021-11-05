@@ -142,7 +142,7 @@ const b5 = BigInt.asUintN(256, b1 + b4)
 var keyPair1 = bitcoin.ECPair.fromPrivateKey(POINT)
 var keyPair2 = bitcoin.ECPair.fromPrivateKey(OFFSET)
 var keyPair3 = bitcoin.ECPair.fromPrivateKey(
-  Buffer.from(b3.toString(16), 'hex')
+  Buffer.from(b3.toString(16).padStart(64, 0), 'hex')
 )
 
 // add pub keys together
@@ -200,7 +200,7 @@ nextfee = Math.round((nextfee + Number.EPSILON) * 100000000) / 100000000
 
 var priv = data.genesis? b1 : b5
 var keyPair1 = bitcoin.ECPair.fromPrivateKey(
-  Buffer.from(priv.toString(16), 'hex'),
+  Buffer.from(priv.toString(16).padStart(64, 0), 'hex'),
   { network: BITMARK }
 )
 console.log('private key WIF:', keyPair1.toWIF())

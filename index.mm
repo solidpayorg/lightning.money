@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1603756612775" ICON_SIZE="24.0 pt" STYLE="oval">
+<node TEXT="lightning money" FOLDED="false" ID="ID_1568754813" CREATED="1569871551142" MODIFIED="1636129893341" ICON_SIZE="24.0 pt" STYLE="oval">
 <icon BUILTIN="lightning"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -73,6 +73,9 @@
 <node TEXT="twitter" ID="ID_1210018261" CREATED="1570875815581" MODIFIED="1572852766186" LINK="https://twitter.com/search?q=lightning%20network&amp;src=tyah">
 <font SIZE="12"/>
 </node>
+<node TEXT="stacker news" ID="ID_541538012" CREATED="1570875815581" MODIFIED="1636129901281" LINK="https://stacker.news/">
+<font SIZE="12"/>
+</node>
 <node TEXT="lightning Junkies" ID="ID_35176243" CREATED="1572163778303" MODIFIED="1572852866085" LINK="https://anchor.fm/lightning-junkies/">
 <font SIZE="12"/>
 </node>
@@ -89,7 +92,7 @@
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1603756612774" COLOR="#009933" HGAP_QUANTITY="49.24999894946816 pt" VSHIFT_QUANTITY="63.749998100102 pt">
+<node TEXT="lapps" POSITION="right" ID="ID_1438249466" CREATED="1569959255579" MODIFIED="1636129893341" COLOR="#009933" HGAP_QUANTITY="55.24999877065423 pt" VSHIFT_QUANTITY="55.49999834597115 pt">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
