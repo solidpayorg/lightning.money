@@ -28,7 +28,7 @@
     "gitlog": "^4.0.4",
     "minimist": "^1.2.5",
     "os": "^0.1.1",
-    "simple-git": "^2.37.0",
+    "simple-git": "^3.3.0",
     "tiny-secp256k1": "^1.1.6"
   }
 }
